@@ -54,10 +54,10 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base">
+            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-lg">
               Home
             </a>
-            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base">
+            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base">
               About Us
             </a>
             <div
@@ -65,7 +65,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("study")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Study Destinations
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "study" ? "rotate-180" : ""}`}
@@ -95,7 +95,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Services
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "services" ? "rotate-180" : ""}`}
@@ -125,7 +125,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("universities")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Top Universities
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "universities" ? "rotate-180" : ""}`}
@@ -155,7 +155,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("careers")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-medium text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Careers
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "careers" ? "rotate-180" : ""}`}
@@ -221,16 +221,16 @@ export default function Navbar() {
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[800px]" : "max-h-0"}`}
         >
           <div className="flex flex-col space-y-4 pb-6">
-            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl">
+            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg">
               Home
             </a>
-            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl">
+            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg">
               About Us
             </a>
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "study" ? null : "study")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl text-left w-full flex justify-between items-center"
+                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
               >
                 Study Destinations
                 <svg
@@ -255,7 +255,7 @@ export default function Navbar() {
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "services" ? null : "services")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl text-left w-full flex justify-between items-center"
+                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
               >
                 Services
                 <svg
@@ -280,7 +280,7 @@ export default function Navbar() {
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "universities" ? null : "universities")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl text-left w-full flex justify-between items-center"
+                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
               >
                 Top Universities
                 <svg
@@ -305,7 +305,7 @@ export default function Navbar() {
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "careers" ? null : "careers")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-xl text-left w-full flex justify-between items-center"
+                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
               >
                 Careers
                 <svg
