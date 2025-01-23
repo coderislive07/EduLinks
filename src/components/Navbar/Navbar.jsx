@@ -1,8 +1,9 @@
 import { useState } from "react"
-
+import { useNavigate } from "react-router-dom"
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState(null)
+  const navigate = useNavigate();
 
   const dropdownLinks = {
     study: [
@@ -45,19 +46,19 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img
+            <img  onClick={()=>{navigate('/')}}
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
               alt="Edulinks Logo"
-              className="h-10 xl:h-12"
+              className="h-10 xl:h-12 cursor-pointer"
             />
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-lg">
+            <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-lg">
               Home
             </a>
-            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base">
+            <a onClick={()=>{navigate('/about')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-base">
               About Us
             </a>
             <div
@@ -82,7 +83,7 @@ export default function Navbar() {
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                        className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
                     >
                       {link.title}
                     </a>
@@ -98,7 +99,7 @@ export default function Navbar() {
               <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Services
                 <svg
-                  className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "services" ? "rotate-180" : ""}`}
+                  className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform  duration-200 ${activeDropdown === "services" ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -107,12 +108,12 @@ export default function Navbar() {
                 </svg>
               </button>
               {activeDropdown === "services" && (
-                <div className="absolute left-0 mt-1 w-56 bg-white rounded-md shadow-lg py-2 z-50">
+                <div className="absolute left-0  w-56 bg-white rounded-md shadow-lg py-1 z-50">
                   {dropdownLinks.services.map((link) => (
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                      className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
                     >
                       {link.title}
                     </a>
@@ -137,12 +138,12 @@ export default function Navbar() {
                 </svg>
               </button>
               {activeDropdown === "universities" && (
-                <div className="absolute left-0 mt-1 w-56 bg-white rounded-md shadow-lg py-2 z-50">
+                <div className="absolute left-0  w-56 bg-white rounded-md shadow-lg py-2 z-50">
                   {dropdownLinks.universities.map((link) => (
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                       className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
                     >
                       {link.title}
                     </a>
@@ -155,7 +156,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("careers")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold  text-sm xl:text-base flex items-center">
                 Careers
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "careers" ? "rotate-180" : ""}`}
@@ -167,12 +168,12 @@ export default function Navbar() {
                 </svg>
               </button>
               {activeDropdown === "careers" && (
-                <div className="absolute left-0 mt-1 w-56 bg-white rounded-md shadow-lg py-2 z-50">
+                <div className="absolute left-0  w-56 bg-white rounded-md shadow-lg py-2 z-50">
                   {dropdownLinks.careers.map((link) => (
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                       className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
                     >
                       {link.title}
                     </a>
@@ -221,10 +222,10 @@ export default function Navbar() {
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[800px]" : "max-h-0"}`}
         >
           <div className="flex flex-col space-y-4 pb-6">
-            <a href="/" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg">
+            <a onClick={() => navigate('/')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold text-lg">
               Home
             </a>
-            <a href="/about" className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg">
+            <a onClick={() => navigate('/about')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold text-lg">
               About Us
             </a>
             <div className="space-y-2">
@@ -245,7 +246,7 @@ export default function Navbar() {
               {activeDropdown === "study" && (
                 <div className="pl-4 space-y-2">
                   {dropdownLinks.study.map((link) => (
-                    <a key={link.title} href={link.href} className="block text-gray-600 hover:text-[#26B9C1] text-lg">
+                    <a key={link.title} href={link.href}   className="block px-4 py-2 text-3xl font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
                       {link.title}
                     </a>
                   ))}
@@ -280,7 +281,7 @@ export default function Navbar() {
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "universities" ? null : "universities")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
+                className="text-gray-800 font-roboto hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
               >
                 Top Universities
                 <svg
@@ -327,7 +328,7 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <button className="px-4 py-2 text-[#26B9C1] border border-[#26B9C1] rounded hover:bg-[#26B9C1] hover:text-white transition-colors w-full">
+            <button className="px-4 py-2 text-[#26B9C1] border font-roboto border-[#26B9C1] rounded hover:bg-[#26B9C1] hover:text-white transition-colors w-full">
               Edulinks AI Assistant
             </button>
             <button className="px-4 py-2 bg-transparent border border-black text-black rounded hover:bg-[#1fa1a8] hover:text-white hover:border-[#1fa1a8] transition-colors w-full flex items-center justify-center">
