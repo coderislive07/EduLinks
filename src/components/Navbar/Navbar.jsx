@@ -31,12 +31,12 @@ export default function Navbar() {
       { title: "Top Universities in New Zealand", href: "#" },
     ],
     careers: [
-      { title: "Current Openings", href: "#" },
-      { title: "Submit Resume", href: "#" },
-      { title: "Work Culture", href: "#" },
-      { title: "Benefits", href: "#" },
-      { title: "Career Growth", href: "#" },
-      { title: "Training Programs", href: "#" },
+      { title: "Top Careers in Australia", href: "/australia-career" },
+      { title: "Top Careers in Canada", href: "/canada-career" },
+      { title: "Top Careers in Germany", href: "germany-career" },
+      { title: "Top Careers in New Zealand ", href: "newzealand-career" },
+      { title: "Top Careers in UK", href: "uk-career" },
+      { title: "Top Careers in USA", href: "usa-career" },
     ],
   }
 
