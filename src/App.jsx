@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Australia from './pages/StudyDestinations/Australia';
 import About from './pages/About/About';
 import Contacts from '../src/components/contact/Contact'
+// debugged
 import Careersaus from '../src/pages/Careers/Australia/src/CareersAus'
 import Careerscanada from '../src/pages/Careers/Canada/src/CareersCanada'
 import Careersgermany from '../src/pages/Careers/Germany/src/CareersGermany'
