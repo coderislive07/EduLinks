@@ -189,9 +189,11 @@ export default function About() {
                 personalized guidance, from selecting the right course and university to securing a visa and settling in
                 a new country. We tailor our services to meet each student's unique needs.
               </p>
-              <button className="bg-[#26B9C1] text-white px-6 py-2 rounded-lg hover:bg-[#1fa8af] transition-colors">
-                Edulinks AI Assistant →
-              </button>
+              <button className="text-[#26B9C1] font-bold font-roboto shadow-md shadow-gray-700 bg-white border border-transparent px-6 py-2 rounded-lg  transition-all  ">
+  Edulinks AI Assistant →
+</button>
+
+
             </div>
             <div className="-mt-[7vh]">
               <h3 className="text-3xl font-bold mb-6 font-adramalech">How we can transform your Study Abroad Experience.</h3>
@@ -226,7 +228,7 @@ success.
                             />
                         </div>
                         <div className="space-y-6">
-                        <h2 className="text-4xl font-bold text-[#37d7d9] bg-white w-[25vw] xl:w-[12vw]  font-adramalech text-center mb-4">
+                        <h2 className="text-4xl font-bold text-[#37d7d9] bg-white w-[25vw] xl:w-[15vw]  font-adramalech text-center mb-4">
                         Our Vision
                     </h2>
                     <h3 className="text-3xl font-adramalech mb-6">
@@ -248,6 +250,9 @@ success.
                                     <div className="w-2 h-2 bg-black  rounded-full"></div>
                                     <h1 className="text-xl">Global expertise, local support.</h1>
                                 </li>
+                                <button className="text-[#26B9C1] font-bold font-roboto shadow-md shadow-gray-700 bg-white border border-transparent px-6 py-2 rounded-lg  transition-all  ">
+  Edulinks AI Assistant →
+</button>
                             </ul>
                         </div>
                     </div>

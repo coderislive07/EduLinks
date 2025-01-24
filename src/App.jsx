@@ -6,6 +6,12 @@ import Home from './pages/Home/Home';
 import Australia from './pages/StudyDestinations/Australia';
 import About from './pages/About/About';
 import Contacts from '../src/components/contact/Contact'
+import Careersaus from '../src/pages/Careers/Australia/src/CareersAus'
+import Careerscanada from '../src/pages/Careers/Canada/src/CareersCanada'
+import Careersgermany from '../src/pages/Careers/Germany/src/CareersGermany'
+import Careersnewzealand from '../src/pages/Careers/New Zealand/src/CareersNewZealand/CareersNewZealand'
+import Careersuk from '../src/pages/Careers/UK/src/CareersUk'
+import Careersusa from '../src/pages/Careers/USA/src/CareersUsa'
 
 function App() {
   return (
@@ -16,6 +22,13 @@ function App() {
         <Route path="*" element={<Home />} />
         <Route path="/studyinaustralia" element={<Australia />} />
         <Route path="/about"element={<About/>}/>
+        <Route path="/australia-career"element={<Careersaus/>}/>
+        <Route path="/canada-career"element={<Careerscanada/>}/>
+        <Route path="/germany-career"element={<Careersgermany/>}/>
+        <Route path="/newzealand-career"element={<Careersnewzealand/>}/>
+        <Route path="/uk-career"element={<Careersuk/>}/>
+        <Route path="/usa-career"element={<Careersusa/>}/>
+
       </Routes>
       <Contacts/>
       <Footer />
