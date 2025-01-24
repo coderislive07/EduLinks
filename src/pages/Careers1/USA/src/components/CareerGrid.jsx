@@ -1,4 +1,5 @@
 import image from '../../../../../assets/careers/1008.png'
+import rarrow from '../../../../../assets/rarrow.png'
 function CareerGrid() {
   const careers = [
     {
@@ -63,11 +64,15 @@ function CareerGrid() {
     },
   ]
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[95px] max-w-6xl mx-auto px-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8  mt-[42px] max-w-6xl mx-auto px-4">
       {careers.map((career, index) => (
         <div
+        id=""
+        
           key={index}
-          className={`bg-white overflow-hidden border-b-4  border-[#40E0D0] border-r-4 group`}
+          className="bg-white overflow-hidden border-b-4 border-r-4 shadow-lg border-[#40E0D0] group"
+style={{ boxShadow: "4px 0 10px rgba(0, 0, 0, 0.25)" }}
+
         >
           <div className="relative">
             <div className="absolute inset-0 z-10" />
@@ -79,12 +84,16 @@ function CareerGrid() {
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxIiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMikiLz48L3N2Zz4=')] opacity-30 z-20" />
           </div>
           <div className="p-6 text-center bg-white">
-            <h3 className="text-[20px] font-bold text-[#232323] font-['Roboto_Condensed'] leading-[37.2px] mt-8">
+            <h3 className="text-[20px] font-bold text-[#232323] font-gilroybold leading-[37.2px] mt-8">
               {career.title}
             </h3>
-            <button className="mt-8 px-8 py-2 text-xl border-2 border-[#40E0D0] text-[#40E0D0] hover:bg-[#40E0D0] hover:text-white transition-all duration-300 rounded">
+            <div className="leading-[37.2px] flex justify-center">
+            <button className="mt-8  px-6 flex py-2 text-[24px] font-gilroyregular border-2 border-[#40E0D0] text-[#40E0D0] hover:bg-[#40E0D0] hover:text-white transition-all duration-300 rounded">
               Learn More
+              <svg class="w-5 h-5 mt-[1.2vh] text-[#37d7d9] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#37d7d9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path></svg>
             </button>
+            </div>
+            
           </div>
         </div>
       ))}

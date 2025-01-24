@@ -1,25 +1,20 @@
-import React from 'react'
+import React from 'react';
 
 const Text = () => {
   return (
     <div>
-  
-        <div className="mx-auto mb-12  max-w-[95%]">
-<p className="text-gray-600 " style={{
-  textAlign: "center",
-  color: "#232323",
-  fontFamily: "Roboto Condensed, Sans-serif",
-  fontSize: "24px",
-  fontWeight: 300,
-  lineHeight: "38.2px"
-}}>
-            
-
-            Top career fields in Germany span a wide array of industries, reflecting the country’s robust economy, commitment to innovation, and focus on sustainability. From technology and healthcare to engineering and creative industries, Germany offers diverse opportunities for professionals eager to make a meaningful impact. Known for its multicultural society, high quality of life, and strong emphasis on research and development, Germany provides an ideal setting for individuals seeking rewarding careers across various sectors. Below are some of the key industries driving Germany’s economic and social progress: 
-          </p>
-        </div>
+      <div className="mx-auto -mt-[20px] overflow-hidden lg:max-w-[80%]">
+        <p
+          className="text-[#232323] mx-auto text-center font-light leading-[1.6] lg:text-[24px] md:text-[20px] text-[18px] lg:leading-[38.2px] md:leading-[32px] leading-[28px] px-4 sm:px-8 md:px-12 lg:px-0"
+          style={{
+            fontFamily: "Roboto1",
+          }}
+        >
+          Top career fields in Germany encompass a diverse range of industries, reflecting the nation’s thriving economy, innovative spirit, and commitment to sustainability. From healthcare and technology to engineering, mining, and the creative industries, Germany offers a wealth of opportunities for professionals seeking dynamic and impactful careers. Known for its high standard of living, multicultural society, and strong emphasis on research and development, Germany is an ideal destination for individuals looking to contribute to cutting-edge industries in a country that values work-life balance and environmental stewardship. Below are some of the key industries shaping Germany’s future:
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Text
+export default Text;
