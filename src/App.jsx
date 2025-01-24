@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Australia from './pages/StudyDestinations/Australia';
 import Services from './pages/Services/Services';
+import About from './pages/About/About';
+import Contacts from '../src/components/contact/Contact'
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route path="*" element={<Home />} />
         <Route path="/studyinaustralia" element={<Australia />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/about"element={<About/>}/>
       </Routes>
+      <Contacts/>
       <Footer />
     </Router>
   );
