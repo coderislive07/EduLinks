@@ -33,7 +33,6 @@ function App() {
         <Route path="/usa-career"element={<Careersusa/>}/>
 
       </Routes>
-      <Contacts/>
       <Footer />
     </Router>
   );

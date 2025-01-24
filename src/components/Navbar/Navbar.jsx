@@ -39,24 +39,25 @@ export default function Navbar() {
     ],
   }
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 z-50">
-      <div className="max-w-[1500px] mx-auto px-4">
-        <div className="flex justify-between items-center h-20">
+    <nav className="w-full bg-white shadow-md fixed top-0 z-50 xl:h-[81px] xl:px-[7vw]">
+      <div className="lg:max-w-[1500px]  mx-auto px-20 ">
+        <div className="flex justify-between items-center  h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 ">
             <img  onClick={()=>{navigate('/')}}
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
               alt="Edulinks Logo"
-              className="h-10 xl:h-12 cursor-pointer"
+              className="h-10 xl:h-14 xl:pr-10 cursor-pointer"
             />
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-            <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-lg">
+          <div className="flex ">
+          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[37vw] lg:space-x-3">
+            <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-extrabold font-roboto text-sm xl:text-[16px]">
               Home
             </a>
-            <a onClick={()=>{navigate('/about')}} className="text-gray-800 font-roboto cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-base">
+            <a onClick={()=>{navigate('/about')}} className="text-gray-800 font-roboto cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-[16px]">
               About Us
             </a>
             <div
@@ -64,7 +65,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("study")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-[16px] flex items-center">
                 Study Destinations
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "study" ? "rotate-180" : ""}`}
@@ -94,7 +95,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto  text-sm xl:text-[16px] flex items-center">
                 Services
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform  duration-200 ${activeDropdown === "services" ? "rotate-180" : ""}`}
@@ -111,10 +112,10 @@ export default function Navbar() {
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
-                    >
+                      className="block px-4 py-2 text-base font-light font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                    > 
                       {link.title}
-                    </a>
+                    </a> 
                   ))}
                 </div>
               )}
@@ -124,7 +125,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("universities")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold text-sm xl:text-[16px] flex items-center">
                 Top Universities
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "universities" ? "rotate-180" : ""}`}
@@ -154,7 +155,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("careers")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold  text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold  text-sm xl:text-[16px] flex items-center">
                 Careers
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "careers" ? "rotate-180" : ""}`}
@@ -183,11 +184,11 @@ export default function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-2 xl:space-x-4">
-            <button className="px-3 py-1.5 xl:px-4 xl:py-2 text-[#26B9C1] border border-[#26B9C1] rounded hover:bg-[#26B9C1] hover:text-white transition-colors text-sm xl:text-base">
+            <button className="px-3 py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-sm xl:text-base">
               Edulinks AI Assistant
             </button>
-            <button className="px-3 py-1.5 xl:px-4 xl:py-2 bg-transparent border border-black text-black rounded hover:bg-[#1fa1a8] hover:text-white hover:border-[#1fa1a8] transition-colors flex items-center text-sm xl:text-base">
-              <svg className="w-3 h-3 xl:w-4 xl:h-4 mr-1 xl:mr-2" viewBox="0 0 576 512">
+            <button className="px-3 flex py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-sm xl:text-base">
+              <svg className="w-3 h-3 mt-1 xl:w-4 xl:h-4 mr-1 xl:mr-2" viewBox="0 0 576 512">
                 <path
                   fill="currentColor"
                   d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"
@@ -196,9 +197,10 @@ export default function Navbar() {
               Book Online Counselling
             </button>
           </div>
+          </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden">
+          <div className="lg:hidden ">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-800 hover:text-[#26B9C1] focus:outline-none"
@@ -219,8 +221,8 @@ export default function Navbar() {
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[800px]" : "max-h-0"}`}
         >
-          <div className="flex flex-col space-y-4 pb-6">
-            <a onClick={() => navigate('/')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold text-lg">
+          <div className="flex flex-col space-y-7 pb-6">
+            <a onClick={() => navigate('/')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-[1200] text-lg">
               Home
             </a>
             <a onClick={() => navigate('/about')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold text-lg">

@@ -67,6 +67,9 @@ module.exports = {
 		fontFamily: {
 		  adramalech: ['Adramalech', 'sans-serif'], // Add Adramalech font
 		  roboto: ['Roboto', 'sans-serif'], // Add Roboto font
+		  roboto1: ['Roboto1', 'sans-serif'], // Add Roboto font
+		  gilroybold: ['gilroybold', 'sans-serif'], // Add Roboto font
+		  gilroyregular: ['gilroyregular', 'sans-serif'], // Add Roboto font
 		},
 		keyframes: {
 		  'accordion-down': {
