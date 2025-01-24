@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: 'Adramalech';
+    src: url('/src/fonts/Adramalech.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/src/fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -57,13 +71,12 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Adramalech', sans-serif; /* Use the custom font */
   }
 }

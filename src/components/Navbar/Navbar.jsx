@@ -4,7 +4,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState(null)
   const navigate = useNavigate();
-
   const dropdownLinks = {
     study: [
       { title: "Study in Australia", href: "#" },
@@ -39,10 +38,9 @@ export default function Navbar() {
       { title: "Top Careers in USA", href: "usa-career" },
     ],
   }
-
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 z-50">
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className="max-w-[1500px] mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -55,10 +53,10 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-            <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-lg">
+            <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-lg">
               Home
             </a>
-            <a onClick={()=>{navigate('/about')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-base">
+            <a onClick={()=>{navigate('/about')}} className="text-gray-800 font-roboto cursor-pointer hover:text-[#26B9C1] font-bold text-sm xl:text-base">
               About Us
             </a>
             <div
@@ -66,7 +64,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("study")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-base flex items-center">
                 Study Destinations
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "study" ? "rotate-180" : ""}`}
@@ -96,7 +94,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 hover:text-[#26B9C1] font-bold font-roboto text-sm xl:text-base flex items-center">
                 Services
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform  duration-200 ${activeDropdown === "services" ? "rotate-180" : ""}`}
@@ -126,7 +124,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("universities")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold text-sm xl:text-base flex items-center">
                 Top Universities
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "universities" ? "rotate-180" : ""}`}
@@ -156,7 +154,7 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("careers")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-gray-800 hover:text-[#26B9C1] font-bold  text-sm xl:text-base flex items-center">
+              <button className="text-gray-800 font-roboto hover:text-[#26B9C1] font-bold  text-sm xl:text-base flex items-center">
                 Careers
                 <svg
                   className={`w-3 h-3 xl:w-4 xl:h-4 ml-1 transform transition-transform duration-200 ${activeDropdown === "careers" ? "rotate-180" : ""}`}
@@ -256,7 +254,7 @@ export default function Navbar() {
             <div className="space-y-2">
               <button
                 onClick={() => setActiveDropdown(activeDropdown === "services" ? null : "services")}
-                className="text-gray-800 hover:text-[#26B9C1] font-extrabold text-lg text-left w-full flex justify-between items-center"
+                className="text-gray-800 hover:text-[#26B9C1] font-extrabold  text-lg text-left w-full flex justify-between items-center"
               >
                 Services
                 <svg
