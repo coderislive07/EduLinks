@@ -1,14 +1,14 @@
 import React from "react";
 
 // Import images
-import anUniversity from "../../assets/top universities/nz/10001.png";
-import melbourneUni from "../../assets/top universities/nz/10002.png";
-import sydneyUni from "../../assets/top universities/nz/10003.png";
-import queenslandUni from "../../assets/top universities/nz/10004.png";
-import nswUni from "../../assets/top universities/nz/10005.png";
-import monashUni from "../../assets/top universities/nz/10006.png";
-import westernAusUni from "../../assets/top universities/nz/10007.png";
-import adelaideUni from "../../assets/top universities/nz/10008.png";
+import anUniversity from "../../assets/top universities/NZ/10001.png";
+import melbourneUni from "../../assets/top universities/NZ/10002.png";
+import sydneyUni from "../../assets/top universities/NZ/10003.png";
+import queenslandUni from "../../assets/top universities/Nz/10004.png";
+import nswUni from "../../assets/top universities/Nz/10005.png";
+import monashUni from "../../assets/top universities/Nz/10006.png";
+import westernAusUni from "../../assets/top universities/Nz/10007.png";
+import adelaideUni from "../../assets/top universities/Nz/10008.png";
 import backgroundimg from "../../assets/Ellipse-10.png"
 
 const universities = [
