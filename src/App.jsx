@@ -14,7 +14,7 @@ import Careersgermany from '../src/pages/Careers1/Germany/src/CareersGermany'
 import Careersnewzealand from '../src/pages/Careers1/New Zealand/src/CareersNewZealand/CareersNewZealand'
 import Careersuk from '../src/pages/Careers1/UK/src/CareersUk'
 import Careersusa from '../src/pages/Careers1/USA/src/CareersUsa'
-
+import Aus from '../src/pages/Top Universities/Aus/aus'
 function App() {
   return (
     <Router>
@@ -31,7 +31,7 @@ function App() {
         <Route path="/newzealand-career"element={<Careersnewzealand/>}/>
         <Route path="/uk-career"element={<Careersuk/>}/>
         <Route path="/usa-career"element={<Careersusa/>}/>
-
+        <Route path="/australia-topuniversity"element={<Aus/>}/>
       </Routes>
       <Footer />
     </Router>
