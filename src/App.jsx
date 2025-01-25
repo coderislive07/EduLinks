@@ -7,6 +7,7 @@ import Australia from './pages/StudyDestinations/Australia';
 import Services from './pages/Services/Services';
 import About from './pages/About/About';
 import Contacts from '../src/components/contact/Contact'
+import Countries from "./pages/Countries/Countries"
 // debugged
 import Careersaus from '../src/pages/Careers1/Australia/src/CareersAus'
 import Careerscanada from '../src/pages/Careers1/Canada/src/CareersCanada'
@@ -15,6 +16,7 @@ import Careersnewzealand from '../src/pages/Careers1/New Zealand/src/CareersNewZ
 import Careersuk from '../src/pages/Careers1/UK/src/CareersUk'
 import Careersusa from '../src/pages/Careers1/USA/src/CareersUsa'
 import Aus from '../src/pages/Top Universities/Aus/aus'
+import canada from '/src/pages/Top Universities/canada'
 function App() {
   return (
     <Router>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/studyinaustralia" element={<Australia />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about"element={<About/>}/>
+        <Route path="/studydestination"element={<Countries/>}/>
         <Route path="/australia-career"element={<Careersaus/>}/>
         <Route path="/canada-career"element={<Careerscanada/>}/>
         <Route path="/germany-career"element={<Careersgermany/>}/>
@@ -32,6 +35,8 @@ function App() {
         <Route path="/uk-career"element={<Careersuk/>}/>
         <Route path="/usa-career"element={<Careersusa/>}/>
         <Route path="/australia-topuniversity"element={<Aus/>}/>
+        <Route path="/canada-topuniversity"element={<canada/>}/>
+
       </Routes>
       <Footer />
     </Router>
