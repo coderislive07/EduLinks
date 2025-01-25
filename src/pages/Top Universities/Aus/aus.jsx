@@ -1,5 +1,4 @@
 import React from "react"
-
 const universities = [
   { name: "Australian National University", image: "australian national university.png" },
   { name: "University of Melbourne", image: "university of melbourne.png" },
@@ -22,7 +21,6 @@ const universities = [
   { name: "La Trobe University​​", image: "la trobe university.png" },
   { name: "University of Tasmania​", image: "uni of tasmania.png" },
 ]
-
 export default function Aus() {
   return (
     <div className="font-sans">
@@ -52,11 +50,9 @@ export default function Aus() {
           <button className="px-4 py-2 rounded bg-[#00b4d8] text-white">Book Online Counseling</button>
         </div>
       </nav>
-
       <header className="bg-[#40E0D0] py-40 px-64 text-center text-white relative overflow-hidden text-4xl font-serif rounded-bl-[55%] rounded-br-[55%]">
         <h1>Top Australian Universities</h1>
       </header>
-
       <main className="max-w-7xl mx-auto px-8 py-8">
         <div className="text-center max-w-7xl mx-auto mb-8 text-gray-700 text-2xl font-['Open Sans', 'Roboto', 'Lato']">
           <p>
@@ -68,7 +64,6 @@ export default function Aus() {
             Australia.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {universities.map((uni, index) => (
             <div
@@ -89,61 +84,6 @@ export default function Aus() {
           ))}
         </div>
       </main>
-
-      <footer className="bg-[#40E0D0] text-white pt-12 pb-4 px-8 mt-16">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div>
-            <h3 className="text-lg font-bold mb-4">Contact Us</h3>
-            <p>Reach out to the team of Edulinks to take advantage of our excellent services</p>
-            <p>info@edulinks.com</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <a href="#" className="block mb-2">
-              Home
-            </a>
-            <a href="#" className="block mb-2">
-              About Us
-            </a>
-            <a href="#" className="block mb-2">
-              Study Destinations
-            </a>
-            <a href="#" className="block mb-2">
-              Services
-            </a>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Services</h3>
-            <a href="#" className="block mb-2">
-              Student Visa
-            </a>
-            <a href="#" className="block mb-2">
-              Professional Career Guidance
-            </a>
-            <a href="#" className="block mb-2">
-              Guidance for Scholarship
-            </a>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Study Destinations</h3>
-            <a href="#" className="block mb-2">
-              Germany
-            </a>
-            <a href="#" className="block mb-2">
-              Canada
-            </a>
-            <a href="#" className="block mb-2">
-              Australia
-            </a>
-            <a href="#" className="block mb-2">
-              United Kingdom
-            </a>
-          </div>
-        </div>
-        <div className="text-center mt-8 pt-4 border-t border-white border-opacity-10">
-          <p>© All Rights Reserved By Edulinks 2025</p>
-        </div>
-      </footer>
     </div>
   )
 }

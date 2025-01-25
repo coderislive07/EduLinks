@@ -39,9 +39,9 @@ export default function Navbar() {
     ],
   }
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 z-50 xl:h-[81px] xl:px-[7vw]">
+    <nav className="w-full bg-white shadow-md  fixed pt-[-4vh]  top-0 z-50 xl:h-[65px] xl:px-[4vw]">
       <div className="lg:max-w-[1500px]  mx-auto px-20 ">
-        <div className="flex justify-between items-center  h-20">
+        <div className="flex justify-between items-center  h-16">
           {/* Logo */}
           <div className="flex-shrink-0 ">
             <img  onClick={()=>{navigate('/')}}
@@ -50,10 +50,9 @@ export default function Navbar() {
               className="h-10 xl:h-14 xl:pr-10 cursor-pointer"
             />
           </div>
-
           {/* Desktop Navigation */}
           <div className="flex ">
-          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[37vw] lg:space-x-3">
+          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[45vw] 2xl:w-[37vw] lg:space-x-3">
             <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-extrabold font-roboto text-sm xl:text-[16px]">
               Home
             </a>
@@ -112,7 +111,7 @@ export default function Navbar() {
                     <a
                       key={link.title}
                       href={link.href}
-                      className="block px-4 py-2 text-base font-light font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
+                      className="block px-4 py-2 text-base font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors"
                     > 
                       {link.title}
                     </a> 
@@ -184,10 +183,10 @@ export default function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-2 xl:space-x-4">
-            <button className="px-3 py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-sm xl:text-base">
+            <button className=" py-1.5  xl:w-[10vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-base xl:text-[14px]">
               Edulinks AI Assistant
             </button>
-            <button className="px-3 flex py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-sm xl:text-base">
+            <button className="px-3 flex py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#26B9C1] hover:text-black transition-colors text-base xl:text-[12px] 2xl:text-[14px] ">
               <svg className="w-3 h-3 mt-1 xl:w-4 xl:h-4 mr-1 xl:mr-2" viewBox="0 0 576 512">
                 <path
                   fill="currentColor"
