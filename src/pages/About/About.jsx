@@ -7,12 +7,12 @@ export default function About() {
     return (
         <div>
             {/* Hero Section */}
-            <section className="relative min-h-[600px] bg-gradient-to-b from-[#26B9C1] to-[#26B9C1]/90 pt-20 pb-32 overflow-hidden">
+            <section className="relative min-h-[600px] bg-gradient-to-b from-[#37d7d9] to-[#37d7d9]/90 pt-20 pb-32 overflow-hidden">
       {/* Large Circle Background */}
       <div
         className="absolute right-[10%] top-[50%] translate-y-[-50%] w-[600px] h-[600px] rounded-full"
         style={{
-          background: "radial-gradient(circle, rgba(78, 222, 228, 0.3) 0%, rgba(38, 185, 193, 0) 70%)",
+          backgroundColor: "rgba(255, 255, 255, 0.37)",
         }}
       />
 
