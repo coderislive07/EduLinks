@@ -1,28 +1,49 @@
-import React from "react"
+import React from "react";
+
+// Import images
+import anUniversity from "../src/assets/topuniversities/Aust/australian national university.png";
+import melbourneUni from "../src/assets/topuniversities/Aust/university of melbourne.png";
+import sydneyUni from "../src/assets/topuniversities/Aust/university of sydney.png";
+import queenslandUni from "../src/assets/topuniversities/Aust/uni of queen.png";
+import nswUni from "../src/assets/topuniversities/Aust/university of new south wales.png";
+import monashUni from "../src/assets/topuniversities/Aust/monash university.png";
+import westernAusUni from "../src/assets/topuniversities/Aust/university of western aus.png";
+import adelaideUni from "../src/assets/topuniversities/Aust/university of adelaide.png";
+import utsUni from "../src/assets/topuniversities/Aust/university of tech sydney.png";
+import canberraUni from "../src/assets/topuniversities/Aust/university of canberra.png";
+import macquarieUni from "../src/assets/topuniversities/Aust/macquarie university.png";
+import qutUni from "../src/assets/topuniversities/Aust/queensland university of tech.png";
+import rmitUni from "../src/assets/topuniversities/Aust/RMIT university.png";
+import wollongongUni from "../src/assets/topuniversities/Aust/university of wollongong.png";
+import curtinUni from "../src/assets/topuniversities/Aust/curtin univ.png";
+import deakinUni from "../src/assets/topuniversities/Aust/deakin univ.png";
+import newcastleUni from "../src/assets/topuniversities/Aust/uni of newcastle.png";
+import griffithUni from "../src/assets/topuniversities/Aust/griffith uni.png";
+import laTrobeUni from "../src/assets/topuniversities/Aust/la trobe university.png";
+import tasmaniaUni from "../src/assets/topuniversities/Aust/uni of tasmania.png";
 
 const universities = [
-  { name: "Australian National University", image: "australian national university.png" },
-  { name: "University of Melbourne", image: "university of melbourne.png" },
-  { name: "University of Sydney", image: "university of sydney.png" },
-  { name: "University of Queensland", image: "uni of queen.png" },
-  { name: "University of New South Wales", image: "university of new south wales.png" },
-  { name: "Monash University", image: "monash university.png" },
-  { name: "University of Western Australia", image: "university of western aus.png" },
-  { name: "University of Adelaide", image: "university of adelaide.png" },
-  { name: "University of Technology Sydney", image: "university of tech sydney.png" },
-  { name: "University of Canberra", image: "university of canberra.png" },
-  { name: "Macquarie University", image: "macquarie university.png" },
-  { name: "Queensland University of Technology", image: "queensland university of tech.png" },
-  { name: "RMIT University​", image: "RMIT university.png" },
-  { name: "University of Wollongong​", image: "university of wollongong.png" },
-  { name: "Curtin University​", image: "curtin univ.png" },
-  { name: "Deakin University​", image: "deakin univ.png" },
-  { name: "University of Newcastle​", image: "uni of newcastle.png" },
-  { name: "Griffith University​", image: "griffith uni.png" },
-  { name: "La Trobe University​​", image: "la trobe university.png" },
-  { name: "University of Tasmania​", image: "uni of tasmania.png" },
-]
-
+  { name: "Australian National University", image: anUniversity },
+  { name: "University of Melbourne", image: melbourneUni },
+  { name: "University of Sydney", image: sydneyUni },
+  { name: "University of Queensland", image: queenslandUni },
+  { name: "University of New South Wales", image: nswUni },
+  { name: "Monash University", image: monashUni },
+  { name: "University of Western Australia", image: westernAusUni },
+  { name: "University of Adelaide", image: adelaideUni },
+  { name: "University of Technology Sydney", image: utsUni },
+  { name: "University of Canberra", image: canberraUni },
+  { name: "Macquarie University", image: macquarieUni },
+  { name: "Queensland University of Technology", image: qutUni },
+  { name: "RMIT University​", image: rmitUni },
+  { name: "University of Wollongong​", image: wollongongUni },
+  { name: "Curtin University​", image: curtinUni },
+  { name: "Deakin University​", image: deakinUni },
+  { name: "University of Newcastle​", image: newcastleUni },
+  { name: "Griffith University​", image: griffithUni },
+  { name: "La Trobe University​​", image: laTrobeUni },
+  { name: "University of Tasmania​", image: tasmaniaUni },
+];
 export default function Aus() {
   return (
     <div className="font-sans">
