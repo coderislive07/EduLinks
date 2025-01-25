@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card"
 import { Countries } from "../../assets"
-import StudyDestinations from "@/components/StudyDestination"
+import StudyDestinations from "../../components/StudyDestination"
 
 export default function EducationServices() {
   return (

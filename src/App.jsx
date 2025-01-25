@@ -16,6 +16,7 @@ import Careersnewzealand from '../src/pages/Careers1/New Zealand/src/CareersNewZ
 import Careersuk from '../src/pages/Careers1/UK/src/CareersUk'
 import Careersusa from '../src/pages/Careers1/USA/src/CareersUsa'
 import Aus from '../src/pages/Top Universities/Aus/aus'
+import Studyvisa from "../src/pages/Services/(sub)/StudentVisa"
 function App() {
   return (
     <Router>
@@ -34,6 +35,7 @@ function App() {
         <Route path="/uk-career"element={<Careersuk/>}/>
         <Route path="/usa-career"element={<Careersusa/>}/>
         <Route path="/australia-topuniversity"element={<Aus/>}/>
+        <Route path="/student-visa" element={<Studyvisa/>} />
       </Routes>
       <Footer />
     </Router>
