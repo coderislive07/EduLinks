@@ -98,3 +98,8 @@
     font-family: 'Adramalech', sans-serif; /* Use the custom font */
   }
 }
+.bgimage{
+  background-image:"/Ellipse-10.png" ;
+  background-repeat: no-repeat;
+  
+}

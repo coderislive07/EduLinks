@@ -99,20 +99,20 @@ export default function Home() {
       </p>
     </h2>
   </div>
-  <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[1200px] xl:max-w-[1400px]  mx-20vw">
+  <div className="max-w-[90%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[1200px] xl:max-w-[1400px]  mx-20vw">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
       <div className="relative mb-8 lg:mb-0">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
           alt="Students"
-          className="w-full max-w-[500px] md:mx-[5vw] lg:mx-[10vw]"
+          className="w-full max-w-[500px] sm:mx-[15vw] md:mx-[5vw] lg:mx-[10vw]"
         />
       </div>
-      <div className="relative space-y-4 sm:space-y-5 pl-10 sm:pl-0 md:space-y-6 pt-4 sm:pt-6 md:pt-8 md:w-[50vw] lg:pt-[10vh]">
+      <div className="relative space-y-4 sm:space-y-5 pl-10 sm:pl-20 md:space-y-6 pt-4 sm:pt-6 md:pt-8 md:w-[50vw] lg:pt-[10vh]">
         <h3 className="text-2xl sm:text-3xl md:text-2xl lg:text-[36px] font-adramalech font-normal">
           How Edulinks can help Universities
         </h3>
-        <p className="text-gray-600 text-base sm:text-lg md:text-lg lg:text-2xl xl:text-[26px] font-roboto1">
+        <p className="text-gray-600 text-base sm:text-base md:text-lg lg:text-2xl xl:text-[26px] font-roboto1">
           Maximize your reach across geographies and exceed your student recruitment goals without compromising on
           quality.
         </p>

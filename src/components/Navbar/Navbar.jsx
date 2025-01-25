@@ -22,12 +22,12 @@ export default function Navbar() {
       { title: "Post Landing Services", href: "#" },
     ],
     universities: [
-      { title: "Top Universities in USA", href: "#" },
-      { title: "Top Universities in UK", href: "#" },
-      { title: "Top Universities in Canada", href: "#" },
-      { title: "Top Universities in Australia", href: "#" },
-      { title: "Top Universities in Germany", href: "#" },
-      { title: "Top Universities in New Zealand", href: "#" },
+      { title: "Top Universities in Australia", href: "/australia-topuniversity" },
+      { title: "Top Universities in Canada", href: "/canada-topuniversity" },
+      { title: "Top Universities in Germany", href: "/germany-topuniversity" },
+      { title: "Top Universities in New Zealand", href: "/nz-topuniversity" },
+      { title: "Top Universities in Uk", href: "/uk-topuniversity" },
+      { title: "Top Universities in Usa", href: "/usa-topuniversity" },
     ],
     careers: [
       { title: "Top Careers in Australia", href: "/australia-career" },
