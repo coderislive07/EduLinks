@@ -10,5 +10,7 @@ import USA from "./USA.svg";
 import Australia from "./Australia.svg";
 import NewZealand from "./Newzeland.svg";
 import UK from "./Uk.svg";
+import Edu_Link from "./EduLink_Card.svg";
+import Countries from "./Countries.svg";
 
-export{ Aeroplane_Logo, EduMoney_Logo, Education_Logo, Person_Logo, Link_Logo, Money_Logo , Germany, Canada, USA, Australia, NewZealand, UK};
+export{ Aeroplane_Logo, EduMoney_Logo, Education_Logo, Person_Logo, Link_Logo, Money_Logo , Germany, Canada, USA, Australia, NewZealand, UK, Edu_Link, Countries};
