@@ -6,6 +6,7 @@ import tick from "../../assets/tick.png"
 import universitybg from "../../assets/universitybackground.png"
 import robot from "../../assets/robot.png"
 import blur from "../../assets/blur.png"
+import nzs from '../../assets/nzs.png'
 
 export default function Home() {
   return (
@@ -100,15 +101,15 @@ export default function Home() {
     </h2>
   </div>
   <div className="max-w-[90%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[1200px] xl:max-w-[1400px]  mx-20vw">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pr-0 sm:pr-0 md:pr-40 lg:pr-72 xl:pr-0 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pr-0 sm:pr-0 md:pr-40 lg:pr-72  items-center">
       <div className="relative mb-8 lg:mb-0">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
           alt="Students"
-          className="w-full max-w-[500px] sm:mx-[15vw] md:mx-[5vw] lg:mx-[10vw]"
+          className="w-full max-w-[400px] sm:mx-[15vw] md:mx-[5vw] lg:ml-[15vw]"
         />
       </div>
-      <div className="relative space-y-4 sm:space-y-5 pl-10 sm:pl-20 md:space-y-6 pt-4 sm:pt-6 md:pt-8 md:w-[50vw] lg:pt-[10vh]">
+      <div className="relative space-y-4  sm:space-y-5 pl-10 sm:pl-20 md:space-y-6 pt-4 sm:pt-6 md:pt-8 md:w-[50vw] lg:pt-[4vh] ">
         <h3 className="text-2xl sm:text-3xl md:text-2xl lg:text-[36px] font-adramalech font-normal">
           How Edulinks can help Universities
         </h3>
@@ -137,7 +138,7 @@ export default function Home() {
                 Enhance Brand Visibility
               </span>
               <img
-                className="absolute hidden xl:block sm:top-[-50px] sm:right-[-60px] lg:top-[-10px] lg:left-[18vw]  z-50"
+                className="absolute w-[261px] h-[135px] hidden xl:block sm:top-[-50px] sm:right-[-60px] lg:top-[-10px] lg:left-[18vw]  z-50"
                 src={bighook}
               />
             </div>
@@ -150,10 +151,10 @@ export default function Home() {
 
 
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-[#37d7d970]">
-        <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[9vw]">
+        <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[10vw]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
             <div className="space-y-4  sm:space-y-5 md:space-y-6">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl  w-[78vw] sm:w-[80vw] lg:text-4xl xl:text-[48px]  xl:w-[90vw] font-bold">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl  w-[78vw] sm:w-[80vw] lg:text-4xl xl:text-[48px]  xl:w-[89  vw] font-bold">
                 <span className="text-black font-adramalech font-[400]">Edulinks Multi Country Advantage</span>
                 <br />
                 <span className="text-black font-adramalech leading-relaxed  font-[400]">For Students</span>
@@ -218,7 +219,7 @@ export default function Home() {
               </span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10  md:gap-12 lg:gap-14 xl:pl-36  items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10  md:gap-12 lg:gap-14 xl:pl-14  items-center">
             <div>
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/personstudy-YOtdi9pho7WWkDhNb10ZROpTRAqpiq.png"
@@ -241,7 +242,7 @@ export default function Home() {
               ))}
               <div>
                 <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[20vw]">
-                  EduLink AI Assistant
+                  EduLinks AI Assistant
                   <img className="mt-2 ml-3 h-[12px] w-[12px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
                 </button>
               </div>
@@ -260,7 +261,7 @@ export default function Home() {
               Study Partners
             </span>
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 xl:px-[6vw]">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6 md:gap-8 xl:px-[3vw]">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/autt-0OTbVPfIagfULmguQRAl7OVXASmrfm.png"
               alt="AUT"
@@ -278,6 +279,11 @@ export default function Home() {
             />
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wintec-lfszNfWflG3BxpZhLd7lswKykIJ1N2.png"
+              alt="Wintec"
+              className="h-auto w-full max-w-[150px] sm:max-w-[170px] md:max-w-[191px] mx-auto"
+            />
+            <img
+              src={nzs}
               alt="Wintec"
               className="h-auto w-full max-w-[150px] sm:max-w-[170px] md:max-w-[191px] mx-auto"
             />
