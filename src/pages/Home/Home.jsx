@@ -100,7 +100,7 @@ export default function Home() {
     </h2>
   </div>
   <div className="max-w-[90%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[1200px] xl:max-w-[1400px]  mx-20vw">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pr-0 sm:pr-0 md:pr-40 lg:pr-72 xl:pr-0 items-center">
       <div className="relative mb-8 lg:mb-0">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
@@ -137,7 +137,7 @@ export default function Home() {
                 Enhance Brand Visibility
               </span>
               <img
-                className="absolute hidden lg:block sm:top-[-50px] sm:right-[-60px] lg:top-[-10px] lg:left-[18vw]  z-50"
+                className="absolute hidden xl:block sm:top-[-50px] sm:right-[-60px] lg:top-[-10px] lg:left-[18vw]  z-50"
                 src={bighook}
               />
             </div>
@@ -153,7 +153,7 @@ export default function Home() {
         <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[9vw]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
             <div className="space-y-4  sm:space-y-5 md:space-y-6">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl  w-[78vw] sm:w-0 lg:text-5xl xl:text-[48px]  xl:w-[90vw] font-bold">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl  w-[78vw] sm:w-[80vw] lg:text-4xl xl:text-[48px]  xl:w-[90vw] font-bold">
                 <span className="text-black font-adramalech font-[400]">Edulinks Multi Country Advantage</span>
                 <br />
                 <span className="text-black font-adramalech leading-relaxed  font-[400]">For Students</span>
@@ -190,7 +190,7 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="relative mt-8 lg:mt-0 xl:ml-[8vw]">
+            <div className="relative mt-8 lg:mt-0 lg:ml-[9vw] xl:ml-[8vw]">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abroads-2YKO4gzVKtXMPgbuqYaB8ClE0gOGv2.png"
                 alt="Study Destinations"
@@ -205,7 +205,7 @@ export default function Home() {
         <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[93%] lg:max-w-full  xl:mx-[3vw] ">
           <div className="flex flex-col xl:flex-row items-center mb-8 sm:mb-10  md:mb-12 ">
             <img
-              className="h-[80px] w-[180px] sm:h-[100px] sm:w-[220px] md:h-[116px] md:w-[253px] mb-4 xl:mb-0"
+              className="h-[80px] hidden xl:block w-[180px] sm:h-[100px] sm:w-[220px] md:h-[116px] md:w-[253px] mb-4 xl:mb-0"
               src={bighook || "/placeholder.svg"}
               alt="Big Hook"
             />

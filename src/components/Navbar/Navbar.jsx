@@ -51,8 +51,8 @@ export default function Navbar() {
             />
           </div>
           {/* Desktop Navigation */}
-          <div className="flex ">
-          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[45vw] 2xl:w-[37vw] lg:space-x-3">
+          <div className="flex 2xl:pr-14 ">
+          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[45vw] 2xl:w-[37vw]  lg:space-x-3">
             <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer hover:text-[#26B9C1] font-extrabold font-roboto text-sm xl:text-[16px]">
               Home
             </a>
