@@ -22,6 +22,7 @@ import laTrobeUni from "../../../assets/top universities/Aust/la trobe universit
 import tasmaniaUni from "../../../assets/top universities/Aust/uni of tasmania.png";
 import backgroundimg from "../../../assets/Ellipse-10.png"
 
+
 const universities = [
   { name: "Australian National University", image: anUniversity },
   { name: "University of Melbourne", image: melbourneUni },
@@ -47,7 +48,36 @@ const universities = [
 export default function Aus() {
   return (
     <div className="font-sans">
+
    
+
+      <nav className="flex justify-between items-center p-4 bg-white shadow-md">
+        <div className="logo">
+          <img src="" alt="Edulinks Logo" />
+        </div>
+        <div className="flex items-center space-x-8">
+          <a href="#" className="text-gray-700">
+            About Us
+          </a>
+          <a href="#" className="text-gray-700">
+            Study Destinations
+          </a>
+          <a href="#" className="text-gray-700">
+            Services
+          </a>
+          <a href="#" className="text-gray-700">
+            Top Universities
+          </a>
+          <a href="#" className="text-gray-700">
+            Careers
+          </a>
+          <button className="px-4 py-2 rounded bg-transparent text-gray-700 border border-gray-300">
+            Edulinks AI Assistant
+          </button>
+          <button className="px-4 py-2 rounded bg-[#00b4d8] text-white">Book Online Counseling</button>
+        </div>
+      </nav>
+
 
    <div className="py-20  h-[470px] pt-[139px]  flex items-center z-50   justify-center" style={{
       backgroundImage: `url(${backgroundimg})`,
