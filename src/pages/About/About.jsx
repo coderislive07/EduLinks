@@ -413,7 +413,7 @@ export default function About() {
 <section className="py-16 bg-white">
   <div className="max-w-[1100px] mx-auto px-4">
     {/* Section Header */}
-    <div className="bg-[#37D7D9] md:ml-[50px] lg:ml-0 lg:ml-0 inline-block px-3.5 py-1 mb-8">
+    <div className="bg-[#37D7D9] md:ml-[50px]  lg:ml-0 inline-block px-3.5 py-1 mb-8">
       <h2 className="text-[32px] font-medium text-white font-adramalech">Our Mission</h2>
     </div>
     
