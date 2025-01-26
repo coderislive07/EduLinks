@@ -22,6 +22,7 @@ import Nz from '../src/pages/Top Universities/nz'
 import Uk from '../src/pages/Top Universities/uk'
 import Usa from '../src/pages/Top Universities/usa'
 import CarrEngi from '../src/pages/InsideCareers/Page'
+import Ausengandtech from './pages/Careers1/Australia/fields/AusEngandTech';
 function App() {
   return (
     <Router>
@@ -45,6 +46,7 @@ function App() {
         <Route path="/nz-topuniversity"element={<Nz/>}/>
         <Route path="/uk-topuniversity"element={<Uk/>}/>
         <Route path="/usa-topuniversity"element={<Usa/>}/>
+        <Route path="/australia-engineering-technology"element={<Ausengandtech/>}/>
         <Route path="/carr-engineering"element={<CarrEngi/>}/>
       </Routes>
       <Footer />
