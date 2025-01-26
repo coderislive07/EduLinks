@@ -46,8 +46,8 @@ export default function Navbar() {
   };
   
   return (
-    <nav className="w-full bg-white shadow-md  fixed pt-[-4vh]  top-0 z-50 xl:h-[65px] xl:px-[4vw]">
-      <div className="lg:max-w-[1500px]  mx-auto px-20 ">
+    <nav className="w-full fixed bg-white shadow-md  pt-[-4vh] z-50  top-0 xl:h-[65px] xl:px-[4vw]">
+      <div className="lg:max-w-[1600px]  mx-auto px-20 ">
         <div className="flex justify-between items-center  h-16">
         <div className="lg:hidden  ">
             <button
@@ -70,12 +70,12 @@ export default function Navbar() {
             <img  onClick={()=>{navigate('/')}}
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
               alt="Edulinks Logo"
-              className="h-14 xl:h-14 pl-[32vw] sm:pl-0 xl:pr-10 cursor-pointer"
+              className="h-14 xl:h-14 pl-[32vw]  md:pl-[69vw] lg:pl-0 xl:pr-10 cursor-pointer"
             />
           </div>
           {/* Desktop Navigation */}
           <div className="flex 2xl:pr-14 ">
-          <div className="hidden lg:flex items-center lg:w-[52vw] xl:w-[45vw] 2xl:w-[37vw]  lg:space-x-3">
+          <div className="hidden lg:flex items-center lg:w-[55vw] xl:w-[45vw] 2xl:w-[37vw]  lg:space-x-3">
             <a onClick={()=>{navigate('/')}} className="text-gray-800 cursor-pointer  font-[700] font-roboto text-sm xl:text-[16px]">
               Home
             </a>
@@ -214,10 +214,10 @@ export default function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-2 xl:space-x-4">
-            <button className=" py-1.5  xl:w-[10vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#37d7d9] hover:text-black transition-colors text-base xl:text-[14px]">
+            <button className=" py-1.5  xl:w-[10vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#37d7d9] hover:text-black transition-colors text-base  xl:text-[13px]">
               Edulinks AI Assistant
             </button>
-            <button className="px-3 flex py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#37d7d9] hover:text-black transition-colors text-base xl:text-[12px] 2xl:text-[14px] ">
+            <button className="px-3 flex py-1.5  xl:w-[13vw]  text-black border font-roboto1 font-bold   border-black rounded-lg hover:bg-[#37d7d9] hover:text-black transition-colors text-base xl:text-[12px] 2xl:text-[13px] ">
               <svg className="w-3 h-3 mt-1 xl:w-4 xl:h-4 mr-1 xl:mr-2" viewBox="0 0 576 512">
                 <path
                   fill="currentColor"
@@ -281,7 +281,7 @@ export default function Navbar() {
         <div className="space-y-2">
           <button
             onClick={() => setActiveDropdown(activeDropdown === "study" ? null : "study")}
-            className="text-[#7a7a7a]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
+            className="text-[#7a7a7a] text-[14.452px]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
           >
             Study Destinations
             <svg
@@ -301,7 +301,7 @@ export default function Navbar() {
                 <a
                   key={link.title}
                   href={link.href}
-                  className="block  py-2 text-xl font-normal text-[14px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
+                  className="block  py-2 text-xl font-normal text-[13px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
                 >
                   {link.title}
                   <hr ></hr>
@@ -313,7 +313,7 @@ export default function Navbar() {
         <div className="space-y-2">
           <button
             onClick={() => setActiveDropdown(activeDropdown === "services" ? null : "services")}
-            className="text-[#7a7a7a]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
+            className="text-[#7a7a7a] text-[14.452px] font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
           >
            Services
             <svg
@@ -333,7 +333,7 @@ export default function Navbar() {
                 <a
                   key={link.title}
                   href={link.href}
-                  className="block  py-2 text-xl font-normal text-[14px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
+                  className="block  py-2 text-xl font-normal text-[13px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
                 >
                   {link.title}
                   <hr ></hr>
@@ -345,7 +345,7 @@ export default function Navbar() {
         <div className="space-y-2">
           <button
             onClick={() => setActiveDropdown(activeDropdown === "universities" ? null : "universities")}
-            className="text-[#7a7a7a]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
+            className="text-[#7a7a7a] text-[14.452px] font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
           >
             Top Universities
             <svg
@@ -365,7 +365,7 @@ export default function Navbar() {
                 <a
                   key={link.title}
                   href={link.href}
-                  className="block  py-2 text-xl font-normal text-[14px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
+                  className="block  py-2 text-xl font-normal text-[13px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
                 >
                   {link.title}
                   <hr ></hr>
@@ -378,7 +378,7 @@ export default function Navbar() {
         <div className="space-y-2">
           <button
             onClick={() => setActiveDropdown(activeDropdown === "careers" ? null : "careers")}
-            className="text-[#7a7a7a]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
+            className="text-[#7a7a7a] text-[14.452px]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
           >
             Careers
             <svg
@@ -398,7 +398,7 @@ export default function Navbar() {
                 <a
                   key={link.title}
                   href={link.href}
-                  className="block  py-2 text-xl font-normal text-[14px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
+                  className="block  py-2 text-xl font-normal text-[13px] font-roboto text-gray-800 hover:bg-[#37d7d9] hover:text-white transition-colors"
                 >
                   {link.title}
                   <hr ></hr>
@@ -406,6 +406,16 @@ export default function Navbar() {
               ))}
             </div>
           )}
+        </div>
+        <div className="space-y-2">
+          <button
+      
+            className="text-[#7a7a7a] text-[14.452px]  font-bold font-roboto text-lg text-left w-full flex justify-between items-center"
+          >
+            Edulinks Ai assistant
+        
+          </button>
+      
         </div>
       </div>
     </div>

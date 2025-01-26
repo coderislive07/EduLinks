@@ -21,6 +21,7 @@ import Germany from '../src/pages/Top Universities/germany'
 import Nz from '../src/pages/Top Universities/nz'
 import Uk from '../src/pages/Top Universities/uk'
 import Usa from '../src/pages/Top Universities/usa'
+import Ausengandtech from '../src/pages/Careers1/Australia/fields/AusEngandTech'
 function App() {
   return (
     <Router>
@@ -44,6 +45,8 @@ function App() {
         <Route path="/nz-topuniversity"element={<Nz/>}/>
         <Route path="/uk-topuniversity"element={<Uk/>}/>
         <Route path="/usa-topuniversity"element={<Usa/>}/>
+        <Route path="/edulinks-ai-assistant"element={<Home/>}/>
+        <Route path="/australia-engineering-technology"element={<Ausengandtech/>}/>
       
 
       </Routes>

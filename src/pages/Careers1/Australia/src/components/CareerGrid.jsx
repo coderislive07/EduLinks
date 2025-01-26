@@ -5,6 +5,7 @@ function CareerGrid() {
     {
       title: "Engineering & Technology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-UvnOHRszpU0JptzrJeHt4ZD0CTr8BE.png",
+      href:   "/australia-engineering-technology"
     },
     {
       title: "Health Sciences",
@@ -88,10 +89,12 @@ style={{ boxShadow: "4px 0 10px rgba(0, 0, 0, 0.25)" }}
               {career.title}
             </h3>
             <div className="leading-[37.2px] flex justify-center">
-            <button className="mt-8  px-6 flex py-2 text-[24px] font-gilroyregular border-2 border-[#40E0D0] text-[#40E0D0] hover:bg-[#40E0D0] hover:text-white transition-all duration-300 rounded">
+            <a href={career.href}>
+            <button className="mt-8  px-6 flex py-2 text-[24px] font-gilroyregular border-2 border-[#40E0D0] text-[#40E0D0] transition-all duration-300 rounded">
               Learn More
               <svg class="w-5 h-5 mt-[1.2vh] text-[#37d7d9] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#37d7d9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path></svg>
             </button>
+            </a>
             </div>
             
           </div>

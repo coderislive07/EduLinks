@@ -7,8 +7,10 @@ import universitybg from "../../assets/universitybackground.png"
 import robot from "../../assets/robot.png"
 import blur from "../../assets/blur.png"
 import nzs from '../../assets/nzs.png'
+import {useNavigate } from "react-router-dom"
 
 export default function Home() {
+  const navigate=useNavigate();
   return (
     <main>
       <div className="relative">
@@ -20,7 +22,7 @@ export default function Home() {
         >
           <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[100%] mx-auto">
             <div className="lg:flex items-center">
-              <div className="text-white space-y-6 px-4 pt-14 sm:px-6 md:px-8 lg:px-12 xl:px-36 w-full lg:w-[60%] xl:w-[70%]">
+              <div className="text-white space-y-6 px-4  sm:px-6 md:px-8 lg:px-12 xl:px-36 w-full lg:w-[60%] xl:w-[70%]">
                 <h1 className="text-3xl xl:w-[41vw] sm:text-4xl md:text-5xl lg:text-[58px] font-light lg:mt-[7vh] xl:mt-[-14vh] font-adramalech lg:leading-[1.1] mb-8">
                   Discover Your Dream Career Using Edulinks AI Assistance
                 </h1>
@@ -28,7 +30,7 @@ export default function Home() {
                   Our platform helps Launch Your Career aspirations with Tailored Programs, Perfect University Matches,
                   and Expert Visa Support.
                 </p>
-                <button className="bg-white text-black font-roboto font-medium text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[24px] px-4 sm:px-5 md:px-2 lg:px-6 py-2 sm:py-3 md:py-3.5 lg:py-2 rounded-[8px] cursor-pointer hover:bg-opacity-90 transition-all">
+                <button   onClick={() => navigate('/edulinks-ai-assistant')} className="bg-white text-black font-roboto font-medium text-base sm:text-lg  md:text-xl lg:text-2xl xl:text-[24px] px-4 sm:px-5 md:px-2 lg:px-6 py-2 sm:py-3 md:py-3.5 lg:py-2 rounded-[8px] cursor-pointer hover:bg-opacity-90 transition-all">
                   Try Now
                 </button>
               </div>
@@ -256,7 +258,7 @@ export default function Home() {
             <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-bold text-black  font-adramalech">
               Edulinks
             </span>
-            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-bold text-[#37d7d9]  font-adramalech">
+            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-[400] text-[#37d7d9]  font-adramalech">
               {" "}
               Study Partners
             </span>

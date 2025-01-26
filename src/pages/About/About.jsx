@@ -31,8 +31,8 @@ export default function About() {
 
     <div className="max-w-[1400px] mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 pt-10 items-center">
-            <div className="text-white space-y-8 lg:relative md:z-50 z-10 lg:ml-24 lg:-mt-[180px] max-w-[600px]">
-                <h1 className="text-3xl md:text-4xl lg:text-[3.3rem] leading-[2.8rem] sm:leading-[2.5rem] max-w-[500px] font-adramalech">
+            <div className="text-white space-y-8 lg:relative md:z-100 z-10 lg:ml-24 lg:-mt-[180px] max-w-[600px]">
+                <h1 className="text-3xl md:text-4xl lg:text-[3.3rem] leading-[2.8rem] sm:leading-[3.5rem] xl:leading-none max-w-[500px] font-adramalech">
                     We're Committed
                     To Your Global
                     Education Success
@@ -44,9 +44,9 @@ export default function About() {
             </div>
             <div className="relative">
                 {/* Stats Box */}
-                <div className="hidden md:block md:absolute md:ml-[180px] lg:ml-[0px] lg:mt-[300px] w-full z-50 bg-white text-black rounded-lg p-6 shadow-lg max-w-[220px]">
+                <div className="hidden md:block md:absolute md:ml-[180px] lg:ml-[0px] lg:mt-[300px] w-full z-20 bg-white text-black rounded-lg p-6 shadow-lg max-w-[220px]">
                     <div className="text-5xl font-roboto text-center text-[#37d7d9] font-bold">10K+</div>
-                    <div className="text-xl font-roboto font-bold text-center">Dreams Fulfilled</div>
+                    <div className="text-xl font-roboto font-medium text-center">Dreams Fulfilled</div>
                 </div>
                 <div className="relative left-[15%] top-[60%]">
                     <img
@@ -57,7 +57,7 @@ export default function About() {
                 </div>
 
                 {/* Opportunities Box */}
-                <div className="hidden md:block md:absolute left-[67%] top-[27%] right-0 z-50 w-full bg-white text-black rounded-xl shadow-lg max-h-[106px] max-w-[230px]">
+                <div className="hidden md:block md:absolute left-[67%]  top-[27%] right-0 z-20 w-full bg-white text-black rounded-xl shadow-lg max-h-[106px] max-w-[230px]">
                     <p className="text-xl text-center font-roboto font-regular p-2">
                         Opportunities <br />across leading <br />
                         global universities.
