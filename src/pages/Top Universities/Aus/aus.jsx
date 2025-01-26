@@ -20,37 +20,113 @@ import newcastleUni from "../../../assets/top universities/Aust/uni of newcastle
 import griffithUni from "../../../assets/top universities/Aust/griffith uni.png";
 import laTrobeUni from "../../../assets/top universities/Aust/la trobe university.png";
 import tasmaniaUni from "../../../assets/top universities/Aust/uni of tasmania.png";
-import backgroundimg from "../../../assets/Ellipse-10.png"
-
+import backgroundimg from "../../../assets/Ellipse-10.png";
 
 const universities = [
-  { name: "Australian National University", image: anUniversity },
-  { name: "University of Melbourne", image: melbourneUni },
-  { name: "University of Sydney", image: sydneyUni },
-  { name: "University of Queensland", image: queenslandUni },
-  { name: "University of New South Wales", image: nswUni },
-  { name: "Monash University", image: monashUni },
-  { name: "University of Western Australia", image: westernAusUni },
-  { name: "University of Adelaide", image: adelaideUni },
-  { name: "University of Technology Sydney", image: utsUni },
-  { name: "University of Canberra", image:canberraUni },
-  { name: "Macquarie University", image: macquarieUni },
-  { name: "Queensland University of Technology", image: qutUni },
-  { name: "RMIT University​", image: rmitUni },
-  { name: "University of Wollongong​", image: wollongongUni },
-  { name: "Curtin University​", image: curtinUni },
-  { name: "Deakin University​", image: deakinUni },
-  { name: "University of Newcastle​", image: newcastleUni },
-  { name: "Griffith University​", image: griffithUni },
-  { name: "La Trobe University​​", image: laTrobeUni},
-  { name: "University of Tasmania​", image: tasmaniaUni },
+  {
+    name: "Australian National University",
+    image: anUniversity,
+    link: "/australia-topuniversity/australian-national-university",
+  },
+  {
+    name: "University of Melbourne",
+    image: melbourneUni,
+    link: "/australia-topuniversity/university-of-melbourne",
+  },
+  {
+    name: "University of Sydney",
+    image: sydneyUni,
+    link: "/australia-topuniversity/university-of-sydney",
+  },
+  {
+    name: "University of Queensland",
+    image: queenslandUni,
+    link: "/australia-topuniversity/university-of-queensland",
+  },
+  {
+    name: "University of New South Wales",
+    image: nswUni,
+    link: "/australia-topuniversity/university-of-new-south-wales",
+  },
+  {
+    name: "Monash University",
+    image: monashUni,
+    link: "/australia-topuniversity/monash-university",
+  },
+  {
+    name: "University of Western Australia",
+    image: westernAusUni,
+    link: "/australia-topuniversity/university-of-western-australia",
+  },
+  {
+    name: "University of Adelaide",
+    image: adelaideUni,
+    link: "/australia-topuniversity/university-of-adelaide",
+  },
+  {
+    name: "University of Technology Sydney",
+    image: utsUni,
+    link: "/australia-topuniversity/university-of-technology-sydney",
+  },
+  {
+    name: "University of Canberra",
+    image: canberraUni,
+    link: "/australia-topuniversity/university-of-canberra",
+  },
+  {
+    name: "Macquarie University",
+    image: macquarieUni,
+    link: "/australia-topuniversity/macquarie-university",
+  },
+  {
+    name: "Queensland University of Technology",
+    image: qutUni,
+    link: "/australia-topuniversity/queensland-university-of-technology",
+  },
+  {
+    name: "RMIT University",
+    image: rmitUni,
+    link: "/australia-topuniversity/rmit-university",
+  },
+  {
+    name: "University of Wollongong",
+    image: wollongongUni,
+    link: "/australia-topuniversity/university-of-wollongong",
+  },
+  {
+    name: "Curtin University",
+    image: curtinUni,
+    link: "/australia-topuniversity/curtin-university",
+  },
+  {
+    name: "Deakin University",
+    image: deakinUni,
+    link: "/australia-topuniversity/deakin-university",
+  },
+  {
+    name: "University of Newcastle",
+    image: newcastleUni,
+    link: "/australia-topuniversity/university-of-newcastle",
+  },
+  {
+    name: "Griffith University",
+    image: griffithUni,
+    link: "/australia-topuniversity/griffith-university",
+  },
+  {
+    name: "La Trobe University",
+    image: laTrobeUni,
+    link: "/australia-topuniversity/la-trobe-university",
+  },
+  {
+    name: "University of Tasmania",
+    image: tasmaniaUni,
+    link: "/australia-topuniversity/university-of-tasmania",
+  },
 ];
 export default function Aus() {
   return (
     <div className="font-sans">
-
-   
-
       <nav className="flex justify-between items-center p-4 bg-white shadow-md">
         <div className="logo">
           <img src="" alt="Edulinks Logo" />
@@ -74,35 +150,39 @@ export default function Aus() {
           <button className="px-4 py-2 rounded bg-transparent text-gray-700 border border-gray-300">
             Edulinks AI Assistant
           </button>
-          <button className="px-4 py-2 rounded bg-[#00b4d8] text-white">Book Online Counseling</button>
+          <button className="px-4 py-2 rounded bg-[#00b4d8] text-white">
+            Book Online Counseling
+          </button>
         </div>
       </nav>
 
-
-   <div className="py-20  h-[470px] pt-[139px]  flex items-center z-50   justify-center" style={{
-      backgroundImage: `url(${backgroundimg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-    }}
-    >
-      <div className=" mx-auto px-4 flex justify-center text-center  ">
-        <h1 className="text-white text-[60px]  font-regular font-adramalech">Top Australian Universities</h1>
-      </div>
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-50 "
-
-
-      />
-    </div>
+        className="py-20  h-[470px] pt-[139px]  flex items-center z-50   justify-center"
+        style={{
+          backgroundImage: `url(${backgroundimg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className=" mx-auto px-4 flex justify-center text-center  ">
+          <h1 className="text-white text-[60px]  font-regular font-adramalech">
+            Top Australian Universities
+          </h1>
+        </div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-50 " />
+      </div>
 
       <main className="max-w-7xl mx-auto px-8 py-8">
         <div className="text-center max-w-7xl mx-auto mb-8 text-gray-700 font-regular text-2xl font-roboto">
           <p>
-            Australia is home to some of the world's leading universities, offering a diverse range of programs and
-            cutting-edge research opportunities. At Edulinks, we guide you through Australia's top 20 universities,
-            ensuring you find the perfect match for your academic aspirations. Whether you're looking for world-class
-            research facilities, innovative programs, international career opportunities, or a vibrant student life,
-            Edulinks is here to support you every step of the way towards achieving your study abroad dreams in
+            Australia is home to some of the world's leading universities,
+            offering a diverse range of programs and cutting-edge research
+            opportunities. At Edulinks, we guide you through Australia's top 20
+            universities, ensuring you find the perfect match for your academic
+            aspirations. Whether you're looking for world-class research
+            facilities, innovative programs, international career opportunities,
+            or a vibrant student life, Edulinks is here to support you every
+            step of the way towards achieving your study abroad dreams in
             Australia.
           </p>
         </div>
@@ -112,11 +192,15 @@ export default function Aus() {
               key={index}
               className="bg-white rounded-none overflow-hidden shadow-xl transition-transform duration-300 hover:-translate-y-1 font-serif"
             >
-              <img src={uni.image} alt={uni.name} className="w-full h-[400px] object-cover" />
+              <img
+                src={uni.image}
+                alt={uni.name}
+                className="w-full h-[400px] object-cover"
+              />
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-gray-800">{uni.name}</h3>
                 <a
-                  href="#"
+                  href={uni.link || "#"}
                   className="inline-block px-6 py-2 border border-[#00b4d8] text-[#00b4d8] rounded hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
                 >
                   Know More &gt;
@@ -126,10 +210,6 @@ export default function Aus() {
           ))}
         </div>
       </main>
-
-      
     </div>
-  )
+  );
 }
-
-
