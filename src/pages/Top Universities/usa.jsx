@@ -1,26 +1,26 @@
 import React from "react";
 
 // Import images
-import anUniversity from "../../assets/top universities/usa/10001.png";
-import melbourneUni from "../../assets/top universities/usa/10002.png";
-import sydneyUni from "../../assets/top universities/usa/10003.png";
-import queenslandUni from "../../assets/top universities/usa/10004.png";
-import nswUni from "../../assets/top universities/usa/10005.png";
-import monashUni from "../../assets/top universities/usa/10006.png";
-import westernAusUni from "../../assets/top universities/usa/10007.png";
-import adelaideUni from "../../assets/top universities/usa/10008.png";
-import utsUni from "../../assets/top universities/usa/10009.png";
-import canberraUni from "../../assets/top universities/usa/10010.png";
-import macquarieUni from "../../assets/top universities/usa/10011.png";
-import qutUni from "../../assets/top universities/usa/10012.png";
-import rmitUni from "../../assets/top universities/usa/10013.png";
-import wollongongUni from "../../assets/top universities/usa/10014.png";
-import curtinUni from "../../assets/top universities/usa/10015.png";
-import deakinUni from "../../assets/top universities/usa/10016.png";
-import newcastleUni from "../../assets/top universities/usa/10017.png";
-import griffithUni from "../../assets/top universities/usa/10018.png";
-import laTrobeUni from "../../assets/top universities/usa/10019.png";
-import tasmaniaUni from "../../assets/top universities/usa/10020.png";
+import anUniversity from "../../assets/top universities/USA/10001.png";
+import melbourneUni from "../../assets/top universities/USA/10002.png";
+import sydneyUni from "../../assets/top universities/USA/10003.png";
+import queenslandUni from "../../assets/top universities/USA/10004.png";
+import nswUni from "../../assets/top universities/USA/10005.png";
+import monashUni from "../../assets/top universities/USA/10006.png";
+import westernAusUni from "../../assets/top universities/USA/10007.png";
+import adelaideUni from "../../assets/top universities/USA/10008.png";
+import utsUni from "../../assets/top universities/USA/10009.png";
+import canberraUni from "../../assets/top universities/USA/10010.png";
+import macquarieUni from "../../assets/top universities/USA/10011.png";
+import qutUni from "../../assets/top universities/USA/10012.png";
+import rmitUni from "../../assets/top universities/USA/10013.png";
+import wollongongUni from "../../assets/top universities/USA/10014.png";
+import curtinUni from "../../assets/top universities/USA/10015.png";
+import deakinUni from "../../assets/top universities/USA/10016.png";
+import newcastleUni from "../../assets/top universities/USA/10017.png";
+import griffithUni from "../../assets/top universities/USA/10018.png";
+import laTrobeUni from "../../assets/top universities/USA/10019.png";
+import tasmaniaUni from "../../assets/top universities/USA/10020.png";
 import backgroundimg from "../../assets/Ellipse-10.png"
 
 const universities = [
@@ -45,7 +45,7 @@ const universities = [
   { name: "Carnegie Mellon University ​​", image: laTrobeUni },
   { name: "University ofWashington, Seattle​", image: tasmaniaUni },
 ];
-export default function Usa() {
+export default function USA() {
   return (
     <div className="font-sans">
    
