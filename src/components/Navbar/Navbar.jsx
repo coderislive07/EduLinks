@@ -42,8 +42,24 @@ export default function Navbar() {
     <nav className="w-full bg-white shadow-md  fixed pt-[-4vh]  top-0 z-50 xl:h-[65px] xl:px-[4vw]">
       <div className="lg:max-w-[1500px]  mx-auto px-20 ">
         <div className="flex justify-between items-center  h-16">
+        <div className="lg:hidden  ">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-800 hover:text-[#26B9C1] ml-[-14vw] md:ml-[-7vw] focus:outline-none "
+            >
+              <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                />
+              </svg>
+            </button>
+          </div>
           {/* Logo */}
           <div className="flex-shrink-0 ">
+          
             <img  onClick={()=>{navigate('/')}}
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
               alt="Edulinks Logo"
@@ -199,29 +215,14 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden ">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-800 hover:text-[#26B9C1] focus:outline-none"
-            >
-              <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
-                />
-              </svg>
-            </button>
-          </div>
+       
         </div>
-
         {/* Mobile menu */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[800px]" : "max-h-0"}`}
         >
           <div className="flex flex-col space-y-7 pb-6">
-            <a onClick={() => navigate('/')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-[1200] text-lg">
+            <a onClick={() => navigate('/')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold  text-lg">
               Home
             </a>
             <a onClick={() => navigate('/about')} className="text-gray-800 hover:text-[#26B9C1] font-roboto font-extrabold text-lg">
@@ -245,7 +246,7 @@ export default function Navbar() {
               {activeDropdown === "study" && (
                 <div className="pl-4 space-y-2">
                   {dropdownLinks.study.map((link) => (
-                    <a key={link.title} href={link.href}   className="block px-4 py-2 text-3xl font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
+                    <a key={link.title} href={link.href}   className="block px-4 py-2 text-xl font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
                       {link.title}
                     </a>
                   ))}
@@ -270,7 +271,7 @@ export default function Navbar() {
               {activeDropdown === "services" && (
                 <div className="pl-4 space-y-1">
                   {dropdownLinks.services.map((link) => (
-                    <a key={link.title} href={link.href} className="block text-gray-600 hover:text-[#26B9C1] text-lg">
+                    <a key={link.title} href={link.href} className="block px-4 py-2 text-lg font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
                       {link.title}
                     </a>
                   ))}
@@ -295,7 +296,7 @@ export default function Navbar() {
               {activeDropdown === "universities" && (
                 <div className="pl-4 space-y-2">
                   {dropdownLinks.universities.map((link) => (
-                    <a key={link.title} href={link.href} className="block text-gray-600 hover:text-[#26B9C1] text-lg">
+                    <a key={link.title} href={link.href} className="block px-4 py-2 text-lg font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
                       {link.title}
                     </a>
                   ))}
@@ -320,7 +321,7 @@ export default function Navbar() {
               {activeDropdown === "careers" && (
                 <div className="pl-4 space-y-2">
                   {dropdownLinks.careers.map((link) => (
-                    <a key={link.title} href={link.href} className="block text-gray-600 hover:text-[#26B9C1] text-lg">
+                    <a key={link.title} href={link.href} className="block px-4 py-2 text-lg font-bold font-roboto text-gray-800 hover:bg-[#26B9C1] hover:text-white transition-colors">
                       {link.title}
                     </a>
                   ))}

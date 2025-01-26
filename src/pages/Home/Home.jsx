@@ -57,13 +57,13 @@ export default function Home() {
             <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-gray-800">
               Our Core{" "}
             </span>
-            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-[#26B9C1]">
+            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-[#37d7d9]">
               Strengths
             </span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3   gap-6">
             <div className="bg-[#E6FBFC] border border-[#37d7d9]  rounded-lg p-4 sm:p-5 md:px-6  text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#26B9C1] mb-2 sm:mb-3 md:mb-[5px]">
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
                 800+
               </div>
               <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[#E6FBFC] border border-[#37d7d9] rounded-lg p-4 sm:p-5 md:p-6 text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#26B9C1] mb-2 sm:mb-3 md:mb-[5px]">
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
                 10K+
               </div>
               <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[#E6FBFC] border border-[#37d7d9] rounded-lg p-4 sm:p-5 md:p-6 text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#26B9C1] mb-2 sm:mb-3 md:mb-[5px]">
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
                 20+
               </div>
               <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
@@ -94,7 +94,7 @@ export default function Home() {
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-white">
   <div className="text-center mb-8 sm:mb-10 md:mb-12">
     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-bold">
-      <p className="text-[#26B9C1] font-adramalech font-normal">
+      <p className="text-[#37d7d9] font-adramalech font-normal">
         Edulinks Services <span className="text-black">For Universities </span>{" "}
       </p>
     </h2>
@@ -213,7 +213,7 @@ export default function Home() {
               <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] text-black font-adramalech font-[400] block mb-2 sm:mb-3 md:mb-4">
                 Edulinks technology based platform
               </span>
-              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] xl:ml-[-5vw] text-[#26B9C1] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
+              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] xl:ml-[-5vw] text-[#37d7d9] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
                 makes it easier for you to study abroad
               </span>
             </h2>
