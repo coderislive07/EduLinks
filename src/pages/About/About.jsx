@@ -2,7 +2,7 @@ import React from "react"
 import herogirl from "../../assets/heroimagegirl.png"
 import people from "../../assets/people.png"
 import vision from '../../assets/vision.png'
-import blurr from '../../assets/blur.png'
+import blurr from '../../assets/Rectangle 667.png'
 import hook from '../../assets/bighook.png'
 import png from '../../assets/10001 (2).svg'
 import png1 from '../../assets/10002 (2).svg'
@@ -343,3 +343,36 @@ export default function About() {
         
     )
 }
+
+      {/* Text Section */}
+      <div className="max-w-[667px] space-y-6">
+        <h2 className="text-4xl font-bold text-[#37d7d9] bg-white w-fit px-4 font-adramalech text-center">
+          Our Vision
+        </h2>
+        <h3 className="text-3xl font-adramalech">
+          Hear what people are saying about their Global Education Experience.
+        </h3>
+        <p className="text-justify text-black font-roboto1 text-2xl font-light leading-9">
+          At Edulinks, we envision a world where every student has access to the best global education opportunities. 
+          We strive to empower students with the tools, resources, and support they need to achieve academic success 
+          and build a bright future.
+        </p>
+        <ul className="space-y-4 text-justify text-black font-roboto1 text-2xl font-light">
+          <li className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-black rounded-full mt-2"></div>
+            <span>We prioritize your success.</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-black rounded-full mt-2"></div>
+            <span>Innovative solutions for your journey.</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-black rounded-full mt-2"></div>
+            <span>Global expertise, local support.</span>
+          </li>
+        </ul>
+        <button className="text-[#26B9C1] font-bold font-roboto shadow-md shadow-gray-700 bg-white border border-transparent px-6 py-2 rounded-lg transition-all hover:shadow-lg">
+          Edulinks AI Assistant →
+        </button>
+      </div>
+
