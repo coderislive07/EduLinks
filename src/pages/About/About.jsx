@@ -13,119 +13,172 @@ export default function About() {
     return (
         <div className="overflow-x-hidden w-full">
             {/* Hero Section */}
-            <section className="relative min-h-[600px] bg-gradient-to-b from-[#37d7d9] to-[#37d7d9]/90 pt-20 pb-32 overflow-hidden">
-                {/* Large Circle Background */}
-                <div
-                    className="absolute top-[60%] -right-[20px] md:right-[12%] md:top-[50%] w-[300px] h-[300px] translate-y-[-50%] md:w-[420px] md:h-[420px] rounded-full"
-                    style={{
-                        backgroundColor: "rgba(255, 255, 255, 0.37)",
-                    }}
-                />
-                <div>
+         <section className="relative min-h-[600px] bg-gradient-to-b from-[#37d7d9] to-[#37d7d9]/90 pt-20 pb-32 overflow-hidden">
+    {/* Large Circle Background */}
+    <div
+        className="absolute top-[60%] -right-[20px] md:right-[12%] md:top-[50%] w-[300px] h-[300px] translate-y-[-50%] md:w-[420px] md:h-[420px] rounded-full"
+        style={{
+            backgroundColor: "rgba(255, 255, 255, 0.37)",
+        }}
+    />
+    <div>
+        <img
+            src={blurr}
+            alt="Student Success"
+            className="w-full h-[280px] hidden lg:block md:absolute md:mt-[550px] lg:mt-[450px] mx-auto z-40"
+        />
+    </div>
+
+    <div className="max-w-[1400px] mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-8 pt-10 items-center">
+            <div className="text-white space-y-8 lg:relative md:z-50 z-10 lg:ml-24 lg:-mt-[180px] max-w-[600px]">
+                <h1 className="text-3xl md:text-4xl lg:text-[3.3rem] leading-[2.8rem] sm:leading-[2.5rem] max-w-[500px] font-adramalech">
+                    We're Committed
+                    To Your Global
+                    Education Success
+                </h1>
+                <p className="text-lg md:text-[26px] font-semibold font-roboto max-w-[470px] leading-[40px]">
+                    Edulinks offers expert guidance and personalized support, ensuring your journey to study abroad is smooth
+                    and rewarding.
+                </p>
+            </div>
+            <div className="relative">
+                {/* Stats Box */}
+                <div className="hidden md:block md:absolute md:ml-[180px] lg:ml-[0px] lg:mt-[300px] w-full z-50 bg-white text-black rounded-lg p-6 shadow-lg max-w-[220px]">
+                    <div className="text-5xl font-roboto text-center text-[#37d7d9] font-bold">10K+</div>
+                    <div className="text-xl font-roboto font-bold text-center">Dreams Fulfilled</div>
+                </div>
+                <div className="relative left-[15%] top-[60%]">
                     <img
-                        src={blurr}
+                        src={herogirl}
                         alt="Student Success"
-                        className="w-full h-[400px] hidden md:block md:absolute md:mt-[550px] lg:mt-[450px] mx-auto z-40"
+                        className="w-[300px] md:w-full max-w-[440px] md:mr-[230px] lg:mr-[300px] lg:mt-[54px] md:mx-auto relative z-10"
                     />
                 </div>
 
-                <div className="max-w-[1400px] mx-auto px-4">
-                    <div className="grid lg:grid-cols-2 gap-8 pt-10 items-center">
-                        <div className="text-white space-y-8 lg:relative md:absolute md:z-50 z-10 lg:ml-24 lg:-mt-[180px] max-w-[600px]">
-                            <h1 className="text-3xl md:text-5xl lg:text-[3.3rem] leading-tight font-adramalech">
-                                We're Committed
-                                <br />
-                                To Your Global
-                                <br />
-                                Education Success
-                            </h1>
-                            <p className="text-lg md:text-[26px] font-semibold font-roboto max-w-[470px] leading-[40px]">
-                                Edulinks offers expert guidance and personalized support, ensuring your journey to study abroad is smooth
-                                and rewarding.
-                            </p>
-                        </div>
-                        <div className="relative">
-                            {/* Stats Box */}
-                            <div className="hidden md:block md:absolute md:ml-[180px] lg:ml-[0px] lg:mt-[300px] w-full z-50 bg-white text-black rounded-lg p-6 shadow-lg max-w-[220px]">
-                                <div className="text-5xl font-roboto text-center text-[#26B9C1] font-bold">10K+</div>
-                                <div className="text-xl font-roboto font-bold text-center">Dreams Fulfilled</div>
-                            </div>
-                            <div className="relative left-[15%] top-[60%]">
-                                <img
-                                    src={herogirl}
-                                    alt="Student Success"
-                                    className="w-[300px] md:w-full max-w-[440px] md:mr-[230px] lg:mr-[300px] lg:mt-[54px] md:mx-auto relative z-10"
-                                />
-                            </div>
-
-                            {/* Opportunities Box */}
-                            <div className="hidden md:block md:absolute left-[67%] top-[27%] right-0 z-50 w-full bg-white text-black rounded-xl shadow-lg max-h-[106px] max-w-[230px]">
-                                <p className="text-xl text-center font-roboto font-regular p-2">
-                                    Opportunities <br />across leading <br />
-                                    global universities.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                {/* Opportunities Box */}
+                <div className="hidden md:block md:absolute left-[67%] top-[27%] right-0 z-50 w-full bg-white text-black rounded-xl shadow-lg max-h-[106px] max-w-[230px]">
+                    <p className="text-xl text-center font-roboto font-regular p-2">
+                        Opportunities <br />across leading <br />
+                        global universities.
+                    </p>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
             {/* Features Section */}
 <div className="relative z-10  bg-white">
       
 
-  <section className="relative  mt-[-250px] z-50 bg-white py-16">
-  <div className="max-w-[1600px] mx-auto px-4">
-    <div className="flex justify-center space-x-8 md:space-x-12">
-      {/* Career Pathways Card */}
-      <div className="bg-white w-[350px] p-8 rounded-3xl  text-center transform transition-transform hover:-translate-y-1"
-      style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
-      >
-        <div className="w-20 h-20 mx-auto mb-6">
-          <img
-            src={png || "/placeholder.svg"}
-            alt="Career Pathways Icon"
-            className="w-full h-full object-contain"
-          />
-        </div>
-        <h3 className="text-2xl font-regular mb-4">Personalized Career Pathways:</h3>
-        <p className="text-black text-2xl font-roboto1 text-center">Tailored advice for your unique goals.</p>
-      </div>
+<section className="relative mt-[-100px] md:mt-[-250px] z-50 bg-white py-8 md:py-16">
+      <div className="max-w-full px-4 md:max-w-[1200px] lg:max-w-[1600px] mx-auto">
+        <div className="
+          flex 
+          flex-col 
+          md:flex-row 
+          justify-center 
+          items-center 
+          space-y-6 
+          md:space-y-0 
+          md:space-x-4 
+          lg:space-x-8
+        ">
+          {/* Career Pathways Card */}
+          <div className="
+            bg-white 
+            w-full 
+            max-w-[350px] 
+            p-6 
+            md:p-8 
+            rounded-3xl 
+            text-center 
+            transform 
+            transition-transform 
+            hover:-translate-y-1
+          "
+          style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
+          >
+            <div className="w-16 md:w-20 h-16 md:h-20 mx-auto mb-4 md:mb-6">
+              <img
+                src={png || "/placeholder.svg"}
+                alt="Career Pathways Icon"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <h3 className="text-xl md:text-2xl font-regular mb-4">
+              Personalized Career Pathways:
+            </h3>
+            <p className="text-black text-lg md:text-2xl font-roboto1 text-center">
+              Tailored advice for your unique goals.
+            </p>
+          </div>
 
-      {/* AI Chatbot Card */}
-      <div className="bg-white w-[350px] p-8 rounded-3xl  text-center transform transition-transform hover:-translate-y-1"
-      style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
-      >
-        <div className="w-20 h-20 mx-auto mb-6">
-          <img
-            src={png1 || "/placeholder.svg"}
-            alt="AI Chatbot Icon"
-            className="w-full h-full object-contain"
-          />
-        </div>
-        <h3 className="text-2xl font-regular mb-4">AI Chatbot<br/> Assistance:</h3>
-        <p className="text-black text-2xl font-roboto1 text-center">Instant support anytime, anywhere.</p>
-      </div>
+          {/* AI Chatbot Card */}
+          <div className="
+            bg-white 
+            w-full 
+            max-w-[350px] 
+            p-6 
+            md:p-8 
+            rounded-3xl 
+            text-center 
+            transform 
+            transition-transform 
+            hover:-translate-y-1
+          "
+          style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
+          >
+            <div className="w-16 md:w-20 h-16 md:h-20 mx-auto mb-4 md:mb-6">
+              <img
+                src={png1 || "/placeholder.svg"}
+                alt="AI Chatbot Icon"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <h3 className="text-xl md:text-2xl font-regular mb-4 text-center">
+              AI Chatbot<br/> Assistance:
+            </h3>
+            <p className="text-black text-lg md:text-2xl font-roboto1 text-center">
+              Instant support anytime, anywhere.
+            </p>
+          </div>
 
-      {/* Post-Landing Card */}
-      <div className="bg-white w-[350px] p-8 rounded-3xl  text-center transform transition-transform hover:-translate-y-1 " 
-      style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
-      >
-        <div className="w-20 h-20 mx-auto mb-6">
-          <img
-            src={png2 || "/placeholder.svg"}
-            alt="Post-Landing Icon"
-            className="w-full h-full object-contain"
-          />
+          {/* Post-Landing Card */}
+          <div className="
+            bg-white 
+            w-full 
+            max-w-[350px] 
+            p-6 
+            md:p-8 
+            rounded-3xl 
+            text-center 
+            transform 
+            transition-transform 
+            hover:-translate-y-1
+          "
+          style={{ boxShadow: '5px 0px 5px rgba(0, 0, 0, 0.3)' }}
+          >
+            <div className="w-16 md:w-20 h-16 md:h-20 mx-auto mb-4 md:mb-6">
+              <img
+                src={png2 || "/placeholder.svg"}
+                alt="Post-Landing Icon"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <h3 className="text-xl md:text-2xl font-regular mb-4 text-center">
+              Post-Landing<br/> Guidance:
+            </h3>
+            <p className="text-black text-lg md:text-2xl font-roboto1 text-center">
+              Seamless transition and settlement services.
+            </p>
+          </div>
         </div>
-        <h3 className="text-2xl font-regular mb-4">Post-Landing<br/> Guidance:</h3>
-        <p className="text-black text-2xl font-roboto1 text-center">Seamless transition and settlement services.</p>
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
 
 
@@ -134,7 +187,7 @@ export default function About() {
           
     <section className="py-8 md:py-16">
       <div className="max-w-[1180px] mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-semibold font-adramalech">Who We Are</h2>
+        <h2 className="text-2xl md:text-3xl font-regular font-adramalech">Who We Are</h2>
         <div className="grid lg:grid-cols-2 gap-8 md:gap-14 items-center mt-8">
           <div>
             <div className="w-full lg:w-[536px] space-y-6 md:space-y-8">
@@ -177,83 +230,198 @@ export default function About() {
             </div>
 
            
-  <section className="py-16 bg-[#37d7d970] relative">
-  {/* Floating Image */}
-  <div className="absolute left-8 z-10">
-    <img
-      src={hook || "/placeholder.svg"}
-      alt="Team Collaboration"
-      className="rounded-lg w-[120px] h-[55px] md:w-[188px] md:h-[87px] lg:w-[255px] lg:h-[120px]"
-    />
-  </div>
-
-  {/* Main Content */}
-  <div className="max-w-[1180px] mx-auto px-4 flex flex-col justify-center">
-    {/* Header */}
-    <div className="flex justify-center">
-      <h2 className="text-[32px] font-bold text-[#37d7d9] bg-white w-fit px-4 py-1 font-adramalech text-center mb-4">
-        Our Values
-      </h2>
-    </div>
-    <p className="text-center text-[24px] md:text-[32px] leading-[36px] md:leading-[48px] text-black mt-4 font-adramalech mb-12">
-      Empowering Your Global Education Journey
-    </p>
-
-    {/* Cards */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-      {/* Card 1 */}
-      <div className="bg-white p-6 w-[325px] h-auto  transition-transform hover:scale-105 hover:bg-[#37D7D9] hover:text-white shadow-md"
-      style={{ boxShadow: '4px 4px 4px 0 rgba(0, 0, 0, 0.25)' }}
-      >
-        <h3 className="font-roboto1 text-2xl font-extrabold mb-4 text-center">
-          STUDENT SUCCESS
-        </h3>
-        <p className="font-roboto1 text-[18px] md:text-[24px] leading-[28px] md:leading-[36px] text-center">
-          Your success is our priority. We believe in guiding you towards
-          achieving your educational and career goals with personalized support.
-        </p>
+            <section className="py-12 md:py-16 bg-[#37d7d970] relative">
+      {/* Floating Image */}
+      <div className="absolute left-4 md:left-8 top-4 md:top-8 z-10">
+        <img
+          src={hook || "/placeholder.svg"}
+          alt="Team Collaboration"
+          className="rounded-lg 
+            w-[80px] h-[40px] 
+            md:w-[188px] md:h-[87px] 
+            lg:w-[255px] lg:h-[120px]"
+        />
       </div>
 
-      {/* Card 2 */}
-      <div className="bg-white p-6 w-[325px] h-auto  transition-transform hover:scale-105 hover:bg-[#37D7D9] hover:text-white shadow-md"
-      style={{ boxShadow: '4px 4px 4px 0 rgba(0, 0, 0, 0.25)' }}
-      >
-        <h3 className="font-roboto1 text-2xl font-extrabold mb-4 text-center">
-          INNOVATIVE SOLUTIONS
-        </h3>
-        <p className="font-roboto1 text-[18px] md:text-[24px] leading-[28px] md:leading-[36px] text-center">
-          We harness cutting-edge technology and innovative tools to provide
-          tailored solutions that make your study abroad journey seamless.
-        </p>
-      </div>
+      {/* Main Content */}
+      <div className="
+        max-w-full 
+        px-4 
+        md:max-w-[90%] 
+        lg:max-w-[1180px] 
+        mx-auto 
+        flex 
+        flex-col 
+        justify-center
+      ">
+        {/* Header */}
+        <div className="flex justify-center">
+          <h2 className="
+            text-[24px] md:text-[32px] 
+            font-regular
+            text-[#37d7d9] 
+            bg-white 
+            w-fit 
+            px-4 
+            py-1 
+            font-adramalech 
+            text-center 
+            mb-4
+          ">
+            Our Values
+          </h2>
+        </div>
 
-      {/* Card 3 */}
-      <div className="bg-white p-6 w-[325px] h-auto transition-transform hover:scale-105 hover:bg-[#37D7D9] hover:text-white shadow-md">
-        <h3 className="font-roboto1 text-2xl font-extrabold mb-4 text-center">
-          GLOBAL EXPERTISE
-        </h3>
-        <p className="font-roboto1 text-[18px] md:text-[24px] leading-[28px] md:leading-[36px] text-center">
-          With deep knowledge of international education systems, we offer
-          expert guidance to help you navigate your path with confidence.
+        <p className="
+          text-center 
+          text-[20px] md:text-[32px] 
+          leading-[30px] md:leading-[48px] 
+          text-black 
+          mt-4 
+          font-adramalech 
+          mb-8 md:mb-12
+        ">
+          Empowering Your Global Education Journey
         </p>
+
+        {/* Cards */}
+        <div className="
+          grid 
+          grid-cols-1 
+          md:grid-cols-2 
+          lg:grid-cols-3 
+          gap-6 
+          justify-center 
+          items-stretch
+        ">
+          {/* Card 1 */}
+          <div className="
+            bg-white 
+            p-6 
+            w-full 
+            max-w-[325px] 
+            mx-auto 
+            transition-transform 
+            hover:scale-105 
+            hover:bg-[#37D7D9] 
+            hover:text-white 
+            shadow-md
+            flex 
+            flex-col
+          "
+          style={{ boxShadow: '4px 4px 4px 0 rgba(0, 0, 0, 0.25)' }}
+          >
+            <h3 className="
+              font-roboto 
+              text-2xl 
+              
+              font-black
+              mb-4 
+              text-center
+            ">
+              STUDENT SUCCESS
+            </h3>
+            <p className="
+              font-roboto1 
+              text-[16px] md:text-[24px] 
+              leading-[24px] md:leading-[36px] 
+              text-center
+              flex-grow
+            ">
+              Your success is our priority. We believe in guiding you towards achieving your educational and career goals with personalized support.
+            </p>
+          </div>
+
+          {/* Card 2 */}
+          <div className="
+            bg-white 
+            p-6 
+            w-full 
+            max-w-[325px] 
+            mx-auto 
+            transition-transform 
+            hover:scale-105 
+            hover:bg-[#37D7D9] 
+            hover:text-white 
+            shadow-md
+            flex 
+            flex-col
+          "
+          style={{ boxShadow: '4px 4px 4px 0 rgba(0, 0, 0, 0.25)' }}
+          >
+            <h3 className="
+              font-roboto 
+              text-2xl 
+              font-black 
+              mb-4 
+              text-center
+            ">
+              INNOVATIVE SOLUTIONS
+            </h3>
+            <p className="
+              font-roboto1 
+              text-[16px] md:text-[24px] 
+              leading-[24px] md:leading-[36px] 
+              text-center
+              flex-grow
+            ">
+              We harness cutting-edge technology and innovative tools to provide tailored solutions that make your study abroad journey seamless.
+            </p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="
+            bg-white 
+            p-6 
+            w-full 
+            max-w-[325px] 
+            mx-auto 
+            transition-transform 
+            hover:scale-105 
+            hover:bg-[#37D7D9] 
+            hover:text-white 
+            shadow-md
+            flex 
+            flex-col
+          "
+          style={{ boxShadow: '4px 4px 4px 0 rgba(0, 0, 0, 0.25)' }}
+          >
+            <h3 className="
+              font-roboto 
+              text-2xl 
+              font-black
+              mb-4 
+              text-center
+            ">
+              GLOBAL EXPERTISE
+            </h3>
+            <p className="
+              font-roboto1 
+              text-[16px] md:text-[24px] 
+              leading-[24px] md:leading-[36px] 
+              text-center
+              flex-grow
+            ">
+              With deep knowledge of international education systems, we offer expert guidance to help you navigate your path with confidence.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
 
 <section className="py-16 bg-white">
   <div className="max-w-[1100px] mx-auto px-4">
     {/* Section Header */}
-    <div className="bg-[#37D7D9] inline-block px-3.5 py-1 mb-8">
+    <div className="bg-[#37D7D9] md:ml-[50px] lg:ml-0 lg:ml-0 inline-block px-3.5 py-1 mb-8">
       <h2 className="text-[32px] font-medium text-white font-adramalech">Our Mission</h2>
     </div>
     
     {/* Content Grid */}
     <div className="grid lg:grid-cols-2 gap-12">
       {/* Left Content */}
-      <div>
+      <div className="   md:ml-[50px] lg:ml-0">
         <h3 className="text-black text-3xl font-normal leading-12 font-adramalech">
           Hear what people are saying about their Study Abroad Journey.
         </h3>
@@ -262,13 +430,13 @@ export default function About() {
           personalized guidance, from selecting the right course and university to securing a visa and settling in
           a new country. We tailor our services to meet each student's unique needs.
         </p>
-        <button className="mt-4 text-[#26B9C1] font-bold font-roboto shadow-md shadow-gray-700 bg-white border border-transparent px-6 py-2 rounded-lg transition-all hover:shadow-lg">
-          Edulinks AI Assistant →
+        <button className="mt-4 text-[#37d7d9] text-[24px] font-bold font-roboto shadow-inner shadow-gray-400 bg-white border border-transparent px-6 py-2 rounded-lg transition-all hover:shadow-lg">
+          Edulinks AI Assistant → 
         </button>
       </div>
       
       {/* Right Content */}
-      <div className="lg:mt-0 mt-8">
+      <div className="lg:-mt-[50px] mt-8 md:ml-[50px] lg:ml-0">
         <h3 className="text-black text-3xl font-normal leading-12 font-adramalech">
           How we can transform your Study Abroad Experience.
         </h3>
@@ -306,7 +474,7 @@ export default function About() {
 
       {/* Text Section */}
       <div className="max-w-[667px] space-y-6">
-        <h2 className="text-4xl font-bold text-[#37d7d9] bg-white w-fit px-4 font-adramalech text-center">
+        <h2 className="text-4xl p-2 font-regular text-[#37d7d9] bg-white w-fit px-4 font-adramalech text-center">
           Our Vision
         </h2>
         <h3 className="text-3xl font-adramalech">
@@ -331,7 +499,7 @@ export default function About() {
             <span>Global expertise, local support.</span>
           </li>
         </ul>
-        <button className="text-[#26B9C1] font-bold font-roboto shadow-md shadow-gray-700 bg-white border border-transparent px-6 py-2 rounded-lg transition-all hover:shadow-lg">
+        <button className="mt-4 text-[#37d7d9] text-[24px] font-bold font-roboto shadow-inner shadow-gray-400 bg-white border border-transparent px-6 py-2 rounded-lg transition-all hover:shadow-lg">
           Edulinks AI Assistant →
         </button>
       </div>
