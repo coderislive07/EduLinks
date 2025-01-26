@@ -6,7 +6,6 @@ import Home from "./pages/Home/Home";
 import Australia from "./pages/StudyDestinations/Australia";
 import Services from "./pages/Services/Services";
 import About from "./pages/About/About";
-import Contacts from "../src/components/contact/Contact";
 import Countries from "./pages/Countries/Countries";
 // debugged
 import Careersaus from "../src/pages/Careers1/Australia/src/CareersAus";
