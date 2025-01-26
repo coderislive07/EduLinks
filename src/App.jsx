@@ -22,6 +22,19 @@ import Nz from "../src/pages/Top Universities/nz";
 import Uk from "../src/pages/Top Universities/uk";
 import Usa from "../src/pages/Top Universities/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
+import Careersaus from "../src/pages/Careers1/Australia/src/CareersAus";
+import Careerscanada from "../src/pages/Careers1/Canada/src/CareersCanada";
+import Careersgermany from "../src/pages/Careers1/Germany/src/CareersGermany";
+import Careersnewzealand from "../src/pages/Careers1/New Zealand/src/CareersNewZealand/CareersNewZealand";
+import Careersuk from "../src/pages/Careers1/UK/src/CareersUk";
+import Careersusa from "../src/pages/Careers1/USA/src/CareersUsa";
+import Aus from "../src/pages/Top Universities/Aus/aus";
+import Canada from "../src/pages/Top Universities/canada";
+import Germany from "../src/pages/Top Universities/germany";
+import Nz from "../src/pages/Top Universities/nz";
+import Uk from "../src/pages/Top Universities/uk";
+import Usa from "../src/pages/Top Universities/usa";
+import CarrEngi from "../src/pages/InsideCareers/Page";
 function App() {
   return (
     <Router>
@@ -49,6 +62,21 @@ function App() {
         <Route path="/nz-topuniversity" element={<Nz />} />
         <Route path="/uk-topuniversity" element={<Uk />} />
         <Route path="/usa-topuniversity" element={<Usa />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/studydestination" element={<Countries />} />
+        <Route path="/australia-career" element={<Careersaus />} />
+        <Route path="/canada-career" element={<Careerscanada />} />
+        <Route path="/germany-career" element={<Careersgermany />} />
+        <Route path="/newzealand-career" element={<Careersnewzealand />} />
+        <Route path="/uk-career" element={<Careersuk />} />
+        <Route path="/usa-career" element={<Careersusa />} />
+        <Route path="/australia-topuniversity" element={<Aus />} />
+        <Route path="/canada-topuniversity" element={<Canada />} />
+        <Route path="/germany-topuniversity" element={<Germany />} />
+        <Route path="/nz-topuniversity" element={<Nz />} />
+        <Route path="/uk-topuniversity" element={<Uk />} />
+        <Route path="/usa-topuniversity" element={<Usa />} />
+        <Route path="/carr-engineering" element={<CarrEngi />} />
       </Routes>
       <Footer />
     </Router>
