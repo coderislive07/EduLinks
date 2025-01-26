@@ -1,24 +1,24 @@
 import React from "react";
 
 // Import images
-import anUniversity from "../../assets/top universities/uk/10001.png";
-import melbourneUni from "../../assets/top universities/uk/10002.png";
-import sydneyUni from "../../assets/top universities/uk/10003.png";
-import queenslandUni from "../../assets/top universities/uk/10004.png";
-import nswUni from "../../assets/top universities/uk/10005.png";
-import monashUni from "../../assets/top universities/uk/10006.png";
-import westernAusUni from "../../assets/top universities/uk/10007.png";
-import adelaideUni from "../../assets/top universities/uk/10008.png";
-import utsUni from "../../assets/top universities/uk/10009.png";
-import canberraUni from "../../assets/top universities/uk/10010.png";
-import macquarieUni from "../../assets/top universities/uk/10011.png";
-import qutUni from "../../assets/top universities/uk/10012.png";
-import rmitUni from "../../assets/top universities/uk/10013.png";
-import wollongongUni from "../../assets/top universities/uk/10014.png";
-import curtinUni from "../../assets/top universities/uk/10015.png";
-import deakinUni from "../../assets/top universities/uk/10016.png";
-import newcastleUni from "../../assets/top universities/uk/10017.png";
-import griffithUni from "../../assets/top universities/uk/10018.png";
+import anUniversity from "../../assets/top universities/UK/10001.png";
+import melbourneUni from "../../assets/top universities/UK/10002.png";
+import sydneyUni from "../../assets/top universities/UK/10003.png";
+import queenslandUni from "../../assets/top universities/UK/10004.png";
+import nswUni from "../../assets/top universities/UK/10005.png";
+import monashUni from "../../assets/top universities/UK/10006.png";
+import westernAusUni from "../../assets/top universities/UK/10007.png";
+import adelaideUni from "../../assets/top universities/UK/10008.png";
+import utsUni from "../../assets/top universities/UK/10009.png";
+import canberraUni from "../../assets/top universities/UK/10010.png";
+import macquarieUni from "../../assets/top universities/UK/10011.png";
+import qutUni from "../../assets/top universities/UK/10012.png";
+import rmitUni from "../../assets/top universities/UK/10013.png";
+import wollongongUni from "../../assets/top universities/UK/10014.png";
+import curtinUni from "../../assets/top universities/UK/10015.png";
+import deakinUni from "../../assets/top universities/UK/10016.png";
+import newcastleUni from "../../assets/top universities/UK/10017.png";
+import griffithUni from "../../assets/top universities/UK/10018.png";
 
 
 import backgroundimg from "../../assets/Ellipse-10.png"
