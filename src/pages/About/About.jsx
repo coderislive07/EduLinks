@@ -31,10 +31,9 @@ export default function About() {
 
     <div className="max-w-[1400px] mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 pt-10 items-center">
-            <div className="text-white space-y-8 lg:relative md:z-100 z-10 lg:ml-24 lg:-mt-[180px] max-w-[600px]">
-                <h1 className="text-3xl md:text-4xl lg:text-[3.3rem] leading-[2.8rem] sm:leading-[3.5rem] xl:leading-none max-w-[500px] font-adramalech">
-                    We're Committed
-                    To Your Global
+            <div className="text-white space-y-8 lg:relative md:z-50 z-10 lg:ml-24 lg:-mt-[180px] h-[400px] max-w-[800px]">
+                <h1 className="text-3xl md:text-4xl lg:text-[3.3rem] leading-tight md:leading-[1.2] lg:leading-[1.3] max-w-[550px] font-adramalech">
+                    We're Committed To Your Global
                     Education Success
                 </h1>
                 <p className="text-lg md:text-[26px] font-semibold font-roboto max-w-[470px] leading-[40px]">
