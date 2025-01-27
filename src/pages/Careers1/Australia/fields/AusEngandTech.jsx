@@ -3,6 +3,7 @@ import img1 from "../../../../assets/Group-522.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
+
 const courses = [
   {
     title: "Aerospace Engineering",
@@ -37,23 +38,23 @@ const courses = [
 const universities = [
   {
     name: "University of Melbourne",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
   },
   {
     name: "University of Sydney",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
   },
   {
     name: "Australian National University (ANU)",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
     name: "University of New South Wales (UNSW)",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
   },
   {
     name: "University of Queensland",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
   },
 ]
 
@@ -78,6 +79,38 @@ const faqs = [
     answer:
       "Yes, many Australian universities offer scholarships for international engineering students based on academic merit and other criteria.",
   },
+  {
+    question: "What are the emerging technologies in Australia's engineering sector?",
+    answer:
+      "Emerging technologies include artificial intelligence, renewable energy systems, and advanced manufacturing technologies",
+  },
+  {
+    question: "Can Australian engineers work abroad?",
+    answer:
+      "Yes, Australian engineering qualifications are highly respected internationally, offering opportunities for global employment.",
+  },
+  {
+    question: "What is the job outlook for engineers in Australia?",
+    answer:
+      "The job outlook is strong, with demand expected to grow in sectors such as renewable energy, software development, and biomedical engineering.",
+  },
+  {
+    question: "How does specialization affect my career in Australian engineering?",
+    answer:
+      "Specializing in fields like AI, automation, or sustainable technologies can lead to higher salaries and increased job opportunities",
+  },
+  {
+    question: "Are engineering jobs flexible in Australia?",
+    answer:
+      "Many engineering roles offer flexible working arrangements, including project-based work, remote opportunities, and part-time options.",
+  },
+  {
+    question: "What are the challenges faced by engineers in Australia today?",
+    answer:
+      "Key challenges include adapting to rapid technology changes, addressing sustainability, and managing large-scale infrastructures.",
+  },
+
+  
 ]
 
 export default function AusEngAndTech() {
@@ -202,7 +235,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
     {/* Section 1 */}
     <div className="text-center">
-      <h1 className="text-[32px] font-bold text-[#232323] mb-6">
+      <h1 className="text-[32px] font-regular text-[#232323] mb-6">
         Why Choose a Career in Engineering & Technology?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
@@ -216,7 +249,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
 
     {/* Section 2 */}
     <div className="text-center">
-      <h1 className="text-[32px] font-bold text-[#232323] mb-6">
+      <h1 className="text-[32px] font-regular text-[#232323] mb-6">
         Engineering & Technology Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
@@ -229,7 +262,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
 
     {/* Section 3 */}
     <div className="text-center">
-      <h1 className="text-[32px] font-bold text-[#232323] mb-6">
+      <h1 className="text-[32px] font-regular text-[#232323] mb-6">
         Future Aspects of Engineering & Technology
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
@@ -243,7 +276,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
 
     {/* Section 4 */}
     <div className="text-center">
-      <h1 className="text-[32px] font-bold text-[#232323] mb-6">
+      <h1 className="text-[32px] font-regular text-[#232323] mb-6">
         Top Engineering & Technology Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
@@ -259,51 +292,98 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
 
 
       {/* Universities Section */}
-      <div className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-4">Top Picks for Future Engineers:
-          Australia’s Elite Tech Universities</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {universities.map((university, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src={university.image || "/placeholder.svg"}
-                  alt={university.name}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-xl font-semibold text-center">{university.name}</h3>
+      <div className="py-16 bg-[#37D7D91A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
+            Top Picks for Future Engineers:<br />
+            Australia's Elite Tech Universities
+          </h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
+              {universities.slice(0, 3).map((university, index) => (
+                <div key={index} className="w-full sm:w-[369.537px] bg-white shadow-lg overflow-hidden border-b-4 border-[#37D7D9]">
+                  <div className="h-[365px] overflow-hidden">
+                    <img
+                      src={university.image}
+                      alt={university.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6 flex flex-col justify-between" style={{ height: '152px' }}>
+                    <h3 className="text-[24px] font-normal font-roboto text-center">
+                      {university.name}
+                    </h3>
+                    <div className="text-center">
+                      <button className="px-6 py-2 text-[12px] font-roboto1 font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                        Explore &gt;
+                      </button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            <div className="flex flex-wrap justify-center gap-8 w-full">
+              {universities.slice(3).map((university, index) => (
+                <div key={index} className="w-full sm:w-[369.537px] bg-white shadow-lg overflow-hidden border-b-4 border-[#37D7D9]">
+                  <div className="h-[365px] overflow-hidden">
+                    <img
+                      src={university.image}
+                      alt={university.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6 flex flex-col justify-between" style={{ height: '152px' }}>
+                    <h3 className="text-[24px] font-normal font-roboto text-center">
+                      {university.name}
+                    </h3>
+                    <div className="text-center">
+                      <button className="px-6 py-2 text-[12px] font-bold font-roboto1 bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                        Explore &gt;
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h1 className="text-[32px] font-regular text-[#232323] mb-6">
+            Average Salary in Engineering & Technology
+          </h1>
+          <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
+            Engineers in Australia enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
+          </p>
         </div>
       </div>
 
       {/* FAQs Section */}
-      <div className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-8">Top 10 FAQs for Engineering & Technology</h2>
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg shadow-sm">
-                <button
-                  className="w-full px-6 py-4 text-left focus:outline-none flex justify-between items-center"
-                  onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
-                >
-                  <span className="font-medium text-gray-900">{faq.question}</span>
-                  <span className="ml-6 flex-shrink-0">{openFaqIndex === index ? "−" : "+"}</span>
-                </button>
-                {openFaqIndex === index && (
-                  <div className="px-6 pb-4">
-                    <p className="text-gray-600">{faq.answer}</p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
+  <div className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Engineering & Technology</h2>
+    <div className="space-y-4">
+      {faqs.map((faq, index) => (
+        <div key={index} className="bg-[#37d7d9] shadow-sm">
+          <button
+            className="w-full px-6 py-4 text-left focus:outline-none flex justify-between items-center"
+            onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
+          >
+            <span className="font-black text-[20px] font-roboto text-white">{faq.question}</span>
+            <span className="ml-6 flex-shrink-0">{openFaqIndex === index ? "−" : "+"}</span>
+          </button>
+          {openFaqIndex === index && (
+            <div className="px-6 bg-[#ebfbfc]  ">
+              <p className="text-black text-[20px] font-roboto1 font-regular">{faq.answer}</p>
+            </div>
+          )}
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
       {/* Footer */}
       
