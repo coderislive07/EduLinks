@@ -1,35 +1,35 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-6.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
-
+    {
+      title: "Astrophysics",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cPn0jSQU10Cwqhk50UBVBQ5yOUtqJf.png",
+      description:
+        "Astrophysics in Australia is a rapidly growing field, with world-class research facilities such as the Parkes Observatory and the Square Kilometre Array (SKA) project. Australian astrophysicists work on projects that explore black holes, dark matter, and the origins of the universe, contributing to global space exploration efforts.",
+    },
+    {
+      title: "Marine Biology",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rxDXSiU6oWwiLvciP4cuU73VnhvDra.png",
+      description:
+        "Marine Biology in Australia focuses on the diverse marine ecosystems of the Great Barrier Reef and surrounding oceans. Australian marine biologists work on conservation projects that protect endangered species, manage fisheries, and combat the effects of climate change on coral reefs. Institutions like the Australian Institute of Marine Science (AIMS) lead efforts in marine research and conservation.",
+    },
+    {
+      title: "Geochemistry",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8mMKluckcnOMzRHyyxlPclIaPkwzxe.png",
+      description:
+        "Geochemistry in Australia involves studying the country's unique geological features, including mineral deposits and volcanic landscapes. Geochemists work on projects related to mining, environmental conservation, and sustainable resource management. Australia's rich mineral resources make it a prime location for geochemical research and innovation.",
+    },
+    {
+      title: "Quantum Computing",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WnreL8NKv7fvI6YMCpWlHO1uYB5KPA.png",
+      description:
+        "Quantum Computing in Australia is advancing rapidly, with institutions like the University of Sydney and the University of New South Wales (UNSW) leading research in quantum technologies. Australia is positioning itself as a global leader in quantum computing, with applications in cryptography, artificial intelligence, and complex problem-solving.",
+    },
+  ];
 const universities = [
   {
     name: "University of Melbourne",
@@ -44,8 +44,8 @@ const universities = [
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
-    name: "Monash University",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    name: "University of New South Wales (UNSW)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lwoBAANkrwQY88i5uAjqPnGpsJLzKe.png",
   },
   {
     name: "University of Queensland",
@@ -55,54 +55,54 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Natural Sciences?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "It’s a multidisciplinary field that explores the physical and biological world, including space, oceans, and Earth’s processes.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in Natural Sciences in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A bachelor’s or master’s degree is required, with PhDs needed for advanced research roles.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for natural scientists in Australia?",
     answer:
       "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for natural science students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, many universities and research institutions offer internships and placements for hands-on experience.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging technologies in Australia’s natural sciences sector?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "Key technologies include quantum computing, AI in marine biology, and sustainable mining solutions.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian natural scientists work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, Australian natural science qualifications are highly regarded globally, opening up international opportunities.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for natural scientists in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is positive, particularly in environmental science, geochemistry, and quantum computing.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian natural sciences?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in high-demand areas like environmental science or sustainable energy can lead to better job prospects and higher salaries.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are natural science jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Many roles offer flexibility, including remote work and project-based employment.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by natural scientists in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include addressing climate change, managing natural resources, and advancing sustainable technologies.",
   },
 
   
@@ -167,7 +167,7 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Natural Sciences</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
@@ -185,7 +185,8 @@ export default function Healthsc() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            
+            Natural Sciences in Australia offer professionals the chance to explore the continent’s unique ecosystems, rich biodiversity, and cutting-edge research facilities. From astrophysics to marine biology, geochemistry, and quantum computing, Australian scientists are at the forefront of global efforts to understand and protect the natural world. With a strong focus on environmental conservation and technological innovation, Australia provides a dynamic environment for careers in natural sciences.
             </h1>
           </div>
 
@@ -231,10 +232,10 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Natural Sciences?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in Natural Sciences in Australia offers the chance to work on groundbreaking research in one of the world’s most diverse natural environments. From exploring the universe to protecting coral reefs, Australian scientists contribute to global scientific advancements and environmental conservation.
       </p>
     </div>
 
@@ -251,20 +252,20 @@ export default function Healthsc() {
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Natural Sciences
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      Australia’s future in Natural Sciences is focused on environmental conservation, sustainable resource management, and scientific innovation. Astrophysicists will contribute to global space exploration efforts, while marine biologists work to protect fragile marine ecosystems. Geochemists will continue to explore sustainable mining practices, and quantum computing researchers will push the boundaries of computational technology.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Natural Sciences Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      Top employers in Australia’s Natural Sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), the Australian Institute of Marine Science (AIMS), and leading universities. Tech companies and government agencies focused on environmental conservation also offer extensive opportunities for natural science professionals.
       </p>
     </div>
   </div>
@@ -331,10 +332,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Natural Sciences
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Natural science professionals in Australia earn competitive salaries. Astrophysicists typically earn around AUD $90,000 annually, while marine biologists make approximately AUD $75,000. Geochemists can expect salaries of about AUD $85,000, and quantum computing researchers often earn upwards of AUD $100,000, depending on their experience and specialization.
           </p>
         </div>
       </div>

@@ -1,34 +1,29 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-7.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
+    {
+      title: "Cybersecurity Specialist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ud5aSMMvpbZDojSQBCbsXsyGV0Umlb.png",
+      description:
+        "Cybersecurity is a top priority in Australia, with specialists tasked with protecting the country's digital infrastructure from an increasing number of cyber threats. Cybersecurity professionals work across sectors like government, finance, and healthcare to safeguard data and systems. As cybercrime continues to rise, cybersecurity specialists are in high demand in Australia.",
+    },
+    {
+      title: "Machine Learning Engineer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YtlZ6jQvEjrdrQRjplNN6ei1XEnkGh.png",
+      description:
+        "Machine Learning Engineers in Australia are at the forefront of AI innovations, building algorithms that enable machines to learn from data. These engineers work across sectors such as healthcare, finance, and agriculture, contributing to automation and decision-making processes. Australia's growing AI research ecosystem provides numerous opportunities for machine learning professionals.",
+    },
+    {
+      title: "Blockchain Developer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rZJHSSEcVm3ZVGFj31ImgoAvrK8DCG.png",
+      description:
+        "Blockchain Developers in Australia are transforming industries by implementing decentralized systems that enhance transparency and security. From finance to agriculture, blockchain technology is gaining traction, and developers are playing a key role in its adoption. With Australia's focus on digital transformation, blockchain developers are in high demand.",
+    }
+  ];
 
 const universities = [
   {
@@ -44,7 +39,7 @@ const universities = [
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
-    name: "Monash University",
+    name: "University of New South Wales (UNSW)",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
   },
   {
@@ -55,61 +50,62 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Information Technology?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "IT involves the use of computers, software, and networks to store, retrieve, and secure data.",
   },
   {
     question: "What degrees do I need to work in Health Sciences in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A degree in IT, computer science, or a related field is required, with certifications valuable in cybersecurity and AI.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for IT professionals in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Technical expertise, adaptability to new technologies, and problem-solving skills are essential.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for IT students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, many Australian universities and companies offer internships, providing practical experience in various IT fields.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging technologies in Australia’s IT sector?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "AI, blockchain, and cybersecurity are among the most prominent emerging technologies.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian IT professionals work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, Australian IT qualifications are globally respected, enabling professionals to pursue international careers.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for IT professionals in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is highly positive, especially in cybersecurity, AI, and blockchain development.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian IT?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in high-demand areas like machine learning or blockchain can lead to better opportunities and higher salaries.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are IT jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Many IT roles offer flexible working arrangements, including remote work and freelance opportunities.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by IT professionals in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include keeping up with cybersecurity threats and staying current with fast-evolving technology",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function AusEngAndTech() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,7 +163,7 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Information Technology</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
@@ -185,7 +181,7 @@ export default function Healthsc() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            Australia’s Information Technology sector is rapidly expanding, playing a critical role in economic growth and innovation. IT professionals in Australia work on cutting-edge technologies in cybersecurity, AI, and blockchain, contributing to advancements in industries such as finance, healthcare, and agriculture. With Sydney and Melbourne emerging as key tech hubs, Australia offers a dynamic environment for IT professionals.
             </h1>
           </div>
 
@@ -193,7 +189,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +227,40 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Information Technology?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      Choosing a career in IT in Australia provides the opportunity to work in a thriving industry that drives innovation and digital transformation. IT professionals play a crucial role in addressing global challenges, from cybersecurity to AI-driven automation, making it a dynamic and impactful career path.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+      Information Technology Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The job outlook for IT professionals in Australia is highly favorable, particularly in cybersecurity, AI, and blockchain. As industries continue to adopt digital solutions, the demand for skilled IT professionals is expected to rise significantly.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Information Technology
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      The future of IT in Australia will be centered around AI, cybersecurity, and blockchain technology. Machine learning engineers will drive AI advancements, cybersecurity specialists will protect Australia’s digital infrastructure, and blockchain developers will expand decentralized systems across industries.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top  Information Technology Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      Leading employers in Australia’s IT sector include Atlassian, Telstra, NAB, and government agencies. Sydney and Melbourne are key hubs for tech innovation, with numerous startups and multinational companies seeking IT professionals.
       </p>
     </div>
   </div>
@@ -331,10 +327,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+            Average Salary in Engineering & Technology
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+            Engineers in Australia enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
           </p>
         </div>
       </div>
