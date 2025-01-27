@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function HeroSection({ Image }) {
+export default function HeroSection({ Image , Text1 , Text2 , Text3 }) {
   const stats = [
     {
       number: "800+",
@@ -20,21 +20,21 @@ export default function HeroSection({ Image }) {
   ]
 
   return (
-    <div className="container mx-auto max-w-7xl px-4 py-12 min-h-screen flex items-center justify-center">
+    <div className="container mx-auto max-w-7xl px-4 pt-24 pb-12 min-h-screen flex items-center justify-center ">
       <div className="grid lg:grid-cols-2 gap-8 items-center">
         {/* Left Column */}
         <div className="space-y-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl  leading-tight">
-            <span className="block">Study</span>
-            <span className="inline-block border-2 border-[#00E5FF] px-2">Abroad</span>
-            <span className="block">Is Easy With Us</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl  leading-tight ">
+            <span className="block">{Text1}</span>
+            <span className="inline-block border-4 border-[#00E5FF] px-2 ">{Text2}</span>
+            <span className="block">{Text3}</span>
           </h1>
 
           <div className="grid sm:grid-cols-3 gap-4">
             {stats.map((stat, index) => (
-              <div key={index} className="bg-[#E5FFFF] p-4 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <div className="text-2xl md:text-3xl font-bold text-[#00E5FF]">{stat.number}</div>
-                <div className="text-sm md:text-base">
+              <div key={index} className="bg-[#E9FFFF] border border-[#37D7D9] p-4 rounded-lg text-center hover:shadow-lg transition-shadow font-roboto">
+                <div className="text-[32px] md:text-3xl font-bold text-[#00E5FF] ">{stat.number}</div>
+                <div className="text-[20px] md:text-base">
                   {stat.text}
                   <br />
                   {stat.subtext}
