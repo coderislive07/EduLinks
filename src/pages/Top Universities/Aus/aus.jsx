@@ -86,7 +86,7 @@ const universities = [
   {
     name: "RMIT University",
     image: rmitUni,
-    link: "/australia-topuniversity/rmit-university",
+    link: "/australia-topuniversity/rmit",
   },
   {
     name: "University of Wollongong",

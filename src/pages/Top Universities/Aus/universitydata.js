@@ -194,8 +194,8 @@ const data = [{
         "Some programs may have additional requirements, such as portfolios or interviews.",
       ],
     },
-  }, 
-},
+  },
+}
 ]
 
 export default data;
