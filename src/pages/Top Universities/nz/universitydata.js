@@ -1,8 +1,24 @@
+import auckland from "../../../assets/top universities/NZ/10001.png";
+import otago from "../../../assets/top universities/NZ/10002.png";
+import wellingtom from "../../../assets/top universities/NZ/10003.png";
+import canterbury from "../../../assets/top universities/NZ/10004.png";
+import massey from "../../../assets/top universities/NZ/10005.png";
+import waikato from "../../../assets/top universities/NZ/10006.png";
+import lincoln from "../../../assets/top universities/NZ/10007.png";
+import AUT from "../../../assets/top universities/NZ/10008.png";
+
+import architecture from "../../../assets/architecture.png";
+import arts from "../../../assets/arts.png";
+import physical from "../../../assets/physical.png";
+import science from "../../../assets/science.png";
+import commerce from "../../../assets/commerce.png";
+import management from "../../../assets/management.png";
+
 const data = {
   "university-of-auckland": {
     country: "New Zealand",
     university: "University of Auckland",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-49-2.png",
+    heroImg: auckland,
     overview:
       "Founded in 1883, the University of Auckland is New Zealand’s largest and most prestigious university, located in Auckland. Recognized internationally for its research excellence, the university offers a wide range of undergraduate and graduate programs across various disciplines. The University of Auckland fosters a vibrant, innovative environment, attracting students, faculty, and researchers committed to making a difference in their communities and beyond.",
     fees: {
@@ -12,32 +28,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 39,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 41,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -99,7 +115,7 @@ const data = {
   "university-of-otago": {
     country: "New Zealand",
     university: "University of Otago",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-50-2.png",
+    heroImg: otago,
     overview:
       "Founded in 1869, the University of Otago is New Zealand’s oldest university, located in Dunedin. Known for its vibrant campus life and strong research output, Otago offers a wide array of undergraduate and postgraduate programs. The university emphasizes a holistic approach to education, promoting critical thinking and creativity among its diverse student body.",
     fees: {
@@ -109,32 +125,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -196,7 +212,7 @@ const data = {
   "victoria-university-of-wellington": {
     country: "New Zealand",
     university: "Victoria University of Wellington",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-51-2.png",
+    heroImg: wellingtom,
     overview:
       "Founded in 1897, Victoria University of Wellington is a leading research university located in the capital city of New Zealand. Known for its strengths in the arts, humanities, and social sciences, the university promotes innovation and critical thinking among its diverse student population.",
     fees: {
@@ -206,32 +222,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -293,7 +309,7 @@ const data = {
   "university-of-canterbury": {
     country: "New Zealand",
     university: "University of Canterbury",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-12.jpg",
+    heroImg: canterbury,
     overview:
       "Founded in 1873, the University of Canterbury is a prominent research university located in Christchurch, New Zealand. Renowned for its strengths in engineering, science, and the humanities, the university offers a supportive learning environment for students to thrive academically and personally.",
     fees: {
@@ -303,32 +319,32 @@ const data = {
         {
           branch: "Economics",
           fees: "NZD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Politics",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Sociology",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Law",
           fees: "NZD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Business Administration",
           fees: "NZD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -390,7 +406,7 @@ const data = {
   "massey-university": {
     country: "New Zealand",
     university: "Massey University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-44-1.png",
+    heroImg: massey,
     overview:
       "Founded in 1927, Massey University is a prominent research institution located in Palmerston North, New Zealand. Recognized for its diverse academic offerings and commitment to innovation, Massey serves a large student population, emphasizing practical learning and research.",
     fees: {
@@ -400,32 +416,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 26,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -487,7 +503,7 @@ const data = {
   "university-of-waikato": {
     country: "New Zealand",
     university: "University of Waikato",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-14.jpg",
+    heroImg: waikato,
     overview:
       "Founded in 1964, the University of Waikato is a modern research university located in Hamilton, New Zealand. Known for its innovative approach to teaching and research, Waikato offers a diverse range of undergraduate and postgraduate programs that prepare students for future challenges.",
     fees: {
@@ -497,32 +513,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 26,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -584,7 +600,7 @@ const data = {
   "lincoln-university": {
     country: "New Zealand",
     university: "Lincoln University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-53-2.png",
+    heroImg: lincoln,
     overview:
       "Founded in 1878, Lincoln University is a leading agricultural and environmental university located in Lincoln, New Zealand. Known for its focus on sustainability and practical learning, Lincoln offers a range of undergraduate and postgraduate programs that equip students to address global challenges.",
     fees: {
@@ -594,32 +610,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 26,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -681,7 +697,7 @@ const data = {
   "auckland-university-of-technology": {
     country: "New Zealand",
     university: "Auckland University of Technology",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-15.jpg",
+    heroImg: AUT,
     overview:
       "Founded in 2000, Auckland University of Technology (AUT) is a modern university located in Auckland, New Zealand. Recognized for its focus on technology and applied learning, AUT offers a wide range of undergraduate and postgraduate programs aimed at preparing students for careers in various fields.",
     fees: {
@@ -691,32 +707,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "NZD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "NZD 26,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "NZD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "NZD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "NZD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "NZD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },

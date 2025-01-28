@@ -1,47 +1,56 @@
 import React from "react";
 
 // Import images
+import auckland from "../../../assets/top universities/NZ/10001.png";
+import otago from "../../../assets/top universities/NZ/10002.png";
+import wellingtom from "../../../assets/top universities/NZ/10003.png";
+import canterbury from "../../../assets/top universities/NZ/10004.png";
+import massey from "../../../assets/top universities/NZ/10005.png";
+import waikato from "../../../assets/top universities/NZ/10006.png";
+import lincoln from "../../../assets/top universities/NZ/10007.png";
+import AUT from "../../../assets/top universities/NZ/10008.png";
+
 import backgroundimg from "../../../assets/Ellipse-10.png";
 
 const universities = [
   {
     name: "University of Auckland",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-40-1.png",
+    image: auckland,
     link: "/nz-topuniversity/university-of-auckland",
   },
   {
     name: "University of Otago",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-41-1.png",
+    image: otago,
     link: "/nz-topuniversity/university-of-otago",
   },
   {
     name: "Victoria University of Wellington",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-42-1.png",
+    image: wellingtom,
     link: "/nz-topuniversity/victoria-university-of-wellington",
   },
   {
     name: "University of Canterbury",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-43-1.png",
+    image: canterbury,
     link: "/nz-topuniversity/university-of-canterbury",
   },
   {
     name: "Massey University",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-44-1.png",
+    image: massey,
     link: "/nz-topuniversity/massey-university",
   },
   {
     name: "University of Waikato",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-45-1.png",
+    image: waikato,
     link: "/nz-topuniversity/university-of-waikato",
   },
   {
     name: "Lincoln University",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-46-1.png",
+    image: lincoln,
     link: "/nz-topuniversity/lincoln-university",
   },
   {
     name: "Auckland University of Technology",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/image-47-1.png",
+    image: AUT,
     link: "/nz-topuniversity/auckland-university-of-technology",
   },
 ];
