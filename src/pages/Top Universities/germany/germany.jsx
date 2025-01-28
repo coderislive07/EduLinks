@@ -52,37 +52,37 @@ const universities =[
   { 
     name: "Universität Freiburg", 
     image: monashUni,
-    link: "/germany-topuniversity/rwth-aachen-university",
-  },
-  { 
-    name: "Technische Universität Berlin", 
-    image: westernAusUni,
-    link: "/germany-topuniversity/technische-universitat-berlin",
-  },
-  { 
-    name: "Universität Hamburg", 
-    image: adelaideUni,
-    link: "/germany-topuniversity/universitat-hamburg",
-  },
-  { 
-    name: "Technische Universität Dresden", 
-    image: utsUni,
-    link: "/germany-topuniversity/technische-universitat-dresden",
-  },
-  { 
-    name: "Universität Freiburg", 
-    image: canberraUni,
     link: "/germany-topuniversity/universitat-freiburg",
   },
   { 
     name: "Universität Tübingen", 
-    image: macquarieUni,
-    link: "/germany-topuniversity/universitat-tubingen",
+    image: westernAusUni,
+    link: "/germany-topuniversity/universtat-tubingen",
   },
   { 
-    name: "Universität Frankfurt am Main", 
+    name: "Rheinische Friedrich-Wilhelms-Universität Bonn", 
+    image: adelaideUni,
+    link: "/germany-topuniversity/rheinische-friedrich-wilhelms-universtat-bonn",
+  },
+  { 
+    name: "Universität Hamburg", 
+    image: utsUni,
+    link: "/germany-topuniversity/universtat-hamburg",
+  },
+  { 
+    name: "Universität Göttingen", 
+    image: canberraUni,
+    link: "/germany-topuniversity/universtat-gottingen",
+  },
+  { 
+    name: "Universität Mannheim", 
+    image: macquarieUni,
+    link: "/germany-topuniversity/universtat-mannheim",
+  },
+  { 
+    name: "RWTH Aachen University", 
     image: qutUni,
-    link: "/germany-topuniversity/universitat-frankfurt-am-main",
+    link: "/germany-topuniversity/rwth-aachen-university",
   },
   { 
     name: "Universität Stuttgart", 
@@ -90,39 +90,39 @@ const universities =[
     link: "/germany-topuniversity/universitat-stuttgart",
   },
   { 
-    name: "Universität Köln", 
-    image: wollongongUni,
-    link: "/germany-topuniversity/universitat-koln",
-  },
-  { 
     name: "Universität Erlangen-Nürnberg", 
+    image: wollongongUni,
+    link: "/germany-topuniversity/Universität-Erlangen-Nürnberg",
+  },
+  { 
+    name: "Universität Ulm", 
     image: curtinUni,
-    link: "/germany-topuniversity/universitat-erlangen-nurnberg",
+    link: "/germany-topuniversity/Universität-Ulm",
   },
   { 
-    name: "Universität Bonn", 
+    name: "Universität-Leipzig", 
     image: deakinUni,
-    link: "/germany-topuniversity/universitat-bonn",
+    link: "/germany-topuniversity/universitat-leipzig",
   },
   { 
-    name: "Technische Universität Darmstadt", 
+    name: "Universität Düsseldorf", 
     image: newcastleUni,
     link: "/germany-topuniversity/technische-universitat-darmstadt",
   },
   { 
-    name: "Karlsruher Institut für Technologie", 
+    name: "Universität Konstanz", 
     image: griffithUni,
-    link: "/germany-topuniversity/karlsruher-institut-fur-technologie",
+    link: "/germany-topuniversity/universtat-konstanz",
   },
   { 
-    name: "Universität Jena", 
+    name: "Universität Karlsruhe", 
     image: laTrobeUni,
-    link: "/germany-topuniversity/universitat-jena",
+    link: "/germany-topuniversity/universitat-karlsruhe",
   },
   { 
-    name: "Universität Bremen", 
+    name: "Technische Universität Dresden", 
     image: tasmaniaUni,
-    link: "/germany-topuniversity/universitat-bremen",
+    link: "/germany-topuniversity/technische-universtat-dresden",
   },
 ]
 export default function Germany() {
@@ -140,8 +140,6 @@ export default function Germany() {
       </div>
       <div
         className="absolute inset-0 bg-cover bg-center opacity-50 "
-
-
       />
     </div>
 
@@ -163,7 +161,7 @@ export default function Germany() {
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-gray-800">{uni.name}</h3>
                 <a
-                  href="#"
+                  href={uni.link}
                   className="inline-block px-6 py-2 border border-[#00b4d8] text-[#00b4d8] rounded hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
                 >
                   Know More &gt;

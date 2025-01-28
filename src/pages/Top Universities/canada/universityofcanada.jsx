@@ -15,7 +15,7 @@ const FeeCard = ({ img, p1, p2 }) => {
 function Universityofcanada() {
   const { id } = useParams();
   const fetchedData = data[id];
-  console.log(fetchedData)
+
   return (
     <div className="pt-[80px]">
       <h2 className="text-xl text-center underline text-[#37D7D9] font-normal">

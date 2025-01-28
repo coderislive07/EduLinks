@@ -11,9 +11,11 @@ const FeeCard = ({ img, p1, p2 }) => {
     </div>
   );
 };
-function Universityofgermany() {
+
+function UniversityOfNz() {
   const { id } = useParams();
   const fetchedData = data[id];
+  console.log(fetchedData);
   return (
     <div className="pt-[80px]">
       <h2 className="text-xl text-center underline text-[#37D7D9] font-normal">
@@ -22,7 +24,7 @@ function Universityofgermany() {
       <h1 className="text-center text-5xl my-4 text-bold font-normal">
         {fetchedData.university}
       </h1>
-      <img src={fetchedData.heroImg} className="h-auto w-auto  my-3" />
+      <img src={fetchedData.heroImg} className="h-auto w-auto my-3" />
       <div className="my-8">
         <h1 className="text-3xl text-center text-[#37D7D9] font-normal">
           Overview
@@ -159,9 +161,13 @@ function Universityofgermany() {
           })}
         </ul>
       </div>
-   
+      <div className="my-8 flex justify-center items-center">
+        <button className="bg-[#B1E8EB] text-black font-semibold px-4 py-2 rounded-md">
+          CONTACT US
+        </button>
+      </div>
     </div>
   );
 }
 
-export default Universityofgermany;
+export default UniversityOfNz;

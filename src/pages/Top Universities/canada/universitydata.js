@@ -18,7 +18,6 @@ import saskatchewan from "../../../assets/canadauni/saskatechewan.png"
 import carleton from "../../../assets/canadauni/carleton.png"
 import guelph from "../../../assets/canadauni/guelph.png"
 import sherbrooke from "../../../assets/canadauni/sherbrooke.png"
-
 import architecture from "../../../assets/architecture.png"
 import arts from "../../../assets/arts.png"
 import physical from "../../../assets/physical.png"

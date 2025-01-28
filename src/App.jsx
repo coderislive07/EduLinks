@@ -17,7 +17,7 @@ import Careersusa from "../src/pages/Careers1/USA/src/CareersUsa";
 import Aus from "../src/pages/Top Universities/Aus/aus";
 import Canada from "./pages/Top Universities/canada/canada";
 import Germany from "./pages/Top Universities/germany/germany";
-import Nz from "../src/pages/Top Universities/nz";
+import Nz from "../src/pages/Top Universities/newzealand/nz";
 import Uk from "../src/pages/Top Universities/uk";
 import Usa from "../src/pages/Top Universities/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
@@ -25,6 +25,7 @@ import CarrEngi from "../src/pages/InsideCareers/Page";
 import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
 import Universityofcanada from "./pages/Top Universities/canada/universityofcanada";
 import Universityofgermany from "./pages/Top Universities/germany/universityofgermany";
+import UniversityofNz from "./pages/Top Universities/newzealand/UniversityOfNz"
 function App() {
   return (
     <Router>
@@ -62,6 +63,10 @@ function App() {
           element={<Universityofgermany/>}
         />
         <Route path="/nz-topuniversity" element={<Nz />} />
+        <Route
+          path="/nz-topuniversity/:id"
+          element={<UniversityofNz/>}
+        />
         <Route path="/uk-topuniversity" element={<Uk />} />
         <Route path="/usa-topuniversity" element={<Usa />} />
         <Route path="/about" element={<About />} />
@@ -80,8 +85,6 @@ function App() {
         <Route path="/usa-topuniversity" element={<Usa />} />
         <Route path="/carr-engineering" element={<CarrEngi />} />
         <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
-
-
       </Routes>
       <Footer />
     </Router>
