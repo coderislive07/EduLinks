@@ -82,14 +82,6 @@ function App() {
         <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
 
 
-        
-        <Route path="/australia-health-science" element={<Healthsc />} />
-        <Route path="/australia-natural-sciences" element={<NaturalSc />} />
-        <Route path="/australia-information-technology" element={<InfoTech/>} />
-        <Route path="/australia-environmental-science" element={<EnviroSc />} />
-        <Route path="/australia-biotechnology" element={<BioTech />} />
-        <Route path="/australia-mathematics-statistics" element={<MathStat />} />
-
       </Routes>
       <Footer />
     </Router>
