@@ -12,7 +12,7 @@ const FeeCard = ({ img, p1, p2 }) => {
   );
 };
 
-function UniversityOfAus() {
+function Universityofgermany() {
   const { id } = useParams();
   const fetchedData = data[id];
   console.log(fetchedData)
@@ -166,4 +166,4 @@ function UniversityOfAus() {
   );
 }
 
-export default UniversityOfAus;
+export default Universityofgermany;
