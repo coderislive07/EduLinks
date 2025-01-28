@@ -17,17 +17,17 @@ import Careersusa from "../src/pages/Careers1/USA/src/CareersUsa";
 import Aus from "../src/pages/Top Universities/Aus/aus";
 import Canada from "../src/pages/Top Universities/canada";
 import Germany from "../src/pages/Top Universities/germany";
-import Nz from "../src/pages/Top Universities/nz";
+import Nz from "../src/pages/Top Universities/nz/nz";
 import Uk from "../src/pages/Top Universities/uk";
 import Usa from "../src/pages/Top Universities/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
 import CarrEngi from "../src/pages/InsideCareers/Page";
 import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
 
-import Healthsc from "./pages/Careers1/Australia/fields/Healthsc"; 
-import NaturalSc from "./pages/Careers1/Australia/fields/NaturalSc";   
-import InfoTech from "./pages/Careers1/Australia/fields/InfoTech";  
-import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc";              
+import Healthsc from "./pages/Careers1/Australia/fields/Healthsc";
+import NaturalSc from "./pages/Careers1/Australia/fields/NaturalSc";
+import InfoTech from "./pages/Careers1/Australia/fields/InfoTech";
+import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc";
 function App() {
   return (
     <Router>
@@ -47,12 +47,11 @@ function App() {
         <Route path="/usa-career" element={<Careersusa />} />
         <Route path="/australia-topuniversity" element={<Aus />} />
 
-
         <Route
           path="/australia-topuniversity/:id"
           element={<UniversityOfAus />}
         />
-        
+
         <Route path="/canada-topuniversity" element={<Canada />} />
         <Route path="/germany-topuniversity" element={<Germany />} />
         <Route path="/nz-topuniversity" element={<Nz />} />
@@ -73,15 +72,18 @@ function App() {
         <Route path="/uk-topuniversity" element={<Uk />} />
         <Route path="/usa-topuniversity" element={<Usa />} />
         <Route path="/carr-engineering" element={<CarrEngi />} />
-        <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
+        <Route
+          path="/australia-engineering-technology"
+          element={<Ausengandtech />}
+        />
 
-
-        
         <Route path="/australia-health-science" element={<Healthsc />} />
         <Route path="/australia-natural-sciences" element={<NaturalSc />} />
-        <Route path="/australia-information-technology" element={<InfoTech/>} />
+        <Route
+          path="/australia-information-technology"
+          element={<InfoTech />}
+        />
         <Route path="/australia-environmental-science" element={<EnviroSc />} />
-
       </Routes>
       <Footer />
     </Router>
