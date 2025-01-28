@@ -153,6 +153,8 @@ function Geramany6() {
       <Cost educationData={educationData}/>
       <PopluarUniversities universities={universities} />
         <PopularCourses Image1={Course6} Image2={Imp6} importantLinks={importantLinks} popularCourses={popularCourses} />
+                    <Testimonals/>
+        
     </div>
   )
 }

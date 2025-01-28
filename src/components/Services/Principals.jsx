@@ -1,12 +1,16 @@
 import React from "react"
-
-import { GraduationCap, Coins, PiggyBank, Home } from "lucide-react"
+import Pricipals from "../../assets/services/pricipals.svg"
+import el1 from "../../assets/services/el1.svg"
+import el2 from "../../assets/services/el2.svg"
+import el3 from "../../assets/services/el3.svg"
+import el4 from "../../assets/services/el4.svg"
+import Edulink2 from "../../assets/services/edulink2.svg"
 
 const PrincipalItem = ({ icon, title, description }) => {
     return (
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4 mb-8 relative">
             <div className="flex-shrink-0 w-12 h-12 bg-[#21F0F0] rounded-full flex items-center justify-center">
-                {React.cloneElement(icon, { size: 24, className: "text-white" })}
+                <img src={icon} alt="" />
             </div>
             <div>
                 <h3 className="font-medium mb-1 font-roboto lg:text-[24px]">{title}</h3>
@@ -19,22 +23,22 @@ const PrincipalItem = ({ icon, title, description }) => {
 const StudentCentricPrincipals = () => {
     const principals = [
         {
-            icon: <GraduationCap />,
+            icon: el1,
             title: "Tailored Career Counseling:",
             description: "Customized advice to help students choose the best academic programs and institutions.",
         },
         {
-            icon: <Coins />,
+            icon: el2,
             title: "Scholarship Opportunities:",
             description: "Expert matching with scholarships to increase chances of receiving financial aid.",
         },
         {
-            icon: <PiggyBank />,
+            icon: el3,
             title: "Financial Aid Solutions:",
             description: "Guidance on education loans and assistance with the application process.",
         },
         {
-            icon: <Home />,
+            icon: el4,
             title: "Comprehensive Arrival Support:",
             description: "Post-arrival services including orientation and housing assistance.",
         },
@@ -43,13 +47,16 @@ const StudentCentricPrincipals = () => {
     return (
         <section className=" mx-auto  py-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="grid grid-cols-2 gap-4 bg-[#E3F9F9] p-8 rounded-[48px]">
+                {/* <div className="grid grid-cols-2 gap-4 bg-[#E3F9F9] p-8 rounded-[48px]">
                     {[...Array(4)].map((_, i) => (
                         <div key={i} className="relative aspect-square">
                             <img src="/placeholder.svg" alt={`Student ${i + 1}`} fill className="object-cover rounded-3xl" />
                         </div>
                     ))}
-                </div>
+                </div> */}
+                <img src={Pricipals} alt="" />
+                <img src={Edulink2} alt="" className="absolute right-0" />
+
 
                 <div>
                     <h2 className="text-3xl md:text-4xl lg:text-[48px] leading-loose font-medium mb-8">4 Edulinks Principals For Student Centric Approach</h2>

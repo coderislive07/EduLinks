@@ -153,6 +153,7 @@ function Canada2() {
                            <Cost educationData={educationData}/>
                         <PopluarUniversities universities={universities} />
                         <PopularCourses Image1={Course2} Image2={Imp2} importantLinks={importantLinks} popularCourses={popularCourses} />
+                  <Testimonals/>
       
     </div>
   )

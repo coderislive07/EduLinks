@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function HeroSection({ Image , Text1 , Text2 , Text3 }) {
+export default function HeroSection({ Image , Text1 , Text2 , Text3 , variable, Text4 }) {
   const stats = [
     {
       number: "800+",
@@ -26,7 +26,7 @@ export default function HeroSection({ Image , Text1 , Text2 , Text3 }) {
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl  leading-tight ">
             <span className="block">{Text1}</span>
-            <span className="inline-block border-4 border-[#00E5FF] px-2 ">{Text2}</span>
+            <p className={` border-4 border-[#00E5FF] px-2 ${variable ? 'flex w-96 justify-center ' : 'inline-block'}`} >{Text2} </p><span className="border-none">{Text4}</span>
             <span className="block">{Text3}</span>
           </h1>
 
@@ -51,7 +51,7 @@ export default function HeroSection({ Image , Text1 , Text2 , Text3 }) {
             alt="Graduate Student"
             // width={600}
             // height={600}
-            className="w-full h-auto"
+            className="w-full h-auto bg-white"
             // priority
           />
 

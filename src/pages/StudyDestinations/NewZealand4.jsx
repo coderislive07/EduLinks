@@ -140,6 +140,8 @@ function NewZealand4() {
                      <Cost educationData={educationData}/>
                   <PopluarUniversities universities={universities} />
                   <PopularCourses Image1={Course4} Image2={Imp4} importantLinks={importantLinks} popularCourses={popularCourses} />
+                              <Testimonals/>
+                  
     </div>
   )
 }

@@ -156,14 +156,37 @@ function PostLanding() {
         },
       ];
 
- 
+      const data = [
+        {
+            title: "Personalized Welcome Kit",
+            description: "Receive a customized guide with essential information about your new area.",
+        },
+        {
+            title: "Transportation Setup",
+            description: "Assistance in getting familiar with local transportation options and routes.",
+        },
+        {
+            title: "Community Integration",
+            description: "Support in connecting with local communities and groups to ease your transition.",
+        },
+        {
+            title: "Healthcare Registration",
+            description: "Help with registering for local healthcare services and finding a nearby doctor.",
+        },
+        {
+            title: "Education Enrollment",
+            description: "Assistance with enrolling your children in local schools or educational programs.",
+        },
+    ]
 
   return (
     <div>
       <Hero Image={PostLanding1} Text1={"We Offer"} Text2={"Post Landing"} Text3={"Services Too"}/>
       <Specialisation Heading={Heading} Paragraph={Paragraph} num={5}/>
       <WhyChooseUs VisaJourney={postLandingServicesData}/>
-      <Advantages Image={Service5}/>
+      <Advantages  heading="Begin Your New Life with Edulinks"
+            Image={Service5}
+            advantages={data}/>
       <WhatMakesUsBest features={features}/>
       <Principals/>
 

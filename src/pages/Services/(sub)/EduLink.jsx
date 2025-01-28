@@ -84,6 +84,28 @@ function EduLink() {
             description: "Step-by-step support for visa applications and procedures.",
           },
         ]
+        const data = [
+          {
+              title: "Personalized Study Plan",
+              description: "Get a customized academic roadmap based on your profile and career goals.",
+          },
+          {
+              title: "University Shortlisting",
+              description: "Receive tailored recommendations for top universities that match your aspirations.",
+          },
+          {
+              title: "Scholarship Guidance",
+              description: "Access advice on available scholarships and how to apply for them.",
+          },
+          {
+              title: "Visa Assistance",
+              description: "Step-by-step help with visa processes for your chosen country.",
+          },
+          {
+              title: "Psychometry Tests",
+              description: "Take assessments to identify the best career options aligned with your strengths.",
+          },
+      ];
       
       
       
@@ -94,7 +116,9 @@ function EduLink() {
       <Hero Image={Ai}  Text2={"Edulinks AI:"} Text3={"Your Global Education Guide"}/>
       <Specialisation Heading={Heading} Paragraph={Paragraph} num={2}/>
       <WhyChooseUs VisaJourney={edulinksAIAssistantData}/>
-      <Advantages Image={Service6}/> 
+      <Advantages heading="Start Your Global Education with Edulinks AI"
+            Image={Service6}
+            advantages={data}/> 
        <WhatMakesUsBest features={features}/>
        <Principals/>
     </div>

@@ -152,6 +152,8 @@ function Uk5() {
                <Cost educationData={educationData}/>
             <PopluarUniversities universities={universities} />
             <PopularCourses Image1={Course5} Image2={Imp5} importantLinks={importantLinks} popularCourses={popularCourses} />
+                        <Testimonals/>
+            
     </div>
   )
 }

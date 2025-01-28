@@ -87,12 +87,36 @@ function Loan() {
           description: "Stay informed with timely updates and reminders.",
         },
       ];
+      const data = [
+        {
+            title: "Loan Eligibility Analysis",
+            description: "Assess your financial status to determine the best loan options available.",
+        },
+        {
+            title: "Interest Rate Optimization",
+            description: "Strategize to secure the most favorable interest rates for your loan.",
+        },
+        {
+            title: "Loan Application Streamlining",
+            description: "Simplify and expedite the loan application process with expert guidance.",
+        },
+        {
+            title: "Debt Consolidation Advice",
+            description: "Receive tailored advice on managing and consolidating multiple loans effectively.",
+        },
+        {
+            title: "Comprehensive Loan Support",
+            description: "Receive guidance from pre-approval to post-approval, ensuring a smooth and efficient loan process from start to finish.",
+        },
+    ];
   return (
     <div>
       <Hero Image={Loan1} Text2={"Loan Guidance"} Text3={" Made Easy With Our Expertise"}/>
       <Specialisation Heading={Heading} Paragraph={Paragraph} num={4}/>
       <WhyChooseUs VisaJourney={loanGuidanceData}/>
-      <Advantages Image={Service4}/>
+      <Advantages    heading="Simplify Your Loans with Edulinks Experts"
+            Image={Service4}
+            advantages={data}/>
       <WhatMakesUsBest features={features} />
       <Principals/>
 

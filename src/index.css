@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   @font-face {
     font-family: 'Adramalech';
@@ -127,4 +126,8 @@
   animation: float-delayed 3s ease-in-out infinite;
   animation-delay: 1.5s;
 }
-
+.bgimage{
+  background-image:"/Ellipse-10.png" ;
+  background-repeat: no-repeat;
+  
+}

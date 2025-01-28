@@ -153,6 +153,8 @@ function USA1() {
          <Cost educationData={educationData}/>
       <PopluarUniversities universities={universities} />
       <PopularCourses Image1={Course1} Image2={Imp1} importantLinks={importantLinks} popularCourses={popularCourses} />
+                  <Testimonals/>
+      
              
     </div>
   )

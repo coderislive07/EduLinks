@@ -2,9 +2,9 @@ import { ChevronRight } from "lucide-react"
 
 export default function PopularUniversities({ universities }) {
   return (
-    <div className="bg-[#00e5ff] py-8 px-4">
+    <div className="bg-[#37D7D9] py-8 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-serif text-center mb-8">Popular Universities</h2>
+        <h2 className="text-3xl lg:text-[48px] text-center mb-8">Popular Universities</h2>
 
         <div className="grid md:grid-cols-2 gap-4 mb-6">
           {universities.map((university) => (

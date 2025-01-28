@@ -92,13 +92,37 @@ function CareerGuide() {
           description: "Continuous guidance from career planning to job placement.",
         },
       ];
-      
+      const data = [
+        {
+            title: "Career Assessment & Skill Development",
+            description: "Receive expert evaluations to identify strengths and personalized advice to enhance skills.",
+        },
+        {
+            title: "Job Search & Resume Enhancement",
+            description: "Learn effective job search strategies and get professional help crafting a standout resume.",
+        },
+        {
+            title: "Interview Coaching",
+            description: "Boost your confidence and performance with expert interview tips and coaching.",
+        },
+        {
+            title: "Career Transition & Ongoing Support",
+            description: "Access support for smooth transitions and continuous guidance for long-term success.",
+        },
+        {
+            title: "Stress-Free Planning",
+            description: "Enjoy a seamless career planning process with our dedicated team's guidance.",
+        },
+    ];
+    
   return (
     <div>
       <Hero Image={Career} Text1={"Personalised"} Text2={"Career Guidance"} Text3={"With Us"} />
       <Specialisation Heading={Heading} Paragraph={Paragraph} num={1}/>
       <WhyChooseUs VisaJourney={careerGuidanceData}/>
-      <Advantages Image={Service2}/>
+      <Advantages heading="Unlock Your Career Potential with Edulinks"
+            Image={Service2}
+            advantages={data}/>
       <WhatMakesUsBest features={careerGuidanceFeatures}/>
       <Principals/>
 

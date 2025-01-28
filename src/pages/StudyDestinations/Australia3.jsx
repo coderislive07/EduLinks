@@ -154,6 +154,7 @@ export default function Australia() {
                <Cost educationData={educationData}/>
             <PopluarUniversities universities={universities} />
             <PopularCourses Image1={Course} Image2={Imp3} importantLinks={importantLinks} popularCourses={popularCourses} />
+            <Testimonals/>
     </div>
   )
 }

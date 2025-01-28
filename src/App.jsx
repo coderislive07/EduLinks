@@ -28,6 +28,15 @@ import Australia3 from "../src/pages/StudyDestinations/Australia3"
 import NewZealand4 from './pages/StudyDestinations/NewZealand4';
 import UK5 from "../src/pages/StudyDestinations/Uk5"
 import Germany6 from "../src/pages/StudyDestinations/Geramany6"
+// import Aus from "../src/pages/Top Universities/Aus/aus";
+import Canada from "../src/pages/Top Universities/canada";
+import Germany from "../src/pages/Top Universities/germany";
+import Nz from "../src/pages/Top Universities/nz";
+import Uk from "../src/pages/Top Universities/uk";
+import Usa from "../src/pages/Top Universities/usa";
+import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
+import CarrEngi from "../src/pages/InsideCareers/Page";
+import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
 
 function App() {
   return (
@@ -38,15 +47,40 @@ function App() {
         <Route path="*" element={<Home />} />
         <Route path="/studyinaustralia" element={<Australia />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/about"element={<About/>}/>
-        <Route path="/studydestination"element={<Countries/>}/>
-        <Route path="/australia-career"element={<Careersaus/>}/>
-        <Route path="/canada-career"element={<Careerscanada/>}/>
-        <Route path="/germany-career"element={<Careersgermany/>}/>
-        <Route path="/newzealand-career"element={<Careersnewzealand/>}/>
-        <Route path="/uk-career"element={<Careersuk/>}/>
-        <Route path="/usa-career"element={<Careersusa/>}/>
-        <Route path="/australia-topuniversity"element={<Aus/>}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/studydestination" element={<Countries />} />
+        <Route path="/australia-career" element={<Careersaus />} />
+        <Route path="/canada-career" element={<Careerscanada />} />
+        <Route path="/germany-career" element={<Careersgermany />} />
+        <Route path="/newzealand-career" element={<Careersnewzealand />} />
+        <Route path="/uk-career" element={<Careersuk />} />
+        <Route path="/usa-career" element={<Careersusa />} />
+        <Route path="/australia-topuniversity" element={<Aus />} />
+        <Route
+          path="/australia-topuniversity/:id"
+          element={<UniversityOfAus />}
+        />
+        <Route path="/canada-topuniversity" element={<Canada />} />
+        <Route path="/germany-topuniversity" element={<Germany />} />
+        <Route path="/nz-topuniversity" element={<Nz />} />
+        <Route path="/uk-topuniversity" element={<Uk />} />
+        <Route path="/usa-topuniversity" element={<Usa />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/studydestination" element={<Countries />} />
+        <Route path="/australia-career" element={<Careersaus />} />
+        <Route path="/canada-career" element={<Careerscanada />} />
+        <Route path="/germany-career" element={<Careersgermany />} />
+        <Route path="/newzealand-career" element={<Careersnewzealand />} />
+        <Route path="/uk-career" element={<Careersuk />} />
+        <Route path="/usa-career" element={<Careersusa />} />
+        <Route path="/australia-topuniversity" element={<Aus />} />
+        <Route path="/canada-topuniversity" element={<Canada />} />
+        <Route path="/germany-topuniversity" element={<Germany />} />
+        <Route path="/nz-topuniversity" element={<Nz />} />
+        <Route path="/uk-topuniversity" element={<Uk />} />
+        <Route path="/usa-topuniversity" element={<Usa />} />
+        <Route path="/carr-engineering" element={<CarrEngi />} />
+        <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
         <Route path="/student-visa" element={<Studyvisa/>} />
         <Route path="/scholarship" element={<Scholarship />} />
         <Route path="/loan" element={<Loan />} />

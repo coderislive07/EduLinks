@@ -50,6 +50,7 @@ function Scholarship() {
           }
         ]
       };
+
     
       const Heading = `Scholarship Assessment`
       const Paragraph= `Edulinks offers comprehensive Scholarship Assessment services designed to streamline the process for students seeking financial aid for their education. Our expert team provides personalized guidance, from identifying suitable scholarships to preparing and submitting applications. We ensure that all documents are meticulously reviewed, offering assistance with essay writing, recommendation letters, and interview preparation to maximize success. Our services include the latest information on available scholarships, eligibility criteria, and application deadlines, tailored to the unique needs of each student. With Edulinks, students can confidently pursue scholarship opportunities, turning their academic aspirations into reality.`
@@ -85,7 +86,29 @@ function Scholarship() {
           description: "Stay on schedule with proactive reminders.",
         },
       ];
-      
+      const data = [
+    {
+        title: "Tailored Scholarship Search",
+        description: "Identify scholarships that align with your unique qualifications and needs.",
+    },
+    {
+        title: "Application Strategy",
+        description: "Develop an effective plan to manage and submit multiple scholarship applications on time.",
+    },
+    {
+        title: "Essay Optimization",
+        description: "Enhance your scholarship essays with professional writing and editing support.",
+    },
+    {
+        title: "Document Preparation",
+        description: "Assist in preparing and organizing all necessary documents for a strong application.",
+    },
+    {
+        title: "Follow-Up Support",
+        description: "Provide guidance on post-application steps and interview preparation.",
+    },
+];
+
       
       
 
@@ -93,11 +116,13 @@ function Scholarship() {
 
       
   return (
-    <div>
-        <Hero Image={Scholar} Text2={"Scholarship Assement"} Text3={"In Ease With Us"}/>
+    <div >
+        <Hero Image={Scholar} Text2={"Scholarship Assement"} Text3={"In Ease With Us"} variable={true}/>
     <Specialisation Heading={Heading} Paragraph={Paragraph} num={3}/>
       <WhyChooseUs VisaJourney={scholarshipAssessmentData}/>
-      <Advantages Image={Service3}/>
+      <Advantages heading="Unlock Your Career Potential with Edulinks"
+            Image={Service3}
+            advantages={data}/>
       <WhatMakesUsBest features={features} />
       <Principals/>
 

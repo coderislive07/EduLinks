@@ -93,15 +93,40 @@ function StudentVisa() {
                     description: "From consultation to post-visa services, we've got you covered.",
                   },
                 ]
+                const data = [
+                  {
+                      title: "Interview Preparation",
+                      description: "Get expert tips and coaching for visa interviews to enhance your confidence and performance.",
+                  },
+                  {
+                      title: "Financial Planning",
+                      description: "Receive guidance on demonstrating financial stability, a crucial aspect of your visa application.",
+                  },
+                  {
+                      title: "Post-Visa Support",
+                      description: "Access ongoing support even after your visa is granted, ensuring a smooth transition to your new educational environment.",
+                  },
+                  {
+                      title: "Stress-Free Process",
+                      description: "Experience a hassle-free application process with our dedicated team handling all the complexities on your behalf.",
+                  },
+                  {
+                      title: "Dedicated Team",
+                      description: "Work with a passionate and committed team that prioritizes your success and satisfaction.",
+                  },
+              ];
+              
 
            
   return (
     <div>
       
-    <Hero Image={HeroImg}/>
+    <Hero Image={HeroImg} Text1={"Study"} Text2={"Abroad"}Text3={"Easy With Us"} Text4={"Is"} variable={false}/>
     <Specialisation Heading={Heading} Paragraph={Paragraph} num={0}/>
     <WhyChooseUs VisaJourney={visaJourneyData}/>
-    <Advantages Image={Service1}/>
+    <Advantages  heading="Discover the Advantages of a Study Visa with Edulink"
+            Image={Service1}
+            advantages={data}/>
     <WhatMakesUsBest features={features}/>
     <Principals/>
     </div>

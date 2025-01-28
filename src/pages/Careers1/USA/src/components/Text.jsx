@@ -5,7 +5,7 @@ const Text = () => {
     <div>
       <div className="mx-auto -mt-[20px] overflow-hidden lg:max-w-[80%]">
         <p
-          className="text-[#232323] mx-auto text-center font-light leading-[1.6] lg:text-[24px] md:text-[20px] text-[18px] lg:leading-[38.2px] md:leading-[32px] leading-[28px] px-4 sm:px-8 md:px-12 lg:px-0"
+          className="text-[#232323] mx-auto text-center font-light  lg:text-[24px] md:text-[20px] text-[18px] lg:leading-[38.2px] md:leading-[32px] leading-[28px] px-4 sm:px-8 md:px-12 lg:px-0"
           style={{
             fontFamily: "Roboto1",
           }}
