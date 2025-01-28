@@ -1,109 +1,109 @@
 import React from "react"
-import img1 from "../../../../assets/Group-8.png"
+import img1 from "../../../../assets/Group-10.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
     {
-      title: "Wildlife Conservationist",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7kE1Spe1DoCUQlk92URyjHNp9nkKj7.png",
+      title: "Genetic Counsellor",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aPkZvJQAMciiqSaF4p8O2pvKNpAATL.png",
       description:
-        "Wildlife Conservationists in Australia work to protect native species such as koalas, kangaroos, and unique marine life. Conservationists collaborate with government agencies like the Department of Agriculture, Water and the Environment, and organizations such as the Australian Wildlife Conservancy to protect habitats and prevent biodiversity loss.",
+        "Genetic Counsellors in Australia help individuals and families assess their genetic health risks, offering guidance on inherited conditions and reproductive planning. These professionals work closely with healthcare teams to interpret genetic tests and provide personalized care, contributing to Australia's growing focus on preventive healthcare.",
     },
     {
-      title: "Climate Change Analyst",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oO4XBCAUwIhKRqeEwJqoFCmSrkrCoH.png",
+      title: "Pharmaceutical Research Technician",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-d6WsWN6WhBHge2ejCeevQ7lgYCxWzr.png",
       description:
-        "Australia faces severe climate risks, including droughts, bushfires, and coral bleaching of the Great Barrier Reef. These professionals assess the impact of climate change on ecosystems and communities and help develop adaptation and mitigation strategies.",
+        "Pharmaceutical Research Technicians in Australia support the development and testing of new drugs, working in laboratories to ensure the safety and efficacy of pharmaceutical products. They play a vital role in Australia's growing pharmaceutical industry, contributing to research that improves public health.",
     },
     {
-      title: "Renewable Energy Manager",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NkHh97DWLcc1rvrcKu0LcCMrGsh6Ge.png",
+      title: "Bioinformatics",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qiI5E30qO8Z27Z8TZvsm0Bv0ROrbdT.png",
       description:
-        "Australia is a global leader in solar energy, and Renewable Energy Managers are crucial in driving the country's transition to clean energy. They oversee solar, wind, and hydropower projects, contributing to Australia's goal of achieving 100% renewable energy in the coming decades.",
-    }
-  ];
+        "Bioinformatics professionals in Australia apply computational techniques to analyze biological data, supporting research in genomics, drug discovery, and personalized medicine. With the growth of big data in healthcare and research organizations, using data science to solve complex biological challenges.",
+    },
+  ]
 
-  const universities = [
+const universities = [
     {
       name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-CCjdRZBspOgNFHcR1VNIjZw61nsO06.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
     },
     {
       name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TM1aFc8x3VYXPSZp8H2Y8Pq2ViLZ0a.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
     },
     {
       name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3JRngDu5MYp4NXN4xkmgrUmuqo8RPe.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
     },
     {
       name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vwLbbSx0vWAJV8sZt3kcGOF4SRPrLC.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
     },
     {
       name: "University of Western Australia",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DcX33ZaTrrzJXi4cvNTqNagND7Zlyq.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-arDcb4Y5S46TcMjiMtRm1wr45m9gI7.png",
     },
-  ];
+  ]
 
 const faqs = [
   {
-    question: "What is Environmental Science?",
+    question: "What is Biotechnology?",
     answer:
-      "It’s the study of the environment, focusing on issues like conservation, pollution, and climate change..",
+      "Biotechnology combines biological science with technology to develop solutions for healthcare, agriculture, and environmental conservation.",
   },
   {
-    question: "What degrees do I need to work in Environmental Science in Australia?",
+    question: "What degrees do I need to work in Biotechnology in Australia?",
     answer:
-      "A bachelor’s degree in environmental science, ecology, or a related field is required, with postgraduate degrees useful for specialized roles.",
+      "A bachelor’s or master’s degree in biotechnology, genetics, bioinformatics, or related fields is required, with PhDs needed for advanced research roles.",
   },
   {
-    question: "What skills are essential for environmental scientists in Australia?",
+    question: "What skills are essential for biotechnologists in Australia?",
     answer:
-      "Analytical thinking, data analysis, and strong communication skills are critical.",
+      "Data analysis, research skills, and technical proficiency in biological sciences are key for success.",
   },
   {
-    question: "Are there internships available for environmental science students in Australia?",
+    question: "Are there internships available for biotechnology students in Australia?",
     answer:
-      "Yes, internships are available through universities, environmental organizations, and government agencies.",
+      "Yes, many biotech companies and universities offer internships to provide practical experience in research and development.",
   },
   {
-    question: "What are the emerging technologies in Australia’s environmental science sector?",
+    question: "What are the emerging technologies in Australia’s biotechnology sector?",
     answer:
-      "Solar energy, AI-driven climate models, and advanced conservation techniques are key innovations.",
+      "Gene editing, AI in drug discovery, and advancements in personalized medicine are key innovations.",
   },
   {
-    question: "Can Australian environmental scientists work internationally?",
+    question: "Can Australian biotechnologists work internationally?",
     answer:
-      "Yes, Australian environmental qualifications are respected globally, providing international career opportunities.",
+      "Yes, Australian biotechnology qualifications are respected globally, opening doors to international career opportunities.",
   },
   {
-    question: "What is the job outlook for environmental scientists in Australia?",
+    question: "What is the job outlook for biotechnologists in Australia?",
     answer:
-      "The outlook is positive, particularly in renewable energy, conservation, and climate change sectors.",
+      "The outlook is strong, particularly in bioinformatics, genetic counseling, and pharmaceutical research.",
   },
   {
-    question: "How does specialization affect my career in Australian environmental science?",
+    question: "How does specialization affect my career in Australian biotechnology?",
     answer:
-      "Specializing in areas like renewable energy or climate resilience can lead to higher salaries and more career opportunities.",
+      "Specializing in high-demand areas like bioinformatics or genetic counseling can lead to more job opportunities and higher salaries.",
   },
   {
-    question: "Are environmental science jobs flexible in Australia?",
+    question: "Are biotechnology jobs flexible in Australia?",
     answer:
-      "Many roles offer flexibility, including remote work, fieldwork, and project-based opportunities.",
+      "Many biotechnology roles offer flexibility, including research-based work, remote data analysis, and project-based employment.",
   },
   {
-    question: "What are the challenges faced by environmental scientists in Australia today?",
+    question: "What are the challenges faced by biotechnologists in Australia today?",
     answer:
-      "Challenges include protecting endangered species, addressing climate risks, and advancing renewable energy projects.",
+      "Challenges include navigating regulatory frameworks for genetic research and advancing sustainable agricultural solutions.",
   },
 
   
 ]
 
-export default function EnviroSc() {
+export default function BioTech() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
 
   return (
@@ -163,26 +163,24 @@ export default function EnviroSc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Environmental Science</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Biotechnology</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
         </div>
       </div>
-
-      <div>
+    <div>
         <div className="absolute  left-[6%] top-[62%]">
           <img  src={img2}
           
           /> 
           
           
-      </div>
+                 </div>
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-
-            Australia’s unique landscapes and ecosystems, from the Great Barrier Reef to vast deserts, create significant opportunities for careers in Environmental Science. Professionals in wildlife conservation, climate change analysis, and renewable energy management play crucial roles in preserving biodiversity, addressing climate challenges, and promoting sustainability.
+            Australia’s Biotechnology sector is thriving, contributing to advancements in healthcare, agriculture, and environmental sustainability. Biotechnology professionals work in fields such as genetic counseling, pharmaceutical research, and bioinformatics, driving innovation in medical treatments, sustainable agriculture, and genomics research.
             </h1>
           </div>
 
@@ -228,40 +226,40 @@ export default function EnviroSc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Environmental Science?
+      Why Choose a Career in Biotechnology?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Environmental Science in Australia provides the chance to make a significant impact in protecting the country’s unique ecosystems and addressing climate challenges. With Australia’s strong focus on sustainability and clean energy, professionals in this field are at the forefront of innovation and conservation.
+      A career in Biotechnology in Australia offers the chance to work in a highly innovative industry that addresses global health and environmental challenges. Biotechnology professionals in Australia contribute to advancements in medical treatments, sustainable agriculture, and genetic research, making a significant impact on society.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Environmental Science Job Outlook
+      Biotechnology Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for Environmental Science professionals in Australia is highly favorable, particularly in wildlife conservation, renewable energy, and climate change analysis. As the government and private sector continue to invest in sustainability, demand for skilled professionals is growing.
+      The job outlook for Biotechnology professionals in Australia is strong, particularly in genetic counseling, pharmaceutical research, and bioinformatics. As the country invests in healthcare innovation and sustainable agriculture, demand for biotechnology expertise is expected to grow.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Environmental Science
+      Future Aspects of Biotechnology
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The future of Environmental Science in Australia focuses on protecting biodiversity, mitigating climate impacts, and expanding renewable energy. Conservationists will continue to restore habitats, climate change analysts will guide policies to protect vulnerable communities, and renewable energy managers will lead the country’s clean energy transition.
+      Australia’s future in Biotechnology focuses on personalized medicine, gene therapy, and bioinformatics-driven research. Genetic counselors will continue to provide personalized healthcare, while bioinformatics professionals will drive innovations in genomics and agricultural biotechnology.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Environmental Science Employers
+      Top Biotechnology Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s environmental sector include the Department of Agriculture, Water and the Environment, the Australian Wildlife Conservancy, and renewable energy companies such as AGL Energy and Origin Energy.
+      Leading employers in Australia’s biotechnology sector include CSL Limited, Cochlear, and government research institutions. Universities and hospitals also offer numerous opportunities for professionals specializing in genetic counseling, pharmaceutical research, and bioinformatics.
       </p>
     </div>
   </div>
@@ -328,10 +326,12 @@ export default function EnviroSc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-          Average Salary in Environmental Science
+          Average Salary in Biotechnology
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Environmental science professionals in Australia earn competitive salaries. Wildlife conservationists typically earn around AUD $70,000 annually, while climate change analysts make approximately AUD $80,000. Renewable energy managers can expect salaries around AUD $90,000, depending on their specialization and experience.
+          Biotechnology professionals in Australia earn competitive salaries. 
+          Genetic counselors typically earn around AUD $80,000 annually,
+           while pharmaceutical research technicians make approximately AUD $60,000. Bioinformatics specialists can expect salaries of about AUD $85,000, depending on their expertise and experience.
           </p>
         </div>
       </div>

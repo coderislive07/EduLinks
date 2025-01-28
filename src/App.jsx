@@ -27,7 +27,9 @@ import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
 import Healthsc from "./pages/Careers1/Australia/fields/Healthsc"; 
 import NaturalSc from "./pages/Careers1/Australia/fields/NaturalSc";   
 import InfoTech from "./pages/Careers1/Australia/fields/InfoTech";  
-import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc";              
+import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc"; 
+import BioTech from "./pages/Careers1/Australia/fields/BioTech";  
+import MathStat from "./pages/Careers1/Australia/fields/MathStat";           
 function App() {
   return (
     <Router>
@@ -46,6 +48,7 @@ function App() {
         <Route path="/uk-career" element={<Careersuk />} />
         <Route path="/usa-career" element={<Careersusa />} />
         <Route path="/australia-topuniversity" element={<Aus />} />
+
 
 
         <Route
@@ -81,6 +84,8 @@ function App() {
         <Route path="/australia-natural-sciences" element={<NaturalSc />} />
         <Route path="/australia-information-technology" element={<InfoTech/>} />
         <Route path="/australia-environmental-science" element={<EnviroSc />} />
+        <Route path="/australia-biotechnology" element={<BioTech />} />
+        <Route path="/australia-mathematics-statistics" element={<MathStat />} />
 
       </Routes>
       <Footer />

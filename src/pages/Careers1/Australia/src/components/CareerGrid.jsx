@@ -30,10 +30,12 @@ function CareerGrid() {
     {
       title: "Biotechnology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10007.jpg-2uKzWjrBCWImVXZghKxG45ZtHpCUDz.jpeg",
+      href: "/australia-biotechnology"
     },
     {
       title: "Mathematics & Statistics",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10008-JHb7N51T1omhavo8jjSDpS6hcv86kW.png",
+      href: "/australia-mathematics-statistics"
     },
     {
       title: "Business & Economics",
