@@ -16,7 +16,6 @@ import Leeds from "../../../assets/top universities/UK/10015.png";
 import York from "../../../assets/top universities/UK/10016.png";
 import Exeter from "../../../assets/top universities/UK/10017.png";
 import stAndrews from "../../../assets/top universities/UK/10018.png";
-
 import architecture from "../../../assets/architecture.png";
 import arts from "../../../assets/arts.png";
 import physical from "../../../assets/physical.png";
@@ -445,7 +444,7 @@ const data = {
         {
           branch: "Applied Science & Engineering",
           fees: "£30,500",
-          img: engineering,
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
@@ -527,32 +526,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£28,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£30,000",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£27,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£32,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£34,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£30,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -625,12 +624,12 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£24,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£27,000",
+          fees: "£27,500",
           img: arts,
         },
         {
@@ -640,17 +639,17 @@ const data = {
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£28,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£29,500",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -720,35 +719,35 @@ const data = {
     fees: {
       tagline:
         "King’s College London is committed to providing high-quality education and support for students. Below are the annual tuition fees for selected programs (all in GBP):",
-      uniFeeCard: [
+      uniFeeCard:[
         {
           branch: "Architectural Studies",
-          fees: "£26,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£28,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£25,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£30,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£32,500",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£29,000",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -821,32 +820,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£24,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£26,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£23,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£28,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -934,17 +933,17 @@ const data = {
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£29,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,500",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£28,000",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1017,32 +1016,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£23,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£25,000",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£22,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£27,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£29,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£26,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1115,32 +1114,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£24,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£26,000",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£23,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£28,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1210,35 +1209,35 @@ const data = {
     fees: {
       tagline:
         "The University of Sheffield is committed to providing quality education and support. Below are the annual tuition fees for selected programs (all in GBP):",
-      uniFeeCard: [
+      uniFeeCard:[
         {
           branch: "Architectural Studies",
-          fees: "£23,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£25,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£22,500",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£27,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£29,500",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£26,000",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1311,32 +1310,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£23,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£25,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£22,500",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£27,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,000",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1409,32 +1408,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£23,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£25,000",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£22,000",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£27,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£29,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£26,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1504,35 +1503,35 @@ const data = {
     fees: {
       tagline:
         "The University of York is dedicated to providing quality education and support. Below are the annual tuition fees for selected programs (all in GBP):",
-      uniFeeCard: [
+      uniFeeCard:[
         {
           branch: "Architectural Studies",
-          fees: "£21,500",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£23,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£20,500",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£25,000",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£27,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£24,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1605,32 +1604,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£24,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£26,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£23,500",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£28,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,500",
+          fees: "£28,500",
           img: management,
         },
       ],
@@ -1703,32 +1702,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "£24,000",
+          fees: "£25,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "£26,500",
+          fees: "£27,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "£23,500",
+          fees: "£24,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "£28,500",
-          img: engineering,
+          fees: "£30,500",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "£30,000",
+          fees: "£32,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "£27,500",
+          fees: "£28,500",
           img: management,
         },
       ],

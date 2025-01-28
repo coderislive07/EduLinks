@@ -18,14 +18,16 @@ import Aus from "../src/pages/Top Universities/Aus/aus";
 import Canada from "./pages/Top Universities/canada/canada";
 import Germany from "./pages/Top Universities/germany/germany";
 import Nz from "../src/pages/Top Universities/newzealand/nz";
-import Uk from "../src/pages/Top Universities/uk";
-import Usa from "../src/pages/Top Universities/usa";
+import Uk from "../src/pages/Top Universities/UK/uk";
+import Usa from "./pages/Top Universities/Usa/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
 import CarrEngi from "../src/pages/InsideCareers/Page";
 import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
 import Universityofcanada from "./pages/Top Universities/canada/universityofcanada";
 import Universityofgermany from "./pages/Top Universities/germany/universityofgermany";
 import UniversityofNz from "./pages/Top Universities/newzealand/UniversityOfNz"
+import UniversityOfUk from "../src/pages/Top Universities/UK/UniversityOfUK";
+import UniversityOfUsa from "../src/pages/Top Universities/Usa/UniversityOfUsa"
 function App() {
   return (
     <Router>
@@ -65,8 +67,13 @@ function App() {
           path="/nz-topuniversity/:id"
           element={<UniversityofNz/>}
         />
-        <Route path="/uk-topuniversity" element={<Uk />} />
-        <Route path="/uk-topuniversity/:id" element={<UniversityOfUK />} />
+        <Route path="/uk-topuniversity" element={<Uk/>} />
+        <Route
+         path="/uk-topuniversity/:id" element={<UniversityOfUk/>} />
+           <Route
+          path="/usa-top-university/:id"
+          element={<UniversityOfUsa/>}
+        />
         <Route path="/usa-topuniversity" element={<Usa />} />
         <Route path="/about" element={<About />} />
         <Route path="/studydestination" element={<Countries />} />

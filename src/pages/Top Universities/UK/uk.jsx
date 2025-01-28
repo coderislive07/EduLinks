@@ -19,9 +19,7 @@ import Leeds from "../../../assets/top universities/UK/10015.png";
 import York from "../../../assets/top universities/UK/10016.png";
 import Exeter from "../../../assets/top universities/UK/10017.png";
 import stAndrews from "../../../assets/top universities/UK/10018.png";
-
-import backgroundimg from "../../assets/Ellipse-10.png";
-
+import backgroundimg from "../../../assets/Ellipse-10.png";
 const universities = [
   {
     name: "University of Oxford",
@@ -161,7 +159,7 @@ export default function Uk() {
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-gray-800">{uni.name}</h3>
                 <a
-                  href="#"
+                  href={uni.link}
                   className="inline-block px-6 py-2 border border-[#00b4d8] text-[#00b4d8] rounded hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
                 >
                   Know More &gt;

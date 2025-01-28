@@ -11,11 +11,9 @@ const FeeCard = ({ img, p1, p2 }) => {
     </div>
   );
 };
-
-function UniversityOfUK() {
+function UniversityOfUk() {
   const { id } = useParams();
-  const fetchedData1 = data[0];
-  const fetchedData = fetchedData1[id];
+  const fetchedData = data[id];
   console.log(fetchedData);
   return (
     <div className="pt-[80px]">
@@ -25,7 +23,7 @@ function UniversityOfUK() {
       <h1 className="text-center text-5xl my-4 text-bold font-normal">
         {fetchedData.university}
       </h1>
-      <img src={fetchedData.heroImg} className="h-auto w-auto my-3" />
+      <img src={fetchedData.heroImg} className="h-[710px] w-full  my-3" />
       <div className="my-8">
         <h1 className="text-3xl text-center text-[#37D7D9] font-normal">
           Overview
@@ -171,4 +169,4 @@ function UniversityOfUK() {
   );
 }
 
-export default UniversityOfUK;
+export default UniversityOfUk;
