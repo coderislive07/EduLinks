@@ -43,10 +43,14 @@ function App() {
         <Route path="/uk-career" element={<Careersuk />} />
         <Route path="/usa-career" element={<Careersusa />} />
         <Route path="/australia-topuniversity" element={<Aus />} />
+
+
+
         <Route
           path="/australia-topuniversity/:id"
           element={<UniversityOfAus />}
         />
+        
         <Route path="/canada-topuniversity" element={<Canada />} />
         <Route
           path="/canada-topuniversity/:id"
@@ -76,6 +80,16 @@ function App() {
         <Route path="/usa-topuniversity" element={<Usa />} />
         <Route path="/carr-engineering" element={<CarrEngi />} />
         <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
+
+
+        
+        <Route path="/australia-health-science" element={<Healthsc />} />
+        <Route path="/australia-natural-sciences" element={<NaturalSc />} />
+        <Route path="/australia-information-technology" element={<InfoTech/>} />
+        <Route path="/australia-environmental-science" element={<EnviroSc />} />
+        <Route path="/australia-biotechnology" element={<BioTech />} />
+        <Route path="/australia-mathematics-statistics" element={<MathStat />} />
+
       </Routes>
       <Footer />
     </Router>

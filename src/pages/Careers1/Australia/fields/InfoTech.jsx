@@ -1,39 +1,29 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-7.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: "Aerospace Engineering",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Aerospace Engineering in Australia is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Australia and Airbus Australia Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Australian Space Agency.",
-  },
-  {
-    title: "Biomedical Engineering",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Biomedical Engineering in Australia merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Australian biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
-  },
-  {
-    title: "Software Engineering",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Australia’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Australia are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
-  },
-  {
-    title: "Robotics and Automation Engineering",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
-    description:
-      "Robotics and Automation Engineering in Australia is booming, particularly in industries like mining, manufacturing, and agriculture. Australian engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Australia.",
-  },
-]
+    {
+      title: "Cybersecurity Specialist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ud5aSMMvpbZDojSQBCbsXsyGV0Umlb.png",
+      description:
+        "Cybersecurity is a top priority in Australia, with specialists tasked with protecting the country's digital infrastructure from an increasing number of cyber threats. Cybersecurity professionals work across sectors like government, finance, and healthcare to safeguard data and systems. As cybercrime continues to rise, cybersecurity specialists are in high demand in Australia.",
+    },
+    {
+      title: "Machine Learning Engineer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YtlZ6jQvEjrdrQRjplNN6ei1XEnkGh.png",
+      description:
+        "Machine Learning Engineers in Australia are at the forefront of AI innovations, building algorithms that enable machines to learn from data. These engineers work across sectors such as healthcare, finance, and agriculture, contributing to automation and decision-making processes. Australia's growing AI research ecosystem provides numerous opportunities for machine learning professionals.",
+    },
+    {
+      title: "Blockchain Developer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rZJHSSEcVm3ZVGFj31ImgoAvrK8DCG.png",
+      description:
+        "Blockchain Developers in Australia are transforming industries by implementing decentralized systems that enhance transparency and security. From finance to agriculture, blockchain technology is gaining traction, and developers are playing a key role in its adoption. With Australia's focus on digital transformation, blockchain developers are in high demand.",
+    }
+  ];
 
 const universities = [
   {
@@ -60,54 +50,54 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Engineering & Technology?",
+    question: "What is Information Technology?",
     answer:
-      "Engineering & Technology encompasses various disciplines that apply scientific and mathematical principles to solve real-world problems and create innovative solutions.",
+      "IT involves the use of computers, software, and networks to store, retrieve, and secure data.",
   },
   {
-    question: "How do I apply to study Engineering in Australia?",
+    question: "What degrees do I need to work in Health Sciences in Australia?",
     answer:
-      "To study Engineering in Australia, you need to meet academic requirements, English language proficiency, and submit applications through universities' online portals.",
+      "A degree in IT, computer science, or a related field is required, with certifications valuable in cybersecurity and AI.",
   },
   {
-    question: "What are the career prospects in Australia?",
+    question: "What skills are essential for IT professionals in Australia?",
     answer:
-      "Engineering careers in Australia offer excellent prospects with competitive salaries and opportunities across various sectors including mining, construction, technology, and healthcare.",
+      "Technical expertise, adaptability to new technologies, and problem-solving skills are essential.",
   },
   {
-    question: "Are there scholarships available for Engineering students?",
+    question: "Are there internships available for IT students in Australia?",
     answer:
-      "Yes, many Australian universities offer scholarships for international engineering students based on academic merit and other criteria.",
+      "Yes, many Australian universities and companies offer internships, providing practical experience in various IT fields.",
   },
   {
-    question: "What are the emerging technologies in Australia's engineering sector?",
+    question: "What are the emerging technologies in Australia’s IT sector?",
     answer:
-      "Emerging technologies include artificial intelligence, renewable energy systems, and advanced manufacturing technologies",
+      "AI, blockchain, and cybersecurity are among the most prominent emerging technologies.",
   },
   {
-    question: "Can Australian engineers work abroad?",
+    question: "Can Australian IT professionals work internationally?",
     answer:
-      "Yes, Australian engineering qualifications are highly respected internationally, offering opportunities for global employment.",
+      "Yes, Australian IT qualifications are globally respected, enabling professionals to pursue international careers.",
   },
   {
-    question: "What is the job outlook for engineers in Australia?",
+    question: "What is the job outlook for IT professionals in Australia?",
     answer:
-      "The job outlook is strong, with demand expected to grow in sectors such as renewable energy, software development, and biomedical engineering.",
+      "The outlook is highly positive, especially in cybersecurity, AI, and blockchain development.",
   },
   {
-    question: "How does specialization affect my career in Australian engineering?",
+    question: "How does specialization affect my career in Australian IT?",
     answer:
-      "Specializing in fields like AI, automation, or sustainable technologies can lead to higher salaries and increased job opportunities",
+      "Specializing in high-demand areas like machine learning or blockchain can lead to better opportunities and higher salaries.",
   },
   {
-    question: "Are engineering jobs flexible in Australia?",
+    question: "Are IT jobs flexible in Australia?",
     answer:
-      "Many engineering roles offer flexible working arrangements, including project-based work, remote opportunities, and part-time options.",
+      "Many IT roles offer flexible working arrangements, including remote work and freelance opportunities.",
   },
   {
-    question: "What are the challenges faced by engineers in Australia today?",
+    question: "What are the challenges faced by IT professionals in Australia today?",
     answer:
-      "Key challenges include adapting to rapid technology changes, addressing sustainability, and managing large-scale infrastructures.",
+      "Challenges include keeping up with cybersecurity threats and staying current with fast-evolving technology",
   },
 
   
@@ -173,7 +163,7 @@ export default function AusEngAndTech() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Engineering & Technology</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Information Technology</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
@@ -190,7 +180,8 @@ export default function AusEngAndTech() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-Engineering & Technology in Australia is a diverse and innovative field that blends scientific principles, practical skills, and cutting-edge technology to address modern challenges. Australian engineers are at the forefront of advancements in sectors such as aerospace, mining, biomedical technology, and renewable energy. With a growing focus on sustainability and digital transformation, Australia offers excellent opportunities for engineers to make significant contributions while enjoying a high quality of life.
+
+            Australia’s Information Technology sector is rapidly expanding, playing a critical role in economic growth and innovation. IT professionals in Australia work on cutting-edge technologies in cybersecurity, AI, and blockchain, contributing to advancements in industries such as finance, healthcare, and agriculture. With Sydney and Melbourne emerging as key tech hubs, Australia offers a dynamic environment for IT professionals.
             </h1>
           </div>
 
@@ -236,55 +227,40 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Why Choose a Career in Engineering & Technology?
+      Why Choose a Career in Information Technology?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        A career in Engineering & Technology in Australia offers the chance to work in a forward-thinking, innovative
-        environment that applies scientific principles to solve real-world challenges. Engineers in Australia are
-        integral to addressing issues such as climate change, energy efficiency, and healthcare innovation. With a
-        strong focus on research and development, the country offers diverse opportunities for engineers to make a
-        lasting impact.
+      Choosing a career in IT in Australia provides the opportunity to work in a thriving industry that drives innovation and digital transformation. IT professionals play a crucial role in addressing global challenges, from cybersecurity to AI-driven automation, making it a dynamic and impactful career path.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Engineering & Technology Job Outlook
+      Information Technology Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        The job market for Engineering & Technology in Australia is thriving, particularly in fields like software
-        engineering, renewable energy, and biomedical technology. The Australian government’s investment in
-        infrastructure and technology-driven sectors is driving steady demand for skilled engineers, especially in
-        cities like Sydney, Brisbane, and Perth.
+      The job outlook for IT professionals in Australia is highly favorable, particularly in cybersecurity, AI, and blockchain. As industries continue to adopt digital solutions, the demand for skilled IT professionals is expected to rise significantly.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Future Aspects of Engineering & Technology
+      Future Aspects of Information Technology
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        Australia’s future in Engineering & Technology is driven by innovation and sustainability. Aerospace engineers
-        will play a pivotal role in the Australian Space Agency’s projects, while biomedical engineers will continue to
-        advance health technologies such as AI-powered diagnostics and personalized treatments. Software engineers will
-        remain essential in developing secure, scalable solutions, and automation engineers will revolutionize
-        industries like agriculture and mining with intelligent robotics systems.
+      The future of IT in Australia will be centered around AI, cybersecurity, and blockchain technology. Machine learning engineers will drive AI advancements, cybersecurity specialists will protect Australia’s digital infrastructure, and blockchain developers will expand decentralized systems across industries.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Top Engineering & Technology Employers
+      Top  Information Technology Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        In Canada, leading companies like Bombardier Aerospace and BlackBerry offer extensive opportunities in aerospace
-        and software engineering. Thomson Reuters recruits for roles in technology development, while Apotex Inc.
-        focuses on biomedical engineering. Additionally, Shopify is at the forefront, seeking skilled engineers to
-        innovate in e-commerce technology, reflecting the diverse career opportunities across the country’s technology
-        landscape.
+      Leading employers in Australia’s IT sector include Atlassian, Telstra, NAB, and government agencies. Sydney and Melbourne are key hubs for tech innovation, with numerous startups and multinational companies seeking IT professionals.
       </p>
     </div>
   </div>

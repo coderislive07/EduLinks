@@ -6,33 +6,28 @@ import img2 from "../../../../assets/icon-3.png"
 
 const courses = [
   {
-    title: "Aerospace Engineering",
+    title: " Medical Research",
     image: 
      
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
      ,
     description:
-      "Aerospace Engineering in Australia is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Australia and Airbus Australia Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Australian Space Agency.",
+      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
   },
   {
-    title: "Biomedical Engineering",
+    title: "Public Health Administration",
     image: 
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
     description:
-      "Biomedical Engineering in Australia merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Australian biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
+      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
   },
   {
-    title: "Software Engineering",
+    title: 
+"Clinical Technology",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
     description:
-      "Australia’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Australia are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
-  },
-  {
-    title: "Robotics and Automation Engineering",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
-    description:
-      "Robotics and Automation Engineering in Australia is booming, particularly in industries like mining, manufacturing, and agriculture. Australian engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Australia.",
-  },
+      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
+  }
 ]
 
 const universities = [
@@ -49,7 +44,7 @@ const universities = [
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
-    name: "University of New South Wales (UNSW)",
+    name: "Monash University",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
   },
   {
@@ -60,62 +55,61 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Engineering & Technology?",
+    question: "What is Health Sciences?",
     answer:
-      "Engineering & Technology encompasses various disciplines that apply scientific and mathematical principles to solve real-world problems and create innovative solutions.",
+      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
   },
   {
-    question: "How do I apply to study Engineering in Australia?",
+    question: "What degrees do I need to work in Health Sciences in Australia?",
     answer:
-      "To study Engineering in Australia, you need to meet academic requirements, English language proficiency, and submit applications through universities' online portals.",
+      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
   },
   {
-    question: "What are the career prospects in Australia?",
+    question: "What skills are essential for health science professionals in Australia?",
     answer:
-      "Engineering careers in Australia offer excellent prospects with competitive salaries and opportunities across various sectors including mining, construction, technology, and healthcare.",
+      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
   },
   {
-    question: "Are there scholarships available for Engineering students?",
+    question: "Are there internships available for health science students in Australia?",
     answer:
-      "Yes, many Australian universities offer scholarships for international engineering students based on academic merit and other criteria.",
+      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
   },
   {
-    question: "What are the emerging technologies in Australia's engineering sector?",
+    question: "What are the emerging technologies in Australia’s health science sector?",
     answer:
-      "Emerging technologies include artificial intelligence, renewable energy systems, and advanced manufacturing technologies",
+      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
   },
   {
-    question: "Can Australian engineers work abroad?",
+    question: "Can Australian health science professionals work internationally?",
     answer:
-      "Yes, Australian engineering qualifications are highly respected internationally, offering opportunities for global employment.",
+      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
   },
   {
-    question: "What is the job outlook for engineers in Australia?",
+    question: "What is the job outlook for health science professionals in Australia?",
     answer:
-      "The job outlook is strong, with demand expected to grow in sectors such as renewable energy, software development, and biomedical engineering.",
+      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
   },
   {
-    question: "How does specialization affect my career in Australian engineering?",
+    question: "How does specialization affect my career in Australian health sciences?",
     answer:
-      "Specializing in fields like AI, automation, or sustainable technologies can lead to higher salaries and increased job opportunities",
+      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
   },
   {
-    question: "Are engineering jobs flexible in Australia?",
+    question: "Are health science jobs flexible in Australia?",
     answer:
-      "Many engineering roles offer flexible working arrangements, including project-based work, remote opportunities, and part-time options.",
+      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
   },
   {
-    question: "What are the challenges faced by engineers in Australia today?",
+    question: "What are the challenges faced by health science professionals in Australia today?",
     answer:
-      "Key challenges include adapting to rapid technology changes, addressing sustainability, and managing large-scale infrastructures.",
+      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
   },
 
   
 ]
 
-export default function AusEngAndTech() {
+export default function Healthsc() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
-
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -173,7 +167,7 @@ export default function AusEngAndTech() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Engineering & Technology</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
@@ -190,7 +184,8 @@ export default function AusEngAndTech() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-Engineering & Technology in Australia is a diverse and innovative field that blends scientific principles, practical skills, and cutting-edge technology to address modern challenges. Australian engineers are at the forefront of advancements in sectors such as aerospace, mining, biomedical technology, and renewable energy. With a growing focus on sustainability and digital transformation, Australia offers excellent opportunities for engineers to make significant contributions while enjoying a high quality of life.
+
+            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
             </h1>
           </div>
 
@@ -198,7 +193,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
       </div>
 
       {/* Courses Section */}
-      <div className="py-16 bg-[#37D7D91A]">
+<div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -236,55 +231,40 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Why Choose a Career in Engineering & Technology?
+      Why Choose a Career in Health Sciences?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        A career in Engineering & Technology in Australia offers the chance to work in a forward-thinking, innovative
-        environment that applies scientific principles to solve real-world challenges. Engineers in Australia are
-        integral to addressing issues such as climate change, energy efficiency, and healthcare innovation. With a
-        strong focus on research and development, the country offers diverse opportunities for engineers to make a
-        lasting impact.
+      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Engineering & Technology Job Outlook
+      Health Sciences Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        The job market for Engineering & Technology in Australia is thriving, particularly in fields like software
-        engineering, renewable energy, and biomedical technology. The Australian government’s investment in
-        infrastructure and technology-driven sectors is driving steady demand for skilled engineers, especially in
-        cities like Sydney, Brisbane, and Perth.
+      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Future Aspects of Engineering & Technology
+      Future Aspects of Health Sciences
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        Australia’s future in Engineering & Technology is driven by innovation and sustainability. Aerospace engineers
-        will play a pivotal role in the Australian Space Agency’s projects, while biomedical engineers will continue to
-        advance health technologies such as AI-powered diagnostics and personalized treatments. Software engineers will
-        remain essential in developing secure, scalable solutions, and automation engineers will revolutionize
-        industries like agriculture and mining with intelligent robotics systems.
+      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Top Engineering & Technology Employers
+      Top Health Sciences Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        In Canada, leading companies like Bombardier Aerospace and BlackBerry offer extensive opportunities in aerospace
-        and software engineering. Thomson Reuters recruits for roles in technology development, while Apotex Inc.
-        focuses on biomedical engineering. Additionally, Shopify is at the forefront, seeking skilled engineers to
-        innovate in e-commerce technology, reflecting the diverse career opportunities across the country’s technology
-        landscape.
+      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
       </p>
     </div>
   </div>
@@ -351,10 +331,10 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Engineering & Technology
+            Average Salary in Health 
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-            Engineers in Australia enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
+          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
           </p>
         </div>
       </div>

@@ -1,40 +1,35 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-6.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: "Aerospace Engineering",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Aerospace Engineering in Australia is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Australia and Airbus Australia Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Australian Space Agency.",
-  },
-  {
-    title: "Biomedical Engineering",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Biomedical Engineering in Australia merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Australian biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
-  },
-  {
-    title: "Software Engineering",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Australia’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Australia are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
-  },
-  {
-    title: "Robotics and Automation Engineering",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
-    description:
-      "Robotics and Automation Engineering in Australia is booming, particularly in industries like mining, manufacturing, and agriculture. Australian engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Australia.",
-  },
-]
-
+    {
+      title: "Astrophysics",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cPn0jSQU10Cwqhk50UBVBQ5yOUtqJf.png",
+      description:
+        "Astrophysics in Australia is a rapidly growing field, with world-class research facilities such as the Parkes Observatory and the Square Kilometre Array (SKA) project. Australian astrophysicists work on projects that explore black holes, dark matter, and the origins of the universe, contributing to global space exploration efforts.",
+    },
+    {
+      title: "Marine Biology",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rxDXSiU6oWwiLvciP4cuU73VnhvDra.png",
+      description:
+        "Marine Biology in Australia focuses on the diverse marine ecosystems of the Great Barrier Reef and surrounding oceans. Australian marine biologists work on conservation projects that protect endangered species, manage fisheries, and combat the effects of climate change on coral reefs. Institutions like the Australian Institute of Marine Science (AIMS) lead efforts in marine research and conservation.",
+    },
+    {
+      title: "Geochemistry",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8mMKluckcnOMzRHyyxlPclIaPkwzxe.png",
+      description:
+        "Geochemistry in Australia involves studying the country's unique geological features, including mineral deposits and volcanic landscapes. Geochemists work on projects related to mining, environmental conservation, and sustainable resource management. Australia's rich mineral resources make it a prime location for geochemical research and innovation.",
+    },
+    {
+      title: "Quantum Computing",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WnreL8NKv7fvI6YMCpWlHO1uYB5KPA.png",
+      description:
+        "Quantum Computing in Australia is advancing rapidly, with institutions like the University of Sydney and the University of New South Wales (UNSW) leading research in quantum technologies. Australia is positioning itself as a global leader in quantum computing, with applications in cryptography, artificial intelligence, and complex problem-solving.",
+    },
+  ];
 const universities = [
   {
     name: "University of Melbourne",
@@ -50,7 +45,7 @@ const universities = [
   },
   {
     name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lwoBAANkrwQY88i5uAjqPnGpsJLzKe.png",
   },
   {
     name: "University of Queensland",
@@ -60,62 +55,61 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Engineering & Technology?",
+    question: "What is Natural Sciences?",
     answer:
-      "Engineering & Technology encompasses various disciplines that apply scientific and mathematical principles to solve real-world problems and create innovative solutions.",
+      "It’s a multidisciplinary field that explores the physical and biological world, including space, oceans, and Earth’s processes.",
   },
   {
-    question: "How do I apply to study Engineering in Australia?",
+    question: "What degrees do I need to work in Natural Sciences in Australia?",
     answer:
-      "To study Engineering in Australia, you need to meet academic requirements, English language proficiency, and submit applications through universities' online portals.",
+      "A bachelor’s or master’s degree is required, with PhDs needed for advanced research roles.",
   },
   {
-    question: "What are the career prospects in Australia?",
+    question: "What skills are essential for natural scientists in Australia?",
     answer:
-      "Engineering careers in Australia offer excellent prospects with competitive salaries and opportunities across various sectors including mining, construction, technology, and healthcare.",
+      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
   },
   {
-    question: "Are there scholarships available for Engineering students?",
+    question: "Are there internships available for natural science students in Australia?",
     answer:
-      "Yes, many Australian universities offer scholarships for international engineering students based on academic merit and other criteria.",
+      "Yes, many universities and research institutions offer internships and placements for hands-on experience.",
   },
   {
-    question: "What are the emerging technologies in Australia's engineering sector?",
+    question: "What are the emerging technologies in Australia’s natural sciences sector?",
     answer:
-      "Emerging technologies include artificial intelligence, renewable energy systems, and advanced manufacturing technologies",
+      "Key technologies include quantum computing, AI in marine biology, and sustainable mining solutions.",
   },
   {
-    question: "Can Australian engineers work abroad?",
+    question: "Can Australian natural scientists work internationally?",
     answer:
-      "Yes, Australian engineering qualifications are highly respected internationally, offering opportunities for global employment.",
+      "Yes, Australian natural science qualifications are highly regarded globally, opening up international opportunities.",
   },
   {
-    question: "What is the job outlook for engineers in Australia?",
+    question: "What is the job outlook for natural scientists in Australia?",
     answer:
-      "The job outlook is strong, with demand expected to grow in sectors such as renewable energy, software development, and biomedical engineering.",
+      "The outlook is positive, particularly in environmental science, geochemistry, and quantum computing.",
   },
   {
-    question: "How does specialization affect my career in Australian engineering?",
+    question: "How does specialization affect my career in Australian natural sciences?",
     answer:
-      "Specializing in fields like AI, automation, or sustainable technologies can lead to higher salaries and increased job opportunities",
+      "Specializing in high-demand areas like environmental science or sustainable energy can lead to better job prospects and higher salaries.",
   },
   {
-    question: "Are engineering jobs flexible in Australia?",
+    question: "Are natural science jobs flexible in Australia?",
     answer:
-      "Many engineering roles offer flexible working arrangements, including project-based work, remote opportunities, and part-time options.",
+      "Many roles offer flexibility, including remote work and project-based employment.",
   },
   {
-    question: "What are the challenges faced by engineers in Australia today?",
+    question: "What are the challenges faced by natural scientists in Australia today?",
     answer:
-      "Key challenges include adapting to rapid technology changes, addressing sustainability, and managing large-scale infrastructures.",
+      "Challenges include addressing climate change, managing natural resources, and advancing sustainable technologies.",
   },
 
   
 ]
 
-export default function AusEngAndTech() {
+export default function Healthsc() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
-
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -173,7 +167,7 @@ export default function AusEngAndTech() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Engineering & Technology</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Natural Sciences</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
@@ -190,7 +184,9 @@ export default function AusEngAndTech() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-Engineering & Technology in Australia is a diverse and innovative field that blends scientific principles, practical skills, and cutting-edge technology to address modern challenges. Australian engineers are at the forefront of advancements in sectors such as aerospace, mining, biomedical technology, and renewable energy. With a growing focus on sustainability and digital transformation, Australia offers excellent opportunities for engineers to make significant contributions while enjoying a high quality of life.
+
+            
+            Natural Sciences in Australia offer professionals the chance to explore the continent’s unique ecosystems, rich biodiversity, and cutting-edge research facilities. From astrophysics to marine biology, geochemistry, and quantum computing, Australian scientists are at the forefront of global efforts to understand and protect the natural world. With a strong focus on environmental conservation and technological innovation, Australia provides a dynamic environment for careers in natural sciences.
             </h1>
           </div>
 
@@ -198,7 +194,7 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
       </div>
 
       {/* Courses Section */}
-      <div className="py-16 bg-[#37D7D91A]">
+<div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -236,55 +232,40 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Why Choose a Career in Engineering & Technology?
+      Why Choose a Career in Natural Sciences?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        A career in Engineering & Technology in Australia offers the chance to work in a forward-thinking, innovative
-        environment that applies scientific principles to solve real-world challenges. Engineers in Australia are
-        integral to addressing issues such as climate change, energy efficiency, and healthcare innovation. With a
-        strong focus on research and development, the country offers diverse opportunities for engineers to make a
-        lasting impact.
+      A career in Natural Sciences in Australia offers the chance to work on groundbreaking research in one of the world’s most diverse natural environments. From exploring the universe to protecting coral reefs, Australian scientists contribute to global scientific advancements and environmental conservation.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Engineering & Technology Job Outlook
+      Health Sciences Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        The job market for Engineering & Technology in Australia is thriving, particularly in fields like software
-        engineering, renewable energy, and biomedical technology. The Australian government’s investment in
-        infrastructure and technology-driven sectors is driving steady demand for skilled engineers, especially in
-        cities like Sydney, Brisbane, and Perth.
+      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Future Aspects of Engineering & Technology
+      Future Aspects of Natural Sciences
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        Australia’s future in Engineering & Technology is driven by innovation and sustainability. Aerospace engineers
-        will play a pivotal role in the Australian Space Agency’s projects, while biomedical engineers will continue to
-        advance health technologies such as AI-powered diagnostics and personalized treatments. Software engineers will
-        remain essential in developing secure, scalable solutions, and automation engineers will revolutionize
-        industries like agriculture and mining with intelligent robotics systems.
+      Australia’s future in Natural Sciences is focused on environmental conservation, sustainable resource management, and scientific innovation. Astrophysicists will contribute to global space exploration efforts, while marine biologists work to protect fragile marine ecosystems. Geochemists will continue to explore sustainable mining practices, and quantum computing researchers will push the boundaries of computational technology.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-        Top Engineering & Technology Employers
+      Top Natural Sciences Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-        In Canada, leading companies like Bombardier Aerospace and BlackBerry offer extensive opportunities in aerospace
-        and software engineering. Thomson Reuters recruits for roles in technology development, while Apotex Inc.
-        focuses on biomedical engineering. Additionally, Shopify is at the forefront, seeking skilled engineers to
-        innovate in e-commerce technology, reflecting the diverse career opportunities across the country’s technology
-        landscape.
+      Top employers in Australia’s Natural Sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), the Australian Institute of Marine Science (AIMS), and leading universities. Tech companies and government agencies focused on environmental conservation also offer extensive opportunities for natural science professionals.
       </p>
     </div>
   </div>
@@ -351,10 +332,10 @@ Engineering & Technology in Australia is a diverse and innovative field that ble
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Engineering & Technology
+          Average Salary in Natural Sciences
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-            Engineers in Australia enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
+          Natural science professionals in Australia earn competitive salaries. Astrophysicists typically earn around AUD $90,000 annually, while marine biologists make approximately AUD $75,000. Geochemists can expect salaries of about AUD $85,000, and quantum computing researchers often earn upwards of AUD $100,000, depending on their experience and specialization.
           </p>
         </div>
       </div>
