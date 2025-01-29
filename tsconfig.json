@@ -14,6 +14,7 @@
       "@/components/*": ["./src/components/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/utils/*": ["./src/utils/*"]
+      // ,
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],  // Only include TypeScript files
