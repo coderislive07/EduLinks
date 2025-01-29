@@ -12,10 +12,10 @@ const FeeCard = ({ img, p1, p2 }) => {
   );
 };
 
-function UniversityOfAus() {
+function UniversityOfNz() {
   const { id } = useParams();
   const fetchedData = data[id];
-  console.log(fetchedData)
+  console.log(fetchedData);
   return (
     <div className="pt-[80px]">
       <h2 className="text-xl text-center underline text-[#37D7D9] font-normal">
@@ -161,9 +161,13 @@ function UniversityOfAus() {
           })}
         </ul>
       </div>
-   
+      <div className="my-8 flex justify-center items-center">
+        <button className="bg-[#B1E8EB] text-black font-semibold px-4 py-2 rounded-md">
+          CONTACT US
+        </button>
+      </div>
     </div>
   );
 }
 
-export default UniversityOfAus;
+export default UniversityOfNz;
