@@ -1,115 +1,111 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-22.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
+    {
+      title: "Science Curriculum Designer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0wdSiScKlAsFzEDPnsLso6h7MxoG53.png",
+      description:
+        "Science Curriculum Designers in Australia are responsible for creating and updating science curricula that align with the national curriculum standards. They work to ensure that scientific concepts are presented in engaging and accessible ways, incorporating the latest technologies and methodologies to enhance student learning.",
+    },
+    {
+      title: "Educational Consultant",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4xqehqcOGv54hzaaclKlIC500itcXs.png",
+      description:
+        "Educational Consultants in Australia advise schools, educational organizations, and policymakers on curriculum development, teacher training, and the integration of new technologies. They also offer guidance on improving student outcomes and enhancing the overall learning experience.",
+    },
+    {
+      title: "STEM Program Coordinator",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EUM7fZONQDYcPlo1Q1VzXufo734iUQ.png",
+      description:
+        "STEM Program Coordinators in Australia manage programs that promote STEM education, collaborating with educators, industry partners, and government agencies to encourage student interest in science, technology, engineering, and mathematics. These professionals play a key role in preparing students for future careers in high-demand fields.",
+    },
+  ]
 
 const universities = [
-  {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
-  },
-  {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
-  },
-  {
-    name: "Australian National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
-  },
-  {
-    name: "Monash University",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
-  },
-  {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
-  },
-]
+    {
+      name: "University of Melbourne",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+    },
+    {
+      name: "University of Sydney",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+    },
+    {
+      name: "Australian National University (ANU)",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+    },
+    {
+      name: "University of Queensland",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+    },
+    {
+        name: "Monash University",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    },
+  ]
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Education?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "It’s the field dedicated to teaching, learning, and the development of academic programs and initiatives that improve student outcomes.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in Education in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A degree in education or a related field is required, with postgraduate qualifications helpful for roles like consulting and curriculum design.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for education professionals in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Creativity, leadership, and familiarity with educational technology are essential.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for education students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, many schools and universities offer internships for students to gain hands-on experience in education-related roles.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging trends in Australia’s education sector?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "Digital transformation, STEM education, and personalized learning are key trends.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian education professionals work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, Australian teaching and education credentials are widely respected globally, providing opportunities for international roles.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for education professionals in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is positive, especially for roles related to STEM education, digital learning, and consulting.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian education?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in areas like STEM or digital education can lead to more job opportunities and higher salaries.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are education jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Many roles offer flexibility, including part-time work, remote roles, and consulting opportunities.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by education professionals in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include adapting to technological advancements, addressing diverse student needs, and ensuring equitable access to education.",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function Education() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,13 +163,13 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Education</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
         </div>
       </div>
-      <div>
+    <div>
         <div className="absolute  left-[6%] top-[62%]">
           <img  src={img2}
           
@@ -184,8 +180,13 @@ export default function Healthsc() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            
+            
+                Australia’s education system is well-regarded for its focus on innovation, inclusivity, and preparing 
+                students for the future workforce. Professionals in education play critical roles in curriculum development,
+                 consulting, and STEM program coordination, helping shape the educational experiences of students across
+                  the country. With a focus on digital transformation and STEM learning, Australia offers numerous opportunities
+                   for education professionals to make a meaningful impact.
             </h1>
           </div>
 
@@ -193,7 +194,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +232,40 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Education?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in education in Australia offers the chance to shape the future of students and contribute to the country’s commitment to innovation and academic excellence. Whether you’re designing science curricula or coordinating STEM programs, the impact you have on students will help prepare them for success in an ever-changing global economy.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+      Education Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The job outlook for education professionals in Australia is strong, particularly in areas like STEM education, digital learning, and curriculum development. As schools continue to prioritize technology integration and STEM subjects, demand for skilled professionals in these fields is expected to grow.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Education
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      The future of education in Australia is focused on expanding digital learning opportunities, promoting STEM education, and improving equity in education. Science curriculum designers will play a vital role in adapting content for the digital age, while STEM coordinators will help prepare students for careers
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Education Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      Leading employers in Australia’s education sector include public and private schools, universities, and government agencies like the Department of Education. Nonprofit organizations and companies focused on educational technology also offer significant opportunities for professionals in education
       </p>
     </div>
   </div>
@@ -294,7 +295,7 @@ export default function Healthsc() {
                       {university.name}
                     </h3>
                     <div className="text-center">
-                    <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                      <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
                       </button>
                     </div>
@@ -317,7 +318,7 @@ export default function Healthsc() {
                       {university.name}
                     </h3>
                     <div className="text-center">
-                    <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                      <button className="px-6 py-2 text-[16px] font-bold font-roboto bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
                       </button>
                     </div>
@@ -331,10 +332,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Education
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Education professionals in Australia earn competitive salaries. Science curriculum designers typically earn around AUD $75,000 annually, while educational consultants make approximately AUD $85,000. STEM program coordinators can expect to earn about AUD $70,000, depending on their experience and the size of the program they manage.
           </p>
         </div>
       </div>

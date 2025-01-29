@@ -1,33 +1,38 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-4-1.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
   {
-    title: " Medical Research",
+    title: "Aerospace Engineering",
     image: 
      
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
      ,
     description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
+      "Aerospace Engineering in Australia is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Australia and Airbus Australia Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Australian Space Agency.",
   },
   {
-    title: "Public Health Administration",
+    title: "Biomedical Engineering",
     image: 
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
     description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
+      "Biomedical Engineering in Australia merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Australian biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
   },
   {
-    title: 
-"Clinical Technology",
+    title: "Software Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
     description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
+      "Australia’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Australia are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
+  },
+  {
+    title: "Robotics and Automation Engineering",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
+    description:
+      "Robotics and Automation Engineering in Australia is booming, particularly in industries like mining, manufacturing, and agriculture. Australian engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Australia.",
+  },
 ]
 
 const universities = [
@@ -44,7 +49,7 @@ const universities = [
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
-    name: "Monash University",
+    name: "University of New South Wales (UNSW)",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
   },
   {
@@ -55,61 +60,62 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Artificial Intelligence (AI)?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "AI refers to systems and algorithms that perform tasks requiring human intelligence, like decision-making, language processing, and recognition.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in AI in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A bachelor’s degree in AI, computer science, or related fields is common, with a master’s or PhD needed for specialized AI roles.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for AI professionals in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Key skills include expertise in machine learning, deep learning, Python, and proficiency in AI frameworks like TensorFlow, Keras, and PyTorch.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for AI students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, many tech companies and research institutions in Australia offer internships, providing experience in AI research and development.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging trends in AI in Australia?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "Key trends include AI in healthcare, smart agriculture, and AI ethics to ensure fair and transparent use of technologies.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can AI professionals in Australia work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, AI professionals from Australia are highly valued worldwide, and they have access to opportunities across the globe.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for AI professionals in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is highly favorable, particularly in sectors like healthcare, finance, and agriculture, where AI technologies are rapidly being adopted.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in AI in Australia?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in fields like machine learning, NLP, or robotics can lead to higher salaries and advanced career opportunities.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are AI jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Yes, many AI roles offer flexibility, including opportunities for remote work, freelance projects, and part-time roles.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by AI professionals in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include scaling AI solutions for different industries, addressing ethical concerns, and ensuring data privacy and security.",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function Artificial() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,9 +173,9 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Artificial Intelligence</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+          Gateway to Cutting-Edge Careers in Australia
           </p>
         </div>
       </div>
@@ -185,7 +191,7 @@ export default function Healthsc() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            Australia is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
             </h1>
           </div>
 
@@ -193,7 +199,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +237,40 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Artificial Intelligence?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in AI in Australia offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+      Artificial Intelligence Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The AI job market in Australia is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Artificial Intelligence
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      Australia’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Artificial Intelligence Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      Leading employers in AI in Australia include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, Australia’s national science agency, which leads research in AI and machine learning.
       </p>
     </div>
   </div>
@@ -275,7 +281,7 @@ export default function Healthsc() {
       <div className="py-16 bg-[#37D7D91A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
-            Top Picks for Future Engineers:<br />
+          Top Picks for Future AI Professionals:<br />
             Australia's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
@@ -331,10 +337,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Artificial Intelligence
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          AI professionals in Australia command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
           </p>
         </div>
       </div>
@@ -342,7 +348,7 @@ export default function Healthsc() {
       {/* FAQs Section */}
   <div className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Engineering & Technology</h2>
+    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Artificial Intelligence</h2>
     <div className="space-y-4">
       {faqs.map((faq, index) => (
         <div key={index} className="bg-[#37d7d9] shadow-sm">

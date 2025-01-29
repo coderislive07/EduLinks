@@ -23,13 +23,20 @@ import Usa from "../src/pages/Top Universities/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
 import CarrEngi from "../src/pages/InsideCareers/Page";
 import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
-
 import Healthsc from "./pages/Careers1/Australia/fields/Healthsc"; 
 import NaturalSc from "./pages/Careers1/Australia/fields/NaturalSc";   
 import InfoTech from "./pages/Careers1/Australia/fields/InfoTech";  
 import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc"; 
 import BioTech from "./pages/Careers1/Australia/fields/BioTech";  
-import MathStat from "./pages/Careers1/Australia/fields/MathStat";           
+import MathStat from "./pages/Careers1/Australia/fields/MathStat";   
+import BusEco from "./pages/Careers1/Australia/fields/BusEco";
+import Education from "./pages/Careers1/Australia/fields/Education";
+import Psycho from "./pages/Careers1/Australia/fields/Psycho";
+import Marketing from "./pages/Careers1/Australia/fields/Marketing";
+import Data from "./pages/Careers1/Australia/fields/Data";
+import Artificial from "./pages/Careers1/Australia/fields/Artificial";
+import GraphMed from "./pages/Careers1/Australia/fields/GraphMed";
+import Law from "./pages/Careers1/Australia/fields/Law";
 function App() {
   return (
     <Router>
@@ -86,7 +93,14 @@ function App() {
         <Route path="/australia-environmental-science" element={<EnviroSc />} />
         <Route path="/australia-biotechnology" element={<BioTech />} />
         <Route path="/australia-mathematics-statistics" element={<MathStat />} />
-
+        <Route path="/australia-business-economics" element={<BusEco />} />
+        <Route path="/australia-education" element={<Education />} />
+        <Route path="/australia-psychology-neuroscience" element={<Psycho />} />
+        <Route path="/australia-marketing" element={<Marketing />} />
+        <Route path="/australia-data-science" element={<Data />} />
+        <Route path="/australia-artificial-intelligence" element={<Artificial />} />
+        <Route path="/australia-graphic-design-media" element={<GraphMed />} />
+        <Route path="/australia-law-policy" element={<Law />} />
       </Routes>
       <Footer />
     </Router>

@@ -1,115 +1,114 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-15.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
+    {
+      title: "Digital Marketing Specialist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrllehjdLTAkorIXloJnUcoPw8f5Hj.png",
+      description:
+        "Digital Marketing Specialists in Australia develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
+    },
+    {
+      title: "Market Research Analyst",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NVuwCSBdThSoRbXWnRFVI7BKeQ5DKc.png",
+      description:
+        "Market Research Analysts in Australia collect and analyze data on consumer preferences, market trends, and industry competitors. They provide actionable insights that guide marketing campaigns and business strategies, ensuring companies can effectively meet the needs of their customers and remain competitive.",
+    },
+    {
+      title: "SEO/SEM Specialist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bM5HiLWuAZTnCvHtTb6oA7jIFfEc15.png",
+      description:
+        "SEO/SEM Specialists in Australia focus on improving the online visibility of businesses through organic search optimization and paid search engine marketing. These specialists help companies increase traffic, improve search rankings, and generate leads or sales by using both SEO techniques and SEM strategies.",
+    },
+  ]
+  
+  
+  
 
 const universities = [
-  {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
-  },
-  {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
-  },
-  {
-    name: "Australian National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
-  },
-  {
-    name: "Monash University",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
-  },
-  {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
-  },
-]
+    {
+      name: "University of Melbourne",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+    },
+    {
+      name: "University of Sydney",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+    },
+    {
+      name: "Australian National University (ANU)",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+    },
+    {
+      name: "University of Queensland",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+    },
+    {
+        name: "Monash University",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    },
+  ]
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Marketing?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "It’s the practice of promoting products or services through market research, advertising, and customer engagement strategies.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in Marketing in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A bachelor’s degree in marketing, business, or communications is required, with digital marketing and data analysis as valuable specializations.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for marketers in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Key skills include creativity, analytical thinking, communication, and proficiency in digital tools like Google Ads, Facebook Ads, and SEO strategies.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for marketing students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Internships are widely available in retail, tech, and finance, offering practical experience in digital marketing, SEO, and market research.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging trends in Australia’s marketing sector?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "Key trends include the rise of personalized marketing, AI-driven campaigns, and the increasing use of data analytics for decision-making.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian marketers work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, marketing qualifications and experience gained in Australia are highly regarded globally, offering opportunities to work abroad.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for marketers in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is positive, especially for digital marketing, market research, and SEO/SEM roles.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian marketing?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in high-demand areas like digital marketing, data analysis, or SEO can lead to higher salaries and better job prospects.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are marketing jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Yes, many marketing roles offer flexibility, including opportunities for remote work and freelance consulting.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by marketers in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include staying updated on changing platforms, managing data privacy regulations, and adapting to evolving consumer behavior.",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function Psycho() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,13 +166,13 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Marketing</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Dynamic Careers in Australia
           </p>
         </div>
       </div>
-      <div>
+    <div>
         <div className="absolute  left-[6%] top-[62%]">
           <img  src={img2}
           
@@ -184,8 +183,11 @@ export default function Healthsc() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
+            
+                Australia’s marketing industry is thriving, with a strong focus on digital marketing, data analysis, and e-commerce growth. Marketing professionals in Australia, especially in fields like digital marketing, market research, and SEO/SEM, are key players in helping businesses engage with consumers and stay competitive in the digital landscape.   
+            
+            
 
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
             </h1>
           </div>
 
@@ -193,7 +195,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +233,41 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Marketing?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in marketing in Australia offers the chance to work with leading brands, develop innovative campaigns, and leverage digital platforms to engage with consumers. Marketing professionals are integral to business success, driving growth through data-driven insights, creative strategies, and digital marketing expertise.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+      Marketing Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The job outlook for marketing professionals in Australia is highly favorable, particularly in digital marketing, market research, and SEO/SEM roles. As businesses continue to expand their online presence and focus on data-driven decision-making, demand for skilled marketers is expected to grow.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Marketing
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      The future of marketing in Australia will be driven by digital transformation, personalization, and data analytics. Digital marketing specialists will continue to optimize campaigns using AI and automation tools, while market research analysts will leverage advanced analytics to better understand consumer behavior. SEO/SEM specialists will remain crucial for maintaining strong online visibility in a competitive marketplace.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Marketing Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      
+      Leading employers in Australia include major corporations like Woolworths, Commonwealth Bank, and Qantas. Advertising agencies, tech companies, and e-commerce businesses also provide significant opportunities for marketing professionals.
       </p>
     </div>
   </div>
@@ -275,7 +278,7 @@ export default function Healthsc() {
       <div className="py-16 bg-[#37D7D91A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
-            Top Picks for Future Engineers:<br />
+          Top Picks for Future Marketers:<br />
             Australia's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
@@ -331,10 +334,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Marketing
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Salaries for marketing professionals in Australia vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
           </p>
         </div>
       </div>

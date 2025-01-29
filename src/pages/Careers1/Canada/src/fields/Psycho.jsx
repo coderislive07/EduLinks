@@ -1,115 +1,112 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-13.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
+    {
+      title: "Industrial-Organizational Psychologist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lO4pQMmbw0Pf035QonbtGmPBBKbnR9.png",
+      description:
+        "Industrial-Organizational Psychologists in Australia work with organizations to improve workplace dynamics, employee satisfaction, and overall productivity. They design training programs, conduct employee assessments, and advise on leadership development, contributing to healthier work environments across various industries.",
+    },
+    {
+      title: "Neuropsychologist",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PMbzGYUhUfnlM0K4Z3UtMMYIaLbWyU.png",
+      description:
+        "Neuropsychologists in Australia focus on assessing and treating individuals with neurological disorders, such as brain injuries, dementia, or stroke. They work in hospitals, rehabilitation centers, and research institutions, using advanced neuroimaging and cognitive assessment tools to support patient recovery and enhance quality of life.",
+    },
+    {
+      title: "Research Scientist in Cognitive Science",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jIn3cYO5EmIZ0Ti0KiF1h39Uy83hbl.png",
+      description:
+        "Research Scientists in Cognitive Science in Australia explore how the brain processes information, including perception, memory, and decision-making. Employed by universities, research centers, and tech companies, they investigate topics such as artificial intelligence, brain-computer interfaces, and human-computer interaction, contributing to cutting-edge advancements in technology and cognition.",
+    },
+  ]
+  
 
 const universities = [
-  {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
-  },
-  {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
-  },
-  {
-    name: "Australian National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
-  },
-  {
-    name: "Monash University",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
-  },
-  {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
-  },
-]
+    {
+      name: "University of Melbourne",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+    },
+    {
+      name: "University of Sydney",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+    },
+    {
+      name: "Australian National University (ANU)",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+    },
+    {
+      name: "University of Queensland",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+    },
+    {
+        name: "Monash University",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    },
+  ]
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Psychology & Neuroscience?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "It’s the study of brain function, behavior, and mental health, focusing on cognitive processes, workplace efficiency, and neurological conditions.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in Psychology & Neuroscience in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A bachelor’s degree in psychology or neuroscience is required, with postgraduate qualifications needed for specialized roles like neuropsychology or cognitive science research.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for psychology and neuroscience professionals in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Key skills include problem-solving, research abilities, critical thinking, and expertise in mental health or cognitive processes.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for psychology and neuroscience students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, internships and practicums are available through universities, hospitals, and research institutes, providing hands-on experience in clinical or research settings.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging trends in Australia’s psychology and neuroscience sector?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "AI in cognitive science, mental health app development, and advancements in neurorehabilitation are key trends.",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian psychology and neuroscience professionals work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, Australian qualifications in psychology and neuroscience are globally respected, allowing professionals to work in various countries.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for psychology and neuroscience professionals in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is positive, especially in clinical neuropsychology, organizational psychology, and cognitive science research.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian psychology and neuroscience?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in high-demand areas like neuropsychology or AI research can open up more career opportunities and lead to higher salaries.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are psychology and neuroscience jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Yes, many roles offer flexibility, including opportunities for private practice, remote research, and consulting.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by psychology and neuroscience professionals in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include addressing mental health disparities, integrating new technologies into cognitive research, and navigating ethical issues in neuropsychology.",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function Psycho() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,13 +164,13 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Psychology and Neuroscience</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
             Gateway to Innovative Careers in Australia
           </p>
         </div>
       </div>
-      <div>
+    <div>
         <div className="absolute  left-[6%] top-[62%]">
           <img  src={img2}
           
@@ -184,8 +181,10 @@ export default function Healthsc() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            
+            
+            
+Australia is known for its excellence in mental health services, workplace psychology, and cognitive science research, making it an ideal destination for professionals in psychology and neuroscience. With a focus on improving mental health outcomes, enhancing workplace productivity, and advancing cognitive research, Australia offers numerous career opportunities in fields like Industrial-Organizational Psychology, Neuropsychology, and Cognitive Science.   
             </h1>
           </div>
 
@@ -193,7 +192,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +230,41 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Psychology & Neuroscience?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in psychology and neuroscience in Australia offers the opportunity to make a positive impact on mental health, organizational behavior, and cognitive research. Professionals in these fields contribute to improving patient care, workplace environments, and understanding of the brain, providing a meaningful and rewarding career path.
       </p>
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+      Psychology & Neuroscience Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The job outlook for psychology and neuroscience professionals in Australia is strong, particularly in clinical neuropsychology, organizational psychology, and cognitive science research. As mental health awareness continues to grow, and technological advancements shape cognitive research, demand for qualified professionals is expected to rise.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Psychology & Neuroscience
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      The future of psychology and neuroscience in Australia will focus on mental health innovation, technological integration in cognitive research, and enhancing workplace well-being. Industrial-organizational psychologists will play a key role in adapting to changing work environments, while neuropsychologists will contribute to advancements in neurorehabilitation
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Psychology & Neuroscience Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      
+Top employers in Australia include health care organizations like the Royal Melbourne Hospital, research institutions such as the Australian National University (ANU), and technology companies developing cognitive computing solutions. The Australian government also supports mental health services and cognitive research, providing numerous opportunities for professionals in the field.
       </p>
     </div>
   </div>
@@ -275,7 +275,7 @@ export default function Healthsc() {
       <div className="py-16 bg-[#37D7D91A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
-            Top Picks for Future Engineers:<br />
+          Top Picks for Future Psychology & Neuroscience Professionals:<br />
             Australia's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
@@ -294,7 +294,7 @@ export default function Healthsc() {
                       {university.name}
                     </h3>
                     <div className="text-center">
-                    <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                      <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
                       </button>
                     </div>
@@ -317,7 +317,7 @@ export default function Healthsc() {
                       {university.name}
                     </h3>
                     <div className="text-center">
-                    <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                      <button className="px-6 py-2 text-[16px] font-bold font-roboto bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
                       </button>
                     </div>
@@ -331,10 +331,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Psychology & Neuroscience
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Salaries for psychology and neuroscience professionals in Australia vary by role. Industrial-organizational psychologists typically earn around AUD $95,000 annually, while neuropsychologists make approximately AUD $100,000. Research scientists in cognitive science can expect to earn about AUD $90,000, depending on their experience and research area.
           </p>
         </div>
       </div>

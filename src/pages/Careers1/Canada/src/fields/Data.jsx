@@ -1,35 +1,31 @@
 import React from "react"
-import img1 from "../../../../assets/Group-522.png"
+import img1 from "../../../../assets/Group-3-1.png"
 import img2 from "../../../../assets/icon-3.png"
 
 
 
 const courses = [
-  {
-    title: " Medical Research",
-    image: 
-     
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
-     ,
-    description:
-      "Medical Research in Australia is recognized worldwide, with researchers leading in fields such as cancer research, immunology, and tropical medicine. Institutions like the Garvan Institute of Medical Research and the University of Sydney are at the forefront of developing innovative treatments and improving healthcare practices.",
-  },
-  {
-    title: "Public Health Administration",
-    image: 
-     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
-    description:
-      "Public Health Administration in Australia focuses on improving community health through disease prevention, policy development, and health promotion. Public health professionals work with government agencies, including the Department of Health, to address public health challenges such as obesity, mental health, and indigenous health.",
-  },
-  {
-    title: 
-"Clinical Technology",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
-    description:
-      "Clinical Technology is a fast-growing sector in Australia, with advancements in telehealth, AI diagnostics, and medical imaging technologies. Clinical technologists collaborate with healthcare providers to ensure the effective use of these technologies in improving patient care and health outcomes.",
-  }
-]
-
+    {
+      title: "Data Analyst",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-trZlgFtUPTxCwpqyOaTT5JNXHKun6H.png",
+      description:
+        "Data Analysts in Australia work with large data sets to identify trends and generate actionable insights. They use tools like R, Python, and Excel to provide data visualizations and statistical analysis, supporting businesses in optimizing processes and making informed decisions.",
+    },
+    {
+      title: "Data Engineer",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-W0hr8Ez26sG2F0FeFgat72M5Xq8tsj.png",
+      description:
+        "Data Engineers in Australia design and manage the data architectures that support advanced analytics. They build scalable data pipelines using technologies like Hadoop, Spark, and SQL, ensuring that clean and structured data is available for analysis and business intelligence purposes.",
+    },
+    {
+      title: "Business Intelligence Analyst",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4EXo8qFONrz2aMRNwv6yzwsc7PpX70.png",
+      description:
+        "Business Intelligence (BI) Analysts in Australia focus on transforming data into strategic insights that drive business decisions. Using tools like Tableau, Power BI, and SQL, they create reports, dashboards, and visualizations that help organizations monitor performance and identify areas for improvement.",
+    },
+  ]
+  
+  
 const universities = [
   {
     name: "University of Melbourne",
@@ -44,7 +40,7 @@ const universities = [
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
   },
   {
-    name: "Monash University",
+    name: "University of New South Wales (UNSW)",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
   },
   {
@@ -55,61 +51,62 @@ const universities = [
 
 const faqs = [
   {
-    question: "What is Health Sciences?",
+    question: "What is Data Science?",
     answer:
-      "It’s a multidisciplinary field focused on improving healthcare through research, clinical technology, and public health administration.",
+      "It’s the process of using data analysis, statistics, and machine learning to extract insights that guide business decisions.",
   },
   {
-    question: "What degrees do I need to work in Health Sciences in Australia?",
+    question: "What degrees do I need to work in Data Science in Australia?",
     answer:
-      "A bachelor’s degree in a relevant field is required, with additional qualifications necessary for advanced or specialized roles.",
+      "A bachelor’s in data science or computer science is usually required; advanced degrees are beneficial for specialized roles.",
   },
   {
-    question: "What skills are essential for health science professionals in Australia?",
+    question: "What skills are essential for data science professionals in Australia?",
     answer:
-      "Analytical skills, technical expertise, and the ability to work collaboratively are critical.",
+      "Key skills include Python, SQL, big data technologies (like Hadoop), and data visualization with Tableau or Power BI.",
   },
   {
-    question: "Are there internships available for health science students in Australia?",
+    question: "Are there internships available for data science students in Australia?",
     answer:
-      "Yes, internships and placements are widely available at hospitals, research institutions, and government agencies.",
+      "Yes, many universities and companies offer internships that provide practical experience in data analysis, engineering, and business intelligence.",
   },
   {
-    question: "What are the emerging technologies in Australia’s health science sector?",
+    question: "What are the emerging trends in data science in Australia?",
     answer:
-      "Emerging technologies include telemedicine, AI in diagnostics, and wearable health devices.",
+      "AI and machine learning, real-time analytics, and cloud computing are key trends shaping the future of data science in Australia",
   },
   {
-    question: "Can Australian health science professionals work internationally?",
+    question: "Can Australian data scientists work internationally?",
     answer:
-      "Yes, Australian health qualifications are respected globally, allowing professionals to pursue international careers.",
+      "Yes, Australian qualifications in data science are respected globally, offering opportunities to work abroad.",
   },
   {
-    question: "What is the job outlook for health science professionals in Australia?",
+    question: "What is the job outlook for data science professionals in Australia?",
     answer:
-      "The job outlook is strong, particularly in medical research, public health, and clinical technology.",
+      "The outlook is highly positive, particularly in roles focused on AI, data engineering, and predictive analytics.",
   },
   {
-    question: "How does specialization affect my career in Australian health sciences?",
+    question: "How does specialization affect my career in Australian data science?",
     answer:
-      "Specializing in fields like indigenous health or digital health technology can lead to more career opportunities and higher salaries.",
+      "Specializing in high-demand areas like machine learning or big data can lead to more job opportunities and higher salaries.",
   },
   {
-    question: "Are health science jobs flexible in Australia?",
+    question: "Are data science jobs flexible in Australia?",
     answer:
-      "Yes, many roles offer flexible working arrangements, including remote work and part-time options.",
+      "Many data science roles offer flexibility, including remote work and freelance opportunities.",
   },
   {
-    question: "What are the challenges faced by health science professionals in Australia today?",
+    question: "What are the challenges faced by data science professionals in Australia today?",
     answer:
-      "Challenges include addressing rural healthcare access, improving health equity, and managing growing healthcare demand.",
+      "Challenges include managing large volumes of data, ensuring data privacy, and keeping pace with rapid technological advancements.",
   },
 
   
 ]
 
-export default function Healthsc() {
+export default function AusEngAndTech() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
+
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,9 +164,9 @@ export default function Healthsc() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
-          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Health Sciences</h1>
+          <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Data Science</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to transformative Careers in Australia
           </p>
         </div>
       </div>
@@ -185,7 +182,7 @@ export default function Healthsc() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Health Sciences in Australia is a thriving and multidisciplinary field that integrates medical research, public health administration, and clinical technology to advance healthcare solutions. Australian professionals contribute significantly to global health through cutting-edge research, policy development, and the application of new technologies. With a well-established healthcare system and a focus on public health, Australia offers excellent opportunities for career growth in health sciences.
+            Australia has rapidly become a hub for data science, with growing demand across industries such as finance, healthcare, and retail. Data science professionals, including Data Analysts, Data Engineers, and Business Intelligence Analysts, are integral to helping Australian businesses leverage data to improve decision-making and operational efficiency.
             </h1>
           </div>
 
@@ -193,7 +190,7 @@ export default function Healthsc() {
       </div>
 
       {/* Courses Section */}
-<div className="py-16 bg-[#37D7D91A]">
+      <div className="py-16 bg-[#37D7D91A]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="space-y-12">
       {courses.map((course, index) => (
@@ -231,40 +228,41 @@ export default function Healthsc() {
     {/* Section 1 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Why Choose a Career in Health Sciences?
+      Why Choose a Career in Data Science?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Health Sciences in Australia offers the opportunity to work in a progressive and innovative healthcare system that prioritizes public health and medical research. Health science professionals can contribute to improving the well-being of individuals and communities through research, clinical technology, and policy development.
+      A career in data science in Australia offers exciting opportunities to work on cutting-edge projects that have a direct impact on business success. Data science professionals play a critical role in shaping the digital strategies of companies, influencing everything from operational efficiency to customer engagement.
       </p>
+
     </div>
 
     {/* Section 2 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Health Sciences Job Outlook
+        Data Science Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job market for Health Sciences in Australia is strong, with increasing demand in fields like medical research, public health, and clinical technology. As the country invests in healthcare infrastructure and innovation, professionals in these fields are well-positioned for career growth, particularly in major cities like Sydney, Melbourne, and Brisbane.
+      The demand for data science professionals in Australia continues to grow, with significant opportunities in data analytics, data engineering, and business intelligence. Cities like Sydney, Melbourne, and Brisbane are emerging as key data science hubs, with industries such as banking, retail, and healthcare driving demand.
       </p>
     </div>
 
     {/* Section 3 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Future Aspects of Health Sciences
+      Future Aspects of Data Science
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Health Sciences focuses on health equity, indigenous health, and the integration of new technologies into healthcare delivery. Medical researchers will continue to advance treatments for chronic diseases, while public health professionals will address challenges like mental health and aging populations. Clinical technology will play a larger role in diagnostics and patient care through AI and wearable devices.
+      Australia’s future in data science will focus on AI and machine learning, with data engineers tasked with building more efficient data architectures. BI analysts will use predictive analytics and real-time reporting to help businesses adapt to changing market conditions. Ethical AI and data governance will also become important themes as the field matures.
       </p>
     </div>
 
     {/* Section 4 */}
     <div className="text-center">
       <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-      Top Health Sciences Employers
+      Top Data Science Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s health sciences sector include the Commonwealth Scientific and Industrial Research Organisation (CSIRO), major hospitals like Royal Melbourne Hospital, and pharmaceutical companies like CSL Limited. Universities and research institutions also offer extensive opportunities for medical researchers and public health professionals.
+      Top employers for data science professionals in Australia include major banks like Commonwealth Bank and Westpac, government agencies, and tech companies like Atlassian and Canva. Retailers such as Woolworths and Coles also provide significant opportunities in data analytics and business intelligence.
       </p>
     </div>
   </div>
@@ -275,7 +273,7 @@ export default function Healthsc() {
       <div className="py-16 bg-[#37D7D91A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
-            Top Picks for Future Engineers:<br />
+            Top Picks for Future Data Scientists:<br />
             Australia's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
@@ -331,10 +329,10 @@ export default function Healthsc() {
       <div>
         <div className="text-center max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-[32px] font-regular text-[#232323] mb-6">
-            Average Salary in Health 
+          Average Salary in Data Science
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in Australia enjoy competitive salaries. Medical researchers typically earn around AUD $85,000 annually, while public health administrators make approximately AUD $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Salaries for data science professionals in Australia are highly competitive. Data analysts typically earn around AUD $90,000 annually, while data engineers can make about AUD $110,000. Business intelligence analysts earn approximately AUD $95,000, depending on experience and industry.
           </p>
         </div>
       </div>
@@ -342,7 +340,7 @@ export default function Healthsc() {
       {/* FAQs Section */}
   <div className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Engineering & Technology</h2>
+    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Data Science`</h2>
     <div className="space-y-4">
       {faqs.map((faq, index) => (
         <div key={index} className="bg-[#37d7d9] shadow-sm">
