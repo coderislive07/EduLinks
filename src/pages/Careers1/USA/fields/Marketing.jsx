@@ -9,47 +9,59 @@ const courses = [
       title: "Digital Marketing Specialist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrllehjdLTAkorIXloJnUcoPw8f5Hj.png",
       description:
-        "Digital Marketing Specialists in Australia develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
+        "Digital Marketing Specialists in USA develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
     },
     {
       title: "Market Research Analyst",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NVuwCSBdThSoRbXWnRFVI7BKeQ5DKc.png",
       description:
-        "Market Research Analysts in Australia collect and analyze data on consumer preferences, market trends, and industry competitors. They provide actionable insights that guide marketing campaigns and business strategies, ensuring companies can effectively meet the needs of their customers and remain competitive.",
+        "Market Research Analysts in USA collect and analyze data on consumer preferences, market trends, and industry competitors. They provide actionable insights that guide marketing campaigns and business strategies, ensuring companies can effectively meet the needs of their customers and remain competitive.",
     },
     {
       title: "SEO/SEM Specialist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bM5HiLWuAZTnCvHtTb6oA7jIFfEc15.png",
       description:
-        "SEO/SEM Specialists in Australia focus on improving the online visibility of businesses through organic search optimization and paid search engine marketing. These specialists help companies increase traffic, improve search rankings, and generate leads or sales by using both SEO techniques and SEM strategies.",
+        "SEO/SEM Specialists in USA focus on improving the online visibility of businesses through organic search optimization and paid search engine marketing. These specialists help companies increase traffic, improve search rankings, and generate leads or sales by using both SEO techniques and SEM strategies.",
     },
   ]
   
   
   
 
-const universities = [
+  const universities = [
     {
-      name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+      name: "Harvard University",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZvepvwqUxF2vTWa08Vercmijfh63EP.png",
+      description:
+        "Harvard's Graduate School of Education is a pioneer in educational research and leadership training. Founded in 1920, it combines historic prestige with innovative approaches to teaching and learning, preparing the next generation of educational leaders and researchers.",
     },
     {
-      name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+      name: "Stanford University",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pbX7z4gOw3eGCHphvY53CnlZKXYQeV.png",
+      description:
+        "Stanford's School of Education, renowned for its integration of technology and education, leads groundbreaking research in learning sciences and teacher preparation. Its location in Silicon Valley provides unique opportunities for innovation in educational technology.",
     },
     {
-      name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+      name: "Columbia University (Teachers College)",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-k5dy9YgLyH7tMDnmKeu7OOvi4jKY1b.png",
+      description:
+        "As the first and largest graduate school of education in the United States, Teachers College at Columbia University has been at the forefront of developing education leaders, innovating teaching methods, and conducting influential research in education for over 125 years.",
     },
     {
-      name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+      name: "University of California, Berkeley",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lZt7zMgSOWjOYfl5543tGCNKdW4DRc.png",
+      description:
+        "Berkeley's Graduate School of Education is known for its commitment to social justice in education and innovative research methodologies. Its programs combine rigorous academic study with practical application in diverse educational settings.",
     },
     {
-        name: "Monash University",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+      name: "University of Pennsylvania (Graduate School of Education)",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3mJXQVElAdkLjHQYRKqY7SppTg6GrO.png",
+      description:
+        "Penn GSE is distinguished by its research in urban education, educational policy, and international education. Located in Philadelphia, it provides students with extensive opportunities for practical experience in diverse educational environments.",
     },
   ]
+  
+  
 
 const faqs = [
   {
@@ -58,47 +70,47 @@ const faqs = [
       "It’s the practice of promoting products or services through market research, advertising, and customer engagement strategies.",
   },
   {
-    question: "What degrees do I need to work in Marketing in Australia?",
+    question: "What degrees do I need to work in Marketing in USA?",
     answer:
       "A bachelor’s degree in marketing, business, or communications is required, with digital marketing and data analysis as valuable specializations.",
   },
   {
-    question: "What skills are essential for marketers in Australia?",
+    question: "What skills are essential for marketers in USA?",
     answer:
       "Key skills include creativity, analytical thinking, communication, and proficiency in digital tools like Google Ads, Facebook Ads, and SEO strategies.",
   },
   {
-    question: "Are there internships available for marketing students in Australia?",
+    question: "Are there internships available for marketing students in USA?",
     answer:
       "Internships are widely available in retail, tech, and finance, offering practical experience in digital marketing, SEO, and market research.",
   },
   {
-    question: "What are the emerging trends in Australia’s marketing sector?",
+    question: "What are the emerging trends in USA’s marketing sector?",
     answer:
       "Key trends include the rise of personalized marketing, AI-driven campaigns, and the increasing use of data analytics for decision-making.",
   },
   {
-    question: "Can Australian marketers work internationally?",
+    question: "Can USAn marketers work internationally?",
     answer:
-      "Yes, marketing qualifications and experience gained in Australia are highly regarded globally, offering opportunities to work abroad.",
+      "Yes, marketing qualifications and experience gained in USA are highly regarded globally, offering opportunities to work abroad.",
   },
   {
-    question: "What is the job outlook for marketers in Australia?",
+    question: "What is the job outlook for marketers in USA?",
     answer:
       "The outlook is positive, especially for digital marketing, market research, and SEO/SEM roles.",
   },
   {
-    question: "How does specialization affect my career in Australian marketing?",
+    question: "How does specialization affect my career in USAn marketing?",
     answer:
       "Specializing in high-demand areas like digital marketing, data analysis, or SEO can lead to higher salaries and better job prospects.",
   },
   {
-    question: "Are marketing jobs flexible in Australia?",
+    question: "Are marketing jobs flexible in USA?",
     answer:
       "Yes, many marketing roles offer flexibility, including opportunities for remote work and freelance consulting.",
   },
   {
-    question: "What are the challenges faced by marketers in Australia today?",
+    question: "What are the challenges faced by marketers in USA today?",
     answer:
       "Challenges include staying updated on changing platforms, managing data privacy regulations, and adapting to evolving consumer behavior.",
   },
@@ -165,10 +177,10 @@ export default function Psycho() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >USA</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Marketing</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Dynamic Careers in Australia
+            Gateway to Dynamic Careers in USA
           </p>
         </div>
       </div>
@@ -184,7 +196,7 @@ export default function Psycho() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
             
-                Australia’s marketing industry is thriving, with a strong focus on digital marketing, data analysis, and e-commerce growth. Marketing professionals in Australia, especially in fields like digital marketing, market research, and SEO/SEM, are key players in helping businesses engage with consumers and stay competitive in the digital landscape.   
+                USA’s marketing industry is thriving, with a strong focus on digital marketing, data analysis, and e-commerce growth. Marketing professionals in USA, especially in fields like digital marketing, market research, and SEO/SEM, are key players in helping businesses engage with consumers and stay competitive in the digital landscape.   
             
             
 
@@ -236,7 +248,7 @@ export default function Psycho() {
       Why Choose a Career in Marketing?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in marketing in Australia offers the chance to work with leading brands, develop innovative campaigns, and leverage digital platforms to engage with consumers. Marketing professionals are integral to business success, driving growth through data-driven insights, creative strategies, and digital marketing expertise.
+      A career in marketing in USA offers the chance to work with leading brands, develop innovative campaigns, and leverage digital platforms to engage with consumers. Marketing professionals are integral to business success, driving growth through data-driven insights, creative strategies, and digital marketing expertise.
       </p>
     </div>
 
@@ -246,7 +258,7 @@ export default function Psycho() {
       Marketing Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for marketing professionals in Australia is highly favorable, particularly in digital marketing, market research, and SEO/SEM roles. As businesses continue to expand their online presence and focus on data-driven decision-making, demand for skilled marketers is expected to grow.
+      The job outlook for marketing professionals in USA is highly favorable, particularly in digital marketing, market research, and SEO/SEM roles. As businesses continue to expand their online presence and focus on data-driven decision-making, demand for skilled marketers is expected to grow.
       </p>
     </div>
 
@@ -256,7 +268,7 @@ export default function Psycho() {
       Future Aspects of Marketing
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The future of marketing in Australia will be driven by digital transformation, personalization, and data analytics. Digital marketing specialists will continue to optimize campaigns using AI and automation tools, while market research analysts will leverage advanced analytics to better understand consumer behavior. SEO/SEM specialists will remain crucial for maintaining strong online visibility in a competitive marketplace.
+      The future of marketing in USA will be driven by digital transformation, personalization, and data analytics. Digital marketing specialists will continue to optimize campaigns using AI and automation tools, while market research analysts will leverage advanced analytics to better understand consumer behavior. SEO/SEM specialists will remain crucial for maintaining strong online visibility in a competitive marketplace.
       </p>
     </div>
 
@@ -267,7 +279,7 @@ export default function Psycho() {
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
       
-      Leading employers in Australia include major corporations like Woolworths, Commonwealth Bank, and Qantas. Advertising agencies, tech companies, and e-commerce businesses also provide significant opportunities for marketing professionals.
+      Leading employers in USA include major corporations like Woolworths, Commonwealth Bank, and Qantas. Advertising agencies, tech companies, and e-commerce businesses also provide significant opportunities for marketing professionals.
       </p>
     </div>
   </div>
@@ -279,7 +291,7 @@ export default function Psycho() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
           Top Picks for Future Marketers:<br />
-            Australia's Elite Tech Universities
+            USA's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -337,7 +349,7 @@ export default function Psycho() {
           Average Salary in Marketing
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for marketing professionals in Australia vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
+          Salaries for marketing professionals in USA vary depending on the role. Digital marketing specialists typically earn around US $80,000 annually, while market research analysts make approximately US $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
           </p>
         </div>
       </div>
