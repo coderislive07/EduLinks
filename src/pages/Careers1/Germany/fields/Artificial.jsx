@@ -12,51 +12,63 @@ const courses = [
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
      ,
     description:
-      "Aerospace Engineering in Canada is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Canada and Airbus Canada Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Canadan Space Agency.",
+      "Aerospace Engineering in Germany is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Germany and Airbus Germany Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Germanyn Space Agency.",
   },
   {
     title: "Biomedical Engineering",
     image: 
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
     description:
-      "Biomedical Engineering in Canada merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Canadan biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
+      "Biomedical Engineering in Germany merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Germanyn biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
   },
   {
     title: "Software Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
     description:
-      "Canada’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Canada are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
+      "Germany’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Germany are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
   },
   {
     title: "Robotics and Automation Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
     description:
-      "Robotics and Automation Engineering in Canada is booming, particularly in industries like mining, manufacturing, and agriculture. Canadan engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Canada.",
+      "Robotics and Automation Engineering in Germany is booming, particularly in industries like mining, manufacturing, and agriculture. Germanyn engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Germany.",
   },
 ]
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
+    name: "Technische Universität München (TUM)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ARlqv4nxPA5vpIPXpE4XmwmjnCTgSk.png",
+    description:
+      "One of Germany's leading technical universities, TUM excels in engineering, technology, and natural sciences. Known for its innovative research in artificial intelligence, robotics, and sustainable technologies, it maintains strong industry partnerships with major German technology companies.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
+    name: "RWTH Aachen University",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fkyaaGn1e0CYUxDNP46S2oT0FyNnvg.png",
+    description:
+      "RWTH Aachen is Germany's largest technical university and a leading center for engineering education in Europe. Its close proximity to industrial regions makes it a hub for technological innovation and applied research, particularly in mechanical engineering and production technology.",
   },
   {
-    name: "Canadan National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
+    name: "Karlsruhe Institute of Technology (KIT)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Di34bISjiGBh5aA8G5WUMB5Z32SLUR.png",
+    description:
+      "KIT combines the traditions of a prestigious technical university with cutting-edge research facilities. It is particularly renowned for its computer science, energy research, and climate science programs, contributing significantly to Germany's energy transition initiatives.",
   },
   {
-    name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    name: "Ludwig-Maximilians-Universität München (LMU)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YCF9PCdrB7qHdBH146d96gitN6xmOy.png",
+    description:
+      "While known for comprehensive education across disciplines, LMU has strong programs in applied sciences and technology. Its research centers focus on quantum science, nanotechnology, and biotechnology, making it a vital part of Munich's innovation ecosystem.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
+    name: "Universität Stuttgart",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VeRYQlDimblTvowub7iiA727aLZwjC.png",
+    description:
+      "Stuttgart University is recognized for its outstanding programs in engineering and natural sciences. Located in Germany's industrial heartland, it specializes in automotive engineering, aerospace technology, and sustainable manufacturing processes.",
   },
 ]
+
+
 
 const faqs = [
   {
@@ -65,47 +77,47 @@ const faqs = [
       "AI refers to systems and algorithms that perform tasks requiring human intelligence, like decision-making, language processing, and recognition.",
   },
   {
-    question: "What degrees do I need to work in AI in Canada?",
+    question: "What degrees do I need to work in AI in Germany?",
     answer:
       "A bachelor’s degree in AI, computer science, or related fields is common, with a master’s or PhD needed for specialized AI roles.",
   },
   {
-    question: "What skills are essential for AI professionals in Canada?",
+    question: "What skills are essential for AI professionals in Germany?",
     answer:
       "Key skills include expertise in machine learning, deep learning, Python, and proficiency in AI frameworks like TensorFlow, Keras, and PyTorch.",
   },
   {
-    question: "Are there internships available for AI students in Canada?",
+    question: "Are there internships available for AI students in Germany?",
     answer:
-      "Yes, many tech companies and research institutions in Canada offer internships, providing experience in AI research and development.",
+      "Yes, many tech companies and research institutions in Germany offer internships, providing experience in AI research and development.",
   },
   {
-    question: "What are the emerging trends in AI in Canada?",
+    question: "What are the emerging trends in AI in Germany?",
     answer:
       "Key trends include AI in healthcare, smart agriculture, and AI ethics to ensure fair and transparent use of technologies.",
   },
   {
-    question: "Can AI professionals in Canada work internationally?",
+    question: "Can AI professionals in Germany work internationally?",
     answer:
-      "Yes, AI professionals from Canada are highly valued worldwide, and they have access to opportunities across the globe.",
+      "Yes, AI professionals from Germany are highly valued worldwide, and they have access to opportunities across the globe.",
   },
   {
-    question: "What is the job outlook for AI professionals in Canada?",
+    question: "What is the job outlook for AI professionals in Germany?",
     answer:
       "The outlook is highly favorable, particularly in sectors like healthcare, finance, and agriculture, where AI technologies are rapidly being adopted.",
   },
   {
-    question: "How does specialization affect my career in AI in Canada?",
+    question: "How does specialization affect my career in AI in Germany?",
     answer:
       "Specializing in fields like machine learning, NLP, or robotics can lead to higher salaries and advanced career opportunities.",
   },
   {
-    question: "Are AI jobs flexible in Canada?",
+    question: "Are AI jobs flexible in Germany?",
     answer:
       "Yes, many AI roles offer flexibility, including opportunities for remote work, freelance projects, and part-time roles.",
   },
   {
-    question: "What are the challenges faced by AI professionals in Canada today?",
+    question: "What are the challenges faced by AI professionals in Germany today?",
     answer:
       "Challenges include scaling AI solutions for different industries, addressing ethical concerns, and ensuring data privacy and security.",
   },
@@ -172,10 +184,10 @@ export default function Artificial() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Germany</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Artificial Intelligence</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-          Gateway to Cutting-Edge Careers in Canada
+          Gateway to Cutting-Edge Careers in Germany
           </p>
         </div>
       </div>
@@ -191,7 +203,7 @@ export default function Artificial() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Canada is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
+            Germany is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
             </h1>
           </div>
 
@@ -240,7 +252,7 @@ export default function Artificial() {
       Why Choose a Career in Artificial Intelligence?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in AI in Canada offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
+      A career in AI in Germany offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
       </p>
     </div>
 
@@ -250,7 +262,7 @@ export default function Artificial() {
       Artificial Intelligence Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The AI job market in Canada is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
+      The AI job market in Germany is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
       </p>
     </div>
 
@@ -260,7 +272,7 @@ export default function Artificial() {
       Future Aspects of Artificial Intelligence
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Canada’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
+      Germany’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
       </p>
     </div>
 
@@ -270,7 +282,7 @@ export default function Artificial() {
       Top Artificial Intelligence Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in AI in Canada include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, Canada’s national science agency, which leads research in AI and machine learning.
+      Leading employers in AI in Germany include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, Germany’s national science agency, which leads research in AI and machine learning.
       </p>
     </div>
   </div>
@@ -282,7 +294,7 @@ export default function Artificial() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
           Top Picks for Future AI Professionals:<br />
-            Canada's Elite Tech Universities
+            Germany's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -340,7 +352,7 @@ export default function Artificial() {
           Average Salary in Artificial Intelligence
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          AI professionals in Canada command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
+          AI professionals in Germany command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
           </p>
         </div>
       </div>

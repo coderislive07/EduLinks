@@ -7,44 +7,55 @@ const courses = [
     title: "Cryptographer",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aPkZvJQAMciiqSaF4p8O2pvKNpAATL.png",
     description:
-      "Cryptographers in Australia work on developing advanced encryption techniques to secure digital communications and transactions. These professionals are vital to secure the finance, telecommunications, and government, where data privacy and security are of utmost importance.",
+      "Cryptographers in Germany work on developing advanced encryption techniques to secure digital communications and transactions. These professionals are vital to secure the finance, telecommunications, and government, where data privacy and security are of utmost importance.",
   },
   {
     title: "Statistical Data Analyst",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-d6WsWN6WhBHge2ejCeevQ7lgYCxWzr.png",
     description:
-      "Statistical Data Analysts in Australia help businesses and government agencies make sense of large datasets, providing insights that improve decision-making and strategy. These professionals work across industries including healthcare, finance, and technology, where data-driven strategies are key to success.",
+      "Statistical Data Analysts in Germany help businesses and government agencies make sense of large datasets, providing insights that improve decision-making and strategy. These professionals work across industries including healthcare, finance, and technology, where data-driven strategies are key to success.",
   },
   {
     title: "Operations Research Analyst",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qiI5E30qO8Z27Z8TZvsm0Bv0ROrbdT.png",
     description:
-      "Operations Research Analysts in Australia use mathematical and statistical models to optimize organizational processes, improve logistics, and enhance efficiency in various sectors. Their expertise helps businesses maximize productivity, reduce costs, and streamline operations.",
+      "Operations Research Analysts in Germany use mathematical and statistical models to optimize organizational processes, improve logistics, and enhance efficiency in various sectors. Their expertise helps businesses maximize productivity, reduce costs, and streamline operations.",
   },
 ]
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+    name: "Technische Universität München (TUM)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ARlqv4nxPA5vpIPXpE4XmwmjnCTgSk.png",
+    description:
+      "One of Germany's leading technical universities, TUM excels in engineering, technology, and natural sciences. Known for its innovative research in artificial intelligence, robotics, and sustainable technologies, it maintains strong industry partnerships with major German technology companies.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+    name: "RWTH Aachen University",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fkyaaGn1e0CYUxDNP46S2oT0FyNnvg.png",
+    description:
+      "RWTH Aachen is Germany's largest technical university and a leading center for engineering education in Europe. Its close proximity to industrial regions makes it a hub for technological innovation and applied research, particularly in mechanical engineering and production technology.",
   },
   {
-    name: "Australian National University",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/CANADA-21-1.png",
+    name: "Karlsruhe Institute of Technology (KIT)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Di34bISjiGBh5aA8G5WUMB5Z32SLUR.png",
+    description:
+      "KIT combines the traditions of a prestigious technical university with cutting-edge research facilities. It is particularly renowned for its computer science, energy research, and climate science programs, contributing significantly to Germany's energy transition initiatives.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+    name: "Ludwig-Maximilians-Universität München (LMU)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YCF9PCdrB7qHdBH146d96gitN6xmOy.png",
+    description:
+      "While known for comprehensive education across disciplines, LMU has strong programs in applied sciences and technology. Its research centers focus on quantum science, nanotechnology, and biotechnology, making it a vital part of Munich's innovation ecosystem.",
   },
   {
-    name: "University of New South Wales",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-arDcb4Y5S46TcMjiMtRm1wr45m9gI7.png",
+    name: "Universität Stuttgart",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VeRYQlDimblTvowub7iiA727aLZwjC.png",
+    description:
+      "Stuttgart University is recognized for its outstanding programs in engineering and natural sciences. Located in Germany's industrial heartland, it specializes in automotive engineering, aerospace technology, and sustainable manufacturing processes.",
   },
 ]
+
 
 const faqs = [
   {
@@ -52,39 +63,39 @@ const faqs = [
     answer: "Mathematics and Statistics involves using numerical analysis and data to understand patterns, solve complex problems and make predictions.",
   },
   {
-    question: "What degrees do I need to work in Mathematics and Statistics in Australia?",
+    question: "What degrees do I need to work in Mathematics and Statistics in Germany?",
     answer: "A bachelor's degree in mathematics, statistics, or related fields is required, with advanced degrees needed for research and specialized roles.",
   },
   {
-    question: "What skills are essential for mathematicians and statisticians in Australia?",
+    question: "What skills are essential for mathematicians and statisticians in Germany?",
     answer: "Strong analytical skills, problem-solving abilities, and proficiency in statistical software are crucial for success.",
   },
   {
-    question: "Are there internships available for mathematics students in Australia?",
+    question: "Are there internships available for mathematics students in Germany?",
     answer: "Yes, many organizations offer internships in data analysis, research, and financial modeling.",
   },
   {
-    question: "What are the emerging technologies in Australia's mathematics sector?",
+    question: "What are the emerging technologies in Germany's mathematics sector?",
     answer: "Machine learning, predictive analytics, and computational mathematics are key emerging areas.",
   },
   {
-    question: "Can Australian mathematicians work internationally?",
-    answer: "Yes, Australian mathematics and statistics qualifications are highly regarded globally.",
+    question: "Can Germanyn mathematicians work internationally?",
+    answer: "Yes, Germanyn mathematics and statistics qualifications are highly regarded globally.",
   },
   {
-    question: "What is the job outlook for mathematicians in Australia?",
+    question: "What is the job outlook for mathematicians in Germany?",
     answer: "The outlook is strong, particularly in data science, cryptography, and financial analysis.",
   },
   {
-    question: "How does specialization affect my career in Australian mathematics?",
+    question: "How does specialization affect my career in Germanyn mathematics?",
     answer: "Specializing in areas like data science or financial mathematics can lead to higher-paying opportunities.",
   },
   {
-    question: "Are mathematics jobs flexible in Australia?",
+    question: "Are mathematics jobs flexible in Germany?",
     answer: "Many roles offer flexible arrangements, including remote work options and project-based positions.",
   },
   {
-    question: "What are the challenges faced by mathematicians in Australia today?",
+    question: "What are the challenges faced by mathematicians in Germany today?",
     answer: "Keeping up with rapidly evolving technology and applying theoretical concepts to real-world problems.",
   },
 ]
@@ -128,10 +139,10 @@ export default function MathematicsStatistics() {
                 }
               } />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1">Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1">Germany</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Mathematics and Statistics</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Innovative Careers in Germany
           </p>
         </div>
       </div>
@@ -146,7 +157,7 @@ export default function MathematicsStatistics() {
 
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
-          Australia's Mathematics and Statistics sector offers opportunities to work in key industries including finance, technology, and research. Mathematics and Statistics professionals excel in data analysis, mathematical modeling, and applying quantitative methods to solve complex problems and drive decision-making across various sectors.
+          Germany's Mathematics and Statistics sector offers opportunities to work in key industries including finance, technology, and research. Mathematics and Statistics professionals excel in data analysis, mathematical modeling, and applying quantitative methods to solve complex problems and drive decision-making across various sectors.
         </h1>
       </div>
       </div>
@@ -180,7 +191,7 @@ export default function MathematicsStatistics() {
               Why Choose a Career in Mathematics and Statistics?
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              A career in Mathematics and Statistics in Australia offers the opportunity to work in an innovative and rapidly growing industry. Professionals in these fields contribute to advancements in data science, financial modeling, and organizational optimization, making significant impacts across various sectors.
+              A career in Mathematics and Statistics in Germany offers the opportunity to work in an innovative and rapidly growing industry. Professionals in these fields contribute to advancements in data science, financial modeling, and organizational optimization, making significant impacts across various sectors.
             </p>
           </div>
 
@@ -189,7 +200,7 @@ export default function MathematicsStatistics() {
               Mathematics and Statistics Job Outlook
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              The job outlook for Mathematics and Statistics professionals in Australia is strong, with increasing demand for expertise in cryptography, statistical data analysis, and operations research. As organizations continue to rely on data-driven strategies, opportunities in these fields are expected to grow.
+              The job outlook for Mathematics and Statistics professionals in Germany is strong, with increasing demand for expertise in cryptography, statistical data analysis, and operations research. As organizations continue to rely on data-driven strategies, opportunities in these fields are expected to grow.
             </p>
           </div>
 
@@ -198,7 +209,7 @@ export default function MathematicsStatistics() {
               Future Aspects of Mathematics and Statistics
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              The future of Mathematics and Statistics in Australia is focused on advancements in big data analytics, and cryptography. Data analysts and operations researchers will continue to drive innovations in digital transformation, while data scientists and operational researchers will advance optimization techniques and predictive analytics.
+              The future of Mathematics and Statistics in Germany is focused on advancements in big data analytics, and cryptography. Data analysts and operations researchers will continue to drive innovations in digital transformation, while data scientists and operational researchers will advance optimization techniques and predictive analytics.
             </p>
           </div>
 
@@ -207,7 +218,7 @@ export default function MathematicsStatistics() {
               Top Mathematics and Statistics Employers
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              Leading employers in Australia's Mathematics and Statistics sector include Commonwealth Bank, Telstra, Afterpay, and the Australian Government. Universities and research institutions also offer numerous opportunities for professionals in mathematics and statistics.
+              Leading employers in Germany's Mathematics and Statistics sector include Commonwealth Bank, Telstra, Afterpay, and the Germanyn Government. Universities and research institutions also offer numerous opportunities for professionals in mathematics and statistics.
             </p>
           </div>
         </div>
@@ -217,7 +228,7 @@ export default function MathematicsStatistics() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Mathematicians and Statisticians:<br />
-            Australia's Elite Universities
+            Germany's Elite Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             {universities.map((university, index) => (
@@ -244,7 +255,7 @@ export default function MathematicsStatistics() {
           Average Salary in Mathematics and Statistics
         </h1>
         <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Mathematics and Statistics professionals in Australia earn competitive salaries. Cryptographers typically earn around AUD $95,000 annually, while Statistical Data Analysts make approximately AUD $85,000. Operations Research Analysts can expect salaries of about AUD $90,000, depending on their experience and expertise.
+          Mathematics and Statistics professionals in Germany earn competitive salaries. Cryptographers typically earn around AUD $95,000 annually, while Statistical Data Analysts make approximately AUD $85,000. Operations Research Analysts can expect salaries of about AUD $90,000, depending on their experience and expertise.
         </p>
       </div>
 
