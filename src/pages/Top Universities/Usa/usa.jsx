@@ -21,7 +21,6 @@ import griffithUni from "../../../assets/top universities/USA/10018.png";
 import laTrobeUni from "../../../assets/top universities/USA/10019.png";
 import tasmaniaUni from "../../../assets/top universities/USA/10020.png";
 import backgroundimg from "../../../assets/Ellipse-10.png"
-
 const universities = [
   { name: "Harvard University", image: anUniversity, link: "/usa-top-university/harvard-university" },
   { name: "Stanford University", image: melbourneUni, link: "/usa-top-university/stanford-university" },
@@ -47,8 +46,6 @@ const universities = [
 export default function USA() {
   return (
     <div className="font-sans">
-   
-
    <div className="py-20  h-[470px] pt-[139px]  flex items-center z-50   justify-center" style={{
       backgroundImage: `url(${backgroundimg})`,
       backgroundSize: "cover",
@@ -60,11 +57,8 @@ export default function USA() {
       </div>
       <div
         className="absolute inset-0 bg-cover bg-center opacity-50 "
-
-
       />
     </div>
-
       <main className="max-w-7xl mx-auto px-8 py-8">
         <div className="text-center max-w-7xl mx-auto mb-8 text-gray-700 font-regular text-2xl font-roboto">
           <p>
@@ -92,9 +86,7 @@ export default function USA() {
             </div>
           ))}
         </div>
-      </main>
-
-      
+      </main>    
     </div>
   )
 }

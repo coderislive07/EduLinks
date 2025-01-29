@@ -168,5 +168,4 @@ function UniversityOfUk() {
     </div>
   );
 }
-
 export default UniversityOfUk;
