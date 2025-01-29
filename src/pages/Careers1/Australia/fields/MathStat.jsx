@@ -207,9 +207,9 @@ export default function MathematicsStatistics() {
                 <div className="p-6 flex flex-col justify-between h-[152px]">
                   <h3 className="text-[24px] font-normal font-roboto text-center">{university.name}</h3>
                   <div className="text-center">
-                    <button className="px-6 py-2 text-[12px] font-roboto1 font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
-                      Explore &gt;
-                    </button>
+                  <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                        Explore &gt;
+                      </button>
                   </div>
                 </div>
               </div>

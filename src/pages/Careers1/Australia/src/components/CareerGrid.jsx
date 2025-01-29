@@ -40,34 +40,42 @@ function CareerGrid() {
     {
       title: "Business & Economics",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-3-1.png",
+      href: "/australia-business-economics"
     },
     {
       title: "Education",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-2.png",
+      href: "/australia-education"
     },
     {
       title: "Psychology and Neuroscience",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-3.png",
+      href:"/australia-psychology-neuroscience"
     },
     {
       title: "Marketing",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-4.png",
+      href: "/australia-marketing"
     },
     {
       title: "Data Science",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-3.png",
+      href: "/australia-data-science"
     },
     {
       title: "Artificial Intelligence",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-4.png",
+      href: "/australia-artificial-intelligence"
     },
     {
       title: "Graphic Design and Media",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-5-1.png",
+      href:"/australia-graphic-design-media"
     },
     {
       title: "Law and Policy",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-4.png",
+      href: "/australia-law-policy"
     },
   ]
   return (
