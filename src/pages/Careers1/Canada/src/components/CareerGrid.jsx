@@ -5,62 +5,77 @@ function CareerGrid() {
     {
       title: "Engineering & Technology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-UvnOHRszpU0JptzrJeHt4ZD0CTr8BE.png",
+      href:"/canada-engineering-technology"
     },
     {
       title: "Health Sciences",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-Efep6DdB5fT1PrI8qabQdCrSaE8h19.png",
+      href: "/canada-health-science"
     },
     {
       title: "Natural Sciences",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-XNSMCMxh2bS6786mvy4OAD1HeSFUaO.png",
+      href: "/canada-natural-sciences"
     },
     {
       title: "Information Technology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-vNsPQiXplFHBoDNVvIsTHyn6gYCMQg.png",
+      href: "/canada-information-technology"
     },
     {
       title: "Environmental Science",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10006-Sv3lWz5QXwGbRl4Xw5Hpi78w452EXM.png",
+      href: "/canada-environmental-science"
     },
     {
       title: "Biotechnology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10007.jpg-2uKzWjrBCWImVXZghKxG45ZtHpCUDz.jpeg",
+      href: "/canada-biotechnology"
     },
     {
       title: "Mathematics & Statistics",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10008-JHb7N51T1omhavo8jjSDpS6hcv86kW.png",
+      href: "/canada-mathematics-statistics"
     },
     {
       title: "Business & Economics",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-3-1.png",
+      href: "/canada-business-economics"
     },
     {
       title: "Education",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-2.png",
+      href: "/canada-education"
     },
     {
       title: "Psychology and Neuroscience",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-3.png",
+      href: "/canada-psychology-neuroscience"
     },
     {
       title: "Marketing",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-4.png",
+      href: "/canada-marketing"
     },
     {
       title: "Data Science",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-3.png",
+      href: "/canada-data-science"
     },
     {
       title: "Artificial Intelligence",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-4.png",
+      href: "/canada-artificial-intelligence"
     },
     {
       title: "Graphic Design and Media",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-5-1.png",
+      href: "/canada-graphic-design-media"
     },
     {
       title: "Law and Policy",
       image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-4.png",
+      href: "/canada-law-policy"
     },
   ]
   return (
@@ -88,10 +103,12 @@ style={{ boxShadow: "4px 0 10px rgba(0, 0, 0, 0.25)" }}
               {career.title}
             </h3>
             <div className="leading-[37.2px] flex justify-center">
+            <a href={career.href}>
             <button className="mt-8  px-6 flex py-2 text-[24px] font-gilroyregular border-2 border-[#40E0D0] text-[#40E0D0] transition-all duration-300 rounded">
               Learn More
               <svg class="w-5 h-5 mt-[1.2vh] text-[#37d7d9] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#37d7d9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path></svg>
             </button>
+            </a>
             </div>
             
           </div>

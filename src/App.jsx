@@ -38,6 +38,7 @@ import Data from "./pages/Careers1/Australia/fields/Data";
 import Artificial from "./pages/Careers1/Australia/fields/Artificial";
 import GraphMed from "./pages/Careers1/Australia/fields/GraphMed";
 import Law from "./pages/Careers1/Australia/fields/Law";
+import canAusengandtech from "./pages/Careers1/Canada/"
 
 import Universityofcanada from "./pages/Top Universities/canada/universityofcanada";
 import Universityofgermany from "./pages/Top Universities/germany/universityofgermany";
