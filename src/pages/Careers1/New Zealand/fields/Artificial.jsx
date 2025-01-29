@@ -12,51 +12,63 @@ const courses = [
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
      ,
     description:
-      "Aerospace Engineering in Canada is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Canada and Airbus Canada Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Canadan Space Agency.",
+      "Aerospace Engineering in New Zealand is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing New Zealand and Airbus New Zealand Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the New Zealandn Space Agency.",
   },
   {
     title: "Biomedical Engineering",
     image: 
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
     description:
-      "Biomedical Engineering in Canada merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Canadan biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
+      "Biomedical Engineering in New Zealand merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. New Zealandn biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
   },
   {
     title: "Software Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
     description:
-      "Canada’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Canada are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
+      "New Zealand’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in New Zealand are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
   },
   {
     title: "Robotics and Automation Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
     description:
-      "Robotics and Automation Engineering in Canada is booming, particularly in industries like mining, manufacturing, and agriculture. Canadan engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Canada.",
+      "Robotics and Automation Engineering in New Zealand is booming, particularly in industries like mining, manufacturing, and agriculture. New Zealandn engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in New Zealand.",
   },
 ]
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
+    name: "University of Auckland",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fWJm6DnGVMkNJnrFFfRMC65dI8RGYg.png",
+    description:
+      "New Zealand's largest university, renowned for its research excellence and comprehensive range of programs. Located in the heart of Auckland, it offers world-class facilities and strong connections to the Pacific region's business and research communities.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
+    name: "University of Otago",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ViAZERs74VlGGpbmUIK8Ep0g2Hz74v.png",
+    description:
+      "New Zealand's oldest university, established in 1869, combines historic tradition with cutting-edge research facilities. Known for its strong medical school and science programs, it offers a unique study environment in the cultural heart of Dunedin.",
   },
   {
-    name: "Canadan National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
+    name: "Victoria University of Wellington",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HYIf6YoaXn8ffKvlEnd4OXM218FomO.png",
+    description:
+      "Situated in New Zealand's capital, Victoria University excels in public policy, law, and creative arts. Its location provides unique opportunities for students to engage with government institutions and cultural organizations.",
   },
   {
-    name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    name: "Massey University",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8eczDhBuGKSwN2NiZ77WFDpGQEUhJ6.png",
+    description:
+      "A leader in distance education and agricultural sciences, Massey University is known for its innovative approach to learning. With campuses across New Zealand, it specializes in veterinary science, food technology, and creative arts.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
+    name: "Auckland University of Technology (AUT)",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sbo5R2a68tQYuEvDHrJYZPf2gTrWks.png",
+    description:
+      "As New Zealand's newest university, AUT focuses on contemporary programs in technology, design, and business. Its modern facilities and industry connections make it a hub for innovation and practical learning in the digital age.",
   },
 ]
+
+
 
 const faqs = [
   {
@@ -65,47 +77,47 @@ const faqs = [
       "AI refers to systems and algorithms that perform tasks requiring human intelligence, like decision-making, language processing, and recognition.",
   },
   {
-    question: "What degrees do I need to work in AI in Canada?",
+    question: "What degrees do I need to work in AI in New Zealand?",
     answer:
       "A bachelor’s degree in AI, computer science, or related fields is common, with a master’s or PhD needed for specialized AI roles.",
   },
   {
-    question: "What skills are essential for AI professionals in Canada?",
+    question: "What skills are essential for AI professionals in New Zealand?",
     answer:
       "Key skills include expertise in machine learning, deep learning, Python, and proficiency in AI frameworks like TensorFlow, Keras, and PyTorch.",
   },
   {
-    question: "Are there internships available for AI students in Canada?",
+    question: "Are there internships available for AI students in New Zealand?",
     answer:
-      "Yes, many tech companies and research institutions in Canada offer internships, providing experience in AI research and development.",
+      "Yes, many tech companies and research institutions in New Zealand offer internships, providing experience in AI research and development.",
   },
   {
-    question: "What are the emerging trends in AI in Canada?",
+    question: "What are the emerging trends in AI in New Zealand?",
     answer:
       "Key trends include AI in healthcare, smart agriculture, and AI ethics to ensure fair and transparent use of technologies.",
   },
   {
-    question: "Can AI professionals in Canada work internationally?",
+    question: "Can AI professionals in New Zealand work internationally?",
     answer:
-      "Yes, AI professionals from Canada are highly valued worldwide, and they have access to opportunities across the globe.",
+      "Yes, AI professionals from New Zealand are highly valued worldwide, and they have access to opportunities across the globe.",
   },
   {
-    question: "What is the job outlook for AI professionals in Canada?",
+    question: "What is the job outlook for AI professionals in New Zealand?",
     answer:
       "The outlook is highly favorable, particularly in sectors like healthcare, finance, and agriculture, where AI technologies are rapidly being adopted.",
   },
   {
-    question: "How does specialization affect my career in AI in Canada?",
+    question: "How does specialization affect my career in AI in New Zealand?",
     answer:
       "Specializing in fields like machine learning, NLP, or robotics can lead to higher salaries and advanced career opportunities.",
   },
   {
-    question: "Are AI jobs flexible in Canada?",
+    question: "Are AI jobs flexible in New Zealand?",
     answer:
       "Yes, many AI roles offer flexibility, including opportunities for remote work, freelance projects, and part-time roles.",
   },
   {
-    question: "What are the challenges faced by AI professionals in Canada today?",
+    question: "What are the challenges faced by AI professionals in New Zealand today?",
     answer:
       "Challenges include scaling AI solutions for different industries, addressing ethical concerns, and ensuring data privacy and security.",
   },
@@ -172,10 +184,10 @@ export default function Artificial() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >New Zealand</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Artificial Intelligence</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-          Gateway to Cutting-Edge Careers in Canada
+          Gateway to Cutting-Edge Careers in New Zealand
           </p>
         </div>
       </div>
@@ -191,7 +203,7 @@ export default function Artificial() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Canada is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
+            New Zealand is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
             </h1>
           </div>
 
@@ -240,7 +252,7 @@ export default function Artificial() {
       Why Choose a Career in Artificial Intelligence?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in AI in Canada offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
+      A career in AI in New Zealand offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
       </p>
     </div>
 
@@ -250,7 +262,7 @@ export default function Artificial() {
       Artificial Intelligence Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The AI job market in Canada is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
+      The AI job market in New Zealand is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
       </p>
     </div>
 
@@ -260,7 +272,7 @@ export default function Artificial() {
       Future Aspects of Artificial Intelligence
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Canada’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
+      New Zealand’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
       </p>
     </div>
 
@@ -270,7 +282,7 @@ export default function Artificial() {
       Top Artificial Intelligence Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in AI in Canada include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, Canada’s national science agency, which leads research in AI and machine learning.
+      Leading employers in AI in New Zealand include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, New Zealand’s national science agency, which leads research in AI and machine learning.
       </p>
     </div>
   </div>
@@ -282,7 +294,7 @@ export default function Artificial() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
           Top Picks for Future AI Professionals:<br />
-            Canada's Elite Tech Universities
+            New Zealand's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -340,7 +352,7 @@ export default function Artificial() {
           Average Salary in Artificial Intelligence
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          AI professionals in Canada command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
+          AI professionals in New Zealand command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
           </p>
         </div>
       </div>
