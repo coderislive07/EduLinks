@@ -1,7 +1,7 @@
-import anUniversity from "../../../assets/top universities/Aust/australian national university.png";
+import anUniversity from "../../../assets/top universities/Aust/australian nation university.jpg";
 import melbourneUni from "../../../assets/top universities/Aust/university of melbourne.png";
 import sydneyUni from "../../../assets/top universities/Aust/university of sydney.png";
-import queenslandUni from "../../../assets/top universities/Aust/uni of queen.png";
+import queenslandUni from "../../../assets/top universities/Aust/uni of queen.jpg";
 import nswUni from "../../../assets/top universities/Aust/university of new south wales.png";
 import monashUni from "../../../assets/top universities/Aust/monash university.png";
 import westernAusUni from "../../../assets/top universities/Aust/university of western aus.png";
@@ -18,7 +18,6 @@ import newcastleUni from "../../../assets/top universities/Aust/uni of newcastle
 import griffithUni from "../../../assets/top universities/Aust/griffith uni.png";
 import laTrobeUni from "../../../assets/top universities/Aust/la trobe university.png";
 import tasmaniaUni from "../../../assets/top universities/Aust/uni of tasmania.png";
-
 import architecture from "../../../assets/architecture.png";
 import arts from "../../../assets/arts.png";
 import physical from "../../../assets/physical.png";

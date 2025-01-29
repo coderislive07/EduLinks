@@ -15,14 +15,14 @@ function Universityofgermany() {
   const { id } = useParams();
   const fetchedData = data[id];
   return (
-    <div className="pt-[80px]">
+    <div className="pt-[20px]">
       <h2 className="text-xl text-center underline text-[#37D7D9] font-normal">
         {fetchedData.country}
       </h2>
       <h1 className="text-center text-5xl my-4 text-bold font-normal">
         {fetchedData.university}
       </h1>
-      <img src={fetchedData.heroImg} className="h-auto w-auto  my-3" />
+      <img src={fetchedData.heroImg} className="h-[100vh] w-[110vw] my-3" />
       <div className="my-8">
         <h1 className="text-3xl text-center text-[#37D7D9] font-normal">
           Overview
