@@ -37,26 +37,38 @@ const courses = [
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
+    name: "University of Toronto",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-JwIyc4yJHbWNXJymr4k1Rv2sRxzWW4.png",
+    description:
+      "Renowned for its prestigious Rotman School of Management, the University of Toronto offers world-class programs in business, economics, and finance. Located in Canada's financial hub, it provides students with unique opportunities for industry connections and practical experience.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
+    name: "University of British Columbia",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0iamN6D047ov3hWOksiMId0BXhBvP7.png",
+    description:
+      "UBC's Sauder School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
   },
   {
-    name: "Canadan National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
+    name: "McGill University",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WCh6z5iNTylj0ZDPAAwC4CQYkGjMUg.png",
+    description:
+      "McGill's Desautels Faculty of Management is known for its rigorous academic programs and diverse international community. The university's location in Montreal provides students with exposure to both English and French business environments.",
   },
   {
-    name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    name: "University of Ottawa",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-GpqRXfR7Ku5yiXCJSdvTZ0H807BDde.png",
+    description:
+      "The Telfer School of Management at uOttawa offers bilingual business education and strong connections to government and policy institutions, making it an ideal choice for students interested in public sector economics and management.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
+    name: "University of Alberta",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9KG3QJ9zRmYAReqXhtKtsmJoQAQry6.png",
+    description:
+      "The Alberta School of Business leverages its proximity to Canada's energy sector to offer unique specializations in natural resources and energy economics, while maintaining strong programs in all core business disciplines.",
   },
 ]
+
+
 
 const faqs = [
   {

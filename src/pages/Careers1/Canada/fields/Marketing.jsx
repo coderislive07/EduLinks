@@ -9,48 +9,59 @@ const courses = [
       title: "Digital Marketing Specialist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrllehjdLTAkorIXloJnUcoPw8f5Hj.png",
       description:
-        "Digital Marketing Specialists in Australia develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
+        "Digital Marketing Specialists in Canada develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
     },
     {
       title: "Market Research Analyst",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NVuwCSBdThSoRbXWnRFVI7BKeQ5DKc.png",
       description:
-        "Market Research Analysts in Australia collect and analyze data on consumer preferences, market trends, and industry competitors. They provide actionable insights that guide marketing campaigns and business strategies, ensuring companies can effectively meet the needs of their customers and remain competitive.",
+        "Market Research Analysts in Canada collect and analyze data on consumer preferences, market trends, and industry competitors. They provide actionable insights that guide marketing campaigns and business strategies, ensuring companies can effectively meet the needs of their customers and remain competitive.",
     },
     {
       title: "SEO/SEM Specialist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bM5HiLWuAZTnCvHtTb6oA7jIFfEc15.png",
       description:
-        "SEO/SEM Specialists in Australia focus on improving the online visibility of businesses through organic search optimization and paid search engine marketing. These specialists help companies increase traffic, improve search rankings, and generate leads or sales by using both SEO techniques and SEM strategies.",
+        "SEO/SEM Specialists in Canada focus on improving the online visibility of businesses through organic search optimization and paid search engine marketing. These specialists help companies increase traffic, improve search rankings, and generate leads or sales by using both SEO techniques and SEM strategies.",
     },
   ]
   
   
   
 
-const universities = [
+  const universities = [
     {
-      name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+      name: "University of Toronto",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-JwIyc4yJHbWNXJymr4k1Rv2sRxzWW4.png",
+      description:
+        "Renowned for its prestigious Rotman School of Management, the University of Toronto offers world-class programs in business, economics, and finance. Located in Canada's financial hub, it provides students with unique opportunities for industry connections and practical experience.",
     },
     {
-      name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+      name: "University of British Columbia",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0iamN6D047ov3hWOksiMId0BXhBvP7.png",
+      description:
+        "UBC's Sauder School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
     },
     {
-      name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+      name: "McGill University",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WCh6z5iNTylj0ZDPAAwC4CQYkGjMUg.png",
+      description:
+        "McGill's Desautels Faculty of Management is known for its rigorous academic programs and diverse international community. The university's location in Montreal provides students with exposure to both English and French business environments.",
     },
     {
-      name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+      name: "University of Ottawa",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-GpqRXfR7Ku5yiXCJSdvTZ0H807BDde.png",
+      description:
+        "The Telfer School of Management at uOttawa offers bilingual business education and strong connections to government and policy institutions, making it an ideal choice for students interested in public sector economics and management.",
     },
     {
-        name: "Monash University",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+      name: "University of Alberta",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9KG3QJ9zRmYAReqXhtKtsmJoQAQry6.png",
+      description:
+        "The Alberta School of Business leverages its proximity to Canada's energy sector to offer unique specializations in natural resources and energy economics, while maintaining strong programs in all core business disciplines.",
     },
   ]
-
+  
+  
 const faqs = [
   {
     question: "What is Marketing?",
@@ -58,47 +69,47 @@ const faqs = [
       "It’s the practice of promoting products or services through market research, advertising, and customer engagement strategies.",
   },
   {
-    question: "What degrees do I need to work in Marketing in Australia?",
+    question: "What degrees do I need to work in Marketing in Canada?",
     answer:
       "A bachelor’s degree in marketing, business, or communications is required, with digital marketing and data analysis as valuable specializations.",
   },
   {
-    question: "What skills are essential for marketers in Australia?",
+    question: "What skills are essential for marketers in Canada?",
     answer:
       "Key skills include creativity, analytical thinking, communication, and proficiency in digital tools like Google Ads, Facebook Ads, and SEO strategies.",
   },
   {
-    question: "Are there internships available for marketing students in Australia?",
+    question: "Are there internships available for marketing students in Canada?",
     answer:
       "Internships are widely available in retail, tech, and finance, offering practical experience in digital marketing, SEO, and market research.",
   },
   {
-    question: "What are the emerging trends in Australia’s marketing sector?",
+    question: "What are the emerging trends in Canada’s marketing sector?",
     answer:
       "Key trends include the rise of personalized marketing, AI-driven campaigns, and the increasing use of data analytics for decision-making.",
   },
   {
-    question: "Can Australian marketers work internationally?",
+    question: "Can Canadan marketers work internationally?",
     answer:
-      "Yes, marketing qualifications and experience gained in Australia are highly regarded globally, offering opportunities to work abroad.",
+      "Yes, marketing qualifications and experience gained in Canada are highly regarded globally, offering opportunities to work abroad.",
   },
   {
-    question: "What is the job outlook for marketers in Australia?",
+    question: "What is the job outlook for marketers in Canada?",
     answer:
       "The outlook is positive, especially for digital marketing, market research, and SEO/SEM roles.",
   },
   {
-    question: "How does specialization affect my career in Australian marketing?",
+    question: "How does specialization affect my career in Canadan marketing?",
     answer:
       "Specializing in high-demand areas like digital marketing, data analysis, or SEO can lead to higher salaries and better job prospects.",
   },
   {
-    question: "Are marketing jobs flexible in Australia?",
+    question: "Are marketing jobs flexible in Canada?",
     answer:
       "Yes, many marketing roles offer flexibility, including opportunities for remote work and freelance consulting.",
   },
   {
-    question: "What are the challenges faced by marketers in Australia today?",
+    question: "What are the challenges faced by marketers in Canada today?",
     answer:
       "Challenges include staying updated on changing platforms, managing data privacy regulations, and adapting to evolving consumer behavior.",
   },
@@ -165,10 +176,10 @@ export default function Psycho() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Marketing</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Dynamic Careers in Australia
+            Gateway to Dynamic Careers in Canada
           </p>
         </div>
       </div>
@@ -184,7 +195,7 @@ export default function Psycho() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
             
-                Australia’s marketing industry is thriving, with a strong focus on digital marketing, data analysis, and e-commerce growth. Marketing professionals in Australia, especially in fields like digital marketing, market research, and SEO/SEM, are key players in helping businesses engage with consumers and stay competitive in the digital landscape.   
+                Canada’s marketing industry is thriving, with a strong focus on digital marketing, data analysis, and e-commerce growth. Marketing professionals in Canada, especially in fields like digital marketing, market research, and SEO/SEM, are key players in helping businesses engage with consumers and stay competitive in the digital landscape.   
             
             
 
@@ -236,7 +247,7 @@ export default function Psycho() {
       Why Choose a Career in Marketing?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in marketing in Australia offers the chance to work with leading brands, develop innovative campaigns, and leverage digital platforms to engage with consumers. Marketing professionals are integral to business success, driving growth through data-driven insights, creative strategies, and digital marketing expertise.
+      A career in marketing in Canada offers the chance to work with leading brands, develop innovative campaigns, and leverage digital platforms to engage with consumers. Marketing professionals are integral to business success, driving growth through data-driven insights, creative strategies, and digital marketing expertise.
       </p>
     </div>
 
@@ -246,7 +257,7 @@ export default function Psycho() {
       Marketing Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for marketing professionals in Australia is highly favorable, particularly in digital marketing, market research, and SEO/SEM roles. As businesses continue to expand their online presence and focus on data-driven decision-making, demand for skilled marketers is expected to grow.
+      The job outlook for marketing professionals in Canada is highly favorable, particularly in digital marketing, market research, and SEO/SEM roles. As businesses continue to expand their online presence and focus on data-driven decision-making, demand for skilled marketers is expected to grow.
       </p>
     </div>
 
@@ -256,7 +267,7 @@ export default function Psycho() {
       Future Aspects of Marketing
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The future of marketing in Australia will be driven by digital transformation, personalization, and data analytics. Digital marketing specialists will continue to optimize campaigns using AI and automation tools, while market research analysts will leverage advanced analytics to better understand consumer behavior. SEO/SEM specialists will remain crucial for maintaining strong online visibility in a competitive marketplace.
+      The future of marketing in Canada will be driven by digital transformation, personalization, and data analytics. Digital marketing specialists will continue to optimize campaigns using AI and automation tools, while market research analysts will leverage advanced analytics to better understand consumer behavior. SEO/SEM specialists will remain crucial for maintaining strong online visibility in a competitive marketplace.
       </p>
     </div>
 
@@ -267,7 +278,7 @@ export default function Psycho() {
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
       
-      Leading employers in Australia include major corporations like Woolworths, Commonwealth Bank, and Qantas. Advertising agencies, tech companies, and e-commerce businesses also provide significant opportunities for marketing professionals.
+      Leading employers in Canada include major corporations like Woolworths, Commonwealth Bank, and Qantas. Advertising agencies, tech companies, and e-commerce businesses also provide significant opportunities for marketing professionals.
       </p>
     </div>
   </div>
@@ -279,7 +290,7 @@ export default function Psycho() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
           Top Picks for Future Marketers:<br />
-            Australia's Elite Tech Universities
+            Canada's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -337,7 +348,7 @@ export default function Psycho() {
           Average Salary in Marketing
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for marketing professionals in Australia vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
+          Salaries for marketing professionals in Canada vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
           </p>
         </div>
       </div>

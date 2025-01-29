@@ -9,44 +9,56 @@ const courses = [
       title: "Wildlife Conservationist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7kE1Spe1DoCUQlk92URyjHNp9nkKj7.png",
       description:
-        "Wildlife Conservationists in Australia work to protect native species such as koalas, kangaroos, and unique marine life. Conservationists collaborate with government agencies like the Department of Agriculture, Water and the Environment, and organizations such as the Australian Wildlife Conservancy to protect habitats and prevent biodiversity loss.",
+        "Wildlife Conservationists in Canada work to protect native species such as koalas, kangaroos, and unique marine life. Conservationists collaborate with government agencies like the Department of Agriculture, Water and the Environment, and organizations such as the Canadan Wildlife Conservancy to protect habitats and prevent biodiversity loss.",
     },
     {
       title: "Climate Change Analyst",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oO4XBCAUwIhKRqeEwJqoFCmSrkrCoH.png",
       description:
-        "Australia faces severe climate risks, including droughts, bushfires, and coral bleaching of the Great Barrier Reef. These professionals assess the impact of climate change on ecosystems and communities and help develop adaptation and mitigation strategies.",
+        "Canada faces severe climate risks, including droughts, bushfires, and coral bleaching of the Great Barrier Reef. These professionals assess the impact of climate change on ecosystems and communities and help develop adaptation and mitigation strategies.",
     },
     {
       title: "Renewable Energy Manager",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NkHh97DWLcc1rvrcKu0LcCMrGsh6Ge.png",
       description:
-        "Australia is a global leader in solar energy, and Renewable Energy Managers are crucial in driving the country's transition to clean energy. They oversee solar, wind, and hydropower projects, contributing to Australia's goal of achieving 100% renewable energy in the coming decades.",
+        "Canada is a global leader in solar energy, and Renewable Energy Managers are crucial in driving the country's transition to clean energy. They oversee solar, wind, and hydropower projects, contributing to Canada's goal of achieving 100% renewable energy in the coming decades.",
     }
   ];
 
   const universities = [
     {
-      name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-CCjdRZBspOgNFHcR1VNIjZw61nsO06.png",
+      name: "University of Toronto",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-JwIyc4yJHbWNXJymr4k1Rv2sRxzWW4.png",
+      description:
+        "Renowned for its prestigious Rotman School of Management, the University of Toronto offers world-class programs in business, economics, and finance. Located in Canada's financial hub, it provides students with unique opportunities for industry connections and practical experience.",
     },
     {
-      name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TM1aFc8x3VYXPSZp8H2Y8Pq2ViLZ0a.png",
+      name: "University of British Columbia",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0iamN6D047ov3hWOksiMId0BXhBvP7.png",
+      description:
+        "UBC's Sauder School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
     },
     {
-      name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3JRngDu5MYp4NXN4xkmgrUmuqo8RPe.png",
+      name: "McGill University",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WCh6z5iNTylj0ZDPAAwC4CQYkGjMUg.png",
+      description:
+        "McGill's Desautels Faculty of Management is known for its rigorous academic programs and diverse international community. The university's location in Montreal provides students with exposure to both English and French business environments.",
     },
     {
-      name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vwLbbSx0vWAJV8sZt3kcGOF4SRPrLC.png",
+      name: "University of Ottawa",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-GpqRXfR7Ku5yiXCJSdvTZ0H807BDde.png",
+      description:
+        "The Telfer School of Management at uOttawa offers bilingual business education and strong connections to government and policy institutions, making it an ideal choice for students interested in public sector economics and management.",
     },
     {
-      name: "University of Western Australia",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DcX33ZaTrrzJXi4cvNTqNagND7Zlyq.png",
+      name: "University of Alberta",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9KG3QJ9zRmYAReqXhtKtsmJoQAQry6.png",
+      description:
+        "The Alberta School of Business leverages its proximity to Canada's energy sector to offer unique specializations in natural resources and energy economics, while maintaining strong programs in all core business disciplines.",
     },
-  ];
+  ]
+  
+  
 
 const faqs = [
   {
@@ -55,47 +67,47 @@ const faqs = [
       "It’s the study of the environment, focusing on issues like conservation, pollution, and climate change..",
   },
   {
-    question: "What degrees do I need to work in Environmental Science in Australia?",
+    question: "What degrees do I need to work in Environmental Science in Canada?",
     answer:
       "A bachelor’s degree in environmental science, ecology, or a related field is required, with postgraduate degrees useful for specialized roles.",
   },
   {
-    question: "What skills are essential for environmental scientists in Australia?",
+    question: "What skills are essential for environmental scientists in Canada?",
     answer:
       "Analytical thinking, data analysis, and strong communication skills are critical.",
   },
   {
-    question: "Are there internships available for environmental science students in Australia?",
+    question: "Are there internships available for environmental science students in Canada?",
     answer:
       "Yes, internships are available through universities, environmental organizations, and government agencies.",
   },
   {
-    question: "What are the emerging technologies in Australia’s environmental science sector?",
+    question: "What are the emerging technologies in Canada’s environmental science sector?",
     answer:
       "Solar energy, AI-driven climate models, and advanced conservation techniques are key innovations.",
   },
   {
-    question: "Can Australian environmental scientists work internationally?",
+    question: "Can Canadan environmental scientists work internationally?",
     answer:
-      "Yes, Australian environmental qualifications are respected globally, providing international career opportunities.",
+      "Yes, Canadan environmental qualifications are respected globally, providing international career opportunities.",
   },
   {
-    question: "What is the job outlook for environmental scientists in Australia?",
+    question: "What is the job outlook for environmental scientists in Canada?",
     answer:
       "The outlook is positive, particularly in renewable energy, conservation, and climate change sectors.",
   },
   {
-    question: "How does specialization affect my career in Australian environmental science?",
+    question: "How does specialization affect my career in Canadan environmental science?",
     answer:
       "Specializing in areas like renewable energy or climate resilience can lead to higher salaries and more career opportunities.",
   },
   {
-    question: "Are environmental science jobs flexible in Australia?",
+    question: "Are environmental science jobs flexible in Canada?",
     answer:
       "Many roles offer flexibility, including remote work, fieldwork, and project-based opportunities.",
   },
   {
-    question: "What are the challenges faced by environmental scientists in Australia today?",
+    question: "What are the challenges faced by environmental scientists in Canada today?",
     answer:
       "Challenges include protecting endangered species, addressing climate risks, and advancing renewable energy projects.",
   },
@@ -162,10 +174,10 @@ export default function EnviroSc() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Environmental Science</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Innovative Careers in Canada
           </p>
         </div>
       </div>
@@ -182,7 +194,7 @@ export default function EnviroSc() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Australia’s unique landscapes and ecosystems, from the Great Barrier Reef to vast deserts, create significant opportunities for careers in Environmental Science. Professionals in wildlife conservation, climate change analysis, and renewable energy management play crucial roles in preserving biodiversity, addressing climate challenges, and promoting sustainability.
+            Canada’s unique landscapes and ecosystems, from the Great Barrier Reef to vast deserts, create significant opportunities for careers in Environmental Science. Professionals in wildlife conservation, climate change analysis, and renewable energy management play crucial roles in preserving biodiversity, addressing climate challenges, and promoting sustainability.
             </h1>
           </div>
 
@@ -231,7 +243,7 @@ export default function EnviroSc() {
       Why Choose a Career in Environmental Science?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Choosing a career in Environmental Science in Australia provides the chance to make a significant impact in protecting the country’s unique ecosystems and addressing climate challenges. With Australia’s strong focus on sustainability and clean energy, professionals in this field are at the forefront of innovation and conservation.
+      Choosing a career in Environmental Science in Canada provides the chance to make a significant impact in protecting the country’s unique ecosystems and addressing climate challenges. With Canada’s strong focus on sustainability and clean energy, professionals in this field are at the forefront of innovation and conservation.
       </p>
     </div>
 
@@ -241,7 +253,7 @@ export default function EnviroSc() {
       Environmental Science Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for Environmental Science professionals in Australia is highly favorable, particularly in wildlife conservation, renewable energy, and climate change analysis. As the government and private sector continue to invest in sustainability, demand for skilled professionals is growing.
+      The job outlook for Environmental Science professionals in Canada is highly favorable, particularly in wildlife conservation, renewable energy, and climate change analysis. As the government and private sector continue to invest in sustainability, demand for skilled professionals is growing.
       </p>
     </div>
 
@@ -251,7 +263,7 @@ export default function EnviroSc() {
       Future Aspects of Environmental Science
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The future of Environmental Science in Australia focuses on protecting biodiversity, mitigating climate impacts, and expanding renewable energy. Conservationists will continue to restore habitats, climate change analysts will guide policies to protect vulnerable communities, and renewable energy managers will lead the country’s clean energy transition.
+      The future of Environmental Science in Canada focuses on protecting biodiversity, mitigating climate impacts, and expanding renewable energy. Conservationists will continue to restore habitats, climate change analysts will guide policies to protect vulnerable communities, and renewable energy managers will lead the country’s clean energy transition.
       </p>
     </div>
 
@@ -261,7 +273,7 @@ export default function EnviroSc() {
       Top Environmental Science Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s environmental sector include the Department of Agriculture, Water and the Environment, the Australian Wildlife Conservancy, and renewable energy companies such as AGL Energy and Origin Energy.
+      Leading employers in Canada’s environmental sector include the Department of Agriculture, Water and the Environment, the Canadan Wildlife Conservancy, and renewable energy companies such as AGL Energy and Origin Energy.
       </p>
     </div>
   </div>
@@ -273,7 +285,7 @@ export default function EnviroSc() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Engineers:<br />
-            Australia's Elite Tech Universities
+            Canada's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -331,7 +343,7 @@ export default function EnviroSc() {
           Average Salary in Environmental Science
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Environmental science professionals in Australia earn competitive salaries. Wildlife conservationists typically earn around AUD $70,000 annually, while climate change analysts make approximately AUD $80,000. Renewable energy managers can expect salaries around AUD $90,000, depending on their specialization and experience.
+          Environmental science professionals in Canada earn competitive salaries. Wildlife conservationists typically earn around AUD $70,000 annually, while climate change analysts make approximately AUD $80,000. Renewable energy managers can expect salaries around AUD $90,000, depending on their specialization and experience.
           </p>
         </div>
       </div>

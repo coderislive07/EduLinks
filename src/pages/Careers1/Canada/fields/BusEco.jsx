@@ -13,44 +13,56 @@ const courses = [
       title: "Financial Analyst",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-26.png",
       description:
-        "Financial Analysts in Australia assess market trends, evaluate investment opportunities, and provide financial advice to businesses and individuals. These professionals work in industries like banking, insurance, and investment, helping clients make informed financial decisions.",
+        "Financial Analysts in Canada assess market trends, evaluate investment opportunities, and provide financial advice to businesses and individuals. These professionals work in industries like banking, insurance, and investment, helping clients make informed financial decisions.",
     },
     {
       title: "Economic Data Analyst",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-27.png",
       description:
-        "Economic Data Analysts in Australia interpret economic data, analyze trends, and provide insights to government agencies, corporations, and financial institutions. They help shape economic policies and business strategies, contributing to Australia’s economic stability and growth.",
+        "Economic Data Analysts in Canada interpret economic data, analyze trends, and provide insights to government agencies, corporations, and financial institutions. They help shape economic policies and business strategies, contributing to Canada’s economic stability and growth.",
     },
     {
       title: "Supply Chain Manager",
       image: "https://edulinks.io/wp-content/uploads/2024/10/image-28.png",
       description:
-        "Supply Chain Managers in Australia manage the logistics of goods and services, ensuring efficient and sustainable supply chains. These professionals are vital in industries like retail, manufacturing, and logistics, where they optimize operations and manage costs.",
+        "Supply Chain Managers in Canada manage the logistics of goods and services, ensuring efficient and sustainable supply chains. These professionals are vital in industries like retail, manufacturing, and logistics, where they optimize operations and manage costs.",
     },
   ]
 
-const universities = [
+  const universities = [
     {
-      name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+      name: "University of Toronto",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-JwIyc4yJHbWNXJymr4k1Rv2sRxzWW4.png",
+      description:
+        "Renowned for its prestigious Rotman School of Management, the University of Toronto offers world-class programs in business, economics, and finance. Located in Canada's financial hub, it provides students with unique opportunities for industry connections and practical experience.",
     },
     {
-      name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+      name: "University of British Columbia",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0iamN6D047ov3hWOksiMId0BXhBvP7.png",
+      description:
+        "UBC's Sauder School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
     },
     {
-      name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+      name: "McGill University",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WCh6z5iNTylj0ZDPAAwC4CQYkGjMUg.png",
+      description:
+        "McGill's Desautels Faculty of Management is known for its rigorous academic programs and diverse international community. The university's location in Montreal provides students with exposure to both English and French business environments.",
     },
     {
-      name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+      name: "University of Ottawa",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-GpqRXfR7Ku5yiXCJSdvTZ0H807BDde.png",
+      description:
+        "The Telfer School of Management at uOttawa offers bilingual business education and strong connections to government and policy institutions, making it an ideal choice for students interested in public sector economics and management.",
     },
     {
-        name: "Monash University",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+      name: "University of Alberta",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9KG3QJ9zRmYAReqXhtKtsmJoQAQry6.png",
+      description:
+        "The Alberta School of Business leverages its proximity to Canada's energy sector to offer unique specializations in natural resources and energy economics, while maintaining strong programs in all core business disciplines.",
     },
   ]
+  
+  
 
 const faqs = [
   {
@@ -59,47 +71,47 @@ const faqs = [
       "It’s the study of financial systems, markets, and economic policies, focusing on business operations and resource management.",
   },
   {
-    question: "What degrees do I need to work in Business & Economics in Australia?",
+    question: "What degrees do I need to work in Business & Economics in Canada?",
     answer:
       "A bachelor’s degree in business, economics, finance, or a related field is required, with advanced degrees useful for specialized roles.",
   },
   {
-    question: "What skills are essential for business and economics professionals in Australia?",
+    question: "What skills are essential for business and economics professionals in Canada?",
     answer:
       "Analytical thinking, problem-solving, and proficiency in financial modeling are key skills for success.",
   },
   {
-    question: "Are there internships available for business and economics students in Australia?",
+    question: "Are there internships available for business and economics students in Canada?",
     answer:
       "Many companies offer internships that provide experience in financial analysis, supply chain management, and economic data analysis.",
   },
   {
-    question: "What are the emerging trends in Australia’s business and economics sector?",
+    question: "What are the emerging trends in Canada’s business and economics sector?",
     answer:
       "AI in finance, digital transformation in supply chains, and sustainability in business practices are key trends.",
   },
   {
-    question: "Can Australian business and economics professionals work internationally?",
+    question: "Can Canadan business and economics professionals work internationally?",
     answer:
-      "Yes, Australian qualifications are highly respected globally, providing opportunities for international careers.",
+      "Yes, Canadan qualifications are highly respected globally, providing opportunities for international careers.",
   },
   {
-    question: "What is the job outlook for business and economics professionals in Australia?",
+    question: "What is the job outlook for business and economics professionals in Canada?",
     answer:
       "The outlook is positive, with growing demand for professionals in financial analysis, economic data analysis, and supply chain management.",
   },
   {
-    question: "How does specialization affect my career in Australian business and economics?",
+    question: "How does specialization affect my career in Canadan business and economics?",
     answer:
       "Specializing in areas like supply chain management or data analysis can open up more career opportunities and lead to higher salaries.",
   },
   {
-    question: "Are business and economics jobs flexible in Australia?",
+    question: "Are business and economics jobs flexible in Canada?",
     answer:
       "Many roles offer flexibility, including options for remote work and project-based employment.",
   },
   {
-    question: "What are the challenges faced by business and economics professionals in Australia today?",
+    question: "What are the challenges faced by business and economics professionals in Canada today?",
     answer:
       "Challenges include navigating global trade complexities, managing economic volatility, and staying ahead of technological changes.",
   },
@@ -166,10 +178,10 @@ export default function BioTech() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Business & Economics</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Innovative Careers in Canada
           </p>
         </div>
       </div>
@@ -185,7 +197,7 @@ export default function BioTech() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
             
-            Australia’s diverse economy, strong trade networks, and commitment to innovation make it a prime location for careers in Business & Economics. Professionals in fields such as financial analysis, economic data analysis, and supply chain management are essential to driving the country’s economic growth and supporting its global trade. With its focus on sustainability, technology, and global markets, Australia offers rich opportunities for business and economics professionals.
+            Canada’s diverse economy, strong trade networks, and commitment to innovation make it a prime location for careers in Business & Economics. Professionals in fields such as financial analysis, economic data analysis, and supply chain management are essential to driving the country’s economic growth and supporting its global trade. With its focus on sustainability, technology, and global markets, Canada offers rich opportunities for business and economics professionals.
             </h1>
           </div>
 
@@ -234,7 +246,7 @@ export default function BioTech() {
       Why Choose a Career in Business & Economics?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in Business & Economics in Australia offers the opportunity to work in one of the world’s fastest-growing economies. Whether managing supply chains, analyzing markets, or interpreting economic data, professionals in these fields play a crucial role in driving business success and economic growth.
+      A career in Business & Economics in Canada offers the opportunity to work in one of the world’s fastest-growing economies. Whether managing supply chains, analyzing markets, or interpreting economic data, professionals in these fields play a crucial role in driving business success and economic growth.
       </p>
     </div>
 
@@ -244,7 +256,7 @@ export default function BioTech() {
       Business & Economics Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for Business & Economics professionals in Australia is strong, particularly in financial analysis, economic data analysis, and supply chain management. As the economy continues to grow and expand, demand for skilled professionals in these areas is expected to rise.
+      The job outlook for Business & Economics professionals in Canada is strong, particularly in financial analysis, economic data analysis, and supply chain management. As the economy continues to grow and expand, demand for skilled professionals in these areas is expected to rise.
       </p>
     </div>
 
@@ -254,7 +266,7 @@ export default function BioTech() {
       Future Aspects of Business & Economics
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The future of Business & Economics in Australia is focused on sustainability, global trade, and digital transformation. Financial analysts will use new technologies to assess markets, economic data analysts will drive data-driven policymaking, and supply chain managers will innovate in logistics
+      The future of Business & Economics in Canada is focused on sustainability, global trade, and digital transformation. Financial analysts will use new technologies to assess markets, economic data analysts will drive data-driven policymaking, and supply chain managers will innovate in logistics
       </p>
     </div>
 
@@ -264,7 +276,7 @@ export default function BioTech() {
       Top Business & Economics Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Top employers in Australia’s Business & Economics sector include Commonwealth Bank, Westpac, Deloitte, and Woolworths. Additionally, government agencies such as the Australian Treasury offer extensive opportunities for economic data analysts.
+      Top employers in Canada’s Business & Economics sector include Commonwealth Bank, Westpac, Deloitte, and Woolworths. Additionally, government agencies such as the Canadan Treasury offer extensive opportunities for economic data analysts.
       </p>
     </div>
   </div>
@@ -276,7 +288,7 @@ export default function BioTech() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Engineers:<br />
-            Australia's Elite Tech Universities
+            Canada's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -334,7 +346,7 @@ export default function BioTech() {
           Average Salary in Business & Economics
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Business & Economics professionals in Australia earn competitive salaries. Financial analysts typically earn around AUD $85,000 annually, while economic data analysts make approximately AUD $80,000. Supply chain managers can expect to earn about AUD $95,000, depending on experience and expertise.
+          Business & Economics professionals in Canada earn competitive salaries. Financial analysts typically earn around AUD $85,000 annually, while economic data analysts make approximately AUD $80,000. Supply chain managers can expect to earn about AUD $95,000, depending on experience and expertise.
           </p>
         </div>
       </div>
