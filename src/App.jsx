@@ -11,7 +11,7 @@ import Countries from "./pages/Countries/Countries";
 import Careersaus from "../src/pages/Careers1/Australia/src/CareersAus";
 import Careerscanada from "../src/pages/Careers1/Canada/src/CareersCanada";
 import Careersgermany from "../src/pages/Careers1/Germany/src/CareersGermany";
-import Careersnewzealand from "../src/pages/Careers1/New Zealand/src/CareersNewZealand/CareersNewZealand";
+import Careersnewzealand from "../src/pages/Careers1/New Zealand/src/CareersNewZealand";
 import Careersuk from "../src/pages/Careers1/UK/src/CareersUk";
 import Careersusa from "../src/pages/Careers1/USA/src/CareersUsa";
 import Aus from "../src/pages/Top Universities/Aus/aus";
@@ -23,7 +23,7 @@ import Usa from "./pages/Top Universities/Usa/usa";
 import UniversityOfAus from "./pages/Top Universities/Aus/UniversityOfAus";
 import CarrEngi from "../src/pages/InsideCareers/Page";
 import Ausengandtech from "./pages/Careers1/Australia/fields/AusEngandTech";
-import Healthsc from "./pages/Careers1/Australia/fields/Healthsc"; 
+import Healthsc from "./pages/Careers1/Australia/fields/healthsc"; 
 import NaturalSc from "./pages/Careers1/Australia/fields/NaturalSc";   
 import InfoTech from "./pages/Careers1/Australia/fields/InfoTech";  
 import EnviroSc from "./pages/Careers1/Australia/fields/EnviroSc"; 
@@ -52,7 +52,6 @@ import CanData from "./pages/Careers1/Canada/fields/Data";
 import CanArtificial from "./pages/Careers1/Canada/fields/Artificial";
 import CanGraphMed from "./pages/Careers1/Canada/fields/GraphMed";
 import CanLaw from "./pages/Careers1/Canada/fields/Law";
-
 import UsaEngandTech from "./pages/Careers1/USA/fields/AusEngandTech";
 import UsaHealthsc from "./pages/Careers1/USA/fields/Healthsc";
 import UsaNaturalSc from "./pages/Careers1/USA/fields/NaturalSc";
@@ -68,7 +67,6 @@ import UsaData from "./pages/Careers1/USA/fields/Data";
 import UsaArtificial from "./pages/Careers1/USA/fields/Artificial";
 import UsaGraphMed from "./pages/Careers1/USA/fields/GraphMed";
 import UsaLaw from "./pages/Careers1/USA/fields/Law";
-
 import UkEngandTech from "./pages/Careers1/UK/fields/AusEngandTech";
 import UkHealthsc from "./pages/Careers1/UK/fields/Healthsc";
 import UkNaturalSc from "./pages/Careers1/UK/fields/NaturalSc";
@@ -84,7 +82,6 @@ import UkData from "./pages/Careers1/UK/fields/Data";
 import UkArtificial from "./pages/Careers1/UK/fields/Artificial";
 import UkGraphMed from "./pages/Careers1/UK/fields/GraphMed";
 import UkLaw from "./pages/Careers1/UK/fields/Law";
-
 import GerEngandTech from "./pages/Careers1/Germany/fields/AusEngandTech";
 import GerHealthsc from "./pages/Careers1/Germany/fields/Healthsc";
 import GerNaturalSc from "./pages/Careers1/Germany/fields/NaturalSc";
@@ -100,7 +97,6 @@ import GerData from "./pages/Careers1/Germany/fields/Data";
 import GerArtificial from "./pages/Careers1/Germany/fields/Artificial";
 import GerGraphMed from "./pages/Careers1/Germany/fields/GraphMed";
 import GerLaw from "./pages/Careers1/Germany/fields/Law";
-
 import NzEngandTech from "./pages/Careers1/New Zealand/fields/AusEngandTech";
 import NzHealthsc from "./pages/Careers1/New Zealand/fields/Healthsc";
 import NzNaturalSc from "./pages/Careers1/New Zealand/fields/NaturalSc";
@@ -116,13 +112,11 @@ import NzData from "./pages/Careers1/New Zealand/fields/Data";
 import NzArtificial from "./pages/Careers1/New Zealand/fields/Artificial";
 import NzGraphMed from "./pages/Careers1/New Zealand/fields/GraphMed";
 import NzLaw from "./pages/Careers1/New Zealand/fields/Law";
-
 import Universityofcanada from "./pages/Top Universities/canada/universityofcanada";
 import Universityofgermany from "./pages/Top Universities/germany/universityofgermany";
 import UniversityofNz from "./pages/Top Universities/newzealand/UniversityOfNz"
 import UniversityOfUk from "../src/pages/Top Universities/UK/UniversityOfUK";
 import UniversityOfUsa from "../src/pages/Top Universities/Usa/UniversityOfUsa"
-
 function App() {
   return (
     <Router>

@@ -1,7 +1,7 @@
 import React from "react"
-import Hero from "../components/Hero"
-import CareerGrid from "../components/CareerGrid"
-import Text from "../components/Text"
+import Hero from "./components/Hero"
+import CareerGrid from "./components/CareerGrid"
+import Text from "./components/Text"
 
 export default function CareersNewZealand() {
   return (
