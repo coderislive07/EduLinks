@@ -9,44 +9,56 @@ const courses = [
       title: "Genetic Counsellor",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aPkZvJQAMciiqSaF4p8O2pvKNpAATL.png",
       description:
-        "Genetic Counsellors in Australia help individuals and families assess their genetic health risks, offering guidance on inherited conditions and reproductive planning. These professionals work closely with healthcare teams to interpret genetic tests and provide personalized care, contributing to Australia's growing focus on preventive healthcare.",
+        "Genetic Counsellors in UK help individuals and families assess their genetic health risks, offering guidance on inherited conditions and reproductive planning. These professionals work closely with healthcare teams to interpret genetic tests and provide personalized care, contributing to UK's growing focus on preventive healthcare.",
     },
     {
       title: "Pharmaceutical Research Technician",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-d6WsWN6WhBHge2ejCeevQ7lgYCxWzr.png",
       description:
-        "Pharmaceutical Research Technicians in Australia support the development and testing of new drugs, working in laboratories to ensure the safety and efficacy of pharmaceutical products. They play a vital role in Australia's growing pharmaceutical industry, contributing to research that improves public health.",
+        "Pharmaceutical Research Technicians in UK support the development and testing of new drugs, working in laboratories to ensure the safety and efficacy of pharmaceutical products. They play a vital role in UK's growing pharmaceutical industry, contributing to research that improves public health.",
     },
     {
       title: "Bioinformatics",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qiI5E30qO8Z27Z8TZvsm0Bv0ROrbdT.png",
       description:
-        "Bioinformatics professionals in Australia apply computational techniques to analyze biological data, supporting research in genomics, drug discovery, and personalized medicine. With the growth of big data in healthcare and research organizations, using data science to solve complex biological challenges.",
+        "Bioinformatics professionals in UK apply computational techniques to analyze biological data, supporting research in genomics, drug discovery, and personalized medicine. With the growth of big data in healthcare and research organizations, using data science to solve complex biological challenges.",
     },
   ]
 
-const universities = [
+  const universities = [
     {
-      name: "University of Melbourne",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+      name: "University of Oxford",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PAzXyh7x4oDLE4paM2xCltUGOZrfAU.png",
+      description:
+        "The oldest university in the English-speaking world, Oxford combines centuries of tradition with cutting-edge research facilities. Its collegiate system, world-renowned faculty, and historic architecture create an unparalleled academic environment for students across all disciplines.",
     },
     {
-      name: "University of Sydney",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+      name: "University of Cambridge",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9OHP6eovgEcuooOljXJp3EwNIKSwon.png",
+      description:
+        "Cambridge offers a unique combination of medieval tradition and contemporary scientific excellence. Known for its mathematical heritage and scientific innovations, the university continues to produce groundbreaking research across multiple fields.",
     },
     {
-      name: "Australian National University (ANU)",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2t56bnXZe7e4dCYif2eXDCDQwppgZ3.png",
+      name: "Imperial College London",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8psUmKKZqWtHGRR4VuwA0nbLvd7nVh.png",
+      description:
+        "Focusing exclusively on science, engineering, medicine, and business, Imperial College London is at the forefront of technological innovation. Its central London location provides unique opportunities for collaboration with industry leaders and research institutions.",
     },
     {
-      name: "University of Queensland",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+      name: "University of Edinburgh",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZRQy4IHCxjUgtbkEKivf52b0tVvtNU.png",
+      description:
+        "Edinburgh combines its rich heritage in medicine, science, and engineering with pioneering research in artificial intelligence and data science. Its historic campus in Scotland's capital city provides an inspiring environment for academic excellence.",
     },
     {
-      name: "University of Western Australia",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-arDcb4Y5S46TcMjiMtRm1wr45m9gI7.png",
+      name: "University of Exeter",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0j5RyQKOukkX8H4T3kDnMu0IKiK1Qk.png",
+      description:
+        "Known for its expertise in environmental science and sustainable development, Exeter offers cutting-edge facilities for research and teaching. The university's modern campus reflects its commitment to innovation while maintaining strong ties to its regional heritage.",
     },
   ]
+  
+  
 
 const faqs = [
   {
@@ -55,47 +67,47 @@ const faqs = [
       "Biotechnology combines biological science with technology to develop solutions for healthcare, agriculture, and environmental conservation.",
   },
   {
-    question: "What degrees do I need to work in Biotechnology in Australia?",
+    question: "What degrees do I need to work in Biotechnology in UK?",
     answer:
       "A bachelor’s or master’s degree in biotechnology, genetics, bioinformatics, or related fields is required, with PhDs needed for advanced research roles.",
   },
   {
-    question: "What skills are essential for biotechnologists in Australia?",
+    question: "What skills are essential for biotechnologists in UK?",
     answer:
       "Data analysis, research skills, and technical proficiency in biological sciences are key for success.",
   },
   {
-    question: "Are there internships available for biotechnology students in Australia?",
+    question: "Are there internships available for biotechnology students in UK?",
     answer:
       "Yes, many biotech companies and universities offer internships to provide practical experience in research and development.",
   },
   {
-    question: "What are the emerging technologies in Australia’s biotechnology sector?",
+    question: "What are the emerging technologies in UK’s biotechnology sector?",
     answer:
       "Gene editing, AI in drug discovery, and advancements in personalized medicine are key innovations.",
   },
   {
-    question: "Can Australian biotechnologists work internationally?",
+    question: "Can UKn biotechnologists work internationally?",
     answer:
-      "Yes, Australian biotechnology qualifications are respected globally, opening doors to international career opportunities.",
+      "Yes, UKn biotechnology qualifications are respected globally, opening doors to international career opportunities.",
   },
   {
-    question: "What is the job outlook for biotechnologists in Australia?",
+    question: "What is the job outlook for biotechnologists in UK?",
     answer:
       "The outlook is strong, particularly in bioinformatics, genetic counseling, and pharmaceutical research.",
   },
   {
-    question: "How does specialization affect my career in Australian biotechnology?",
+    question: "How does specialization affect my career in UKn biotechnology?",
     answer:
       "Specializing in high-demand areas like bioinformatics or genetic counseling can lead to more job opportunities and higher salaries.",
   },
   {
-    question: "Are biotechnology jobs flexible in Australia?",
+    question: "Are biotechnology jobs flexible in UK?",
     answer:
       "Many biotechnology roles offer flexibility, including research-based work, remote data analysis, and project-based employment.",
   },
   {
-    question: "What are the challenges faced by biotechnologists in Australia today?",
+    question: "What are the challenges faced by biotechnologists in UK today?",
     answer:
       "Challenges include navigating regulatory frameworks for genetic research and advancing sustainable agricultural solutions.",
   },
@@ -162,10 +174,10 @@ export default function BioTech() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >UK</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Biotechnology</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Innovative Careers in UK
           </p>
         </div>
       </div>
@@ -180,7 +192,7 @@ export default function BioTech() {
           <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
-            Australia’s Biotechnology sector is thriving, contributing to advancements in healthcare, agriculture, and environmental sustainability. Biotechnology professionals work in fields such as genetic counseling, pharmaceutical research, and bioinformatics, driving innovation in medical treatments, sustainable agriculture, and genomics research.
+            UK’s Biotechnology sector is thriving, contributing to advancements in healthcare, agriculture, and environmental sustainability. Biotechnology professionals work in fields such as genetic counseling, pharmaceutical research, and bioinformatics, driving innovation in medical treatments, sustainable agriculture, and genomics research.
             </h1>
           </div>
 
@@ -229,7 +241,7 @@ export default function BioTech() {
       Why Choose a Career in Biotechnology?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in Biotechnology in Australia offers the chance to work in a highly innovative industry that addresses global health and environmental challenges. Biotechnology professionals in Australia contribute to advancements in medical treatments, sustainable agriculture, and genetic research, making a significant impact on society.
+      A career in Biotechnology in UK offers the chance to work in a highly innovative industry that addresses global health and environmental challenges. Biotechnology professionals in UK contribute to advancements in medical treatments, sustainable agriculture, and genetic research, making a significant impact on society.
       </p>
     </div>
 
@@ -239,7 +251,7 @@ export default function BioTech() {
       Biotechnology Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The job outlook for Biotechnology professionals in Australia is strong, particularly in genetic counseling, pharmaceutical research, and bioinformatics. As the country invests in healthcare innovation and sustainable agriculture, demand for biotechnology expertise is expected to grow.
+      The job outlook for Biotechnology professionals in UK is strong, particularly in genetic counseling, pharmaceutical research, and bioinformatics. As the country invests in healthcare innovation and sustainable agriculture, demand for biotechnology expertise is expected to grow.
       </p>
     </div>
 
@@ -249,7 +261,7 @@ export default function BioTech() {
       Future Aspects of Biotechnology
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in Biotechnology focuses on personalized medicine, gene therapy, and bioinformatics-driven research. Genetic counselors will continue to provide personalized healthcare, while bioinformatics professionals will drive innovations in genomics and agricultural biotechnology.
+      UK’s future in Biotechnology focuses on personalized medicine, gene therapy, and bioinformatics-driven research. Genetic counselors will continue to provide personalized healthcare, while bioinformatics professionals will drive innovations in genomics and agricultural biotechnology.
       </p>
     </div>
 
@@ -259,7 +271,7 @@ export default function BioTech() {
       Top Biotechnology Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in Australia’s biotechnology sector include CSL Limited, Cochlear, and government research institutions. Universities and hospitals also offer numerous opportunities for professionals specializing in genetic counseling, pharmaceutical research, and bioinformatics.
+      Leading employers in UK’s biotechnology sector include CSL Limited, Cochlear, and government research institutions. Universities and hospitals also offer numerous opportunities for professionals specializing in genetic counseling, pharmaceutical research, and bioinformatics.
       </p>
     </div>
   </div>
@@ -271,7 +283,7 @@ export default function BioTech() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Engineers:<br />
-            Australia's Elite Tech Universities
+            UK's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -329,7 +341,7 @@ export default function BioTech() {
           Average Salary in Biotechnology
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Biotechnology professionals in Australia earn competitive salaries. 
+          Biotechnology professionals in UK earn competitive salaries. 
           Genetic counselors typically earn around AUD $80,000 annually,
            while pharmaceutical research technicians make approximately AUD $60,000. Bioinformatics specialists can expect salaries of about AUD $85,000, depending on their expertise and experience.
           </p>

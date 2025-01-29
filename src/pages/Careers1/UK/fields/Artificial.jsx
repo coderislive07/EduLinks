@@ -12,51 +12,63 @@ const courses = [
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-gVtWYim75BK6hRQiyWAcmghvDsdne1.png"
      ,
     description:
-      "Aerospace Engineering in Canada is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing Canada and Airbus Canada Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the Canadan Space Agency.",
+      "Aerospace Engineering in UK is focused on the design, development, and maintenance of aircraft and spacecraft. With companies like Boeing UK and Airbus UK Pacific leading the way, aerospace engineers play a critical role in advancing aviation technology, improving defense capabilities, and supporting space exploration initiatives, such as those by the UKn Space Agency.",
   },
   {
     title: "Biomedical Engineering",
     image: 
      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-g54wEC4sWaVDaD8vDysdwedJEOEKKA.png",
     description:
-      "Biomedical Engineering in Canada merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. Canadan biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
+      "Biomedical Engineering in UK merges healthcare and engineering, creating technologies that improve patient outcomes and revolutionize medical treatments. UKn biomedical engineers work on developing medical devices, prosthetics, and imaging systems, contributing to healthcare advancements and playing a vital role in research institutions and hospitals across the country.",
   },
   {
     title: "Software Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-2ekNPtBKOiTvgAcnuZuvwS7RXKOOIo.png",
     description:
-      "Canada’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in Canada are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
+      "UK’s growing tech industry offers abundant opportunities for Software Engineers, particularly in major cities like Sydney and Melbourne. Software engineers in UK are crucial in developing and maintaining software applications across industries, including finance, healthcare, and e-commerce. The increasing focus on cybersecurity, artificial intelligence, and cloud computing further expands opportunities in this field.",
   },
   {
     title: "Robotics and Automation Engineering",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-C49wMNZbMOUBaWeK8x5x0CcAaE17gD.png",
     description:
-      "Robotics and Automation Engineering in Canada is booming, particularly in industries like mining, manufacturing, and agriculture. Canadan engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in Canada.",
+      "Robotics and Automation Engineering in UK is booming, particularly in industries like mining, manufacturing, and agriculture. UKn engineers design and implement automated systems that improve efficiency, safety, and precision. With advancements in AI and machine learning, robotics engineers are shaping the future of industry automation in UK.",
   },
 ]
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
+    name: "University of Oxford",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PAzXyh7x4oDLE4paM2xCltUGOZrfAU.png",
+    description:
+      "The oldest university in the English-speaking world, Oxford combines centuries of tradition with cutting-edge research facilities. Its collegiate system, world-renowned faculty, and historic architecture create an unparalleled academic environment for students across all disciplines.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
+    name: "University of Cambridge",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9OHP6eovgEcuooOljXJp3EwNIKSwon.png",
+    description:
+      "Cambridge offers a unique combination of medieval tradition and contemporary scientific excellence. Known for its mathematical heritage and scientific innovations, the university continues to produce groundbreaking research across multiple fields.",
   },
   {
-    name: "Canadan National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
+    name: "Imperial College London",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8psUmKKZqWtHGRR4VuwA0nbLvd7nVh.png",
+    description:
+      "Focusing exclusively on science, engineering, medicine, and business, Imperial College London is at the forefront of technological innovation. Its central London location provides unique opportunities for collaboration with industry leaders and research institutions.",
   },
   {
-    name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
+    name: "University of Edinburgh",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZRQy4IHCxjUgtbkEKivf52b0tVvtNU.png",
+    description:
+      "Edinburgh combines its rich heritage in medicine, science, and engineering with pioneering research in artificial intelligence and data science. Its historic campus in Scotland's capital city provides an inspiring environment for academic excellence.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
+    name: "University of Exeter",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0j5RyQKOukkX8H4T3kDnMu0IKiK1Qk.png",
+    description:
+      "Known for its expertise in environmental science and sustainable development, Exeter offers cutting-edge facilities for research and teaching. The university's modern campus reflects its commitment to innovation while maintaining strong ties to its regional heritage.",
   },
 ]
+
+
 
 const faqs = [
   {
@@ -65,47 +77,47 @@ const faqs = [
       "AI refers to systems and algorithms that perform tasks requiring human intelligence, like decision-making, language processing, and recognition.",
   },
   {
-    question: "What degrees do I need to work in AI in Canada?",
+    question: "What degrees do I need to work in AI in UK?",
     answer:
       "A bachelor’s degree in AI, computer science, or related fields is common, with a master’s or PhD needed for specialized AI roles.",
   },
   {
-    question: "What skills are essential for AI professionals in Canada?",
+    question: "What skills are essential for AI professionals in UK?",
     answer:
       "Key skills include expertise in machine learning, deep learning, Python, and proficiency in AI frameworks like TensorFlow, Keras, and PyTorch.",
   },
   {
-    question: "Are there internships available for AI students in Canada?",
+    question: "Are there internships available for AI students in UK?",
     answer:
-      "Yes, many tech companies and research institutions in Canada offer internships, providing experience in AI research and development.",
+      "Yes, many tech companies and research institutions in UK offer internships, providing experience in AI research and development.",
   },
   {
-    question: "What are the emerging trends in AI in Canada?",
+    question: "What are the emerging trends in AI in UK?",
     answer:
       "Key trends include AI in healthcare, smart agriculture, and AI ethics to ensure fair and transparent use of technologies.",
   },
   {
-    question: "Can AI professionals in Canada work internationally?",
+    question: "Can AI professionals in UK work internationally?",
     answer:
-      "Yes, AI professionals from Canada are highly valued worldwide, and they have access to opportunities across the globe.",
+      "Yes, AI professionals from UK are highly valued worldwide, and they have access to opportunities across the globe.",
   },
   {
-    question: "What is the job outlook for AI professionals in Canada?",
+    question: "What is the job outlook for AI professionals in UK?",
     answer:
       "The outlook is highly favorable, particularly in sectors like healthcare, finance, and agriculture, where AI technologies are rapidly being adopted.",
   },
   {
-    question: "How does specialization affect my career in AI in Canada?",
+    question: "How does specialization affect my career in AI in UK?",
     answer:
       "Specializing in fields like machine learning, NLP, or robotics can lead to higher salaries and advanced career opportunities.",
   },
   {
-    question: "Are AI jobs flexible in Canada?",
+    question: "Are AI jobs flexible in UK?",
     answer:
       "Yes, many AI roles offer flexibility, including opportunities for remote work, freelance projects, and part-time roles.",
   },
   {
-    question: "What are the challenges faced by AI professionals in Canada today?",
+    question: "What are the challenges faced by AI professionals in UK today?",
     answer:
       "Challenges include scaling AI solutions for different industries, addressing ethical concerns, and ensuring data privacy and security.",
   },
@@ -172,10 +184,10 @@ export default function Artificial() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Canada</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >UK</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Artificial Intelligence</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-          Gateway to Cutting-Edge Careers in Canada
+          Gateway to Cutting-Edge Careers in UK
           </p>
         </div>
       </div>
@@ -191,7 +203,7 @@ export default function Artificial() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Canada is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
+            UK is a growing hub for artificial intelligence (AI) development, with strong industry demand across sectors such as healthcare, agriculture, and finance. AI professionals, including AI Research Scientists, Natural Language Processing (NLP) Engineers, and AI Application Developers, are integral to advancing AI solutions that enhance operational efficiency and transform industries.
             </h1>
           </div>
 
@@ -240,7 +252,7 @@ export default function Artificial() {
       Why Choose a Career in Artificial Intelligence?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in AI in Canada offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
+      A career in AI in UK offers the opportunity to work in one of the fastest-growing and most innovative fields of technology. AI professionals are at the forefront of technological advancements that impact healthcare, agriculture, finance, and more, helping industries use AI to solve complex challenges.
       </p>
     </div>
 
@@ -250,7 +262,7 @@ export default function Artificial() {
       Artificial Intelligence Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The AI job market in Canada is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
+      The AI job market in UK is expanding rapidly, with growing demand for AI talent in major cities like Sydney, Melbourne, and Brisbane. From startups to established companies, AI professionals have access to a diverse range of opportunities in fields such as healthcare, fintech, and smart infrastructure.
       </p>
     </div>
 
@@ -260,7 +272,7 @@ export default function Artificial() {
       Future Aspects of Artificial Intelligence
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Canada’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
+      UK’s future in AI will see significant advancements in areas like machine learning, AI-driven healthcare, and AI applications in agriculture. AI Research Scientists will work on ethical AI and automation, while NLP Engineers will continue improving machine understanding of human language, leading to more sophisticated AI-powered applications.
       </p>
     </div>
 
@@ -270,7 +282,7 @@ export default function Artificial() {
       Top Artificial Intelligence Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Leading employers in AI in Canada include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, Canada’s national science agency, which leads research in AI and machine learning.
+      Leading employers in AI in UK include tech giants like Google, Amazon, and IBM, as well as startups and companies focused on AI-driven healthcare, fintech, and agriculture solutions. Notable employers also include CSIRO’s Data61, UK’s national science agency, which leads research in AI and machine learning.
       </p>
     </div>
   </div>
@@ -282,7 +294,7 @@ export default function Artificial() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
           Top Picks for Future AI Professionals:<br />
-            Canada's Elite Tech Universities
+            UK's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -340,7 +352,7 @@ export default function Artificial() {
           Average Salary in Artificial Intelligence
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          AI professionals in Canada command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
+          AI professionals in UK command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
           </p>
         </div>
       </div>

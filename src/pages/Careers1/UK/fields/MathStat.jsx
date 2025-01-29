@@ -7,44 +7,56 @@ const courses = [
     title: "Cryptographer",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aPkZvJQAMciiqSaF4p8O2pvKNpAATL.png",
     description:
-      "Cryptographers in Australia work on developing advanced encryption techniques to secure digital communications and transactions. These professionals are vital to secure the finance, telecommunications, and government, where data privacy and security are of utmost importance.",
+      "Cryptographers in UK work on developing advanced encryption techniques to secure digital communications and transactions. These professionals are vital to secure the finance, telecommunications, and government, where data privacy and security are of utmost importance.",
   },
   {
     title: "Statistical Data Analyst",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-d6WsWN6WhBHge2ejCeevQ7lgYCxWzr.png",
     description:
-      "Statistical Data Analysts in Australia help businesses and government agencies make sense of large datasets, providing insights that improve decision-making and strategy. These professionals work across industries including healthcare, finance, and technology, where data-driven strategies are key to success.",
+      "Statistical Data Analysts in UK help businesses and government agencies make sense of large datasets, providing insights that improve decision-making and strategy. These professionals work across industries including healthcare, finance, and technology, where data-driven strategies are key to success.",
   },
   {
     title: "Operations Research Analyst",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qiI5E30qO8Z27Z8TZvsm0Bv0ROrbdT.png",
     description:
-      "Operations Research Analysts in Australia use mathematical and statistical models to optimize organizational processes, improve logistics, and enhance efficiency in various sectors. Their expertise helps businesses maximize productivity, reduce costs, and streamline operations.",
+      "Operations Research Analysts in UK use mathematical and statistical models to optimize organizational processes, improve logistics, and enhance efficiency in various sectors. Their expertise helps businesses maximize productivity, reduce costs, and streamline operations.",
   },
 ]
 
 const universities = [
   {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnbutq0gI9kfXYkMYyMs6K6mHB5Nqi.png",
+    name: "University of Oxford",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PAzXyh7x4oDLE4paM2xCltUGOZrfAU.png",
+    description:
+      "The oldest university in the English-speaking world, Oxford combines centuries of tradition with cutting-edge research facilities. Its collegiate system, world-renowned faculty, and historic architecture create an unparalleled academic environment for students across all disciplines.",
   },
   {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s2KXZvugIpnykOll0tAEC9ai9xWQvN.png",
+    name: "University of Cambridge",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9OHP6eovgEcuooOljXJp3EwNIKSwon.png",
+    description:
+      "Cambridge offers a unique combination of medieval tradition and contemporary scientific excellence. Known for its mathematical heritage and scientific innovations, the university continues to produce groundbreaking research across multiple fields.",
   },
   {
-    name: "Australian National University",
-    image: "https://edulinks.io/wp-content/uploads/2024/10/CANADA-21-1.png",
+    name: "Imperial College London",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8psUmKKZqWtHGRR4VuwA0nbLvd7nVh.png",
+    description:
+      "Focusing exclusively on science, engineering, medicine, and business, Imperial College London is at the forefront of technological innovation. Its central London location provides unique opportunities for collaboration with industry leaders and research institutions.",
   },
   {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7cqEt7DDDpf8lh9wq4c6lbbw0yQUGk.png",
+    name: "University of Edinburgh",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZRQy4IHCxjUgtbkEKivf52b0tVvtNU.png",
+    description:
+      "Edinburgh combines its rich heritage in medicine, science, and engineering with pioneering research in artificial intelligence and data science. Its historic campus in Scotland's capital city provides an inspiring environment for academic excellence.",
   },
   {
-    name: "University of New South Wales",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-arDcb4Y5S46TcMjiMtRm1wr45m9gI7.png",
+    name: "University of Exeter",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0j5RyQKOukkX8H4T3kDnMu0IKiK1Qk.png",
+    description:
+      "Known for its expertise in environmental science and sustainable development, Exeter offers cutting-edge facilities for research and teaching. The university's modern campus reflects its commitment to innovation while maintaining strong ties to its regional heritage.",
   },
 ]
+
+
 
 const faqs = [
   {
@@ -52,39 +64,39 @@ const faqs = [
     answer: "Mathematics and Statistics involves using numerical analysis and data to understand patterns, solve complex problems and make predictions.",
   },
   {
-    question: "What degrees do I need to work in Mathematics and Statistics in Australia?",
+    question: "What degrees do I need to work in Mathematics and Statistics in UK?",
     answer: "A bachelor's degree in mathematics, statistics, or related fields is required, with advanced degrees needed for research and specialized roles.",
   },
   {
-    question: "What skills are essential for mathematicians and statisticians in Australia?",
+    question: "What skills are essential for mathematicians and statisticians in UK?",
     answer: "Strong analytical skills, problem-solving abilities, and proficiency in statistical software are crucial for success.",
   },
   {
-    question: "Are there internships available for mathematics students in Australia?",
+    question: "Are there internships available for mathematics students in UK?",
     answer: "Yes, many organizations offer internships in data analysis, research, and financial modeling.",
   },
   {
-    question: "What are the emerging technologies in Australia's mathematics sector?",
+    question: "What are the emerging technologies in UK's mathematics sector?",
     answer: "Machine learning, predictive analytics, and computational mathematics are key emerging areas.",
   },
   {
-    question: "Can Australian mathematicians work internationally?",
-    answer: "Yes, Australian mathematics and statistics qualifications are highly regarded globally.",
+    question: "Can UKn mathematicians work internationally?",
+    answer: "Yes, UKn mathematics and statistics qualifications are highly regarded globally.",
   },
   {
-    question: "What is the job outlook for mathematicians in Australia?",
+    question: "What is the job outlook for mathematicians in UK?",
     answer: "The outlook is strong, particularly in data science, cryptography, and financial analysis.",
   },
   {
-    question: "How does specialization affect my career in Australian mathematics?",
+    question: "How does specialization affect my career in UKn mathematics?",
     answer: "Specializing in areas like data science or financial mathematics can lead to higher-paying opportunities.",
   },
   {
-    question: "Are mathematics jobs flexible in Australia?",
+    question: "Are mathematics jobs flexible in UK?",
     answer: "Many roles offer flexible arrangements, including remote work options and project-based positions.",
   },
   {
-    question: "What are the challenges faced by mathematicians in Australia today?",
+    question: "What are the challenges faced by mathematicians in UK today?",
     answer: "Keeping up with rapidly evolving technology and applying theoretical concepts to real-world problems.",
   },
 ]
@@ -128,10 +140,10 @@ export default function MathematicsStatistics() {
                 }
               } />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1">Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1">UK</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Mathematics and Statistics</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to Innovative Careers in Australia
+            Gateway to Innovative Careers in UK
           </p>
         </div>
       </div>
@@ -146,7 +158,7 @@ export default function MathematicsStatistics() {
 
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
-          Australia's Mathematics and Statistics sector offers opportunities to work in key industries including finance, technology, and research. Mathematics and Statistics professionals excel in data analysis, mathematical modeling, and applying quantitative methods to solve complex problems and drive decision-making across various sectors.
+          UK's Mathematics and Statistics sector offers opportunities to work in key industries including finance, technology, and research. Mathematics and Statistics professionals excel in data analysis, mathematical modeling, and applying quantitative methods to solve complex problems and drive decision-making across various sectors.
         </h1>
       </div>
       </div>
@@ -180,7 +192,7 @@ export default function MathematicsStatistics() {
               Why Choose a Career in Mathematics and Statistics?
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              A career in Mathematics and Statistics in Australia offers the opportunity to work in an innovative and rapidly growing industry. Professionals in these fields contribute to advancements in data science, financial modeling, and organizational optimization, making significant impacts across various sectors.
+              A career in Mathematics and Statistics in UK offers the opportunity to work in an innovative and rapidly growing industry. Professionals in these fields contribute to advancements in data science, financial modeling, and organizational optimization, making significant impacts across various sectors.
             </p>
           </div>
 
@@ -189,7 +201,7 @@ export default function MathematicsStatistics() {
               Mathematics and Statistics Job Outlook
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              The job outlook for Mathematics and Statistics professionals in Australia is strong, with increasing demand for expertise in cryptography, statistical data analysis, and operations research. As organizations continue to rely on data-driven strategies, opportunities in these fields are expected to grow.
+              The job outlook for Mathematics and Statistics professionals in UK is strong, with increasing demand for expertise in cryptography, statistical data analysis, and operations research. As organizations continue to rely on data-driven strategies, opportunities in these fields are expected to grow.
             </p>
           </div>
 
@@ -198,7 +210,7 @@ export default function MathematicsStatistics() {
               Future Aspects of Mathematics and Statistics
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              The future of Mathematics and Statistics in Australia is focused on advancements in big data analytics, and cryptography. Data analysts and operations researchers will continue to drive innovations in digital transformation, while data scientists and operational researchers will advance optimization techniques and predictive analytics.
+              The future of Mathematics and Statistics in UK is focused on advancements in big data analytics, and cryptography. Data analysts and operations researchers will continue to drive innovations in digital transformation, while data scientists and operational researchers will advance optimization techniques and predictive analytics.
             </p>
           </div>
 
@@ -207,7 +219,7 @@ export default function MathematicsStatistics() {
               Top Mathematics and Statistics Employers
             </h1>
             <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-              Leading employers in Australia's Mathematics and Statistics sector include Commonwealth Bank, Telstra, Afterpay, and the Australian Government. Universities and research institutions also offer numerous opportunities for professionals in mathematics and statistics.
+              Leading employers in UK's Mathematics and Statistics sector include Commonwealth Bank, Telstra, Afterpay, and the UKn Government. Universities and research institutions also offer numerous opportunities for professionals in mathematics and statistics.
             </p>
           </div>
         </div>
@@ -217,7 +229,7 @@ export default function MathematicsStatistics() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Mathematicians and Statisticians:<br />
-            Australia's Elite Universities
+            UK's Elite Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             {universities.map((university, index) => (
@@ -244,7 +256,7 @@ export default function MathematicsStatistics() {
           Average Salary in Mathematics and Statistics
         </h1>
         <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Mathematics and Statistics professionals in Australia earn competitive salaries. Cryptographers typically earn around AUD $95,000 annually, while Statistical Data Analysts make approximately AUD $85,000. Operations Research Analysts can expect salaries of about AUD $90,000, depending on their experience and expertise.
+          Mathematics and Statistics professionals in UK earn competitive salaries. Cryptographers typically earn around AUD $95,000 annually, while Statistical Data Analysts make approximately AUD $85,000. Operations Research Analysts can expect salaries of about AUD $90,000, depending on their experience and expertise.
         </p>
       </div>
 

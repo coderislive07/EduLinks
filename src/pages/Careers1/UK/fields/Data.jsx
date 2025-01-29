@@ -9,45 +9,57 @@ const courses = [
       title: "Data Analyst",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-trZlgFtUPTxCwpqyOaTT5JNXHKun6H.png",
       description:
-        "Data Analysts in Australia work with large data sets to identify trends and generate actionable insights. They use tools like R, Python, and Excel to provide data visualizations and statistical analysis, supporting businesses in optimizing processes and making informed decisions.",
+        "Data Analysts in UK work with large data sets to identify trends and generate actionable insights. They use tools like R, Python, and Excel to provide data visualizations and statistical analysis, supporting businesses in optimizing processes and making informed decisions.",
     },
     {
       title: "Data Engineer",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-W0hr8Ez26sG2F0FeFgat72M5Xq8tsj.png",
       description:
-        "Data Engineers in Australia design and manage the data architectures that support advanced analytics. They build scalable data pipelines using technologies like Hadoop, Spark, and SQL, ensuring that clean and structured data is available for analysis and business intelligence purposes.",
+        "Data Engineers in UK design and manage the data architectures that support advanced analytics. They build scalable data pipelines using technologies like Hadoop, Spark, and SQL, ensuring that clean and structured data is available for analysis and business intelligence purposes.",
     },
     {
       title: "Business Intelligence Analyst",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4EXo8qFONrz2aMRNwv6yzwsc7PpX70.png",
       description:
-        "Business Intelligence (BI) Analysts in Australia focus on transforming data into strategic insights that drive business decisions. Using tools like Tableau, Power BI, and SQL, they create reports, dashboards, and visualizations that help organizations monitor performance and identify areas for improvement.",
+        "Business Intelligence (BI) Analysts in UK focus on transforming data into strategic insights that drive business decisions. Using tools like Tableau, Power BI, and SQL, they create reports, dashboards, and visualizations that help organizations monitor performance and identify areas for improvement.",
     },
   ]
   
   
-const universities = [
-  {
-    name: "University of Melbourne",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10001-ouy3vyls5dRYK1EXbXcFnKkBFiRwjd.png",
-  },
-  {
-    name: "University of Sydney",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10002-QpZ8MzHN7cmx1wLH9PDSVHJnGhkcJP.png",
-  },
-  {
-    name: "Australian National University (ANU)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-PRKFFPHSYAYGKB52NheCI0zrMWHiJN.png",
-  },
-  {
-    name: "University of New South Wales (UNSW)",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-F7e3RjikABne3vyqHrz34SaVdQQFSB.png",
-  },
-  {
-    name: "University of Queensland",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-Cd2XADFtcgVtRT2bB4thy27QKb6Uoj.png",
-  },
-]
+  const universities = [
+    {
+      name: "University of Oxford",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PAzXyh7x4oDLE4paM2xCltUGOZrfAU.png",
+      description:
+        "The oldest university in the English-speaking world, Oxford combines centuries of tradition with cutting-edge research facilities. Its collegiate system, world-renowned faculty, and historic architecture create an unparalleled academic environment for students across all disciplines.",
+    },
+    {
+      name: "University of Cambridge",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9OHP6eovgEcuooOljXJp3EwNIKSwon.png",
+      description:
+        "Cambridge offers a unique combination of medieval tradition and contemporary scientific excellence. Known for its mathematical heritage and scientific innovations, the university continues to produce groundbreaking research across multiple fields.",
+    },
+    {
+      name: "Imperial College London",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8psUmKKZqWtHGRR4VuwA0nbLvd7nVh.png",
+      description:
+        "Focusing exclusively on science, engineering, medicine, and business, Imperial College London is at the forefront of technological innovation. Its central London location provides unique opportunities for collaboration with industry leaders and research institutions.",
+    },
+    {
+      name: "University of Edinburgh",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZRQy4IHCxjUgtbkEKivf52b0tVvtNU.png",
+      description:
+        "Edinburgh combines its rich heritage in medicine, science, and engineering with pioneering research in artificial intelligence and data science. Its historic campus in Scotland's capital city provides an inspiring environment for academic excellence.",
+    },
+    {
+      name: "University of Exeter",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0j5RyQKOukkX8H4T3kDnMu0IKiK1Qk.png",
+      description:
+        "Known for its expertise in environmental science and sustainable development, Exeter offers cutting-edge facilities for research and teaching. The university's modern campus reflects its commitment to innovation while maintaining strong ties to its regional heritage.",
+    },
+  ]
+  
+  
 
 const faqs = [
   {
@@ -56,47 +68,47 @@ const faqs = [
       "It’s the process of using data analysis, statistics, and machine learning to extract insights that guide business decisions.",
   },
   {
-    question: "What degrees do I need to work in Data Science in Australia?",
+    question: "What degrees do I need to work in Data Science in UK?",
     answer:
       "A bachelor’s in data science or computer science is usually required; advanced degrees are beneficial for specialized roles.",
   },
   {
-    question: "What skills are essential for data science professionals in Australia?",
+    question: "What skills are essential for data science professionals in UK?",
     answer:
       "Key skills include Python, SQL, big data technologies (like Hadoop), and data visualization with Tableau or Power BI.",
   },
   {
-    question: "Are there internships available for data science students in Australia?",
+    question: "Are there internships available for data science students in UK?",
     answer:
       "Yes, many universities and companies offer internships that provide practical experience in data analysis, engineering, and business intelligence.",
   },
   {
-    question: "What are the emerging trends in data science in Australia?",
+    question: "What are the emerging trends in data science in UK?",
     answer:
-      "AI and machine learning, real-time analytics, and cloud computing are key trends shaping the future of data science in Australia",
+      "AI and machine learning, real-time analytics, and cloud computing are key trends shaping the future of data science in UK",
   },
   {
-    question: "Can Australian data scientists work internationally?",
+    question: "Can UKn data scientists work internationally?",
     answer:
-      "Yes, Australian qualifications in data science are respected globally, offering opportunities to work abroad.",
+      "Yes, UKn qualifications in data science are respected globally, offering opportunities to work abroad.",
   },
   {
-    question: "What is the job outlook for data science professionals in Australia?",
+    question: "What is the job outlook for data science professionals in UK?",
     answer:
       "The outlook is highly positive, particularly in roles focused on AI, data engineering, and predictive analytics.",
   },
   {
-    question: "How does specialization affect my career in Australian data science?",
+    question: "How does specialization affect my career in UKn data science?",
     answer:
       "Specializing in high-demand areas like machine learning or big data can lead to more job opportunities and higher salaries.",
   },
   {
-    question: "Are data science jobs flexible in Australia?",
+    question: "Are data science jobs flexible in UK?",
     answer:
       "Many data science roles offer flexibility, including remote work and freelance opportunities.",
   },
   {
-    question: "What are the challenges faced by data science professionals in Australia today?",
+    question: "What are the challenges faced by data science professionals in UK today?",
     answer:
       "Challenges include managing large volumes of data, ensuring data privacy, and keeping pace with rapid technological advancements.",
   },
@@ -163,10 +175,10 @@ export default function AusEngAndTech() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >Australia</h1>
+          <h1 className="text-xl mb-6 font-regular text-[#95FEFF] sm:text-3xl md:text-4xl underline font-roboto1" >UK</h1>
           <h1 className="text-4xl mt-4 font-regular text-white sm:text-5xl md:text-6xl">Data Science</h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-white sm:text-[30px] md:mt-5 md:max-w-3xl">
-            Gateway to transformative Careers in Australia
+            Gateway to transformative Careers in UK
           </p>
         </div>
       </div>
@@ -182,7 +194,7 @@ export default function AusEngAndTech() {
             <h1 className="text-center text-black font-roboto1 text-2xl font-light leading-[37.2px]">
               
 
-            Australia has rapidly become a hub for data science, with growing demand across industries such as finance, healthcare, and retail. Data science professionals, including Data Analysts, Data Engineers, and Business Intelligence Analysts, are integral to helping Australian businesses leverage data to improve decision-making and operational efficiency.
+            UK has rapidly become a hub for data science, with growing demand across industries such as finance, healthcare, and retail. Data science professionals, including Data Analysts, Data Engineers, and Business Intelligence Analysts, are integral to helping UKn businesses leverage data to improve decision-making and operational efficiency.
             </h1>
           </div>
 
@@ -231,7 +243,7 @@ export default function AusEngAndTech() {
       Why Choose a Career in Data Science?
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      A career in data science in Australia offers exciting opportunities to work on cutting-edge projects that have a direct impact on business success. Data science professionals play a critical role in shaping the digital strategies of companies, influencing everything from operational efficiency to customer engagement.
+      A career in data science in UK offers exciting opportunities to work on cutting-edge projects that have a direct impact on business success. Data science professionals play a critical role in shaping the digital strategies of companies, influencing everything from operational efficiency to customer engagement.
       </p>
 
     </div>
@@ -242,7 +254,7 @@ export default function AusEngAndTech() {
         Data Science Job Outlook
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      The demand for data science professionals in Australia continues to grow, with significant opportunities in data analytics, data engineering, and business intelligence. Cities like Sydney, Melbourne, and Brisbane are emerging as key data science hubs, with industries such as banking, retail, and healthcare driving demand.
+      The demand for data science professionals in UK continues to grow, with significant opportunities in data analytics, data engineering, and business intelligence. Cities like Sydney, Melbourne, and Brisbane are emerging as key data science hubs, with industries such as banking, retail, and healthcare driving demand.
       </p>
     </div>
 
@@ -252,7 +264,7 @@ export default function AusEngAndTech() {
       Future Aspects of Data Science
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Australia’s future in data science will focus on AI and machine learning, with data engineers tasked with building more efficient data architectures. BI analysts will use predictive analytics and real-time reporting to help businesses adapt to changing market conditions. Ethical AI and data governance will also become important themes as the field matures.
+      UK’s future in data science will focus on AI and machine learning, with data engineers tasked with building more efficient data architectures. BI analysts will use predictive analytics and real-time reporting to help businesses adapt to changing market conditions. Ethical AI and data governance will also become important themes as the field matures.
       </p>
     </div>
 
@@ -262,7 +274,7 @@ export default function AusEngAndTech() {
       Top Data Science Employers
       </h1>
       <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-      Top employers for data science professionals in Australia include major banks like Commonwealth Bank and Westpac, government agencies, and tech companies like Atlassian and Canva. Retailers such as Woolworths and Coles also provide significant opportunities in data analytics and business intelligence.
+      Top employers for data science professionals in UK include major banks like Commonwealth Bank and Westpac, government agencies, and tech companies like Atlassian and Canva. Retailers such as Woolworths and Coles also provide significant opportunities in data analytics and business intelligence.
       </p>
     </div>
   </div>
@@ -274,7 +286,7 @@ export default function AusEngAndTech() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="bg-gradient-to-b from-[#53C2C3] to-[#248182] bg-clip-text text-transparent text-[32px] font-normal mb-12">
             Top Picks for Future Data Scientists:<br />
-            Australia's Elite Tech Universities
+            UK's Elite Tech Universities
           </h2>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-8 w-full mb-8">
@@ -332,7 +344,7 @@ export default function AusEngAndTech() {
           Average Salary in Data Science
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for data science professionals in Australia are highly competitive. Data analysts typically earn around AUD $90,000 annually, while data engineers can make about AUD $110,000. Business intelligence analysts earn approximately AUD $95,000, depending on experience and industry.
+          Salaries for data science professionals in UK are highly competitive. Data analysts typically earn around AUD $90,000 annually, while data engineers can make about AUD $110,000. Business intelligence analysts earn approximately AUD $95,000, depending on experience and industry.
           </p>
         </div>
       </div>
