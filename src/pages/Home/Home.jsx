@@ -8,7 +8,6 @@ import robot from "../../assets/robot.png"
 import blur from "../../assets/blur.png"
 import nzs from '../../assets/nzs.png'
 import {useNavigate } from "react-router-dom"
-
 export default function Home() {
   const navigate=useNavigate();
   return (
@@ -92,7 +91,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-white">
   <div className="text-center mb-8 sm:mb-10 md:mb-12">
@@ -150,8 +148,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-[#37d7d970]">
         <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[10vw]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">

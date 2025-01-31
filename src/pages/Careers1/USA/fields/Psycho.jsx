@@ -99,11 +99,8 @@ const faqs = [
     question: "What are the challenges faced by psychology and neuroscience professionals in USA today?",
     answer:
       "Challenges include addressing mental health disparities, integrating new technologies into cognitive research, and navigating ethical issues in neuropsychology.",
-  },
-
-  
+  }, 
 ]
-
 export default function Psycho() {
   const [openFaqIndex, setOpenFaqIndex] = React.useState(null)
 
