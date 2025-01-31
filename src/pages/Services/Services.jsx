@@ -1,6 +1,6 @@
-import { Aeroplane_Logo, EduMoney_Logo, Education_Logo, Person_Logo, Link_Logo, Money_Logo, Edu_Link } from "@/assets"
+import { Aeroplane_Logo, EduMoney_Logo, Education_Logo, Person_Logo, Link_Logo, Money_Logo, Edu_Link } from "../../assets"
 import React from "react"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "../../components/ui/card"
 import { Link } from "react-router-dom"
 import StudyDestinations from "../../components/StudyDestination"
 const services = [
