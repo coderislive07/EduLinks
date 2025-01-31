@@ -3,7 +3,6 @@ import React from "react"
 import { Card, CardContent } from "../../components/ui/card"
 import { Link } from "react-router-dom"
 import StudyDestinations from "../../components/StudyDestination"
-
 const services = [
   {
     icon: Education_Logo,
@@ -36,7 +35,6 @@ const services = [
     description: "Edulinks offers comprehensive Post-Landin...",
   },
 ]
-
 export default function ServiceGrid() {
   return (
     <>
@@ -52,8 +50,7 @@ export default function ServiceGrid() {
           }}
         >
           <div className="absolute inset-0 " />
-        </div>
-
+        </div>  
         {/* Content Container */}
         <div className="relative z-10">
           {/* Heading Section */}

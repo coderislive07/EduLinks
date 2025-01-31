@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',  // Ensure correct base path for deployment
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,7 +11,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist', // Make sure the build output goes to the `dist` folder
-    sourcemap: true, // Optional: if you want to include sourcemaps for debugging
+    outDir: 'dist', // Ensure the output is in `dist`
+    sourcemap: true, // Optional for debugging
   },
 });
