@@ -1,8 +1,35 @@
+import anUniversity from "../../../assets/top universities/Aust/australian nation university.jpg";
+import melbourneUni from "../../../assets/top universities/Aust/university of melbourne.png";
+import sydneyUni from "../../../assets/top universities/Aust/university of sydney.png";
+import queenslandUni from "../../../assets/top universities/Aust/uni of queen.jpg";
+import nswUni from "../../../assets/top universities/Aust/university of new south wales.png";
+import monashUni from "../../../assets/top universities/Aust/monash university.png";
+import westernAusUni from "../../../assets/top universities/Aust/university of western aus.png";
+import adelaideUni from "../../../assets/top universities/Aust/university of adelaide.png";
+import utsUni from "../../../assets/top universities/Aust/university of tech sydney.png";
+import canberraUni from "../../../assets/top universities/Aust/university of canberra.png";
+import macquarieUni from "../../../assets/top universities/Aust/macquarie university.png";
+import qutUni from "../../../assets/top universities/Aust/queensland university of tech.png";
+import rmitUni from "../../../assets/top universities/Aust/RMIT university.png";
+import wollongongUni from "../../../assets/top universities/Aust/university of wollongong.png";
+import curtinUni from "../../../assets/top universities/Aust/curtin univ.png";
+import deakinUni from "../../../assets/top universities/Aust/deakin univ.png";
+import newcastleUni from "../../../assets/top universities/Aust/uni of newcastle.png";
+import griffithUni from "../../../assets/top universities/Aust/griffith uni.png";
+import laTrobeUni from "../../../assets/top universities/Aust/la trobe university.png";
+import tasmaniaUni from "../../../assets/top universities/Aust/uni of tasmania.png";
+import architecture from "../../../assets/architecture.png";
+import arts from "../../../assets/arts.png";
+import physical from "../../../assets/physical.png";
+import science from "../../../assets/science.png";
+import commerce from "../../../assets/commerce.png";
+import management from "../../../assets/management.png";
+
 const data = {
   rmit: {
     country: "Australia",
     university: "RIMT University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-64-2.png",
+    heroImg: rmitUni,
     overview:
       "Established in 1887, RMIT University is a global leader in art and design, located in Melbourne, Australia. Recognized for its commitment to innovative teaching and research, RMIT offers a wide range of undergraduate and postgraduate programs across various disciplines, fostering a vibrant academic community.",
     fees: {
@@ -12,32 +39,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 32500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Art & Science",
           fees: "AUD 34000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 31000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 37,500​",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 39,500​",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -99,7 +126,7 @@ const data = {
   "australian-national-university": {
     country: "Australia",
     university: "Australian National University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-16.jpg",
+    heroImg: anUniversity,
     overview:
       "Founded in 1946, the Australian National University (ANU) is a prestigious public research university located in Canberra, Australia. Renowned for its academic excellence and research contributions, ANU offers a wide array of undergraduate and postgraduate programs across diverse fields. The university is dedicated to fostering a collaborative academic environment, attracting students, faculty, and researchers from across the globe.",
     fees: {
@@ -109,32 +136,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Business Administration",
           fees: "AUD 42,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -196,7 +223,7 @@ const data = {
   "university-of-melbourne": {
     country: "Australia",
     university: "University of Melbourne",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-54-1.png",
+    heroImg: melbourneUni,
     overview:
       "Founded in 1853, the University of Melbourne is a prestigious public research university located in Melbourne, Australia. Known for its academic strength and diverse range of programs, the university fosters a collaborative environment for students and researchers from around the globe, encouraging innovative thinking and real-world solutions.",
     fees: {
@@ -206,32 +233,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 42,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 39,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -283,7 +310,7 @@ const data = {
   "university-of-sydney": {
     country: "Australia",
     university: "University of Sydney",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-54-1.png",
+    heroImg: sydneyUni,
     overview:
       "Founded in 1850, the University of Sydney is Australia’s first university and a prestigious public research institution located in Sydney, Australia. Renowned for its academic excellence and research contributions, the university offers a wide range of undergraduate and postgraduate programs, fostering a vibrant academic community that encourages innovation and leadership.",
     fees: {
@@ -293,32 +320,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 42,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 44,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -380,7 +407,7 @@ const data = {
   "university-of-queensland": {
     country: "Australia",
     university: "University of Queensland",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-17.jpg",
+    heroImg: queenslandUni,
     overview:
       "Founded in 1909, the University of Queensland (UQ) is a prestigious public research university located in Brisbane, Australia. Renowned for its academic strength and research output, UQ offers a wide range of undergraduate and postgraduate programs, fostering a supportive and innovative academic community.",
     fees: {
@@ -390,32 +417,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 42,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -477,7 +504,7 @@ const data = {
   "university-of-new-south-wales": {
     country: "Australia",
     university: "University of New South Wales",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-56-2.png",
+    heroImg: nswUni,
     overview:
       "Founded in 1949, the University of New South Wales (UNSW) is a prestigious public research university located in Sydney, Australia. Renowned for its academic excellence and research contributions, UNSW offers a wide range of undergraduate and postgraduate programs, fostering an innovative academic community.",
     fees: {
@@ -487,32 +514,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 32,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 41,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 43,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 39,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -574,7 +601,7 @@ const data = {
   "monash-university": {
     country: "Australia",
     university: "Monash University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-57-2.png",
+    heroImg: monashUni,
     overview:
       "Founded in 1958, Monash University is a prestigious public research university located in Melbourne, Australia. Known for its innovative research and strong academic programs, Monash offers a broad range of undergraduate and postgraduate degrees across various disciplines, fostering a collaborative and supportive learning environment.",
     fees: {
@@ -584,32 +611,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 39,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-68-1.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 36,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-69-1.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 41,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-70-1.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-71-1.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 41,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-73.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-72-1.png",
+          img: management,
         },
       ],
     },
@@ -671,7 +698,7 @@ const data = {
   "university-of-western-australia": {
     country: "Australia",
     university: "University of Western Australia (UWA)",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-58-2.png",
+    heroImg: westernAusUni,
     overview:
       "Founded in 1911, the University of Western Australia (UWA) is a prestigious public research university located in Perth, Australia. Renowned for its academic excellence and research contributions, UWA offers a wide range of undergraduate and postgraduate programs, fostering an innovative and collaborative academic environment.",
     fees: {
@@ -681,32 +708,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-78.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 34,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-79.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-80.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-81.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 39,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-82.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-83.png",
+          img: management,
         },
       ],
     },
@@ -768,7 +795,7 @@ const data = {
   "university-of-adelaide": {
     country: "Australia",
     university: "University of Adelaide",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-59-2.png",
+    heroImg: adelaideUni,
     overview:
       "Founded in 1874, the University of Adelaide is a prestigious public research university located in Adelaide, Australia. Known for its strong academic programs and research initiatives, the university offers a diverse range of undergraduate and postgraduate programs across multiple disciplines.",
     fees: {
@@ -778,32 +805,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-78.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 36,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-79.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 32,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-80.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-81.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 42,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-82.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 38,500",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-83.png",
+          img: management,
         },
       ],
     },
@@ -865,7 +892,7 @@ const data = {
   "university-of-technology-sydney": {
     country: "Australia",
     university: "University of Technology Sydney (UTS)",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-60-3.png",
+    heroImg: utsUni,
     overview:
       "Founded in 1988, the University of Technology Sydney (UTS) is a public university located in Sydney, Australia. Known for its emphasis on technology and innovation, UTS offers a wide range of undergraduate and postgraduate programs, fostering a collaborative and dynamic academic environment.",
     fees: {
@@ -875,32 +902,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-84.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-85.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-86.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-87.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-88.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-89.png",
+          img: management,
         },
       ],
     },
@@ -962,7 +989,7 @@ const data = {
   "university-of-canberra": {
     country: "Australia",
     university: "University of Canberra",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-61-2.png",
+    heroImg: canberraUni,
     overview:
       "Founded in 1967, the University of Canberra is a public university located in Canberra, Australia. Known for its strong emphasis on practical learning and research, the university offers a diverse range of undergraduate and postgraduate programs, promoting a collaborative learning environment.",
     fees: {
@@ -972,32 +999,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-90.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-91.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-92.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-93.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-94.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-95.png",
+          img: management,
         },
       ],
     },
@@ -1059,7 +1086,7 @@ const data = {
   "macquarie-university": {
     country: "Australia",
     university: "Macquarie University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-62-2.png",
+    heroImg: macquarieUni,
     overview:
       "Founded in 1964, Macquarie University is a prominent public research university located in Sydney, Australia. Known for its strong focus on innovative research and interdisciplinary education, Macquarie offers a wide range of undergraduate and postgraduate programs across various fields. The university fosters a dynamic learning environment, attracting students and researchers dedicated to making a positive impact on society.",
     fees: {
@@ -1069,32 +1096,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-96.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-97.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-98.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-99.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-100.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-101.png",
+          img: management,
         },
       ],
     },
@@ -1156,7 +1183,7 @@ const data = {
   "queensland-university-of-technology": {
     country: "Australia",
     university: "Queensland University of Technology",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-63-2.png",
+    heroImg: qutUni,
     overview:
       "Established in 1989, Queensland University of Technology (QUT) is a public research university located in Brisbane, Australia. Renowned for its focus on technology and innovation, QUT offers a diverse range of undergraduate and postgraduate programs, fostering a practical learning environment that prepares students for real-world challenges.",
     fees: {
@@ -1166,32 +1193,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-96.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-97.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-98.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-99.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-100.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-101.png",
+          img: management,
         },
       ],
     },
@@ -1253,7 +1280,7 @@ const data = {
   "university-of-wollongong": {
     country: "Australia",
     university: "University of Wollongong",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-65-2.png",
+    heroImg: wollongongUni,
     overview:
       "Founded in 1975, the University of Wollongong (UOW) is a public research university located in Wollongong, Australia. Renowned for its academic excellence and innovative research, UOW offers a diverse range of undergraduate and postgraduate programs, fostering a supportive and collaborative academic environment.",
     fees: {
@@ -1263,32 +1290,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-96.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-97.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-98.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-99.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 40,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-100.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-101.png",
+          img: management,
         },
       ],
     },
@@ -1350,7 +1377,7 @@ const data = {
   "curtin-university": {
     country: "Australia",
     university: "Curtin University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-66-2.png",
+    heroImg: curtinUni,
     overview:
       "Founded in 1966, Curtin University is a public research university located in Perth, Australia. Known for its strong focus on research and industry partnerships, Curtin offers a diverse range of undergraduate and postgraduate programs, fostering a vibrant academic community dedicated to innovation.",
     fees: {
@@ -1360,32 +1387,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-96.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-97.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-98.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-99.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-100.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-101.png",
+          img: management,
         },
       ],
     },
@@ -1447,7 +1474,7 @@ const data = {
   "deakin-university": {
     country: "Australia",
     university: "Deakin University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-67-1.png",
+    heroImg: deakinUni,
     overview:
       "Established in 1974, Deakin University is a public university located in Victoria, Australia. Known for its commitment to innovative teaching and research, Deakin offers a wide range of undergraduate and postgraduate programs across various fields, fostering a supportive and engaging learning environment.",
     fees: {
@@ -1457,32 +1484,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-102.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-103.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-104.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-105.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-106.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-107.png",
+          img: management,
         },
       ],
     },
@@ -1544,7 +1571,7 @@ const data = {
   "university-of-newcastle": {
     country: "Australia",
     university: "University of Newcastle",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-68-3.png",
+    heroImg: newcastleUni,
     overview:
       "Founded in 1965, the University of Newcastle is a public research university located in Newcastle, Australia. Known for its strong focus on research and innovation, the university offers a diverse range of undergraduate and postgraduate programs, fostering a collaborative academic environment.",
     fees: {
@@ -1554,32 +1581,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-102.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-103.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-104.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-105.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-106.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-107.png",
+          img: management,
         },
       ],
     },
@@ -1641,7 +1668,7 @@ const data = {
   "griffith-university": {
     country: "Australia",
     university: "Griffith University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-69-5.png",
+    heroImg: griffithUni,
     overview:
       "Established in 1971, Griffith University is a public research university located in Queensland, Australia. Known for its commitment to innovative research and teaching, Griffith offers a wide range of undergraduate and postgraduate programs, fostering a supportive and engaging learning environment.",
     fees: {
@@ -1651,32 +1678,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 31,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-102.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 33,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-103.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 29,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-104.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 36,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-105.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 38,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-106.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-107.png",
+          img: management,
         },
       ],
     },
@@ -1738,7 +1765,7 @@ const data = {
   "la-trobe-university": {
     country: "Australia",
     university: "La Trobe University",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-70-4.png",
+    heroImg: laTrobeUni,
     overview:
       "Founded in 1967, La Trobe University is a public research university located in Victoria, Australia. Known for its strong focus on research and community engagement, La Trobe offers a diverse range of undergraduate and postgraduate programs, fostering an inclusive and collaborative academic environment.",
     fees: {
@@ -1748,32 +1775,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-102.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-103.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-104.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-105.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-106.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-107.png",
+          img: management,
         },
       ],
     },
@@ -1835,7 +1862,7 @@ const data = {
   "university-of-tasmania": {
     country: "Australia",
     university: "University of Tasmania",
-    heroImg: "https://edulinks.io/wp-content/uploads/2024/10/image-71-4.png",
+    heroImg: tasmaniaUni,
     overview:
       "Established in 1890, the University of Tasmania is a public research university located in Tasmania, Australia. Known for its commitment to research and community engagement, the university offers a wide range of undergraduate and postgraduate programs, fostering a collaborative and inclusive academic environment.",
     fees: {
@@ -1845,32 +1872,32 @@ const data = {
         {
           branch: "Architectural Studies",
           fees: "AUD 30,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-102.png",
+          img: architecture,
         },
         {
           branch: "Arts & Science",
           fees: "AUD 32,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-103.png",
+          img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
           fees: "AUD 28,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-104.png",
+          img: physical,
         },
         {
           branch: "Applied Science & Engineering",
           fees: "AUD 35,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-105.png",
+          img: science,
         },
         {
           branch: "Commerce or Business Administration",
           fees: "AUD 37,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-106.png",
+          img: commerce,
         },
         {
           branch: "Management",
           fees: "AUD 34,000",
-          img: "https://edulinks.io/wp-content/uploads/2024/10/image-107.png",
+          img: management,
         },
       ],
     },

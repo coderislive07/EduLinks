@@ -7,20 +7,20 @@ export default function Navbar() {
   const navigate = useNavigate();
   const dropdownLinks = {
     study: [
-      { title: "Study in Australia", href: "#" },
-      { title: "Study in CANADA", href: "#" },
-      { title: "Study in Germany", href: "#" },
-      { title: "Study in New Zealand", href: "#" },
-      { title: "Study in UK", href: "#" },
-      { title: "Study In USA", href: "#" },
+      { title: "Study in Australia", href: "/study-destination/australia" },
+      { title: "Study in CANADA", href: "/study-destination/canada" },
+      { title: "Study in Germany", href: "/study-destination/germany" },
+      { title: "Study in New Zealand", href: "/study-destination/newzealand" },
+      { title: "Study in UK", href: "/study-destination/uk" },
+      { title: "Study In USA", href: "/study-destination/usa" },
     ],
     services: [
-      { title: "Student Visa", href: "#" },
-      { title: "Career Guidance", href: "#" },
-      { title: "University Admission", href: "#" },
-      { title: "Scholarship Assessment", href: "#" },
-      { title: "Test Preparation", href: "#" },
-      { title: "Post Landing Services", href: "#" },
+      { title: "Student Visa", href: "/services/student-visa" },
+      { title: "Career Guidance", href: "/services/career-guidance" },
+      { title: "Loan Guidance", href: "/services/Loan-Guidance" },
+      { title: "Scholarship Assessment", href: "/services/scholarship-assesment" },
+      { title: "EduLink Ai", href: "/services/edulinkAi" },
+      { title: "Post Landing Services", href: "/services/post-landing" },
     ],
     universities: [
       { title: "Top Universities in Australia", href: "/australia-topuniversity" },
@@ -46,7 +46,7 @@ export default function Navbar() {
   };
   
   return (
-    <nav className="w-full fixed bg-white shadow-md  pt-[-4vh] z-50  top-0 xl:h-[65px] xl:px-[4vw]">
+    <nav className="w-full  bg-white shadow-md  pt-[-4vh] z-50 relative  top-0 xl:h-[65px] xl:px-[4vw]">
       <div className="lg:max-w-[1600px]  mx-auto px-20 ">
         <div className="flex justify-between items-center  h-16">
         <div className="lg:hidden  ">

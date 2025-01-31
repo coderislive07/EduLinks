@@ -3,7 +3,7 @@ export default function StudyHeader({ destination }) {
         <div className="w-full">
             {/* Header with wave */}
             <div className="relative bg-[#37D7D9]">
-                <div className="max-w-7xl mx-auto px-6 pt-8 pb-48 mt-20">
+                <div className="max-w-7xl mx-auto px-6 pt-8 pb-48 ">
                     <div className="text-center text-white  text-[20px]">
                         <p className="mb-2 text-[#95FEFF] font-roboto">Study Destinations - <span className="text-white">{destination.country}</span></p>
                         <h1 className="text-4xl md:text-5xl lg:text-[60px] ">Study In {destination.country}</h1>

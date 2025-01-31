@@ -109,37 +109,7 @@ export default function AusEngAndTech() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <a href="/" className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold text-[#37d7d9]">edulinks</span>
-              </a>
-              <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                <a href="#" className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  Home
-                </a>
-                <a href="#" className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  About
-                </a>
-                <a href="#" className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  Study Destinations
-                </a>
-                <a href="#" className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  Services
-                </a>
-              </div>
-            </div>
-            <div className="flex items-center">
-              <button className="bg-[#37d7d9] text-white px-4 py-2 rounded-md text-sm font-medium">
-                Free Career Counseling
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      
       {/* Hero Section */}
       <div className="relative  py-16 sm:py-24"
       style={
@@ -313,7 +283,7 @@ export default function AusEngAndTech() {
                       {university.name}
                     </h3>
                     <div className="text-center">
-                      <button className="px-6 py-2 text-[12px] font-bold font-roboto1 bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
+                    <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
                       </button>
                     </div>

@@ -21,7 +21,7 @@ export default function HeroSection({ Image , Text1 , Text2 , Text3 , variable, 
 
   return (
     <div className="container mx-auto max-w-7xl px-4 pt-24 pb-12 min-h-screen flex items-center justify-center ">
-      <div className="grid lg:grid-cols-2 gap-8 items-center">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-2-reverse gap-8 items-center ">
         {/* Left Column */}
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl  leading-tight ">

@@ -1,9 +1,9 @@
 import React from "react";
 
-import anUniversity from "../../../assets/top universities/Aust/australian national university.png";
+import anUniversity from "../../../assets/top universities/Aust/australian nation university.jpg";
 import melbourneUni from "../../../assets/top universities/Aust/university of melbourne.png";
 import sydneyUni from "../../../assets/top universities/Aust/university of sydney.png";
-import queenslandUni from "../../../assets/top universities/Aust/uni of queen.png";
+import queenslandUni from "../../../assets/top universities/Aust/uni of queen.jpg";
 import nswUni from "../../../assets/top universities/Aust/university of new south wales.png";
 import monashUni from "../../../assets/top universities/Aust/monash university.png";
 import westernAusUni from "../../../assets/top universities/Aust/university of western aus.png";
@@ -127,34 +127,7 @@ const universities = [
 export default function Aus() {
   return (
     <div className="font-sans">
-      <nav className="flex justify-between items-center p-4 bg-white shadow-md">
-        <div className="logo">
-          <img src="" alt="Edulinks Logo" />
-        </div>
-        <div className="flex items-center space-x-8">
-          <a href="#" className="text-gray-700">
-            About Us
-          </a>
-          <a href="#" className="text-gray-700">
-            Study Destinations
-          </a>
-          <a href="#" className="text-gray-700">
-            Services
-          </a>
-          <a href="#" className="text-gray-700">
-            Top Universities
-          </a>
-          <a href="#" className="text-gray-700">
-            Careers
-          </a>
-          <button className="px-4 py-2 rounded bg-transparent text-gray-700 border border-gray-300">
-            Edulinks AI Assistant
-          </button>
-          <button className="px-4 py-2 rounded bg-[#00b4d8] text-white">
-            Book Online Counseling
-          </button>
-        </div>
-      </nav>
+
 
       <div
         className="py-20  h-[470px] pt-[139px]  flex items-center z-50   justify-center"
