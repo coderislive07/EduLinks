@@ -40,7 +40,7 @@ const services = [
 export default function ServiceGrid() {
   return (
     <>
-      <section className="relative w-full pt-32 md:top-20">
+      <section className="relative w-full pt-32 ">
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 z-0 h-[400px] md:h-[550px] "

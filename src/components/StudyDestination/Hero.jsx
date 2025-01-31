@@ -24,7 +24,7 @@ export default function StudyHeader({ destination }) {
             </div>
 
             {/* Content section */}
-            <div className="max-w-7xl mx-auto px-6 -mt-16 pb-16">
+            <div className="max-w-7xl mx-auto px-6  pb-16">
                 {/* Images grid */}
                 <div className="grid grid-cols-1 max-w-5xl mx-auto  lg:grid-cols-2  mb-8 relative -top-12">
                     {destination.images.map((image, index) => (
