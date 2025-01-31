@@ -10,26 +10,32 @@ function CareerGrid() {
     {
       title: "Health Sciences",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10003-Efep6DdB5fT1PrI8qabQdCrSaE8h19.png",
+      href: "/australia-health-science"
     },
     {
       title: "Natural Sciences",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10004-XNSMCMxh2bS6786mvy4OAD1HeSFUaO.png",
+      href: "/australia-natural-sciences"
     },
     {
       title: "Information Technology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10005-vNsPQiXplFHBoDNVvIsTHyn6gYCMQg.png",
+      href: "/australia-information-technology"
     },
     {
       title: "Environmental Science",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10006-Sv3lWz5QXwGbRl4Xw5Hpi78w452EXM.png",
+      href: "/australia-environmental-science"
     },
     {
       title: "Biotechnology",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10007.jpg-2uKzWjrBCWImVXZghKxG45ZtHpCUDz.jpeg",
+      href: "/australia-biotechnology"
     },
     {
       title: "Mathematics & Statistics",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10008-JHb7N51T1omhavo8jjSDpS6hcv86kW.png",
+      href: "/australia-mathematics-statistics"
     },
     {
       title: "Business & Economics",
