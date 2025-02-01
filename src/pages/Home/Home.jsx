@@ -7,35 +7,39 @@ import universitybg from "../../assets/universitybackground.png"
 import robot from "../../assets/robot.png"
 import blur from "../../assets/blur.png"
 import nzs from '../../assets/nzs.png'
-import {useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 export default function Home() {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <div className="relative">
         <section
           style={{
             backgroundImage: `url(${universitybg})`,
           }}
-          className="relative min-h-[600px] sm:min-h-[700px] md:min-h-[800px] lg:min-h-screen xl:h-[70vh]  pt-20 pb-32 bg-center bg-cover"
+          className="relative min-h-screen pt-20 pb-32 bg-center bg-cover
+                     lg:min-h-[800px] xl:min-h-[70vh]"
         >
-          <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[100%] mx-auto">
-            <div className="lg:flex items-center">
-              <div className="text-white space-y-6 px-4  sm:px-6 md:px-8 lg:px-12 xl:px-36 w-full lg:w-[60%] xl:w-[70%]">
-                <h1 className="text-3xl xl:w-[41vw] sm:text-4xl md:text-5xl lg:text-[58px] font-light lg:mt-[7vh] xl:mt-[-14vh] font-adramalech lg:leading-[1.1] mb-8">
+          <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+            <div className="lg:flex items-center justify-between">
+              <div className="text-white space-y-6 lg:w-1/2 xl:w-[55%]">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[58px] font-light font-adramalech leading-tight mb-8">
                   Discover Your Dream Career Using Edulinks AI Assistance
                 </h1>
-                <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] font-roboto font-[700] leading-7 sm:leading-8 md:leading-9 lg:leading-10 max-w-xl xl:pb-[2vh]">
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] font-roboto font-bold leading-relaxed max-w-2xl">
                   Our platform helps Launch Your Career aspirations with Tailored Programs, Perfect University Matches,
                   and Expert Visa Support.
                 </p>
-                <button   onClick={() => navigate('/edulinks-ai-assistant')} className="bg-white text-black font-roboto font-medium text-base sm:text-lg  md:text-xl lg:text-2xl xl:text-[24px] px-4 sm:px-5 md:px-2 lg:px-6 py-2 sm:py-3 md:py-3.5 lg:py-2 rounded-[8px] cursor-pointer hover:bg-opacity-90 transition-all">
+                <button
+                  onClick={() => navigate("/edulinks-ai-assistant")}
+                  className="bg-white text-black font-roboto font-medium text-lg sm:text-xl md:text-2xl px-6 py-3 rounded-lg hover:bg-opacity-90 transition-all"
+                >
                   Try Now
                 </button>
               </div>
-              <div className="lg:w-[40%]  xl:w-[40%] mt-8 lg:mt-[10vh] xl:mr-[45vw]">
+              <div className="lg:w-1/2 xl:w-[45%] mt-8 lg:mt-0">
                 <img
-                  className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[450px] lg:max-w-[1073px] xl:w-[451px] "
+                  className="w-full max-w-[450px] lg:max-w-[500px] xl:max-w-[600px] mx-auto"
                   src={robot || "/placeholder.svg"}
                   alt="AI Assistant Robot"
                 />
@@ -53,120 +57,93 @@ export default function Home() {
       </div>
 
       {/* Stats Section */}
-      <section className="py-12 sm:py-14  md:py-16 lg:py-20 bg-white relative z-20">
-        <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[70%] lg:max-w-[1400px] mx-auto px-4 sm:px-6 md:px-2 lg:px-10 xl:px-[10vw]">
-          <h2 className="text-center mb-8 sm:mb-10 md:mb-12">
-            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-gray-800">
+      <section className="py-20 bg-white relative z-20">
+        <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+          <h2 className="text-center mb-12">
+            <span className="text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-gray-800">
               Our Core{" "}
             </span>
-            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-[#37d7d9]">
+            <span className="text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-[#37d7d9]">
               Strengths
             </span>
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3   gap-6">
-            <div className="bg-[#E6FBFC] border border-[#37d7d9]  rounded-lg p-4 sm:p-5 md:px-6  text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
-                800+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {[
+              { number: "800+", text: "Global University Tie-Ups" },
+              { number: "10K+", text: "Dreams Fulfilled" },
+              { number: "20+", text: "Years Of Industry Presence" },
+            ].map((stat, index) => (
+              <div key={index} className="bg-[#E6FBFC] border border-[#37d7d9] rounded-lg p-6 text-center">
+                <div className="text-4xl sm:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2">
+                  {stat.number}
+                </div>
+                <div className="text-black font-medium font-roboto text-xl sm:text-2xl lg:text-[24px]">{stat.text}</div>
               </div>
-              <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
-                Global University Tie-Ups
-              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+          <h2 className="text-center mb-12 text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-bold">
+            <span className="text-[#37d7d9] font-adramalech font-normal">Edulinks Services</span>{" "}
+            <span className="text-black font-adramalech font-normal">For Universities</span>
+          </h2>
+          <div className="lg:flex items-center gap-12">
+            <div className="lg:w-1/2 mb-8 lg:mb-0">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
+                alt="Students"
+                className="w-full max-w-[500px] mx-auto"
+              />
             </div>
-            <div className="bg-[#E6FBFC] border border-[#37d7d9] rounded-lg p-4 sm:p-5 md:p-6 text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
-                10K+
-              </div>
-              <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
-                Dream Fulfilled
-              </div>
-            </div>
-            <div className="bg-[#E6FBFC] border border-[#37d7d9] rounded-lg p-4 sm:p-5 md:p-6 text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-roboto font-bold text-[#37d7d9] mb-2 sm:mb-3 md:mb-[5px]">
-                20+
-              </div>
-              <div className="text-black font-medium font-roboto text-lg sm:text-xl md:text-2xl lg:text-[24px]">
-                Years Of Industry Presence
+            <div className="lg:w-1/2 space-y-6">
+              <h3 className="text-2xl sm:text-3xl lg:text-[36px] font-adramalech font-normal">
+                How Edulinks can help Universities
+              </h3>
+              <p className="text-gray-600 text-lg sm:text-xl lg:text-2xl xl:text-[26px] font-roboto1">
+                Maximize your reach across geographies and exceed your student recruitment goals without compromising on
+                quality.
+              </p>
+              <p className="font-adramalech text-xl sm:text-2xl lg:text-[24px]">Offerings</p>
+              <div className="space-y-4">
+                {[
+                  "Recruit Students From Diverse Nationalities",
+                  "Edulinks Extensive Recruitment Network",
+                  "Enhance Brand Visibility",
+                ].map((offering, index) => (
+                  <div key={index} className="flex items-center gap-3">
+                    <img src={roundhook || "/placeholder.svg"} className="w-6 h-6" alt="" />
+                    <span className="font-roboto1 text-lg sm:text-xl lg:text-2xl">{offering}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* Services Section */}
-      <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-white">
-  <div className="text-center mb-8 sm:mb-10 md:mb-12">
-    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-bold">
-      <p className="text-[#37d7d9] font-adramalech font-normal">
-        Edulinks Services <span className="text-black">For Universities </span>{" "}
-      </p>
-    </h2>
-  </div>
-  <div className="max-w-[90%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[1200px] xl:max-w-[1400px]  mx-20vw">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pr-0 sm:pr-0 md:pr-40 lg:pr-72  items-center">
-      <div className="relative mb-8 lg:mb-0">
-        <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
-          alt="Students"
-          className="w-full max-w-[400px] sm:mx-[15vw] md:mx-[5vw] lg:ml-[15vw]"
-        />
-      </div>
-      <div className="relative space-y-4  sm:space-y-5 pl-10 sm:pl-20 md:space-y-6 pt-4 sm:pt-6 md:pt-8 md:w-[50vw] lg:pt-[4vh] ">
-        <h3 className="text-2xl sm:text-3xl md:text-2xl lg:text-[36px] font-adramalech font-normal">
-          How Edulinks can help Universities
-        </h3>
-        <p className="text-gray-600 text-base sm:text-base md:text-lg lg:text-2xl xl:text-[26px] font-roboto1">
-          Maximize your reach across geographies and exceed your student recruitment goals without compromising on
-          quality.
-        </p>
-        <p className="font-adramalech text-lg sm:text-xl md:text-2xl lg:text-[24px]">Offerings</p>
-        <div className="flex relative">
-          <div className="space-y-3 sm:space-y-4">
-            <div className="flex items-center gap-3">
-              <img src={roundhook || "/placeholder.svg"} className="w-5 h-5 sm:w-6 sm:h-6"></img>
-              <span className="font-roboto1 text-base sm:text-lg md:text-xl lg:text-2xl">
-                Recruit Students From Diverse Nationalities
-              </span>
-            </div>
-            <div className="flex items-center gap-3">
-              <img src={roundhook || "/placeholder.svg"} className="w-5 h-5 sm:w-6 sm:h-6"></img>
-              <span className="font-roboto1 text-base sm:text-lg md:text-xl lg:text-2xl">
-                Edulinks Extensive Recruitment Network
-              </span>
-            </div>
-            <div className="flex items-center gap-3 relative">
-              <img src={roundhook || "/placeholder.svg"} className="w-5 h-5 sm:w-6 sm:h-6"></img>
-              <span className="font-roboto1 text-base sm:text-lg md:text-xl lg:text-2xl">
-                Enhance Brand Visibility
-              </span>
-              <img
-                className="absolute w-[261px] h-[135px] hidden xl:block sm:top-[-50px] sm:right-[-60px] lg:top-[-10px] lg:left-[18vw]  z-50"
-                src={bighook}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-[#37d7d970]">
         <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[10vw]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
-            <div className="space-y-4  sm:space-y-5 md:space-y-6">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl  w-[78vw] sm:w-[80vw] lg:text-4xl xl:text-[48px]  xl:w-[89  vw] font-bold">
-                <span className="text-black font-adramalech font-[400]">Edulinks Multi Country Advantage</span>
-                <br />
-                <span className="text-black font-adramalech leading-relaxed  font-[400]">For Students</span>
+          {/* Container switches between flex-col and grid based on breakpoint */}
+          <div className="flex flex-col md:flex-col lg:grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
+            {/* Text content - centers on medium, aligns left on large */}
+            <div className="space-y-4 sm:space-y-5 md:space-y-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl w-[78vw] sm:w-[80vw]  md:text-center lg:text-left lg:text-4xl xl:text-[44px] md:w-full lg:w-auto xl:w-[89vw] font-bold">
+                <span className="text-black font-adramalech font-[400] block">Edulinks Multi Country Advantage</span>
+                <span className="text-black font-adramalech leading-relaxed font-[400] block">For Students</span>
               </h1>
-              <p className="text-black font-adramalech text-xl sm:text-2xl xl:w-[70vw] md:text-3xl lg:text-[26px]">
+              <p className="text-black font-adramalech text-xl sm:text-2xl md:text-center lg:text-left xl:w-[70vw] md:text-3xl lg:text-[23.5px]">
                 Study anywhere throughout the Globe with Edulinks!
               </p>
               <div className="h-auto sm:h-[80px] md:h-[100px] lg:h-[111px] w-full lg:w-[553px]">
-                <p className="text-black font-roboto1 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[24px]">
+                <p className="text-black font-roboto1 text-base sm:text-lg md:text-xl md:text-center lg:text-left lg:text-[22px] xl:text-[23.5px]">
                   Aspire for more. Choose what suits you the best from 800+ Global Universities in 33 Countries. The
                   choices and opportunities our Universities offer are endless!
                 </p>
               </div>
-              <div className="flex gap-x-2 items-center">
+              <div className="flex gap-x-2 items-center md:justify-center lg:justify-start">
                 <button className="text-black font-roboto text-base sm:text-lg md:text-xl lg:text-2xl hover:underline">
                   Explore More{" "}
                 </button>
@@ -181,19 +158,20 @@ export default function Home() {
                 >
                   <path
                     stroke="black"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m9 5 7 7-7 7"
                   />
                 </svg>
               </div>
             </div>
-            <div className="relative mt-8 lg:mt-0 lg:ml-[9vw] xl:ml-[8vw]">
+            {/* Image - centered on medium, moves to right on large */}
+            <div className="relative mt-8 md:mt-4 lg:mt-0 md:w-full lg:w-auto lg:ml-[9vw] xl:ml-[8vw]">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abroads-2YKO4gzVKtXMPgbuqYaB8ClE0gOGv2.png"
                 alt="Study Destinations"
-                className="w-full max-w-[500px] mx-auto"
+                className="w-full max-w-[500px] mx-auto md:max-w-[600px] lg:max-w-[500px]"
               />
             </div>
           </div>
@@ -292,7 +270,7 @@ export default function Home() {
       {/* Contact Section */}
 
       {/* Background Decoration */}
-      <div  
+      <div
         className="absolute bottom-0 left-0 right-0 h-[200px] sm:h-[300px] md:h-[400px] bg-cover bg-center opacity-10"
         style={{
           backgroundImage: `url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/universitybackground-4RKQli29m4566lXOxt6ZGKMEsgFaXr.png')`,
