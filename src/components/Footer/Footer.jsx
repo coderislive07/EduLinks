@@ -1,4 +1,31 @@
 export default function Footer() {
+  const quickLinks = [
+    { name: "Home", href: "/home" },
+    { name: "About Us", href: "/about" },
+    { name: "Study Destinations", href: "/studydestination" },
+    { name: "Services", href: "/services" },
+    { name: "Contact Us", href: "https://cal.com/edulink-9gf5fp/30min?month=2025-01" },
+    { name: "Company", href: "/company" },
+  ]
+
+  const services = [
+    { name: "Student Visa", href: "/services/student-visa" },
+    { name: "Personalised Career Guidance", href: "/services/career-guidance" },
+    { name: "Edulinks AI Jackpot", href: "/services/edulinkAi" },
+    { name: "Scholarship Assessment", href: "/services/scholarship-assesment" },
+    { name: "Loan Guidance", href: "/services/Loan-Guidance" },
+    { name: "Post Landing Services", href: "/services/post-landing" },
+  ]
+
+  const studyDestinations = [
+    { name: "Germany", href: "/study-destination/germany" },
+    { name: "Canada", href: "/study-destination/canada" },
+    { name: "Australia", href: "/study-destination/australia" },
+    { name: "United States", href: "/study-destination/usa" },
+    { name: "United Kingdom", href: "/study-destination/uk" },
+    { name: "New Zealand", href: "/study-destination/newzealand" },
+  ]
+
   return (
     <footer className="bg-[#37d7d9] text-white">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 max-w-7xl">
@@ -38,10 +65,10 @@ export default function Footer() {
             <div>
               <h3 className="text-xl font-roboto font-[400] mb-4 sm:mb-6">Quick Links</h3>
               <ul className="space-y-2 sm:space-y-3">
-                {["Home", "About Us", "Study Destinations", "Services", "Contact Us", "Company"].map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-sm font-roboto font-[500] hover:underline">
-                      {link}
+                {quickLinks.map((link) => (
+                  <li key={link.name}>
+                    <a href={link.href} className="text-sm font-roboto font-[500] hover:underline">
+                      {link.name}
                     </a>
                   </li>
                 ))}
@@ -52,17 +79,10 @@ export default function Footer() {
             <div>
               <h3 className="text-xl font-roboto font-[400] mb-4 sm:mb-6">Services</h3>
               <ul className="space-y-2 sm:space-y-3">
-                {[
-                  "Student Visa",
-                  "Personalised Career Guidance",
-                  "Edulinks AI Jackpot",
-                  "Scholarship Assessment",
-                  "Loan Guidance",
-                  "Post Landing Services",
-                ].map((service) => (
-                  <li key={service}>
-                    <a href="#" className="text-sm font-roboto font-[500] hover:underline">
-                      {service}
+                {services.map((service) => (
+                  <li key={service.name}>
+                    <a href={service.href} className="text-sm font-roboto font-[500] hover:underline">
+                      {service.name}
                     </a>
                   </li>
                 ))}
@@ -73,22 +93,20 @@ export default function Footer() {
             <div>
               <h3 className="text-xl font-roboto font-[400] mb-4 sm:mb-6">Study Destinations</h3>
               <ul className="space-y-2 sm:space-y-3">
-                {["Germany", "Canada", "Australia", "United States", "United Kingdom", "New Zealand"].map(
-                  (destination) => (
-                    <li key={destination}>
-                      <a href="#" className="text-sm font-roboto font-[500] hover:underline">
-                        {destination}
-                      </a>
-                    </li>
-                  ),
-                )}
+                {studyDestinations.map((destination) => (
+                  <li key={destination.name}>
+                    <a href={destination.href} className="text-sm font-roboto font-[500] hover:underline">
+                      {destination.name}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 sm:mt-12 pt-8 border-t border-white/20 text-center">
+        <div className="mt-8 sm:mt-12 pt-8 border-t border-white text-center">
           <p className="text-base sm:text-lg font-roboto font-[500]">© All Rights Reserved By Edulinks 2025</p>
         </div>
       </div>
