@@ -34,36 +34,36 @@ const data = {
       "Established in 1887, RMIT University is a global leader in art and design, located in Melbourne, Australia. Recognized for its commitment to innovative teaching and research, RMIT offers a wide range of undergraduate and postgraduate programs across various disciplines, fostering a vibrant academic community.",
     fees: {
       tagline:
-        "RMIT University is dedicated to providing high-quality education while ensuring accessibility. Below are the annual tuition fees for selected programs (all in AUD):",
+        "RMIT University is dedicated to providing high-quality education while ensuring accessibility.<br/> Below are the annual tuition fees for selected programs (all in AUD):",
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 32500",
+          fees: "$ 32500",
           img: architecture,
         },
         {
           branch: "Art & Science",
-          fees: "AUD 34000",
+          fees: "$ 34000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 31000",
+          fees: "$ 31000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 37,500​",
+          fees: "$ 37,500​",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 39,500​",
+          fees: "$ 39,500​",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36500",
+          fees: "$ 36500",
           img: management,
         },
       ],
@@ -92,7 +92,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Arts and Humanities and 4th in Engineering.",
     ],
     employmentRanking:
-      "RMIT ranks 78th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of AUD 65,000.",
+      "RMIT ranks 78th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of $ 65,000.",
     admission:
       "The admission process at RMIT University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "RMIT accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -130,37 +130,36 @@ const data = {
     overview:
       "Founded in 1946, the Australian National University (ANU) is a prestigious public research university located in Canberra, Australia. Renowned for its academic excellence and research contributions, ANU offers a wide array of undergraduate and postgraduate programs across diverse fields. The university is dedicated to fostering a collaborative academic environment, attracting students, faculty, and researchers from across the globe.",
     fees: {
-      tagline:
-        "Australian National University is committed to providing high-quality education while ensuring accessibility. Below are the annual tuition fees for selected programs (all in AUD):",
+      tagline:"Australian National University is committed to providing high-quality education while ensuring accessibility. Below are the annual tuition fees for selected programs (all in AUD):",
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: science,
         },
         {
           branch: "Business Administration",
-          fees: "AUD 42,000",
+          fees: "$ 42,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: management,
         },
       ],
@@ -189,7 +188,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Social Sciences and 4th in Environmental Science.",
     ],
     employmentRanking:
-      "Australian National University ranks 57th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of AUD 60,000.",
+      "Australian National University ranks 57th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at Australian National University is competitive, emphasizing academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Australian National University accepts standardized test scores like the SAT or ACT, though specific requirements may vary by program.",
@@ -232,32 +231,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 42,000",
+          fees: "$ 42,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 39,000",
+          fees: "$ 39,000",
           img: management,
         },
       ],
@@ -276,7 +275,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Clinical Medicine and 3rd in Psychology.",
     ],
     employmentRanking:
-      "Melbourne ranks 16th in the QS Graduate Employability Ranking for 2022. Graduates enjoy strong job prospects, with an average starting salary of AUD 65,000.",
+      "Melbourne ranks 16th in the QS Graduate Employability Ranking for 2022. Graduates enjoy strong job prospects, with an average starting salary of $ 65,000.",
     admission:
       "The admission process at the University of Melbourne is competitive, focusing on academic achievement and personal attributes. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Melbourne accepts standardized test scores like the SAT or ACT and may have additional requirements depending on the program.",
@@ -319,32 +318,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 33,000",
+          fees: "$ 33,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 42,000",
+          fees: "$ 42,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 44,000",
+          fees: "$ 44,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: management,
         },
       ],
@@ -373,7 +372,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Nursing and 3rd in Psychology.",
     ],
     employmentRanking:
-      "Sydney ranks 28th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of AUD 65,000.",
+      "Sydney ranks 28th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of $ 65,000.",
     admission:
       "The admission process at the University of Sydney is competitive, emphasizing academic achievement and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Sydney accepts standardized test scores like the SAT or ACT and may require additional assessments depending on the program.",
@@ -416,32 +415,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 31,000",
+          fees: "$ 31,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 42,000",
+          fees: "$ 42,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: management,
         },
       ],
@@ -470,7 +469,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Biological Sciences and 2nd in Psychology.",
     ],
     employmentRanking:
-      "University of Queensland ranks 45th in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of AUD 62,000.",
+      "University of Queensland ranks 45th in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of $ 62,000.",
     admission:
       "The admission process at the University of Queensland is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "University of Queensland accepts standardized test scores like the SAT or ACT and may have additional requirements depending on the program.",
@@ -513,32 +512,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 32,500",
+          fees: "$ 32,500",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 41,000",
+          fees: "$ 41,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 43,500",
+          fees: "$ 43,500",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 39,500",
+          fees: "$ 39,500",
           img: management,
         },
       ],
@@ -567,7 +566,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Civil Engineering and 3rd in Business and Economics.",
     ],
     employmentRanking:
-      "University of New South Wales ranks 35th in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of AUD 65,000.",
+      "University of New South Wales ranks 35th in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of $ 65,000.",
     admission:
       "The admission process at University of New South Wales is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "UNSW accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -610,32 +609,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 39,000",
+          fees: "$ 39,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 36,500",
+          fees: "$ 36,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 41,500",
+          fees: "$ 41,500",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 41,500",
+          fees: "$ 41,500",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: management,
         },
       ],
@@ -664,7 +663,7 @@ const data = {
       "U.S. News and World Report: Ranked 2nd in Clinical Medicine and 4th in Business and Economics.",
     ],
     employmentRanking:
-      "Monash ranks 30th in the QS Graduate Employability Ranking for 2022. Graduates enjoy strong job prospects, with an average starting salary of AUD 60,000.",
+      "Monash ranks 30th in the QS Graduate Employability Ranking for 2022. Graduates enjoy strong job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at Monash University is competitive, focusing on academic achievement and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Monash University accepts standardized test scores like the SAT or ACT and may have additional requirements depending on the program.",
@@ -707,32 +706,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 34,500",
+          fees: "$ 34,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 39,000",
+          fees: "$ 39,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: management,
         },
       ],
@@ -761,7 +760,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Clinical Medicine and 3rd in Psychology.",
     ],
     employmentRanking:
-      "University of Western Australia ranks 49th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of AUD 62,000.",
+      "University of Western Australia ranks 49th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of $ 62,000.",
     admission:
       "The admission process at University of Western Australia is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "UWA accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -804,32 +803,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 36,500",
+          fees: "$ 36,500",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 32,500",
+          fees: "$ 32,500",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 42,500",
+          fees: "$ 42,500",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 38,500",
+          fees: "$ 38,500",
           img: management,
         },
       ],
@@ -858,7 +857,7 @@ const data = {
       "U.S. News and World Report: Ranked 2nd in Biological Sciences and 3rd in Psychology.",
     ],
     employmentRanking:
-      "The University of Adelaide ranks 62nd in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of AUD 60,000.",
+      "The University of Adelaide ranks 62nd in the QS Graduate Employability Ranking for 2022. Graduates enjoy solid job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at the University of Adelaide is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Adelaide accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -901,32 +900,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: management,
         },
       ],
@@ -955,7 +954,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Arts and Humanities and 3rd in Social Sciences.",
     ],
     employmentRanking:
-      "UTS ranks 66th in the QS Graduate Employability Ranking for 2022. Graduates benefit from good job prospects, with an average starting salary of AUD 60,000.",
+      "UTS ranks 66th in the QS Graduate Employability Ranking for 2022. Graduates benefit from good job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at UTS is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "UTS accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -998,32 +997,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 28,000",
+          fees: "$ 28,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: management,
         },
       ],
@@ -1052,7 +1051,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Nursing and 5th in Education.",
     ],
     employmentRanking:
-      "The University of Canberra ranks 151st in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 54,000.",
+      "The University of Canberra ranks 151st in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 54,000.",
     admission:
       "The admission process at the University of Canberra is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Canberra accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1091,36 +1090,36 @@ const data = {
       "Founded in 1964, Macquarie University is a prominent public research university located in Sydney, Australia. Known for its strong focus on innovative research and interdisciplinary education, Macquarie offers a wide range of undergraduate and postgraduate programs across various fields. The university fosters a dynamic learning environment, attracting students and researchers dedicated to making a positive impact on society.",
     fees: {
       tagline:
-        "Macquarie University is committed to providing high-quality education while ensuring accessibility. Below are the annual tuition fees for selected programs (all in AUD):",
+        "Macquarie University is committed to providing high-quality education while ensuring accessibility.<br/> Below are the annual tuition fees for selected programs (all in AUD):",
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 33,000",
+          fees: "$ 33,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 31,000",
+          fees: "$ 31,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: management,
         },
       ],
@@ -1149,7 +1148,7 @@ const data = {
       "U.S. News and World Report: Ranked 4th in Psychology and 5th in Business and Economics.",
     ],
     employmentRanking:
-      "Macquarie ranks 111th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 60,000.",
+      "Macquarie ranks 111th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at Macquarie University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Macquarie University accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1192,32 +1191,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: management,
         },
       ],
@@ -1246,7 +1245,7 @@ const data = {
       "U.S. News and World Report: Ranked 1st in Business and 3rd in Social Sciences.",
     ],
     employmentRanking:
-      "Queensland University of Technology ranks 104th in the QS Graduate Employability Ranking for 2022. Graduates benefit from solid job prospects, with an average starting salary of AUD 58,000.",
+      "Queensland University of Technology ranks 104th in the QS Graduate Employability Ranking for 2022. Graduates benefit from solid job prospects, with an average starting salary of $ 58,000.",
     admission:
       "The admission process at Queensland University of Technology is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Queensland University of Technology accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1289,32 +1288,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 40,000",
+          fees: "$ 40,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: management,
         },
       ],
@@ -1343,7 +1342,7 @@ const data = {
       "U.S. News and World Report: Ranked 2nd in Health Professions and 4th in Environmental Science.",
     ],
     employmentRanking:
-      "University of Wollongong ranks 99th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 57,000.",
+      "University of Wollongong ranks 99th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 57,000.",
     admission:
       "The admission process at University of Wollongong is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "University of Wollongong accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1386,32 +1385,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 28,000",
+          fees: "$ 28,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: management,
         },
       ],
@@ -1440,7 +1439,7 @@ const data = {
       "U.S. News and World Report: Ranked 2nd in Business and 3rd in Health Professions.",
     ],
     employmentRanking:
-      "Curtin ranks 96th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of AUD 60,000.",
+      "Curtin ranks 96th in the QS Graduate Employability Ranking for 2022. Graduates benefit from strong job prospects, with an average starting salary of $ 60,000.",
     admission:
       "The admission process at Curtin University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Curtin accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1483,32 +1482,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 31,000",
+          fees: "$ 31,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 33,000",
+          fees: "$ 33,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 29,000",
+          fees: "$ 29,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: management,
         },
       ],
@@ -1537,7 +1536,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Health Professions and 5th in Arts and Humanities.",
     ],
     employmentRanking:
-      "Deakin ranks 117th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 55,000.",
+      "Deakin ranks 117th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 55,000.",
     admission:
       "The admission process at Deakin University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Deakin accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1580,32 +1579,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 31,000",
+          fees: "$ 31,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 33,000",
+          fees: "$ 33,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 29,000",
+          fees: "$ 29,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: management,
         },
       ],
@@ -1634,7 +1633,7 @@ const data = {
       "U.S. News and World Report: Ranked 2nd in Health Professions and 3rd in Social Sciences.",
     ],
     employmentRanking:
-      "The University of Newcastle ranks 89th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 55,000.",
+      "The University of Newcastle ranks 89th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 55,000.",
     admission:
       "The admission process at the University of Newcastle is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Newcastle accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1677,32 +1676,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 31,000",
+          fees: "$ 31,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 33,000",
+          fees: "$ 33,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 29,000",
+          fees: "$ 29,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 36,000",
+          fees: "$ 36,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 38,000",
+          fees: "$ 38,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: management,
         },
       ],
@@ -1731,7 +1730,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Health Professions and 4th in Arts and Humanities.",
     ],
     employmentRanking:
-      "Griffith ranks 134th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 54,000.",
+      "Griffith ranks 134th in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 54,000.",
     admission:
       "The admission process at Griffith University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "Griffith accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1774,32 +1773,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 28,000",
+          fees: "$ 28,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: management,
         },
       ],
@@ -1828,7 +1827,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Health Professions and 4th in Social Sciences.",
     ],
     employmentRanking:
-      "La Trobe ranks 152nd in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 50,000.",
+      "La Trobe ranks 152nd in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 50,000.",
     admission:
       "The admission process at La Trobe University is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "La Trobe accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",
@@ -1871,32 +1870,32 @@ const data = {
       uniFeeCard: [
         {
           branch: "Architectural Studies",
-          fees: "AUD 30,000",
+          fees: "$ 30,000",
           img: architecture,
         },
         {
           branch: "Arts & Science",
-          fees: "AUD 32,000",
+          fees: "$ 32,000",
           img: arts,
         },
         {
           branch: "Kinesiology & Physical Education",
-          fees: "AUD 28,000",
+          fees: "$ 28,000",
           img: physical,
         },
         {
           branch: "Applied Science & Engineering",
-          fees: "AUD 35,000",
+          fees: "$ 35,000",
           img: science,
         },
         {
           branch: "Commerce or Business Administration",
-          fees: "AUD 37,000",
+          fees: "$ 37,000",
           img: commerce,
         },
         {
           branch: "Management",
-          fees: "AUD 34,000",
+          fees: "$ 34,000",
           img: management,
         },
       ],
@@ -1925,7 +1924,7 @@ const data = {
       "U.S. News and World Report: Ranked 3rd in Environmental Science and 4th in Health Professions.",
     ],
     employmentRanking:
-      "The University of Tasmania ranks 163rd in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of AUD 52,000.",
+      "The University of Tasmania ranks 163rd in the QS Graduate Employability Ranking for 2022. Graduates enjoy good job prospects, with an average starting salary of $ 52,000.",
     admission:
       "The admission process at the University of Tasmania is competitive, focusing on academic performance and personal qualities. This section outlines the university’s admission requirements and application tips.",
     test: "The University of Tasmania accepts standardized test scores like the SAT or ACT, and specific requirements may vary by program.",

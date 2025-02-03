@@ -92,8 +92,8 @@ export default function Nz() {
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-gray-800">{uni.name}</h3>
                 <a
-                  href={uni.link}
-                  className="inline-block px-6 py-2 border border-[#00b4d8] text-[#00b4d8] rounded hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
+                  href={uni.link || "#"}
+                  className="inline-block pt-[0px] pr-[10px] pb-[0px] pl-[15px] border border-[#00b4d8] text-[#37d7d9] rounded-sm text-[24px]  transition-colors duration-300"
                 >
                   Know More &gt;
                 </a>
