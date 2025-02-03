@@ -18,12 +18,12 @@ export default function Home() {
             backgroundImage: `url(${universitybg})`,
           }}
           className="relative min-h-screen pt-20 pb-32 bg-center bg-cover
-                     lg:min-h-[800px] xl:min-h-[70vh]"
+                     lg:min-h-[800px] xl:h-[2vh]"
         >
-          <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+          <div className="max-w-[1400px] mx-auto px-4 xl:px-18 lg:px-16 xl:ml-20">
             <div className="lg:flex items-center justify-between">
-              <div className="text-white space-y-6 lg:w-1/2 xl:w-[55%]">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[58px] font-light font-adramalech leading-tight mb-8">
+              <div className="text-white space-y-6 lg:w-1/2 xl:w-[50%]   ">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[58px] font-light font-adramalech leading-tight mb-8 xl:mt-[-150px]">
                   Discover Your Dream Career Using Edulinks AI Assistance
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] font-roboto font-bold leading-relaxed max-w-2xl">
@@ -37,9 +37,9 @@ export default function Home() {
                   Try Now
                 </button>
               </div>
-              <div className="lg:w-1/2 xl:w-[45%] mt-8 lg:mt-0">
+              <div className="lg:w-1/2 xl:w-[45%] mt-8 lg:mt-14">
                 <img
-                  className="w-full max-w-[450px] lg:max-w-[500px] xl:max-w-[600px] mx-auto"
+                  className="w-full max-w-[450px] lg:max-w-[500px] xl:max-w-[500px] mx-auto"
                   src={robot || "/placeholder.svg"}
                   alt="AI Assistant Robot"
                 />
@@ -51,7 +51,7 @@ export default function Home() {
           <img
             src={blur || "/placeholder.svg"}
             alt="Blur Effect"
-            className="w-full h-auto absolute bottom-0 left-0 transform translate-y-1/2 z-10"
+            className="w-full h-[130vh] absolute bottom-0 left-0 transform translate-y-1/2 z-10"
           />
         </div>
       </div>
