@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className="lg:hidden  ">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-800 hover:text-[#37d7d9] ml-[-14vw] md:ml-[-7vw] focus:outline-none "
+              className="text-gray-800 hover:text-[#37d7d9] ml-[-18vw] md:ml-[-7vw] focus:outline-none "
             >
               <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
@@ -70,7 +70,7 @@ export default function Navbar() {
             <img  onClick={()=>{navigate('/')}}
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
               alt="Edulinks Logo"
-              className="h-14 xl:h-14 pl-[32vw]  md:pl-[69vw] lg:pl-0 xl:pr-10 cursor-pointer"
+              className="h-14 xl:h-14 pl-[24vw]  md:pl-[69vw] lg:pl-0 xl:pr-10 cursor-pointer"
             />
           </div>
           {/* Desktop Navigation */}
