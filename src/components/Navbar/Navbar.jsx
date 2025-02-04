@@ -82,6 +82,7 @@ export default function Navbar() {
             <a onClick={()=>{navigate('/about')}} className="text-gray-800 cursor-pointer  font-[700] font-roboto text-sm xl:text-[16px]">
               About Us
             </a>
+             {/* a */}
             <div
               className="relative group"
               onMouseEnter={() => setActiveDropdown("study")}
