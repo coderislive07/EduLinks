@@ -64,7 +64,7 @@ export default function ServiceGrid() {
           </div>
 
           {/* Cards Grid Section */}
-          <div className="container mx-auto px-4 min-h-screen relative">
+          <div className="container mx-auto px-4  relative">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center relative">
               {services.map((service, index) => (
                 <Card
