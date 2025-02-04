@@ -56,8 +56,13 @@ export default function About() {
                 className="hidden lg:block absolute left-[1%] top-[45%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-6 shadow-lg
                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:p-3
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:top-[40%]"
+                            [@media(min-width:1024px)_and_(max-width:1280px)]:left-[20%]
+                            [@media(min-width:1024px)_and_(max-width:1280px)]:p-3
+                            [@media(min-width:1024px)_and_(max-width:1280px)]:top-[40%]
+                            [@media(min-width:1280px)_and_(max-width:1366px)]:left-[20%]
+
+
+                            "
               >
                 <div
                   className="text-5xl font-roboto text-center text-[#37d7d9] font-bold
