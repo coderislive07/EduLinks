@@ -62,6 +62,7 @@ export default function About() {
                             [@media(min-width:1280px)_and_(max-width:1366px)]:left-[20%]
 
 
+
                             "
               >
                 <div
