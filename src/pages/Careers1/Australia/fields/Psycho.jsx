@@ -1,6 +1,7 @@
 import React from "react"
 import img1 from "../../../../assets/Group-13.png"
 import img2 from "../../../../assets/icon-3.png"
+import { ChevronDown } from "lucide-react";
 
 
 
@@ -312,7 +313,7 @@ Top employers in Australia include health care organizations like the Royal Melb
       {/* FAQs Section */}
   <div className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Engineering & Technology</h2>
+    <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for psychology</h2>
       <div className="space-y-4">
           {faqs.map((faq, index) => (
               <div key={index} className="bg-[#37d7d9] rounded-lg shadow-sm overflow-hidden">
