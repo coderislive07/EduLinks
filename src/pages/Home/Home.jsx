@@ -20,10 +20,10 @@ export default function Home() {
           className="relative min-h-screen pt-20 pb-32 bg-center bg-cover
                      lg:min-h-[800px] xl:h-[2vh]"
         >
-          <div className="max-w-[1400px] mx-auto px-4 xl:px-18 lg:px-16 xl:ml-20">
+          <div className="max-w-[1400px] mx-auto px-4 xl:px-18 lg:px-16 xl:ml-10  2xl:ml-20">
             <div className="lg:flex items-center justify-between">
               <div className="text-white space-y-6 lg:w-1/2 xl:w-[50%]   ">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[58px] font-light font-adramalech leading-tight mb-8 xl:mt-[-150px]">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[58px] font-light font-adramalech leading-tight mb-8 xl:mt-[-230px]">
                   Discover Your Dream Career Using Edulinks AI Assistance
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] font-roboto font-bold leading-relaxed max-w-2xl">
@@ -55,10 +55,9 @@ export default function Home() {
           />
         </div>
       </div>
-
       {/* Stats Section */}
       <section className="py-20 bg-white relative z-20">
-        <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 lg:px-8 xl:px-20 2xl:px-32 xl:ml-4 ">
           <h2 className="text-center mb-12">
             <span className="text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-gray-800">
               Our Core{" "}
@@ -83,11 +82,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
-          <h2 className="text-center mb-12 text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-bold">
+      <section className="py-4 bg-white ">
+        <div className="max-w-[1400px] mx-auto px-4 ">
+          <h2 className="text-center mb-12 text-3xl sm:text-4xl lg:text-5xl xl:text-[48px]  font-bold">
             <span className="text-[#37d7d9] font-adramalech font-normal">Edulinks Services</span>{" "}
             <span className="text-black font-adramalech font-normal">For Universities</span>
           </h2>
@@ -96,11 +94,11 @@ export default function Home() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/boygirl-VQ8Ok9yTg8ofh3vqzoWcsDngYdZHfm.png"
                 alt="Students"
-                className="w-full max-w-[500px] mx-auto"
+                className="w-full max-w-[420px] mx-auto"
               />
             </div>
-            <div className="lg:w-1/2 space-y-6">
-              <h3 className="text-2xl sm:text-3xl lg:text-[36px] font-adramalech font-normal">
+            <div className="lg:w-1/2 space-y-6 mr-10">
+              <h3 className="text-2xl sm:text-3xl lg:text-[36px] xl:w-[80vw]  font-adramalech font-normal">
                 How Edulinks can help Universities
               </h3>
               <p className="text-gray-600 text-lg sm:text-xl lg:text-2xl xl:text-[26px] font-roboto1">
@@ -125,7 +123,7 @@ export default function Home() {
         </div>
       </section>
       <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-[#37d7d970]">
-        <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 lg:px-[10vw]">
+        <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[500vw] mx-auto px-4 sm:px-6 md:px-8 2xl:px-[10vw]">
           {/* Container switches between flex-col and grid based on breakpoint */}
           <div className="flex flex-col md:flex-col lg:grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
             {/* Text content - centers on medium, aligns left on large */}
@@ -180,30 +178,30 @@ export default function Home() {
       {/* Technology Platform Section */}
       <section className="py-12 sm:py-14 md:py-16 lg:py-20  bg-white">
         <div className="max-w-[90%] sm:max-w-[85%] md:max-w-[93%] lg:max-w-full  xl:mx-[3vw] ">
-          <div className="flex flex-col xl:flex-row items-center mb-8 sm:mb-10  md:mb-12 ">
+          <div className="flex flex-col xl:flex-row  w-[100vw] items-center mb-8 sm:mb-10  md:mb-12 ">
             <img
               className="h-[80px] hidden xl:block w-[180px] sm:h-[100px] sm:w-[220px] md:h-[116px] md:w-[253px] mb-4 xl:mb-0"
               src={bighook || "/placeholder.svg"}
               alt="Big Hook"
             />
-            <h2 className="text-center pl-[6  vw] xl:text-left xl:pl-[16vw] leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
+            <h2 className="text-center pl-[6vw] xl:text-left xl:pl-[10vw] 2xl:pl-[16vw] leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
               <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] text-black font-adramalech font-[400] block mb-2 sm:mb-3 md:mb-4">
                 Edulinks technology based platform
               </span>
-              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] xl:ml-[-5vw] text-[#37d7d9] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
+              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] xl:ml-[-6vw] 2xl:ml-[-5vw] text-[#37d7d9] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
                 makes it easier for you to study abroad
               </span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10  md:gap-12 lg:gap-14 xl:pl-14  items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10  md:gap-12 lg:gap-10 2xl:pl-14  items-center">
             <div>
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/personstudy-YOtdi9pho7WWkDhNb10ZROpTRAqpiq.png"
                 alt="Technology Platform"
-                className="w-full max-w-[400px] sm:max-w-[550px]  md:mx-10  md:max-w-[1200px] lg:max-w-[370px] xl:max-w-[558px]  h-auto mx-5"
+                className="w-full max-w-[400px] sm:max-w-[550px]  2xl:mx-14  md:max-w-[1200px] lg:max-w-[370px] xl:max-w-[558px]  h-auto mx-5"
               />
             </div>
-            <div className="space-y-4 text-gray-600 mx-5 md:mx-12 lg:mx-0 xl:pr-24">
+            <div className="space-y-4 text-gray-600 mx-5 md:mx-12 lg:mx-0 xl:pr-2 2xl:pr-24">
               {[
                 "Search Near Perfect, 'eligible' courses",
                 "'One' application, 'multiple' courses & universities",
@@ -217,9 +215,9 @@ export default function Home() {
                 </div>
               ))}
               <div>
-                <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[20vw]">
+                <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[28vw] 2xl:pl-[23vw]">
                   EduLinks AI Assistant
-                  <img className="mt-2 ml-3 h-[12px] w-[12px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
+                  <img className="mt-2.5 ml-3 h-[12px] w-[12px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
                 </button>
               </div>
             </div>
