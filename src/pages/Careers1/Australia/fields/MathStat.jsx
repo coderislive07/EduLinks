@@ -3,6 +3,7 @@ import img1 from "../../../../assets/Group-11-1.png"
 import img2 from "../../../../assets/icon-3.png"
 import {ChevronDown} from "lucide-react";
 
+
 const courses = [
   {
     title: "Cryptographer",
