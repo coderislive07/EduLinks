@@ -206,7 +206,7 @@ export default function MathematicsStatistics() {
                   <img src={university.image} alt={university.name} className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6 flex flex-col justify-between h-[152px]">
-                  <h3 className="text-[24px] font-normal font-roboto text-center">{university.name}</h3>
+                  <h3 className="text-[20px] font-normal font-roboto text-center">{university.name}</h3>
                   <div className="text-center">
                   <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;

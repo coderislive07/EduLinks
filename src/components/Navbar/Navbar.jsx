@@ -46,7 +46,7 @@ export default function Navbar() {
   };
   
   return (
-    <nav className="w-full  bg-white shadow-md  pt-[-4vh] z-50 relative  top-0 xl:h-[65px] 2xl:px-[88px]">
+    <nav className="w-full  bg-white shadow-md  pt-[-4vh] z-50 relative  top-0 xl:h-[65px] xl:px-[4vw]">
       <div className="lg:max-w-[1600px]  mx-auto px-20 ">
         <div className="flex justify-between items-center  h-16">
         <div className="lg:hidden  ">
@@ -82,7 +82,6 @@ export default function Navbar() {
             <a onClick={()=>{navigate('/about')}} className="text-gray-800 cursor-pointer  font-[700] font-roboto text-sm xl:text-[16px]">
               About Us
             </a>
-             {/* a */}
             <div
               className="relative group"
               onMouseEnter={() => setActiveDropdown("study")}

@@ -275,7 +275,7 @@ Germany’s graphic design and media industry is vibrant, with opportunities spa
                     />
                   </div>
                   <div className="p-6 flex flex-col justify-between" style={{ height: '152px' }}>
-                    <h3 className="text-[24px] font-normal font-roboto text-center">
+                    <h3 className="text-[20px] font-normal font-roboto text-center">
                       {university.name}
                     </h3>
                     <div className="text-center">
@@ -298,7 +298,7 @@ Germany’s graphic design and media industry is vibrant, with opportunities spa
                     />
                   </div>
                   <div className="p-6 flex flex-col justify-between" style={{ height: '152px' }}>
-                    <h3 className="text-[24px] font-normal font-roboto text-center">
+                    <h3 className="text-[20px] font-normal font-roboto text-center">
                       {university.name}
                     </h3>
                     <div className="text-center">
