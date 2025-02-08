@@ -1,7 +1,7 @@
 import React from "react"
 import img1 from "../../../../assets/Group-11-1.png"
 import img2 from "../../../../assets/icon-3.png"
-
+import { ChevronDown } from "lucide-react";
 const courses = [
   {
     title: "Cryptographer",
@@ -217,7 +217,7 @@ export default function MathematicsStatistics() {
                   <img src={university.image} alt={university.name} className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6 flex flex-col justify-between h-[152px]">
-                  <h3 className="text-[24px] font-normal font-roboto text-center">{university.name}</h3>
+                  <h3 className="text-[20px] font-normal font-roboto text-center">{university.name}</h3>
                   <div className="text-center">
                   <button className="px-6 py-2 text-[16px] font-roboto font-bold bg-white text-[#53C2C3] hover:bg-[#53C2C3] hover:text-white transition-colors border border-[#53C2C3]">
                         Explore &gt;
@@ -244,24 +244,40 @@ export default function MathematicsStatistics() {
           <h2 className="text-3xl font-regular text-center mb-8">Top 10 FAQs for Mathematics and Statistics</h2>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-[#37d7d9] shadow-sm">
-                <button
-                  className="w-full px-6 py-4 text-left focus:outline-none flex justify-between items-center"
-                  onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
-                >
-                  <span className="font-black text-[20px] font-roboto text-white">{faq.question}</span>
-                  <span className="ml-6 flex-shrink-0">{openFaqIndex === index ? "−" : "+"}</span>
-          </button>
-          {openFaqIndex === index && (
-            <div className="px-6 bg-[#ebfbfc]  ">
-              <p className="text-black text-[20px] font-roboto1 font-regular">{faq.answer}</p>
-            </div>
-          )}
+                <div key={index} className="bg-[#37d7d9] rounded-lg shadow-sm overflow-hidden">
+                  <button
+                      className="w-full px-6 py-4 text-left focus:outline-none flex justify-between items-center"
+                      onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
+                  >
+                  <span className="font-black text-[20px] font-roboto text-white">
+                    {faq.question}
+                  </span>
+                    <ChevronDown
+                        className="ml-6 flex-shrink-0 transition-transform duration-500 ease-in-out text-white w-6 h-6"
+                        style={{
+                          transform: openFaqIndex === index ? 'rotate(-180deg)' : 'rotate(0deg)'
+                        }}
+                    />
+                  </button>
+                  <div
+                      className="transition-all duration-500 ease-in-out"
+                      style={{
+                        maxHeight: openFaqIndex === index ? '500px' : '0',
+                        opacity: openFaqIndex === index ? 1 : 0,
+                        overflow: 'hidden'
+                      }}
+                  >
+                    <div className="px-6 py-4 bg-[#ebfbfc]">
+                      <p className="text-black text-[20px] font-roboto1 font-regular py-2">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            ))}
+          </div>
         </div>
-      ))}
-    </div>
-  </div>
-</div>
+      </div>
 
 
       {/* Footer */}

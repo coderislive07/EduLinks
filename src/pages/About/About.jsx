@@ -15,7 +15,8 @@ export default function About() {
     <div className="overflow-x-hidden w-full">
       <section
         className="relative min-h-screen bg-[#37d7d9] overflow-hidden
-                        [@media(min-width:1024px)_and_(max-width:1366px)]:min-h-[60vh]"
+                        [@media(min-width:1024px)_and_(max-width:1366px)]:min-h-[80vh]
+                        [@media(min-width:1280px)_and_(max-width:1366px)]:pt-[5vh]"
       >
         <div className="max-w-[1400px] mx-auto px-4">
           <div
@@ -24,22 +25,24 @@ export default function About() {
           >
             {/* Text Content */}
             <div
-              className="text-white max-w-[492px] lg:left-20 relative space-y-6 pt-12 
-                          md:max-w-[400px] md:pt-8 xl:max-w-[492px] xl:pt-12
-                          [@media(min-width:1024px)_and_(max-width:1366px)]:max-w-[400px]
+              className="text-white max-w-[800px] lg:left-20 relative space-y-6 pt-12
+                          md:max-w-[400px] md:pt-8 lg:max-w-[492px] xl:pt-20
+                          xl:max-w-[650px]
                           [@media(min-width:1024px)_and_(max-width:1366px)]:left-10
-                          [@media(min-width:1024px)_and_(max-width:1366px)]:pt-0"
+
+
+                          "
             >
               <h1
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-tight font-adramalech
-                           [@media(min-width:1024px)_and_(max-width:1366px)]:text-4xl"
+                className="text-[1.875rem] lg:text-[2.5rem] xl:text-[4rem] leading-1
+                           [@media(min-width:1280px)_and_(max-width:1600px)]:text-[54px]"
               >
                 We're Committed To Your Global Education Success
               </h1>
               <p
-                className="text-lg sm:text-xl md:text-2xl font-roboto lg:leading-[39px]
-                          [@media(min-width:1024px)_and_(max-width:1366px)]:text-xl
-                          [@media(min-width:1024px)_and_(max-width:1366px)]:leading-[32px]"
+                className="text-lg sm:text-xl md:text-2xl lg:text-[22px] font-roboto lg:leading-[39px]
+                          [@media(min-width:1280px)_and_(max-width:1366px)]:text-[26px]
+                          [@media(min-width:1024px)_and_(max-width:1366px)]:leading-[39px]"
               >
                 Edulinks offers expert guidance and personalized support, ensuring your journey to study abroad is
                 smooth and rewarding.
@@ -53,25 +56,26 @@ export default function About() {
             >
               {/* Stats Card */}
               <div
-                className="hidden lg:block absolute left-[1%] top-[45%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-6 shadow-lg
+                className="hidden lg:block absolute top-[50%] left-[1%] xl:top-[55%]  xl:left-[10%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-6 shadow-lg
                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
-                            [@media(min-width:1024px)_and_(max-width:1280px)]:left-[20%]
+
                             [@media(min-width:1024px)_and_(max-width:1280px)]:p-3
-                            [@media(min-width:1024px)_and_(max-width:1280px)]:top-[40%]
-                            [@media(min-width:1280px)_and_(max-width:1366px)]:left-[20%]
+
+
 
 
                             "
               >
                 <div
-                  className="text-5xl font-roboto text-center text-[#37d7d9] font-bold
+                  className="text-4xl font-roboto text-center justify-center align-middle
                               [@media(min-width:1024px)_and_(max-width:1366px)]:text-3xl"
                 >
-                  10K+
+                  10K+<br/>
+
                 </div>
                 <div
-                  className="text-xl font-roboto font-medium text-center
+                  className="text-xl font-roboto font-medium text-center justify-center align-middle
                               [@media(min-width:1024px)_and_(max-width:1366px)]:text-base"
                 >
                   Dreams Fulfilled
@@ -81,25 +85,25 @@ export default function About() {
               {/* Student Image */}
               <div
                 className="relative w-full h-full lg:right-24 flex justify-end items-start
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:right-16"
+                            [@media(min-width:1024px)_and_(max-width:1600px)]:right-16"
               >
                 <div className="relative">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HMGHw7vM7w651wCPTpRq5eCiOnNsvh.png"
                     alt="Student with book"
-                    className="relative z-10 w-[400px] md:w-[500px] h-auto object-contain
-                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[350px]"
+                    className="relative z-10 lg:w-[400px] md:w-[500px] xl:top-10 object-contain
+                             [@media(min-width:1280px)_and_(max-width:1600px)]:w-[450px]"
                   />
                 </div>
               </div>
 
               {/* Opportunities Card */}
               <div
-                className="hidden lg:block absolute right-[1%] top-[20%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-4 shadow-lg
+                className="hidden lg:block absolute right-[1%] top-[20%] xl:top-[30%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-4 shadow-lg
                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:p-2
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:top-[15%]"
+                            [@media(min-width:1024px)_and_(max-width:1366px)]:top-[25%]"
               >
                 <p
                   className="text-lg text-center font-roboto
