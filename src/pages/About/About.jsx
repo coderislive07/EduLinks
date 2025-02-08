@@ -14,9 +14,8 @@ export default function About() {
   return (
     <div className="overflow-x-hidden w-full">
       <section
-        className="relative min-h-[50vh] bg-[#37d7d9] overflow-hidden
-                        [@media(min-width:1100px)_and_(max-width:1366px)]:min-h-[90vh]
-                        [@media(min-width:1280px)_and_(max-width:1366px)]:pt-[5vh]"
+        className="relative min-h-screen md:pt-20 md:pb-32 bg-center bg-cover
+                     lg:min-h-[800px] xl:h-[2vh] bg-[#37d7d9]"
       >
         <div className="max-w-[1400px] mx-auto px-4">
           <div
@@ -26,7 +25,7 @@ export default function About() {
             {/* Text Content */}
             <div
               className="text-white max-w-[800px] lg:left-20 relative space-y-6 pt-12
-                          md:max-w-screen md:pt-8 lg:max-w-[492px] lg:pt-14
+                          md:max-w-screen md:pt-8 lg:max-w-[492px] lg:pt-6
                           xl:max-w-[650px]
                           [@media(min-width:1024px)_and_(max-width:1366px)]:left-10
 
@@ -40,7 +39,7 @@ export default function About() {
                 We're Committed To Your Global Education Success
               </h1>
               <p
-                className="text-lg sm:text-xl md:text-2xl lg:text-[22px] font-roboto lg:leading-[39px]
+                className="text-lg mt-0 sm:text-xl md:text-2xl lg:text-[22px] font-roboto lg:leading-[39px]
                           [@media(min-width:1280px)_and_(max-width:1366px)]:text-[26px]
                           [@media(min-width:1024px)_and_(max-width:1366px)]:leading-[39px]"
               >
@@ -56,9 +55,9 @@ export default function About() {
             >
               {/* Stats Card */}
               <div
-                className="hidden lg:block absolute top-[53%] left-[1%] xl:top-[45%]  xl:left-[13%] z-20 w-[190px] h-[90px] bg-white text-black rounded-xl p-3 shadow-lg
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
+                className="hidden lg:block absolute top-[55%] left-[1%] xl:top-[50%]   xl:left-[15%] z-20 w-[190px] h-[90px] bg-white text-black rounded-xl p-3 shadow-lg
+                            [@media(min-width:1024px)_and_(max-width:1366px)]:w-[180px]
+                            [@media(min-width:1024px)_and_(max-width:1366px)]:h-[85px]
 
                             [@media(min-width:1024px)_and_(max-width:1280px)]:p-3
                              [@media(min-width:1200px)_and_(max-width:1280px)]:left-[13%]
@@ -71,8 +70,8 @@ export default function About() {
               >
                 <div
                   className="text-4xl font-roboto text-center justify-center align-middle
-                              [@media(min-width:1024px)_and_(max-width:1366px)]:text-3xl
-
+                              [@media(min-width:1024px)_and_(max-width:1366px)]:text-4xl
+text-[#37d7d9] font-bold
                               "
                 >
                   10K+<br/>
@@ -88,24 +87,24 @@ export default function About() {
 
               {/* Student Image */}
               <div
-                className="relative w-full h-full lg:right-24 flex justify-end items-start
-                            [@media(min-width:1024px)_and_(max-width:1600px)]:right-16"
+                className="relative w-full h-full lg:ml-[5%] lg:right-24 flex justify-end items-start
+                            [@media(min-width:1024px)_and_(max-width:1600px)]:right-18"
               >
                 <div className="relative">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HMGHw7vM7w651wCPTpRq5eCiOnNsvh.png"
                     alt="Student with book"
-                    className="relative z-10 lg:w-[400px] md:w-[500px] lg:top-6 xl:top-10 object-contain
-                             [@media(min-width:1280px)_and_(max-width:1600px)]:w-[450px]"
+                    className="relative z-10 lg:w-[450px] md:w-[500px] lg:left-8 lg:-top-6 xl:top-[-20px] object-contain
+                             [@media(min-width:1280px)_and_(max-width:1600px)]:w-[500px]"
                   />
                 </div>
               </div>
 
               {/* Opportunities Card */}
               <div
-                className="hidden lg:block absolute right-[1%] top-[20%] xl:top-[30%] z-20 w-[180px] h-[90px] bg-white text-black rounded-xl p-2 shadow-lg
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
-                            [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
+                className="hidden lg:block absolute ml-4 right-[1%] top-[20%] xl:top-[14%] z-20 lg:w-[160px] lg:h-[80px] w-[180px] h-[85px] bg-white text-black rounded-xl p-2 shadow-lg
+                            [@media(min-width:1280px)_and_(max-width:1366px)]:w-[180px]
+                            [@media(min-width:1280px)_and_(max-width:1366px)]:h-[85px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:p-2
                             [@media(min-width:1024px)_and_(max-width:1366px)]:top-[25%]"
               >
@@ -123,11 +122,11 @@ export default function About() {
         </div>
 
         {/* Bottom Blur Effect */}
-        <div className="absolute bottom-0 left-0 right-0 hidden md:block">
-          <div className="relative">
+        <div className="absolute bottom-0  left-0 right-0 hidden md:block">
+          <div className="relative lg:mt-[-40px]">
             <div
-              className="absolute bottom-0 left-0 right-0 h-[280px] bg-gradient-to-t from-white to-transparent z-10
-                          [@media(min-width:1024px)_and_(max-width:1366px)]:h-[150px]"
+              className="absolute bottom-0 left-0 right-0 h-[300px] bg-gradient-to-t from-white to-transparent z-50
+                          [@media(min-width:1024px)_and_(max-width:1366px)]:h-[300px]"
             />
           </div>
         </div>
@@ -135,7 +134,7 @@ export default function About() {
     
 
       {/* Features Section */}
-      <div className="relative z-10 bg-white">
+      <div className="relative z-10 lg:mt-[-40px] bg-white">
         <section className="relative z-50 bg-white py-8 md:py-16">
           <div className="max-w-full px-4 md:max-w-[1200px] lg:max-w-[1600px] mx-auto">
             <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-4 lg:space-x-8">

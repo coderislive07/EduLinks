@@ -51,7 +51,7 @@ export default function Navbar() {
   return (
       <nav className="w-full bg-white shadow-md z-50  relative top-0 h-[55px]">
         <div className="lg:max-w-[1600px] mx-auto sm:px-4 lg:px-2">
-          <div className="flex justify-between  lg:pl-12  xl:pl-28 xl:pr-24 items-center h-16">
+          <div className="flex justify-between  lg:pl-12  xl:pl-22 xl:pr-24 items-center h-16">
             <div className="flex items-center">
               <div className="lg:hidden">
                 <button
