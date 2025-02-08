@@ -116,7 +116,7 @@ export default function Australia() {
   
 
   const destinationData = {
-    country: "AUSTRALIA",
+    country: "Australia",
     images: [
       {
         url: hero1,  // Replace with actual image variable or URL

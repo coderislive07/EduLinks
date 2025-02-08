@@ -70,7 +70,7 @@ function NewZealand4() {
       ];
       
       const educationData = {
-        country: "NEW ZEALAND",
+        country: "New Zealand",
         costs: [
           {
             type: "Tuition Fees for one-year (Indicative)*",

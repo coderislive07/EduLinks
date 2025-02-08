@@ -14,7 +14,7 @@ const AdvantagesSection = ({ heading, Image, advantages }) => {
                         <img src={Image || "/placeholder.svg"} alt="Student advantages" className="object-cover w-full h-full" />
                     </div>
                 </div>
-                <div className="space-y-6 md:space-y-10 sm:space-y-8 font-roboto lg:text-[24px] sm:text-lg md:text-[24px]">
+                <div className="space-y-6 md:space-y-10 sm:space-y-8 font-roboto lg:text-[24px] sm:text-lg md:text-[24px] lg:pr-44">
                     {advantages.map((advantage, index) => (
                         <AdvantageItem
                             key={index}

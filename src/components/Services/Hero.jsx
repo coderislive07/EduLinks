@@ -20,13 +20,13 @@ export default function HeroSection({ Image , Text1 , Text2 , Text3 , variable, 
   ]
 
   return (
-    <div className="container mx-auto max-w-7xl px-4 pb-12 min-h-screen flex items-center justify-center ">
-      <div className="flex flex-col-reverse lg:flex-row  md:gap-20 items-center">
+    <div className="container mx-auto max-w-7xl px-4   flex items-center justify-center ">
+      <div className="flex flex-col-reverse lg:flex-row  items-center">
         {/* Left Column */}
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl  leading-tight ">
             <span className="block">{Text1}</span>
-            <p className={` border-4 border-[#00E5FF] px-2 ${variable ? 'flex w-96 justify-center ' : 'inline-block'}`} >{Text2} </p><span className="border-none">{Text4}</span>
+            <p className={`  ${variable ? 'flex w-96 justify-center ' : 'inline-block'}`} >{Text2} </p><span className="border-none">{Text4}</span>
             <span className="block">{Text3}</span>
           </h1>
 
