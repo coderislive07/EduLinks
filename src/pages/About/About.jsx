@@ -14,8 +14,8 @@ export default function About() {
   return (
     <div className="overflow-x-hidden w-full">
       <section
-        className="relative min-h-screen bg-[#37d7d9] overflow-hidden
-                        [@media(min-width:1024px)_and_(max-width:1366px)]:min-h-[80vh]
+        className="relative min-h-[50vh] bg-[#37d7d9] overflow-hidden
+                        [@media(min-width:1100px)_and_(max-width:1366px)]:min-h-[90vh]
                         [@media(min-width:1280px)_and_(max-width:1366px)]:pt-[5vh]"
       >
         <div className="max-w-[1400px] mx-auto px-4">
@@ -26,7 +26,7 @@ export default function About() {
             {/* Text Content */}
             <div
               className="text-white max-w-[800px] lg:left-20 relative space-y-6 pt-12
-                          md:max-w-[400px] md:pt-8 lg:max-w-[492px] xl:pt-20
+                          md:max-w-screen md:pt-8 lg:max-w-[492px] lg:pt-14
                           xl:max-w-[650px]
                           [@media(min-width:1024px)_and_(max-width:1366px)]:left-10
 
@@ -56,11 +56,13 @@ export default function About() {
             >
               {/* Stats Card */}
               <div
-                className="hidden lg:block absolute top-[50%] left-[1%] xl:top-[55%]  xl:left-[10%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-6 shadow-lg
+                className="hidden lg:block absolute top-[53%] left-[1%] xl:top-[45%]  xl:left-[13%] z-20 w-[190px] h-[90px] bg-white text-black rounded-xl p-3 shadow-lg
                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
 
                             [@media(min-width:1024px)_and_(max-width:1280px)]:p-3
+                             [@media(min-width:1200px)_and_(max-width:1280px)]:left-[13%]
+                             [@media(min-width:1100px)_and_(max-width:1200px)]:left-[8%]
 
 
 
@@ -69,7 +71,9 @@ export default function About() {
               >
                 <div
                   className="text-4xl font-roboto text-center justify-center align-middle
-                              [@media(min-width:1024px)_and_(max-width:1366px)]:text-3xl"
+                              [@media(min-width:1024px)_and_(max-width:1366px)]:text-3xl
+
+                              "
                 >
                   10K+<br/>
 
@@ -91,7 +95,7 @@ export default function About() {
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HMGHw7vM7w651wCPTpRq5eCiOnNsvh.png"
                     alt="Student with book"
-                    className="relative z-10 lg:w-[400px] md:w-[500px] xl:top-10 object-contain
+                    className="relative z-10 lg:w-[400px] md:w-[500px] lg:top-6 xl:top-10 object-contain
                              [@media(min-width:1280px)_and_(max-width:1600px)]:w-[450px]"
                   />
                 </div>
@@ -99,15 +103,15 @@ export default function About() {
 
               {/* Opportunities Card */}
               <div
-                className="hidden lg:block absolute right-[1%] top-[20%] xl:top-[30%] z-20 w-[214px] h-[102px] bg-white text-black rounded-xl p-4 shadow-lg
+                className="hidden lg:block absolute right-[1%] top-[20%] xl:top-[30%] z-20 w-[180px] h-[90px] bg-white text-black rounded-xl p-2 shadow-lg
                             [@media(min-width:1024px)_and_(max-width:1366px)]:w-[160px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:h-[80px]
                             [@media(min-width:1024px)_and_(max-width:1366px)]:p-2
                             [@media(min-width:1024px)_and_(max-width:1366px)]:top-[25%]"
               >
                 <p
-                  className="text-lg text-center font-roboto
-                           [@media(min-width:1024px)_and_(max-width:1366px)]:text-sm"
+                  className=" text-center font-roboto
+                           text-md"
                 >
                   Opportunities <br />
                   across leading <br />
