@@ -8,31 +8,37 @@ const services = [
     icon: Education_Logo,
     title: ["Study", " Visa"],
     description: "Edulinks offers comprehensive Study Visa services designed t...",
+    link:"/services/student-visa"
   },
   {
     icon: Person_Logo,
     title: ["Personalised", "Career Guidance"],
     description: "Edulinks offers comprehensive Personalized Career Guidanc...",
+     link:"/services/career-guidance"
   },
   {
     icon: Link_Logo,
     title: ["Edulinks", " AI Jackpot"],
     description: "Edulinks AI Assistant offers personalized support for stud...",
+     link:"/services/edulinkAi"
   },
   {
     icon: EduMoney_Logo,
     title: ["Scholarship", " Assessment"],
     description: "Edulinks offers comprehensive Scholarship Assessment servi...",
+     link:"/services/scholarship-assesment"
   },
   {
     icon: Money_Logo,
     title: ["Loan", " Guidance"],
     description: "Edulinks offers comprehensive Loan Guidance services desi...",
+     link:"/services/Loan-Guidance"
   },
   {
     icon: Aeroplane_Logo,
     title: ["Post Landing", " Services"],
     description: "Edulinks offers comprehensive Post-Landin...",
+     link:"/services/post-landing"
   },
 ]
 export default function ServiceGrid() {
@@ -78,7 +84,7 @@ export default function ServiceGrid() {
                     <h3 className="text-[24px] font-serif font-semibold mb-2">{service.title[1]}</h3>
                     <p className="text-gray-600 mb-4 text-base md:text-xl font-roboto1">{service.description}</p>
                     <Link
-                      to="#"
+                      to={service.link}
                       className="text-cyan-400 hover:text-cyan-500  text-sm font-medium inline-flex items-center justify-center mt-auto  w-[119px] h-[35px] font-roboto shadow-lg"
                     >
                       <div className="shadow-inner w-full h-full flex justify-center items-center">Read More
