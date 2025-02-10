@@ -73,7 +73,7 @@ export default function Navbar() {
                     onClick={() => navigate("/")}
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
                     alt="Edulinks Logo"
-                    className="h-10 w-auto cursor-pointer  [@media(min-width:0px)_and_(max-width:321px)]:pl-[8rem] [@media(min-width:321px)_and_(max-width:376px)]:pl-[11rem] [@media(min-width:376px)_and_(max-width:391px)]:pl-[12rem] [@media(min-width:391px)_and_(max-width:415px)]:pl-[14rem] [@media(min-width:415px)_and_(max-width:450px)]:pl-[14rem] sm:pl-[28rem] md:pl-[36rem] lg:pl-0"
+                    className="h-10 w-auto cursor-pointer  [@media(min-width:0px)_and_(max-width:321px)]:pl-[8rem] [@media(min-width:321px)_and_(max-width:376px)]:pl-[10rem] [@media(min-width:376px)_and_(max-width:391px)]:pl-[12rem] [@media(min-width:391px)_and_(max-width:415px)]:pl-[13rem] [@media(min-width:415px)_and_(max-width:450px)]:pl-[14rem] [@media(min-width:451px)_and_(max-width:600px)]:pl-[20rem] sm:pl-[28rem] md:pl-[36rem] lg:pl-0"
                 />
               </div>
             </div>
