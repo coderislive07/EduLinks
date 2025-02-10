@@ -114,7 +114,7 @@ function Uk5() {
       };
       
       const destinationData = {
-        country: "UNITED KINGDOM",
+        country: "UK",
         images: [
           {
             url: hero1,  // Add the appropriate URL for the image

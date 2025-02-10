@@ -11,7 +11,7 @@ export default function StudyInfo({ studyInfo }) {
                 {/* Left Column */}
                 <div>
                     <h2 className="text-3xl lg:text-[48px]  mb-6">{title}</h2>
-                    <p className="text-gray-700 leading-relaxed font-roboto1 lg:text-[24px] lg:w-[429px]  lg:text-justify">{description}</p>
+                    <p className="text-gray-700 leading-relaxed font-roboto1 lg:text-[24px]  ">{description}</p>
                 </div>
 
                 {/* Right Column */}

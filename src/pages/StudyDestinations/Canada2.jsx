@@ -114,7 +114,7 @@ function Canada2() {
       };
       
       const destinationData = {
-        country: "CANADA",
+        country: "Canada",
         images: [
           {
             url: hero1,  // Replace with actual image variable or URL

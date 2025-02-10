@@ -7,7 +7,7 @@ export default function Cost({ educationData }) {
         <div className="max-w-7xl mx-auto p-6 space-y-8">
             {/* Cost Table Section */}
             <div>
-                <h1 className="text-center text-3xl font-serif mb-6 lg:text-[48px]">Cost of Education in {country}</h1>
+                <h1 className="text-center text-3xl  mb-6 lg:text-[48px]">Cost of Education in {country}</h1>
                 <table className="w-full border-collapse">
                     <thead>
                         <tr className=''>
@@ -31,7 +31,7 @@ export default function Cost({ educationData }) {
             </div>
 
             {/* Careers Section */}
-            <div>
+            <div className='py-8'>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="md:col-span-1 space-y-4">
                         {careerInsights.images.map((image, index) => (

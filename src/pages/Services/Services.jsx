@@ -76,15 +76,17 @@ export default function ServiceGrid() {
                     <img src={service.icon || "/placeholder.svg"} alt="" className="w-[106px] h-[106px] mb-4" />
                     <h3 className="text-[24px] font-serif font-semibold">{service.title[0]}</h3>
                     <h3 className="text-[24px] font-serif font-semibold mb-2">{service.title[1]}</h3>
-                    <p className="text-gray-600 mb-4 text-base md:text-xl">{service.description}</p>
+                    <p className="text-gray-600 mb-4 text-base md:text-xl font-roboto1">{service.description}</p>
                     <Link
                       to="#"
-                      className="text-cyan-400 hover:text-cyan-500  text-sm font-medium inline-flex items-center justify-center mt-auto  w-[119px] h-[35px] shadow-inner"
+                      className="text-cyan-400 hover:text-cyan-500  text-sm font-medium inline-flex items-center justify-center mt-auto  w-[119px] h-[35px] font-roboto shadow-lg"
                     >
-                      Read More
+                      <div className="shadow-inner w-full h-full flex justify-center items-center">Read More
                       <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
+                      </div>
+                     
                     </Link>
                     
                   </CardContent>

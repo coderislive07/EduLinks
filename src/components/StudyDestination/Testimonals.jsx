@@ -41,7 +41,7 @@ export default function TestimonialSlider() {
   return (
     <div className="w-full bg-[#37D7D957] overflow-hidden py-8 sm:py-12 px-4 relative">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl lg:text-[48px] font-serif text-center mb-8 sm:mb-12">
+        <h2 className="text-3xl sm:text-4xl lg:text-[48px] text-center mb-8 sm:mb-12">
           Student Testimonials
         </h2>
 
@@ -65,7 +65,7 @@ export default function TestimonialSlider() {
                     key={idx}
                     className="w-full sm:w-[300px] md:w-[320px] lg:w-[350px] p-6 bg-white shadow-lg relative mb-6 sm:mb-0"
                   >
-                    <img src={Quote1 || "/placeholder.svg"} alt="" className="pb-4 w-8 h-8" />
+                    <img src={Quote1 || "/placeholder.svg"} alt="" className="pb-4 " />
                     <p className="text-gray-600 mb-6 line-clamp-6 text-sm lg:text-base font-roboto1">
                       {testimonials[testimonialIndex].content}
                     </p>
@@ -76,7 +76,7 @@ export default function TestimonialSlider() {
                     <img
                       src={Testimonals || "/placeholder.svg"}
                       alt=""
-                      className="absolute right-0 bottom-0 w-16 h-16"
+                      className="absolute right-0 bottom-0"
                     />
                   </Card>
                 )
@@ -105,7 +105,7 @@ export default function TestimonialSlider() {
         </div>
 
         <div className="text-center mt-8">
-          <Button variant="link" className="text-gray-600 font-medium" onClick={next}>
+          <Button variant="link" className="font-roboto1 font-bold md:text-[24px]" onClick={next}>
             See More <ChevronRight className="w-4 h-4 ml-1" />
           </Button>
         </div>

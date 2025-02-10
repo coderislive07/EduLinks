@@ -8,13 +8,13 @@ import Edulink2 from "../../assets/services/edulink2.svg"
 
 const PrincipalItem = ({ icon, title, description }) => {
     return (
-        <div className="flex items-center gap-4 mb-8 relative">
+        <div className="flex items-center gap-4 mb-8 relative ">
             <div className="flex-shrink-0 w-12 h-12 bg-[#21F0F0] rounded-full flex items-center justify-center">
                 <img src={icon} alt="" />
             </div>
             <div>
                 <h3 className="font-medium mb-1 font-roboto lg:text-[24px]">{title}</h3>
-                <p className="text-gray-600 text-sm leading-snug font-roboto1 lg:text-[24px]">{description}</p>
+                <p className="text-gray-600 text-sm leading-snug font-roboto1 lg:text-[24px] max-w-[27rem]">{description}</p>
             </div>
         </div>
     )
@@ -45,21 +45,14 @@ const StudentCentricPrincipals = () => {
     ]
 
     return (
-        <section className=" mx-auto  py-16">
+        <section className="mx-auto py-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-                {/* <div className="grid grid-cols-2 gap-4 bg-[#E3F9F9] p-8 rounded-[48px]">
-                    {[...Array(4)].map((_, i) => (
-                        <div key={i} className="relative aspect-square">
-                            <img src="/placeholder.svg" alt={`Student ${i + 1}`} fill className="object-cover rounded-3xl" />
-                        </div>
-                    ))}
-                </div> */}
                 <img src={Pricipals} alt="" />
                 <img src={Edulink2} alt="" className="absolute right-0" />
-
-
                 <div>
-                    <h2 className="text-3xl md:text-4xl lg:text-[48px] leading-loose font-medium mb-8">4 Edulinks Principals For Student Centric Approach</h2>
+                    <h2 className="text-3xl md:text-[2.25rem]  lg:text-[48px] leading-snug font-medium mb-8">
+                        4 Edulinks Principals For Student Centric Approach
+                    </h2>
                     {principals.map((principal, index) => (
                         <PrincipalItem
                             key={index}

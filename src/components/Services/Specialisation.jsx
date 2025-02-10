@@ -12,7 +12,7 @@ const StudyVisaSection = ({Heading , Paragraph, num}) => {
   ]
 
   return (
-    <div className="relative container p-8 max-w-7xl">
+    <div className="relative container  max-w-7xl">
       <div className="flex flex-col md:flex-row gap-8  mx-auto">
         {/* Sidebar Menu */}
         <div className="w-full md:w-[320px] bg-[#37D7D9] md:h-[27rem] md:mt-7 lg:h-auto rounded-[32px] p-6 space-y-4">

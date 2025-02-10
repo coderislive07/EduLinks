@@ -80,7 +80,7 @@ function Geramany6() {
 
 
   const educationData = {
-    country: "GERMANY",
+    country: "Germany",
     costs: [
       {
         type: "Tuition Fees for one-year (Indicative)*",
