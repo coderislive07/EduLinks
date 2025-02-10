@@ -49,8 +49,8 @@ export default function Navbar() {
   }
 
   return (
-      <nav className="w-full bg-white shadow-md z-50  relative top-0 h-[55px]">
-        <div className="lg:max-w-[1500px] xl:max-w-[1170px] xl:pl-[4.5rem] 2xl:max-w-[1240px] 2xl:pl-0 mx-auto sm:px-4 lg:px-2 ">
+      <nav className="w-full bg-white shadow-md z-50  relative top-0 h-[65px]">
+        <div className="lg:max-w-[1500px] [@media(min-width:1024px)_and_(max-width:1294px)]:xl:max-w-[1160px] [@media(min-width:1295px)_and_(max-width:1300px)]:xl:max-w-[1160px] [@media(min-width:1301px)_and_(max-width:1350px)]:xl:max-w-[1200px] [@media(min-width:1351px)_and_(max-width:1496px)]:xl:max-w-[1360px]  xl:pl-[4.5rem] 2xl:max-w-[1240px] 2xl:pl-0 mx-auto sm:px-4 lg:px-2 ">
           <div className="flex justify-between  lg:pl-12 xl:pl-0   items-center h-16">
             <div className="flex items-center">
               <div className="lg:hidden ">
@@ -80,7 +80,7 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
       
-            <div className="hidden lg:flex items-center justify-center relative  lg:w-[120vw] xl:w-[490rem] 2xl:w-[75vw] lg:ml-[2rem] xl:ml-[10rem] 2xl:mr-[4rem] lg:space-x-4">
+            <div className="hidden lg:flex items-center justify-center relative  lg:w-[120vw] xl:w-[490rem] 2xl:w-[695rem] lg:ml-[3rem] xl:ml-[10rem] 2xl:mr-[8rem] lg:space-x-4">
               <div
                   onClick={() => handleLinkClick("/", "home")}
                   className="text-gray-800 cursor-pointer font-[700] font-roboto text-base [@media(min-width:1024px)_and_(max-width:1125px)]:text-[14px]   xl:text-[16px] hover:text-[#37d7d9] transition-colors"
