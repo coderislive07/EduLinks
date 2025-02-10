@@ -130,6 +130,7 @@ import UniversityofNz from "./pages/Top Universities/newzealand/UniversityOfNz";
 import UniversityOfUk from "../src/pages/Top Universities/UK/UniversityOfUK";
 import UniversityOfUsa from "../src/pages/Top Universities/Usa/UniversityOfUsa";
 import CareersNewZealand from './pages/Careers1/New Zealand/src/CareersNewZealand';
+import StudyDestinations from './pages/Countries/Countries';
 function App() {
   return (
     <Router>
@@ -145,6 +146,7 @@ function App() {
         <Route path="/canada-career" element={<Careerscanada />} />
         <Route path="/germany-career" element={<Careersgermany />} />
         <Route path="/newzealand-career" element={<CareersNewZealand />} />
+        <Route path="/study-destinations" element={<StudyDestinations/>}/>
     
         <Route path="/uk-career" element={<Careersuk />} />
         <Route path="/usa-career" element={<Careersusa />} />
