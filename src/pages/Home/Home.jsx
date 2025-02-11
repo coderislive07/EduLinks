@@ -186,11 +186,11 @@ export default function Home() {
               src={bighook || "/placeholder.svg"}
               alt="Big Hook"
             />
-            <h2 className="text-center pl-[6  vw] xl:text-left xl:pl-[16vw] leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
+            <h2 className="text-center pl-[6vw] xl:text-left xl:pl-[7vw] 2xl:pl-[16vw] leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
               <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] text-black font-adramalech font-[400] block mb-2 sm:mb-3 md:mb-4">
                 Edulinks technology based platform
               </span>
-              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] xl:ml-[-5vw] text-[#37d7d9] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
+              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[46px] 2xl:text-[48px] xl:ml-[-4vw] 2xl:ml-[-5vw] text-[#37d7d9] font-[400] font-adramalech pr-0 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-[4vw]">
                 makes it easier for you to study abroad
               </span>
             </h2>
@@ -200,10 +200,10 @@ export default function Home() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/personstudy-YOtdi9pho7WWkDhNb10ZROpTRAqpiq.png"
                 alt="Technology Platform"
-                className="w-full max-w-[400px] sm:max-w-[550px]  md:mx-10  md:max-w-[1200px] lg:max-w-[450px] xl:max-w-[600px]  h-auto mx-5"
+                className="w-full max-w-[400px] ml-[5vw] [@media(min-width:500px)_and_(max-width:541px)]:ml-[18vw] sm:ml-0 sm:max-w-[550px]  md:mx-10  md:max-w-[1200px] lg:max-w-[450px] xl:max-w-[600px]  h-auto mx-5"
               />
             </div>
-            <div className="space-y-4 text-right text-gray-600 mx-5 md:mx-12 lg:mx-0 xl:pr-24">
+            <div className="space-y-4 text-right text-gray-600 mx-5 w-[88vw] sm:w-full md:mx-16 lg:mx-0   md:pr-[33px] lg:pr-[28px] xl:pr-[34px] 2xl:pr-24">
               {[
                 "Search Near Perfect, 'eligible' courses",
                 "'One' application, 'multiple' courses & universities",
@@ -215,7 +215,7 @@ export default function Home() {
                       key={index}
                       className="flex justify-end items-center gap-3 lg:mr-[3vw] xl:mr-0"
                   >
-                    <p className="font-roboto1 text-black text-sm sm:text-lg md:text-xl lg:pb-3 xl:pb-2 lg:text-[24px] xl:text-[24px]">
+                    <p className="font-roboto1 text-black text-sm sm:text-md md:text-[22px] lg:pb-3 xl:pb-2  lg:text-[18px] xl:text-[22px]  2xl:text-[24px]">
                       {text}
                     </p>
                     <img
@@ -225,7 +225,6 @@ export default function Home() {
                     />
                   </div>
               ))}
-
               {/* Fixed Button Alignment */}
               <div className="flex justify-end lg:mr-[3vw] xl:mr-0 gap-3">
                 <button className="text-[#37d7d9] flex items-center gap-2 text-base sm:text-lg md:text-xl lg:text-[22px] xl:text-[20px] font-[400] font-roboto hover:underline">
@@ -234,9 +233,6 @@ export default function Home() {
                 </button>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </section>
