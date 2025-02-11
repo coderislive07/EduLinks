@@ -23,43 +23,43 @@ import hero2 from "@/assets/studyDestination/hero6.2.svg"
 function Geramany6() {
     const universities = [ 
         {
-          name: "Technische Universität München",
+          name: "Technische Universitat Munchen",
           logoUrl: one,
         },
-        {
-          name: "Ruprecht-Karls-Universität Heidelberg",
+        { 
+          name: "Ruprecht-Karls-Universitat Heidelberg",
           logoUrl: two,
         },
         {
-          name: "Freie Universität Berlin",
+          name: "Freie Universitat Berlin",
           logoUrl: three,
         },
         {
-          name: "Universität Tübingen",
+          name: "Universitat Tubingen",
           logoUrl: four,
         },
         {
-          name: "Universität Göttingen",
+          name: "Universitat Gottingen",
           logoUrl: five,
         },
         {
-          name: "Ludwig-Maximilians-Universität München",
+          name: "Ludwig-Maximilians-Universitat Munchen",
           logoUrl: six,
         },
         {
-          name: "Humboldt-Universität zu Berlin",
+          name: "Humboldt-Universitat zu Berlin",
           logoUrl: seven,
         },
         {
-          name: "Universität Freiburg",
+          name: "Universitat Freiburg",
           logoUrl: eight,
         },
         {
-          name: "Universität Hamburg",
+          name: "Universitat Hamburg",
           logoUrl: nine,
         },
         {
-          name: "Universität Mannheim",
+          name: "Universitat Mannheim",
           logoUrl: ten,
         },
       ];

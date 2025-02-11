@@ -505,7 +505,7 @@ const data = {
       ],
     },
   },
- "universtat-tubingen": {
+ "universitat-tubingen": {
     country: "Germany",
     university: "Universität Tübingen",
     heroImg: UniversitatTubingen,
@@ -584,7 +584,7 @@ const data = {
       ],
     },
   },
-  "rheinische-friedrich-wilhelms-universtat-bonn": {
+  "rheinische-friedrich-wilhelms-universitat-bonn": {
     country: "Germany",
     university: "Rheinische Friedrich-Wilhelms-Universität Bonn",
     heroImg: RheinischeFriedrichWilhelmsUniversitatBonn,
@@ -663,7 +663,7 @@ const data = {
       ],
     },
   },
-  "universtat-hamburg": {
+  "universitat-hamburg": {
     country: "Germany",
     university: "Universität Hamburg",
     heroImg: UniversitatHamburg,
@@ -742,7 +742,7 @@ const data = {
       ],
     },
   },
-  "universtat-gottingen": {
+  "universitat-gottingen": {
     country: "Germany",
     university: "Universität Göttingen",
     heroImg: UniversitatGottingen,
@@ -821,7 +821,7 @@ const data = {
       ],
     },
   },
-  "universtat-mannheim": {
+  "universitat-mannheim": {
     country: "Germany",
     university: "Universität Mannheim",
     heroImg: UniversitatMannheim,
@@ -1374,7 +1374,7 @@ const data = {
       ],
     },
   },
-  "universtat-konstanz": {
+  "universitat-konstanz": {
     country: "Germany",
     university: "Universität Konstanz",
     heroImg: UniversitatKonstanz,
@@ -1532,7 +1532,7 @@ const data = {
       ],
     },
   },
-  "technische-universtat-dresden": {
+  "technische-universitat-dresden": {
     country: "Germany",
     university: "Universität Dresden",
     heroImg:  UniversitatDresden,

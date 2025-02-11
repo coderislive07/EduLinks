@@ -17,7 +17,7 @@ export default function Home() {
           style={{
             backgroundImage: `url(${universitybg})`,
           }}
-          className="relative min-h-screen pt-20 pb-32 bg-center bg-cover
+          className="relative min-h-screen pt-20 pb-28 bg-center bg-cover
                      lg:min-h-[800px] xl:h-[2vh]"
         >
           <div className="max-w-[1400px] mx-auto px-4 xl:px-18 lg:px-16 xl:ml-20">
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
       {/* Stats Section */}
-      <section className="py-20 bg-white relative z-20">
+      <section className="py-20 bg-white relative lg:mt-[-45px] xl:mt-[-50px] z-20">
         <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
           <h2 className="text-center mb-12">
             <span className="text-3xl sm:text-4xl lg:text-5xl xl:text-[48px] font-adramalech font-medium text-gray-800">
@@ -217,7 +217,7 @@ export default function Home() {
                 </div>
               ))}
               <div>
-                <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[20vw]">
+                <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[22.5vw]">
                   EduLinks AI Assistant
                   <img className="mt-2 ml-3 h-[12px] w-[12px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
                 </button>

@@ -22,26 +22,26 @@ import laTrobeUni from "../../../assets/top universities/USA/10019.png";
 import tasmaniaUni from "../../../assets/top universities/USA/10020.png";
 import backgroundimg from "../../../assets/Ellipse-10.png"
 const universities = [
-  { name: "Harvard University", image: anUniversity, link: "/usa-top-university/harvard-university" },
-  { name: "Stanford University", image: melbourneUni, link: "/usa-top-university/stanford-university" },
-  { name: "Massachusetts Institute of Technology", image: sydneyUni, link: "/usa-top-university/massachusetts-institute-of-technology" },
-  { name: "California Institute of Technology", image: queenslandUni, link: "/usa-top-university/california-institute-of-technology" },
-  { name: "University of Chicago", image: nswUni, link: "/usa-top-university/university-of-chicago" },
-  { name: "Princeton University", image: monashUni, link: "/usa-top-university/princeton-university" },
-  { name: "Columbia University", image: westernAusUni, link: "/usa-top-university/columbia-university" },
-  { name: "University of Pennsylvania", image: adelaideUni, link: "/usa-top-university/university-of-pennsylvania" },
-  { name: "Yale University", image: utsUni, link: "/usa-top-university/yale-university" },
-  { name: "University of California, Berkeley", image: canberraUni, link: "/usa-top-university/university-of-california-berkeley" },
-  { name: "University of California, Los Angeles", image: macquarieUni, link: "/usa-top-university/university-of-california-los-angeles" },
-  { name: "University of Michigan, Ann Arbor", image: qutUni, link: "/usa-top-university/university-of-michigan-ann-arbor" },
-  { name: "Johns Hopkins University", image: rmitUni, link: "/usa-top-university/johns-hopkins-university" },
-  { name: "Northwestern University", image: wollongongUni, link: "/usa-top-university/northwestern-university" },
-  { name: "Duke University", image: curtinUni, link: "/usa-top-university/duke-university" },
-  { name: "Cornell University", image: deakinUni, link: "/usa-top-university/cornell-university" },
-  { name: "New York University", image: newcastleUni, link: "/usa-top-university/new-york-university" },
-  { name: "University of Southern California", image: griffithUni, link: "/usa-top-university/university-of-southern-california" },
-  { name: "Carnegie Mellon University", image: laTrobeUni, link: "/usa-top-university/carnegie-mellon-university" },
-  { name: "University of Washington, Seattle", image: tasmaniaUni, link: "/usa-top-university/university-of-washington-seattle" }
+  { name: "Harvard University", image: anUniversity, link: "/usa-topuniversity/harvard-university" },
+  { name: "Stanford University", image: melbourneUni, link: "/usa-topuniversity/stanford-university" },
+  { name: "Massachusetts Institute of Technology", image: sydneyUni, link: "/usa-topuniversity/massachusetts-institute-of-technology" },
+  { name: "California Institute of Technology", image: queenslandUni, link: "/usa-topuniversity/california-institute-of-technology" },
+  { name: "University of Chicago", image: nswUni, link: "/usa-topuniversity/university-of-chicago" },
+  { name: "Princeton University", image: monashUni, link: "/usa-topuniversity/princeton-university" },
+  { name: "Columbia University", image: westernAusUni, link: "/usa-topuniversity/columbia-university" },
+  { name: "University of Pennsylvania", image: adelaideUni, link: "/usa-topuniversity/university-of-pennsylvania" },
+  { name: "Yale University", image: utsUni, link: "/usa-topuniversity/yale-university" },
+  { name: "University of California, Berkeley", image: canberraUni, link: "/usa-topuniversity/university-of-california-berkeley" },
+  { name: "University of California, Los Angeles", image: macquarieUni, link: "/usa-topuniversity/university-of-california-los-angeles" },
+  { name: "University of Michigan, Ann Arbor", image: qutUni, link: "/usa-topuniversity/university-of-michigan-ann-arbor" },
+  { name: "Johns Hopkins University", image: rmitUni, link: "/usa-topuniversity/johns-hopkins-university" },
+  { name: "Northwestern University", image: wollongongUni, link: "/usa-topuniversity/northwestern-university" },
+  { name: "Duke University", image: curtinUni, link: "/usa-topuniversity/duke-university" },
+  { name: "Cornell University", image: deakinUni, link: "/usa-topuniversity/cornell-university" },
+  { name: "New York University", image: newcastleUni, link: "/usa-topuniversity/new-york-university" },
+  { name: "University of Southern California", image: griffithUni, link: "/usa-topuniversity/university-of-southern-california" },
+  { name: "Carnegie Mellon University", image: laTrobeUni, link: "/usa-topuniversity/carnegie-mellon-university" },
+  { name: "University of Washington, Seattle", image: tasmaniaUni, link: "/usa-topuniversity/university-of-washington-seattle" }
 ]
 export default function USA() {
   return (

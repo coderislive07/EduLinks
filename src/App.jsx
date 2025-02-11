@@ -157,11 +157,11 @@ function App() {
         <Route path="/germany-topuniversity" element={<Germany />} />
         <Route path="/germany-topuniversity/:id" element={<Universityofgermany />} />
         <Route path="/nz-topuniversity" element={<Nz />} />
-        <Route path="/nz-topuniversity/:id" element={<UniversityofNz />} />
+        <Route path="/newzealand-topuniversity/:id" element={<UniversityofNz />} />
         <Route path="/uk-topuniversity" element={<Uk />} />
         <Route path="/uk-topuniversity/:id" element={<UniversityOfUk />} />
         <Route path="/usa-topuniversity" element={<Usa />} />
-        <Route path="/usa-top-university/:id" element={<UniversityOfUsa />} />
+        <Route path="/usa-topuniversity/:id" element={<UniversityOfUsa />} />
         <Route path="/carr-engineering" element={<CarrEngi />} />
         <Route path="/australia-engineering-technology" element={<Ausengandtech />} />
 

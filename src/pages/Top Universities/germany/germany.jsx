@@ -57,27 +57,27 @@ const universities =[
   { 
     name: "Universität Tübingen", 
     image: westernAusUni,
-    link: "/germany-topuniversity/universtat-tubingen",
+    link: "/germany-topuniversity/universitat-tubingen",
   },
   { 
     name: "Rheinische Friedrich-Wilhelms-Universität Bonn", 
     image: adelaideUni,
-    link: "/germany-topuniversity/rheinische-friedrich-wilhelms-universtat-bonn",
+    link: "/germany-topuniversity/rheinische-friedrich-wilhelms-universitat-bonn",
   },
   { 
     name: "Universität Hamburg", 
     image: utsUni,
-    link: "/germany-topuniversity/universtat-hamburg",
+    link: "/germany-topuniversity/universitat-hamburg",
   },
   { 
     name: "Universität Göttingen", 
     image: canberraUni,
-    link: "/germany-topuniversity/universtat-gottingen",
+    link: "/germany-topuniversity/universitat-gottingen",
   },
   { 
     name: "Universität Mannheim", 
     image: macquarieUni,
-    link: "/germany-topuniversity/universtat-mannheim",
+    link: "/germany-topuniversity/universitat-mannheim",
   },
   { 
     name: "RWTH Aachen University", 
@@ -112,7 +112,7 @@ const universities =[
   { 
     name: "Universität Konstanz", 
     image: griffithUni,
-    link: "/germany-topuniversity/universtat-konstanz",
+    link: "/germany-topuniversity/universitat-konstanz",
   },
   { 
     name: "Universität Karlsruhe", 
@@ -122,7 +122,7 @@ const universities =[
   { 
     name: "Technische Universität Dresden", 
     image: tasmaniaUni,
-    link: "/germany-topuniversity/technische-universtat-dresden",
+    link: "/germany-topuniversity/technische-universitat-dresden",
   },
 ]
 export default function Germany() {

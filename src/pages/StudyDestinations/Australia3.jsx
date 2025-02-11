@@ -26,42 +26,52 @@ export default function Australia() {
     {
       name: "Australian National University",
       logoUrl: one,
+      link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "University of Sydney",
       logoUrl: two,
+      link:"/australia-topuniversity/university-of-sydney"
     },
     {
       name: "University of New South Wales",
       logoUrl: three,
+      link:"/australia-topuniversity/university-of-new-south-wales"
     },
     {
       name: "University of Western Australia",
       logoUrl: four,
+      link:"/australia-topuniversity/university-of-western-australia"
     },
     {
       name: "University of Technology Sydney",
       logoUrl: five,
+            link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "University of Melbourne",
       logoUrl: six,
+            link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "University of Queensland",
       logoUrl: seven,
+            link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "Monash University",
       logoUrl: eight,
+            link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "University of Adelaide",
       logoUrl: nine,
+            link:"/australia-topuniversity/australian-national-university"
     },
     {
       name: "University of Canberra",
       logoUrl: ten,
+            link:"/australia-topuniversity/australian-national-university"
     },
   ];
 
