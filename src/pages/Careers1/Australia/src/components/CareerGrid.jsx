@@ -39,43 +39,43 @@ function CareerGrid() {
     },
     {
       title: "Business & Economics",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/image-3-1.png",
-      href: "/australia-business-economics"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9owq2LJkezZynDLXoOeflBqGTxkatU.png",
+      href: "/australia-business-economics",
     },
     {
       title: "Education",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-2.png",
-      href: "/australia-education"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-dz0MLhDSHABXGpvVKL5BtBpipNkiYi.png",
+      href: "/australia-education",
     },
     {
       title: "Psychology and Neuroscience",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-3.png",
-      href:"/australia-psychology-neuroscience"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FdgkN9HjT6HHHPKhIjtoFRrAdpODdT.png",
+      href: "/australia-psychology-neuroscience",
     },
     {
       title: "Marketing",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/image-4.png",
-      href: "/australia-marketing"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TaqvVMXwZGkUVRjCHrRmh0iwPrrUwd.png",
+      href: "/australia-marketing",
     },
     {
       title: "Data Science",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-3.png",
-      href: "/australia-data-science"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hx6yjMkxmTcGVpYclaTItxEY8Yj6LJ.png",
+      href: "/australia-data-science",
     },
     {
       title: "Artificial Intelligence",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-496-4.png",
-      href: "/australia-artificial-intelligence"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mV4Sl6QR1sJ0cjcg90yEu4sp7d6eal.png",
+      href: "/australia-artificial-intelligence",
     },
     {
       title: "Graphic Design and Media",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/image-5-1.png",
-      href:"/australia-graphic-design-media"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VnfE22M3AIVGRzRKF8b8EoNsOppub0.png",
+      href: "/australia-graphic-design-media",
     },
     {
       title: "Law and Policy",
-      image: "https://edulinks.io/wp-content/uploads/2024/10/Rectangle-580-4.png",
-      href: "/australia-law-policy"
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ckZUmPuuSRWqoHsAf5AO6geOhFy3sZ.png",
+      href: "/australia-law-policy",
     },
   ]
   return (
