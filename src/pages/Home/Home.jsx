@@ -195,15 +195,15 @@ export default function Home() {
               </span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10  md:gap-12 lg:gap-14 xl:pl-14  items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10   md:gap-12 lg:gap-14 xl:pl-14  items-center">
             <div>
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/personstudy-YOtdi9pho7WWkDhNb10ZROpTRAqpiq.png"
                 alt="Technology Platform"
-                className="w-full max-w-[400px] sm:max-w-[550px]  md:mx-10  md:max-w-[1200px] lg:max-w-[370px] xl:max-w-[558px]  h-auto mx-5"
+                className="w-full max-w-[400px] sm:max-w-[550px]  md:mx-10  md:max-w-[1200px] lg:max-w-[450px] xl:max-w-[600px]  h-auto mx-5"
               />
             </div>
-            <div className="space-y-4 text-gray-600 mx-5 md:mx-12 lg:mx-0 xl:pr-24">
+            <div className="space-y-4 text-right text-gray-600 mx-5 md:mx-12 lg:mx-0 xl:pr-24">
               {[
                 "Search Near Perfect, 'eligible' courses",
                 "'One' application, 'multiple' courses & universities",
@@ -211,18 +211,32 @@ export default function Home() {
                 "Submit & manage unlimited applications",
                 "Enhance revenues through ancillary services",
               ].map((text, index) => (
-                <div key={index} className="flex lg:justify-end lg:mr-[4vw]  xl:mr-0 xl:justify-end gap-3 items-center">
-                  <p className="font-roboto1 text-black text-sm sm:text-lg md:text-xl lg:pb-3 xl:pb-2 lg:text-[28px]  xl:text-[24px]">{text}</p>
-                  <img className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" src={tick || "/placeholder.svg"} alt="Tick" />
-                </div>
+                  <div
+                      key={index}
+                      className="flex justify-end items-center gap-3 lg:mr-[3vw] xl:mr-0"
+                  >
+                    <p className="font-roboto1 text-black text-sm sm:text-lg md:text-xl lg:pb-3 xl:pb-2 lg:text-[24px] xl:text-[24px]">
+                      {text}
+                    </p>
+                    <img
+                        className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0"
+                        src={tick || "/placeholder.svg"}
+                        alt="Tick"
+                    />
+                  </div>
               ))}
-              <div>
-                <button className="text-[#37d7d9] flex  text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[22px] font-[400] font-roboto hover:underline xl:pl-[22.5vw]">
+
+              {/* Fixed Button Alignment */}
+              <div className="flex justify-end lg:mr-[3vw] xl:mr-0 gap-3">
+                <button className="text-[#37d7d9] flex items-center gap-2 text-base sm:text-lg md:text-xl lg:text-[22px] xl:text-[20px] font-[400] font-roboto hover:underline">
                   EduLinks AI Assistant
-                  <img className="mt-2 ml-3 h-[12px] w-[12px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
+                  <img className="h-[14px] w-[14px]" src={rarrow || "/placeholder.svg"} alt="Right Arrow" />
                 </button>
               </div>
             </div>
+
+
+
           </div>
         </div>
       </section>
