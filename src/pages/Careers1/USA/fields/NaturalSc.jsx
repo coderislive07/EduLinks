@@ -306,7 +306,7 @@ export default function Healthsc() {
           Average Salary in Natural Sciences
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Natural science professionals in USA earn competitive salaries. Astrophysicists typically earn around US $90,000 annually, while marine biologists make approximately US $75,000. Geochemists can expect salaries of about AUD $85,000, and quantum computing researchers often earn upwards of AUD $100,000, depending on their experience and specialization.
+          Natural science professionals in USA earn competitive salaries. Astrophysicists typically earn around US $90,000 annually, while marine biologists make approximately US $75,000. Geochemists can expect salaries of about USD $85,000, and quantum computing researchers often earn upwards of USD $100,000, depending on their experience and specialization.
           </p>
         </div>
       </div>

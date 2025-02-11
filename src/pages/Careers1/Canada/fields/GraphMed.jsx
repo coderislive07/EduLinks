@@ -39,7 +39,7 @@ const courses = [
       name: "University of British Columbia",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0iamN6D047ov3hWOksiMId0BXhBvP7.png",
       description:
-        "UBC's Sauder School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
+        "UBC's SCADer School of Business is recognized globally for its innovative approach to business education. With strong ties to the Pacific Rim economies, it offers students exceptional insights into international business and economics.",
     },
     {
       name: "McGill University",
@@ -318,7 +318,7 @@ Canada’s graphic design and media industry is vibrant, with opportunities span
           Average Salary in Graphic Design and Media
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for Graphic Design and Media professionals in Canada are competitive. Scientific Illustrators typically earn around AUD $80,000 annually, while Technical Writers make approximately AUD $85,000. UX/UI Designers can expect to earn around AUD $95,000, depending on their level of expertise and experience.
+          Salaries for Graphic Design and Media professionals in Canada are competitive. Scientific Illustrators typically earn around CAD $80,000 annually, while Technical Writers make approximately CAD $85,000. UX/UI Designers can expect to earn around CAD $95,000, depending on their level of expertise and experience.
           </p>
         </div>
       </div>

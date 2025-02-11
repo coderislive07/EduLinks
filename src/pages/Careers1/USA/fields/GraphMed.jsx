@@ -15,7 +15,7 @@ const courses = [
       title: "Technical Writer",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EfeCFNdo881JoeqPxjUbChTXFl5cwS.png",
       description:
-        "Technical Writers in USA specialize in creating clear and user-friendly documentation for industries such as software, engineering, and healthcare. They play a critical role in producing product manuals, instructional guides, and online help systems, ensuring that technical content is easily understood by a broad audience.",
+        "Technical Writers in USA specialize in creating clear and user-friendly documentation for industries such as software, engineering, and healthcare. They play a critical role in producing product manuals, instructional guides, and online help systems, ensuring that technical content is easily understood by a broad USDience.",
     },
     {
       title: "UX/UI Designer",
@@ -316,7 +316,7 @@ USA’s graphic design and media industry is vibrant, with opportunities spannin
           Average Salary in Graphic Design and Media
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for Graphic Design and Media professionals in USA are competitive. Scientific Illustrators typically earn around AUD $80,000 annually, while Technical Writers make approximately AUD $85,000. UX/UI Designers can expect to earn around AUD $95,000, depending on their level of expertise and experience.
+          Salaries for Graphic Design and Media professionals in USA are competitive. Scientific Illustrators typically earn around USD $80,000 annually, while Technical Writers make approximately USD $85,000. UX/UI Designers can expect to earn around USD $95,000, depending on their level of expertise and experience.
           </p>
         </div>
       </div>

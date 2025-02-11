@@ -9,7 +9,7 @@ const courses = [
       title: "Digital Marketing Specialist",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrllehjdLTAkorIXloJnUcoPw8f5Hj.png",
       description:
-        "Digital Marketing Specialists in New Zealand develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target audience in a highly competitive market.",
+        "Digital Marketing Specialists in New Zealand develop and implement online marketing strategies that include social media, email marketing, and paid digital advertising. They use data to optimize campaigns, increase brand awareness, and drive sales. Digital marketing specialists are essential in helping businesses connect with their target NZDience in a highly competitive market.",
     },
     {
       title: "Market Research Analyst",
@@ -319,7 +319,7 @@ export default function Psycho() {
           Average Salary in Marketing
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for marketing professionals in New Zealand vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
+          Salaries for marketing professionals in New Zealand vary depending on the role. Digital marketing specialists typically earn around NZD $80,000 annually, while market research analysts make approximately NZD $85,000. SEO/SEM specialists can expect to earn about NZD $75,000, depending on their experience and campaign complexity.
           </p>
         </div>
       </div>

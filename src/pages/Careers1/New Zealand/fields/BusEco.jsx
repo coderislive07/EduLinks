@@ -318,7 +318,7 @@ export default function BioTech() {
           Average Salary in Business & Economics
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Business & Economics professionals in New Zealand earn competitive salaries. Financial analysts typically earn around AUD $85,000 annually, while economic data analysts make approximately AUD $80,000. Supply chain managers can expect to earn about AUD $95,000, depending on experience and expertise.
+          Business & Economics professionals in New Zealand earn competitive salaries. Financial analysts typically earn around NZD $85,000 annually, while economic data analysts make approximately NZD $80,000. Supply chain managers can expect to earn about NZD $95,000, depending on experience and expertise.
           </p>
         </div>
       </div>

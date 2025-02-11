@@ -335,7 +335,7 @@ Engineering & Technology in USA is a diverse and innovative field that blends sc
             Average Salary in Engineering & Technology
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-            Engineers in USA enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
+            Engineers in USA enjoy competitive salaries. Software engineers typically earn around USD $95,000 annually, while biomedical engineers make approximately USD $85,000. Aerospace engineers can expect salaries around USD $110,000, and robotics engineers often earn over USD $100,000, depending on experience and specialization.
           </p>
         </div>
       </div>

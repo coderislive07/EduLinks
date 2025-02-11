@@ -312,8 +312,8 @@ export default function BioTech() {
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
           Biotechnology professionals in Canada earn competitive salaries. 
-          Genetic counselors typically earn around AUD $80,000 annually,
-           while pharmaceutical research technicians make approximately AUD $60,000. Bioinformatics specialists can expect salaries of about AUD $85,000, depending on their expertise and experience.
+          Genetic counselors typically earn around CAD $80,000 annually,
+           while pharmaceutical research technicians make approximately CAD $60,000. Bioinformatics specialists can expect salaries of about CAD $85,000, depending on their expertise and experience.
           </p>
         </div>
       </div>

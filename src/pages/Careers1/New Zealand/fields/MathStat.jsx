@@ -235,7 +235,7 @@ export default function MathematicsStatistics() {
           Average Salary in Mathematics and Statistics
         </h1>
         <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Mathematics and Statistics professionals in New Zealand earn competitive salaries. Cryptographers typically earn around AUD $95,000 annually, while Statistical Data Analysts make approximately AUD $85,000. Operations Research Analysts can expect salaries of about AUD $90,000, depending on their experience and expertise.
+          Mathematics and Statistics professionals in New Zealand earn competitive salaries. Cryptographers typically earn around NZD $95,000 annually, while Statistical Data Analysts make approximately NZD $85,000. Operations Research Analysts can expect salaries of about NZD $90,000, depending on their experience and expertise.
         </p>
       </div>
 

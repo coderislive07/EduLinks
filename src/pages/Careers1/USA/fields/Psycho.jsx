@@ -302,7 +302,7 @@ Top employers in USA include health care organizations like the Royal Melbourne 
           Average Salary in Psychology & Neuroscience
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for psychology and neuroscience professionals in USA vary by role. Industrial-organizational psychologists typically earn around US $95,000 annually, while neuropsychologists make approximately US $100,000. Research scientists in cognitive science can expect to earn about AUD $90,000, depending on their experience and research area.
+          Salaries for psychology and neuroscience professionals in USA vary by role. Industrial-organizational psychologists typically earn around US $95,000 annually, while neuropsychologists make approximately US $100,000. Research scientists in cognitive science can expect to earn about USD $90,000, depending on their experience and research area.
           </p>
         </div>
       </div>

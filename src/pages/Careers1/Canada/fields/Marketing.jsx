@@ -320,7 +320,7 @@ export default function Psycho() {
           Average Salary in Marketing
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for marketing professionals in Canada vary depending on the role. Digital marketing specialists typically earn around AUD $80,000 annually, while market research analysts make approximately AUD $85,000. SEO/SEM specialists can expect to earn about AUD $75,000, depending on their experience and campaign complexity.
+          Salaries for marketing professionals in Canada vary depending on the role. Digital marketing specialists typically earn around CAD $80,000 annually, while market research analysts make approximately CAD $85,000. SEO/SEM specialists can expect to earn about CAD $75,000, depending on their experience and campaign complexity.
           </p>
         </div>
       </div>

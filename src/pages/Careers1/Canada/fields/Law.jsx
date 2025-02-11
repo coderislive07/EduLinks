@@ -320,7 +320,7 @@ Canada’s commitment to environmental sustainability, healthcare reform, and in
           Average Salary in Law and Policy
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Law and Policy professionals in Canada earn competitive salaries. Environmental Law Specialists typically earn around AUD $90,000 annually, while Health Policy Advisors make approximately AUD $95,000. Intellectual Property Lawyers in tech or biotech can expect to earn around AUD $110,000, depending on experience and specialization.
+          Law and Policy professionals in Canada earn competitive salaries. Environmental Law Specialists typically earn around CAD $90,000 annually, while Health Policy Advisors make approximately CAD $95,000. Intellectual Property Lawyers in tech or biotech can expect to earn around CAD $110,000, depending on experience and specialization.
           </p>
         </div>
       </div>

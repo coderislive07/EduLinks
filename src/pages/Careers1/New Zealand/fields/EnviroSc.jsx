@@ -313,7 +313,7 @@ export default function EnviroSc() {
           Average Salary in Environmental Science
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Environmental science professionals in New Zealand earn competitive salaries. Wildlife conservationists typically earn around AUD $70,000 annually, while climate change analysts make approximately AUD $80,000. Renewable energy managers can expect salaries around AUD $90,000, depending on their specialization and experience.
+          Environmental science professionals in New Zealand earn competitive salaries. Wildlife conservationists typically earn around NZD $70,000 annually, while climate change analysts make approximately NZD $80,000. Renewable energy managers can expect salaries around NZD $90,000, depending on their specialization and experience.
           </p>
         </div>
       </div>

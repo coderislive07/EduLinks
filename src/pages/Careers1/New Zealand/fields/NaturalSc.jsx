@@ -318,7 +318,7 @@ export default function Healthsc() {
           Average Salary in Natural Sciences
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Natural science professionals in New Zealand earn competitive salaries. Astrophysicists typically earn around AUD $90,000 annually, while marine biologists make approximately AUD $75,000. Geochemists can expect salaries of about AUD $85,000, and quantum computing researchers often earn upwards of AUD $100,000, depending on their experience and specialization.
+          Natural science professionals in New Zealand earn competitive salaries. Astrophysicists typically earn around NZD $90,000 annually, while marine biologists make approximately NZD $75,000. Geochemists can expect salaries of about NZD $85,000, and quantum computing researchers often earn upwards of NZD $100,000, depending on their experience and specialization.
           </p>
         </div>
       </div>
