@@ -73,14 +73,14 @@ export default function Navbar() {
                     onClick={() => navigate("/")}
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-J0XEoKoJtnHEDYec9KjRYAq38rC3gj.png"
                     alt="Edulinks Logo"
-                    className="h-10 xl:h-14 w-auto cursor-pointer  [@media(min-width:0px)_and_(max-width:321px)]:pl-[8rem] [@media(min-width:321px)_and_(max-width:376px)]:pl-[9rem] [@media(min-width:376px)_and_(max-width:391px)]:pl-[12rem] [@media(min-width:391px)_and_(max-width:415px)]:pl-[13rem] [@media(min-width:415px)_and_(max-width:450px)]:pl-[14rem] [@media(min-width:451px)_and_(max-width:600px)]:pl-[16rem] sm:pl-[28rem] md:pl-[36rem] lg:pl-0"
+                    className="h-10 xl:h-12  2xl:h-14 w-auto cursor-pointer  [@media(min-width:0px)_and_(max-width:321px)]:pl-[8rem] [@media(min-width:321px)_and_(max-width:376px)]:pl-[9rem] [@media(min-width:376px)_and_(max-width:391px)]:pl-[12rem] [@media(min-width:391px)_and_(max-width:415px)]:pl-[13rem] [@media(min-width:415px)_and_(max-width:450px)]:pl-[14rem] [@media(min-width:451px)_and_(max-width:600px)]:pl-[16rem] sm:pl-[28rem] md:pl-[36rem] lg:pl-0"
                 />
               </div>
             </div>
 
             {/* Desktop Navigation */}
       
-            <div className="hidden lg:flex items-center justify-center relative  lg:w-[120vw] xl:w-[490rem] 2xl:w-[695rem] lg:ml-[3rem] xl:ml-[10rem] 2xl:mr-[4rem] lg:space-x-4">
+            <div className="hidden lg:flex items-center justify-center relative  lg:w-[120vw] xl:w-[550rem] 2xl:w-[695rem] lg:ml-[3rem] xl:ml-[10rem] 2xl:mr-[4rem] lg:space-x-4">
               <div
                   onClick={() => handleLinkClick("/", "home")}
                   className="text-gray-800 cursor-pointer font-[700] font-roboto text-base [@media(min-width:1024px)_and_(max-width:1125px)]:text-[14px]   xl:text-[16px] hover:text-[#37d7d9] transition-colors"
