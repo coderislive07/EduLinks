@@ -15,7 +15,7 @@ export default function About() {
     <div className="overflow-x-hidden w-full">
       <section
         className="relative min-h-screen md:pt-20 md:pb-32 bg-center bg-cover
-                     lg:min-h-[800px] xl:h-[2vh] bg-[#37d7d9]"
+                     lg:min-h-[730px] xl:h-[2vh] bg-[#37d7d9]"
       >
         <div className="max-w-[1400px] mx-auto px-4">
           <div
