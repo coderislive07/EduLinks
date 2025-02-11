@@ -315,7 +315,7 @@ export default function AusEngAndTech() {
           Average Salary in Data Science
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Salaries for data science professionals in USA are highly competitive. Data analysts typically earn around AUD $90,000 annually, while data engineers can make about AUD $110,000. Business intelligence analysts earn approximately AUD $95,000, depending on experience and industry.
+          Salaries for data science professionals in USA are highly competitive. Data analysts typically earn around USD $90,000 annually, while data engineers can make about USD $110,000. Business intelligence analysts earn approximately USD $95,000, depending on experience and industry.
           </p>
         </div>
       </div>

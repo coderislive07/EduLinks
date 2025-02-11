@@ -318,7 +318,7 @@ export default function Healthsc() {
           Average Salary in Natural Sciences
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Natural science professionals in Canada earn competitive salaries. Astrophysicists typically earn around AUD $90,000 annually, while marine biologists make approximately AUD $75,000. Geochemists can expect salaries of about AUD $85,000, and quantum computing researchers often earn upwards of AUD $100,000, depending on their experience and specialization.
+            Salaries in the Natural Sciences sector in Canada are competitive. Astrophysicists typically earn around CAD $80,000 annually, while marine biologists make approximately CAD $70,000. Geochemists can expect salaries of about CAD $75,000, and quantum computing researchers often earn upwards of CAD $90,000, depending on their experience and expertise.
           </p>
         </div>
       </div>

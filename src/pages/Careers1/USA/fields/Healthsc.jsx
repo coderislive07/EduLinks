@@ -317,7 +317,7 @@ export default function Healthsc() {
             Average Salary in Health 
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Health science professionals in USA enjoy competitive salaries. Medical researchers typically earn around US $85,000 annually, while public health administrators make approximately US $90,000. Clinical technologists can expect salaries near AUD $75,000, depending on experience and specialization.
+          Health science professionals in USA enjoy competitive salaries. Medical researchers typically earn around US $85,000 annually, while public health administrators make approximately US $90,000. Clinical technologists can expect salaries near USD $75,000, depending on experience and specialization.
           </p>
         </div>
       </div>

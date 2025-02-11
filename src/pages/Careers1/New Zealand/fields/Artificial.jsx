@@ -324,7 +324,7 @@ export default function Artificial() {
           Average Salary in Artificial Intelligence
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          AI professionals in New Zealand command competitive salaries. AI Research Scientists typically earn around AUD $130,000 annually, while NLP Engineers and AI Application Developers make approximately AUD $110,000, depending on their level of expertise and the complexity of their work.
+          AI professionals in New Zealand command competitive salaries. AI Research Scientists typically earn around NZD $130,000 annually, while NLP Engineers and AI Application Developers make approximately NZD $110,000, depending on their level of expertise and the complexity of their work.
           </p>
         </div>
       </div>

@@ -317,7 +317,7 @@ export default function Education() {
           Average Salary in Education
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Education professionals in USA earn competitive salaries. Science curriculum designers typically earn around AUD $75,000 annually, while educational consultants make approximately AUD $85,000. STEM program coordinators can expect to earn about AUD $70,000, depending on their experience and the size of the program they manage.
+          Education professionals in USA earn competitive salaries. Science curriculum designers typically earn around USD $75,000 annually, while educational consultants make approximately USD $85,000. STEM program coordinators can expect to earn about USD $70,000, depending on their experience and the size of the program they manage.
           </p>
         </div>
       </div>

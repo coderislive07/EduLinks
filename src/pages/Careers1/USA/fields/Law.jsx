@@ -320,7 +320,7 @@ USA’s commitment to environmental sustainability, healthcare reform, and intel
           Average Salary in Law and Policy
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-          Law and Policy professionals in USA earn competitive salaries. Environmental Law Specialists typically earn around US $90,000 annually, while Health Policy Advisors make approximately US $95,000. Intellectual Property Lawyers in tech or biotech can expect to earn around AUD $110,000, depending on experience and specialization.
+          Law and Policy professionals in USA earn competitive salaries. Environmental Law Specialists typically earn around US $90,000 annually, while Health Policy Advisors make approximately US $95,000. Intellectual Property Lawyers in tech or biotech can expect to earn around USD $110,000, depending on experience and specialization.
           </p>
         </div>
       </div>

@@ -314,7 +314,7 @@ export default function AusEngAndTech() {
             Average Salary in Engineering & Technology
           </h1>
           <p className="text-[24px] font-roboto1 text-[#232323] leading-[37.2px]">
-            Engineers in Canada enjoy competitive salaries. Software engineers typically earn around AUD $95,000 annually, while biomedical engineers make approximately AUD $85,000. Aerospace engineers can expect salaries around AUD $110,000, and robotics engineers often earn over AUD $100,000, depending on experience and specialization.
+            IT professionals in Canada earn competitive salaries. Cybersecurity specialists typically earn around CAD $85,000 annually, while machine learning engineers make approximately CAD $95,000. Blockchain developers can expect salaries around CAD $90,000, depending on experience and specialization.
           </p>
         </div>
       </div>
